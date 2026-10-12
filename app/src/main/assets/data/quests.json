@@ -2086,7 +2086,7 @@
     "type": "craft",
     "target": "attack_brew",
     "amount": 100,
-    "description": "Brew 100 Handguns Brews",
+    "description": "Brew 100 Melee Brews",
     "rewards": {
       "coins": 500,
       "xp": 1000,
@@ -2118,7 +2118,7 @@
     "type": "craft",
     "target": "strength_potion",
     "amount": 500,
-    "description": "Mix 500 Long guns Tonics",
+    "description": "Mix 500 Handguns Tonics",
     "rewards": {
       "coins": 2000,
       "xp": 6000,
@@ -2166,7 +2166,7 @@
     "type": "craft",
     "target": "super_strength_potion",
     "amount": 1500,
-    "description": "Mix 1500 Super Long guns Tonics",
+    "description": "Mix 1500 Super Handguns Tonics",
     "rewards": {
       "coins": 16000,
       "xp": 40000,

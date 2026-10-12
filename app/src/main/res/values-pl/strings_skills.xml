@@ -31,13 +31,13 @@
     <string name="skill_herblore_desc">Warz toniku z ziół uprawnych i składników z lochów, aby wzmocnić swoje statystyki bojowe.</string>
 
     <!-- Combat skills -->
-    <string name="skill_attack_name">Broń krótka</string>
+    <string name="skill_attack_name">Broń biała</string>
     <string name="skill_attack_desc">Zwiększa twoją celność w walce wręcz, podnosząc szansę na trafienie.</string>
-    <string name="skill_strength_name">Broń długa</string>
+    <string name="skill_strength_name">Broń krótka</string>
     <string name="skill_strength_desc">Zwiększa maksymalne obrażenia zadawane w walce wręcz na trafienie.</string>
     <string name="skill_defense_name">Twardziel</string>
     <string name="skill_defense_desc">Zmniejsza obrażenia otrzymywane z ataków wrogów.</string>
-    <string name="skill_ranged_name">Broń miotana i biała</string>
+    <string name="skill_ranged_name">Broń długa</string>
     <string name="skill_ranged_desc">Atakuj wrogów z bezpiecznej odległości, używając łuku i strzał.</string>
     <string name="skill_magic_name">Materiały wybuchowe</string>
     <string name="skill_magic_desc">Rzucaj potężne sztuczki, używając run. Wyższe poziomy odblokowują silniejsze sztuczki.</string>

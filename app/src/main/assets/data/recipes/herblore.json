@@ -1,6 +1,6 @@
 {
   "attack_brew": {
-    "display_name": "Handguns Brew",
+    "display_name": "Melee Brew",
     "level_required": 1,
     "materials": { "potato": 2 },
     "output_quantity": 1,
@@ -18,7 +18,7 @@
     "effects": { "defense": 3 }
   },
   "attack_potion": {
-    "display_name": "Handguns Tonic",
+    "display_name": "Melee Tonic",
     "level_required": 8,
     "materials": { "potato": 1, "imp_hide": 1 },
     "output_quantity": 1,
@@ -54,7 +54,7 @@
     "effects": { "ranged": 2 }
   },
   "strength_brew": {
-    "display_name": "Long guns Brew",
+    "display_name": "Handguns Brew",
     "level_required": 20,
     "materials": { "corn": 2 },
     "output_quantity": 1,
@@ -63,7 +63,7 @@
     "effects": { "strength": 3 }
   },
   "strength_potion": {
-    "display_name": "Long guns Tonic",
+    "display_name": "Handguns Tonic",
     "level_required": 26,
     "materials": { "corn": 1, "spider_silk": 1 },
     "output_quantity": 1,
@@ -90,7 +90,7 @@
     "effects": { "magic": 5 }
   },
   "super_strength_potion": {
-    "display_name": "Super Long guns Tonic",
+    "display_name": "Super Handguns Tonic",
     "level_required": 48,
     "materials": { "dragon_fruit": 1, "rotten_flesh": 1 },
     "output_quantity": 1,
@@ -99,7 +99,7 @@
     "effects": { "strength": 8 }
   },
   "super_attack_potion": {
-    "display_name": "Super Handguns Tonic",
+    "display_name": "Super Melee Tonic",
     "level_required": 56,
     "materials": { "golden_wheat": 2 },
     "output_quantity": 1,

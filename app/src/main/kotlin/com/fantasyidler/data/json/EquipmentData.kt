@@ -20,6 +20,10 @@ data class EquipmentData(
     val requirements: Map<String, Int> = emptyMap(),
     @SerialName("infinite_runes")          val infiniteRunes: String? = null,
     @SerialName("attack_speed")            val attackSpeed: Double? = null,
+    /** Handgun cylinder capacity (shots before reload); null = simulator default. */
+    @SerialName("cylinder_size")           val cylinderSize: Int? = null,
+    /** Player ticks spent reloading an empty cylinder; null = simulator default. */
+    @SerialName("reload_ticks")            val reloadTicks: Int? = null,
     // Gathering/skilling tool efficiency fields (null for combat gear)
     @SerialName("mining_efficiency")      val miningEfficiency: Float? = null,
     @SerialName("woodcutting_efficiency") val woodcuttingEfficiency: Float? = null,

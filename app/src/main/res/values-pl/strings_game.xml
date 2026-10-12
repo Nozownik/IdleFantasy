@@ -90,11 +90,11 @@
     <string name="game_dig_cooldown">Dzisiaj już kopałeś. Wróć jutro.</string>
 
     <!-- ===== Equipment slot names ===== -->
-    <string name="equip_slot_weapon_atk">Broń (Atak)</string>
-    <string name="equip_slot_weapon_str">Broń (Siła)</string>
-    <string name="equip_slot_weapon_ranged">Broń (Strzelec)</string>
-    <string name="equip_slot_weapon_magic">Broń (Materiały wybuchowe)</string>
-    <string name="equip_slot_weapon">Weapons</string> <!-- untranslated -->
+    <string name="equip_slot_weapon_atk">Broń (biała)</string>
+    <string name="equip_slot_weapon_str">Broń (krótka)</string>
+    <string name="equip_slot_weapon_ranged">Broń (długa)</string>
+    <string name="equip_slot_weapon_magic">Broń (materiały wybuchowe)</string>
+    <string name="equip_slot_weapon">Bronie</string>
     <string name="equip_slot_head">Głowa</string>
     <string name="equip_slot_body">Ciało</string>
     <string name="equip_slot_legs">Nogi</string>

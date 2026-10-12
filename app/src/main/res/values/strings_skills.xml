@@ -31,14 +31,14 @@
     <string name="skill_herblore_desc">Brew tonics from farming herbs and dungeon reagents to boost your combat stats.</string>
 
     <!-- Combat skills -->
-    <string name="skill_attack_name">Handguns</string>
+    <string name="skill_attack_name">Melee</string>
     <string name="skill_attack_desc">Improves your melee accuracy, increasing your chance to hit.</string>
-    <string name="skill_strength_name">Long guns</string>
+    <string name="skill_strength_name">Handguns</string>
     <string name="skill_strength_desc">Increases your maximum melee damage per hit.</string>
     <string name="skill_defense_name">Toughness</string>
     <string name="skill_defense_desc">Reduces the damage you take from enemy attacks.</string>
-    <string name="skill_ranged_name">Thrown &amp; Blades</string>
-    <string name="skill_ranged_desc">Handguns enemies from a safe distance using a bow and arrows.</string>
+    <string name="skill_ranged_name">Long guns</string>
+    <string name="skill_ranged_desc">Melee enemies from a safe distance using a bow and arrows.</string>
     <string name="skill_magic_name">Explosives</string>
     <string name="skill_magic_desc">Cast powerful tricks using charges. Higher levels unlock stronger tricks.</string>
     <string name="skill_hitpoints_name">Health</string>

@@ -149,85 +149,85 @@
     <string name="item_cooked_beef_desc">Cooked beef. Restores HP when eaten.</string>
 
     <!-- ===== Melee weapons — bronze ===== -->
-    <string name="item_bronze_sword_name">Brass Revolver</string>
+    <string name="item_bronze_sword_name">Brass Cavalry Sabre</string>
     <string name="item_bronze_sword_desc">A basic one-handed brass blade.</string>
-    <string name="item_bronze_scimitar_name">Brass Derringer</string>
+    <string name="item_bronze_scimitar_name">Brass Tomahawk</string>
     <string name="item_bronze_scimitar_desc">A curved one-handed brass blade with good strength bonus.</string>
-    <string name="item_bronze_2h_sword_name">Brass 2H Revolver</string>
+    <string name="item_bronze_2h_sword_name">Brass Broad Axe</string>
     <string name="item_bronze_2h_sword_desc">A two-handed brass sword. High damage, slow speed.</string>
-    <string name="item_bronze_warhammer_name">Brass Coach Gun</string>
-    <string name="item_bronze_warhammer_desc">A heavy one-handed brass hammer.</string>
-    <string name="item_bronze_battleaxe_name">Brass Shotgun</string>
-    <string name="item_bronze_battleaxe_desc">A fearsome one-handed brass axe.</string>
+    <string name="item_bronze_warhammer_name">Remington Double Derringer</string>
+    <string name="item_bronze_warhammer_desc">A pocket two-shot derringer. Weak, but quick to reload. 1866, .41 RF, 2 rounds.</string>
+    <string name="item_bronze_battleaxe_name">Colt Paterson</string>
+    <string name="item_bronze_battleaxe_desc">Colt\'s first revolver. Five shots, and reloading means taking it apart. 1836, .36, 5 rounds.</string>
     <string name="item_bronze_dagger_name">Brass Bowie Knife</string>
     <string name="item_bronze_dagger_desc">A quick and lightweight brass bowie Knife.</string>
 
     <!-- Melee weapons — iron -->
-    <string name="item_iron_sword_name">Iron Revolver</string>
+    <string name="item_iron_sword_name">Iron Cavalry Sabre</string>
     <string name="item_iron_sword_desc">A one-handed iron blade.</string>
-    <string name="item_iron_scimitar_name">Iron Derringer</string>
+    <string name="item_iron_scimitar_name">Iron Tomahawk</string>
     <string name="item_iron_scimitar_desc">A curved one-handed iron blade with good strength bonus.</string>
-    <string name="item_iron_2h_sword_name">Iron 2H Revolver</string>
+    <string name="item_iron_2h_sword_name">Iron Broad Axe</string>
     <string name="item_iron_2h_sword_desc">A two-handed iron sword.</string>
-    <string name="item_iron_warhammer_name">Iron Coach Gun</string>
-    <string name="item_iron_warhammer_desc">A heavy one-handed iron hammer.</string>
-    <string name="item_iron_battleaxe_name">Iron Shotgun</string>
-    <string name="item_iron_battleaxe_desc">A fearsome one-handed iron axe.</string>
+    <string name="item_iron_warhammer_name">Colt Walker</string>
+    <string name="item_iron_warhammer_desc">A 2 kg Texas Ranger cannon. Hits hard, handles slow. 1847, .44, 6 rounds.</string>
+    <string name="item_iron_battleaxe_name">Colt 1849 Pocket</string>
+    <string name="item_iron_battleaxe_desc">A light five-shot pocket revolver. 1849, .31, 5 rounds.</string>
     <string name="item_iron_dagger_name">Iron Bowie Knife</string>
     <string name="item_iron_dagger_desc">A quick and lightweight iron bowie Knife.</string>
 
     <!-- Melee weapons — steel -->
-    <string name="item_steel_sword_name">Steel Revolver</string>
+    <string name="item_steel_sword_name">Steel Cavalry Sabre</string>
     <string name="item_steel_sword_desc">A one-handed steel blade.</string>
-    <string name="item_steel_scimitar_name">Steel Derringer</string>
+    <string name="item_steel_scimitar_name">Steel Tomahawk</string>
     <string name="item_steel_scimitar_desc">A curved one-handed steel blade with good strength bonus.</string>
-    <string name="item_steel_2h_sword_name">Steel 2H Revolver</string>
+    <string name="item_steel_2h_sword_name">Steel Broad Axe</string>
     <string name="item_steel_2h_sword_desc">A two-handed steel sword.</string>
-    <string name="item_steel_warhammer_name">Steel Coach Gun</string>
-    <string name="item_steel_warhammer_desc">A heavy one-handed steel hammer.</string>
-    <string name="item_steel_battleaxe_name">Steel Shotgun</string>
-    <string name="item_steel_battleaxe_desc">A fearsome one-handed steel axe.</string>
+    <string name="item_steel_warhammer_name">Colt Dragoon</string>
+    <string name="item_steel_warhammer_desc">The Walker\'s lighter successor for mounted troops. 1848, .44, 6 rounds.</string>
+    <string name="item_steel_battleaxe_name">Remington 1858 Navy (brass frame)</string>
+    <string name="item_steel_battleaxe_desc">Solid-frame Remington in .36 with a soft brass frame. 1858, .36, 6 rounds.</string>
 
     <!-- Melee weapons — mithril -->
-    <string name="item_mithril_sword_name">Damascus Revolver</string>
+    <string name="item_mithril_sword_name">Damascus Cavalry Sabre</string>
     <string name="item_mithril_sword_desc">A lightweight volatile one-handed sword.</string>
-    <string name="item_mithril_scimitar_name">Damascus Derringer</string>
+    <string name="item_mithril_scimitar_name">Damascus Tomahawk</string>
     <string name="item_mithril_scimitar_desc">A curved Damascus blade, supernaturally sharp.</string>
-    <string name="item_mithril_2h_sword_name">Damascus 2H Revolver</string>
+    <string name="item_mithril_2h_sword_name">Damascus Broad Axe</string>
     <string name="item_mithril_2h_sword_desc">A two-handed Damascus sword.</string>
-    <string name="item_mithril_warhammer_name">Damascus Coach Gun</string>
-    <string name="item_mithril_warhammer_desc">A lightweight volatile coach Gun.</string>
-    <string name="item_mithril_battleaxe_name">Damascus Shotgun</string>
-    <string name="item_mithril_battleaxe_desc">A Damascus shotgun of exceptional quality.</string>
+    <string name="item_mithril_warhammer_name">Remington 1858 Army (brass frame)</string>
+    <string name="item_mithril_warhammer_desc">.44 Army Remington on a brass frame. Strong, but the frame limits the load. 1858, .44, 6 rounds.</string>
+    <string name="item_mithril_battleaxe_name">Colt 1851 Navy</string>
+    <string name="item_mithril_battleaxe_desc">The classic .36 Navy. Balanced and accurate. 1851, .36, 6 rounds.</string>
 
     <!-- Melee weapons — adamantite -->
-    <string name="item_adamantite_sword_name">Bessemer Revolver</string>
+    <string name="item_adamantite_sword_name">Bessemer Cavalry Sabre</string>
     <string name="item_adamantite_sword_desc">An extraordinarily hard one-handed sword.</string>
-    <string name="item_adamantite_scimitar_name">Bessemer Derringer</string>
+    <string name="item_adamantite_scimitar_name">Bessemer Tomahawk</string>
     <string name="item_adamantite_scimitar_desc">An incredibly hard curved blade with excellent strength bonus.</string>
-    <string name="item_adamantite_2h_sword_name">Bessemer 2H Revolver</string>
+    <string name="item_adamantite_2h_sword_name">Bessemer Broad Axe</string>
     <string name="item_adamantite_2h_sword_desc">A two-handed sword forged from Bessemer.</string>
-    <string name="item_adamantite_warhammer_name">Bessemer Coach Gun</string>
-    <string name="item_adamantite_warhammer_desc">An extraordinarily heavy and hard coach Gun.</string>
-    <string name="item_adamantite_battleaxe_name">Bessemer Shotgun</string>
-    <string name="item_adamantite_battleaxe_desc">A devastating Bessemer shotgun.</string>
+    <string name="item_adamantite_warhammer_name">Colt 1860 Army</string>
+    <string name="item_adamantite_warhammer_desc">The Union cavalry\'s .44. Streamlined and hard-hitting. 1860, .44, 6 rounds.</string>
+    <string name="item_adamantite_battleaxe_name">Remington 1858 Navy (steel frame)</string>
+    <string name="item_adamantite_battleaxe_desc">Steel-framed .36 Navy. Takes a full charge. 1858, .36, 6 rounds.</string>
 
     <!-- Melee weapons — runite -->
-    <string name="item_runite_sword_name">Stainless Revolver</string>
+    <string name="item_runite_sword_name">Stainless Cavalry Sabre</string>
     <string name="item_runite_sword_desc">The finest one-handed sword available.</string>
-    <string name="item_runite_scimitar_name">Stainless Derringer</string>
+    <string name="item_runite_scimitar_name">Stainless Tomahawk</string>
     <string name="item_runite_scimitar_desc">The finest derringer available, with exceptional strength bonus.</string>
-    <string name="item_runite_2h_sword_name">Stainless 2H Revolver</string>
+    <string name="item_runite_2h_sword_name">Stainless Broad Axe</string>
     <string name="item_runite_2h_sword_desc">The finest two-handed sword available.</string>
-    <string name="item_runite_warhammer_name">Stainless Coach Gun</string>
-    <string name="item_runite_warhammer_desc">The finest coach Gun available.</string>
-    <string name="item_runite_battleaxe_name">Stainless Shotgun</string>
-    <string name="item_runite_battleaxe_desc">The finest shotgun available.</string>
+    <string name="item_runite_warhammer_name">Remington 1858 Army (steel frame)</string>
+    <string name="item_runite_warhammer_desc">Steel-framed .44 Army. The strongest cap-and-ball revolver. 1858, .44, 6 rounds.</string>
+    <string name="item_runite_battleaxe_name">Colt 1861 Navy</string>
+    <string name="item_runite_battleaxe_desc">The refined round-barrel .36 Navy. 1861, .36, 6 rounds.</string>
 
     <!-- ===== Ranged weapons ===== -->
-    <string name="item_wooden_bow_name">Wooden Bow</string>
-    <string name="item_wooden_bow_desc">A simple wooden bow. Good for training Thrown &amp; Blades.</string>
-    <string name="item_oak_bow_name">Oak Bow</string>
+    <string name="item_wooden_bow_name">Old Musket</string>
+    <string name="item_wooden_bow_desc">A simple wooden bow. Good for training Long guns.</string>
+    <string name="item_oak_bow_name">Oak-stock Musket</string>
     <string name="item_oak_bow_desc">A reliable bow crafted from oak wood.</string>
 
     <!-- ===== Magic weapons ===== -->
@@ -315,8 +315,8 @@
     <!-- Slayer gear item names/descs (used by Shop + Slayer screen) -->
     <string name="item_slayer_helm_name">Bounty Hunting Helm</string>
     <string name="item_slayer_helm_desc">A sturdy helm worn by veteran slayers.</string>
-    <string name="item_abyssal_whip_name">Abyssal Whip</string>
-    <string name="item_abyssal_whip_desc">A whip forged from abyssal energy. Excellent for strength training.</string>
+    <string name="item_abyssal_whip_name">Smith &amp; Wesson Schofield</string>
+    <string name="item_abyssal_whip_desc">A top-break revolver. Breaks open and reloads in a flash. 1875, .45 S&amp;W, 6 rounds.</string>
     <string name="item_slayer_platebody_name">Bounty Hunting Duster</string>
     <string name="item_slayer_platebody_desc">Heavy armour etched with bounty Hunting charges.</string>
     <string name="item_slayer_platelegs_name">Bounty Hunting Chaps</string>
@@ -666,41 +666,41 @@
     <string name="item_tricksters_amulet_name">Trickster\'s Amulet</string>
     <string name="item_tricksters_amulet_desc">A lucky charm worn by carnival performers. Grants a small combat edge.</string>
     <string name="item_strongmans_sigil_name">Strongman\'s Sigil</string>
-    <string name="item_strongmans_sigil_desc">A heavy iron ring etched with the mark of the strongman champion. Boosts Long guns.</string>
+    <string name="item_strongmans_sigil_desc">A heavy iron ring etched with the mark of the strongman champion. Boosts Handguns.</string>
     <string name="item_carnival_cape_name">Carnival Cape</string>
     <string name="item_carnival_cape_desc" formatted="false">A vibrant cape worn by carnival champions. Grants 5% more tickets from Carnival sessions.</string>
 
     <!-- Herblore potions -->
-    <string name="item_attack_brew_name">Handguns Brew</string>
+    <string name="item_attack_brew_name">Melee Brew</string>
     <string name="item_defense_brew_name">Defense Brew</string>
-    <string name="item_attack_potion_name">Handguns Tonic</string>
+    <string name="item_attack_potion_name">Melee Tonic</string>
     <string name="item_defense_potion_name">Defense Tonic</string>
     <string name="item_onion_brew_name">Onion Brew</string>
     <string name="item_carrot_brew_name">Carrot Brew</string>
-    <string name="item_strength_brew_name">Long guns Brew</string>
-    <string name="item_strength_potion_name">Long guns Tonic</string>
+    <string name="item_strength_brew_name">Handguns Brew</string>
+    <string name="item_strength_potion_name">Handguns Tonic</string>
     <string name="item_ranging_potion_name">Ranging Tonic</string>
     <string name="item_magic_potion_name">Explosives Tonic</string>
-    <string name="item_super_strength_potion_name">Super Long guns Tonic</string>
-    <string name="item_super_attack_potion_name">Super Handguns Tonic</string>
+    <string name="item_super_strength_potion_name">Super Handguns Tonic</string>
+    <string name="item_super_attack_potion_name">Super Melee Tonic</string>
     <string name="item_super_defense_potion_name">Super Defense Tonic</string>
     <string name="item_super_ranging_potion_name">Super Ranging Tonic</string>
     <string name="item_super_magic_potion_name">Super Explosives Tonic</string>
     <string name="item_overload_potion_name">Overload Tonic</string>
 
     <!-- Enhanced potions -->
-    <string name="item_enhanced_attack_brew_name">Enhanced Handguns Brew</string>
+    <string name="item_enhanced_attack_brew_name">Enhanced Melee Brew</string>
     <string name="item_enhanced_defense_brew_name">Enhanced Defense Brew</string>
-    <string name="item_enhanced_attack_potion_name">Enhanced Handguns Tonic</string>
+    <string name="item_enhanced_attack_potion_name">Enhanced Melee Tonic</string>
     <string name="item_enhanced_defense_potion_name">Enhanced Defense Tonic</string>
     <string name="item_enhanced_onion_brew_name">Enhanced Onion Brew</string>
     <string name="item_enhanced_carrot_brew_name">Enhanced Carrot Brew</string>
-    <string name="item_enhanced_strength_brew_name">Enhanced Long guns Brew</string>
-    <string name="item_enhanced_strength_potion_name">Enhanced Long guns Tonic</string>
+    <string name="item_enhanced_strength_brew_name">Enhanced Handguns Brew</string>
+    <string name="item_enhanced_strength_potion_name">Enhanced Handguns Tonic</string>
     <string name="item_enhanced_ranging_potion_name">Enhanced Ranging Tonic</string>
     <string name="item_enhanced_magic_potion_name">Enhanced Explosives Tonic</string>
-    <string name="item_enhanced_super_strength_potion_name">Enhanced Super Long guns Tonic</string>
-    <string name="item_enhanced_super_attack_potion_name">Enhanced Super Handguns Tonic</string>
+    <string name="item_enhanced_super_strength_potion_name">Enhanced Super Handguns Tonic</string>
+    <string name="item_enhanced_super_attack_potion_name">Enhanced Super Melee Tonic</string>
     <string name="item_enhanced_super_defense_potion_name">Enhanced Super Defense Tonic</string>
     <string name="item_enhanced_super_ranging_potion_name">Enhanced Super Ranging Tonic</string>
     <string name="item_enhanced_super_magic_potion_name">Enhanced Super Explosives Tonic</string>
@@ -782,7 +782,7 @@
     <string name="item_adamantite_dagger_name">Bessemer Bowie Knife</string>
     <string name="item_adamantite_full_helmet_name">Bessemer Full Hat</string>
     <string name="item_adamantite_kiteshield_name">Bessemer Iron Vest</string>
-    <string name="item_adamantite_longsword_name">Bessemer Rifle</string>
+    <string name="item_adamantite_longsword_name">Bessemer Officer\'s Sword</string>
     <string name="item_adamantite_med_helmet_name">Bessemer Med Hat</string>
     <string name="item_adamantite_plateskirt_name">Bessemer Riding Chaps</string>
     <string name="item_adamantite_square_shield_name">Bessemer Tin Star Shield</string>
@@ -790,7 +790,7 @@
     <string name="item_agility_guild_cape_name">Horse Riding Guild Cape</string>
     <string name="item_amulet_of_fury_name">Amulet Of Fury</string>
     <string name="item_amulet_of_fury_desc">A powerful amulet granting bonuses to all combat styles. Requires Trading Post level 80 to purchase.</string>
-    <string name="item_amulet_of_strength_name">Amulet Of Long guns</string>
+    <string name="item_amulet_of_strength_name">Amulet Of Handguns</string>
     <string name="item_amulet_of_strength_desc">Increases melee strength bonus. Requires Trading Post level 20 to purchase.</string>
     <string name="item_amulet_of_the_kraken_name">Amulet Of The Flathead Lake Monster</string>
     <string name="item_arcane_grappling_hook_name">Arcane Grappling Hook</string>
@@ -798,10 +798,10 @@
     <string name="item_archers_guild_cape_name">Archers Guild Cape</string>
     <string name="item_archers_ring_name">Archers Ring</string>
     <string name="item_archers_ring_desc">Increases ranged accuracy. Requires Trading Post level 60 to purchase.</string>
-    <string name="item_attack_cape_name">Handguns Cape</string>
+    <string name="item_attack_cape_name">Melee Cape</string>
     <string name="item_baby_kraken_name">Baby Flathead Lake Monster</string>
     <string name="item_balrog_name">Gothic Ember, the Burning Oil Well</string>
-    <string name="item_balrog_whip_name">Gothic Ember\'s Flaming Whip</string>
+    <string name="item_balrog_whip_name">Gothic Ember\'s Flaming Bullwhip</string>
     <string name="item_balrog_wings_name">Gothic Ember Wings</string>
     <string name="item_beef_name">Cooked Beef</string>
     <string name="item_berserker_ring_name">Berserker Ring</string>
@@ -812,7 +812,7 @@
     <string name="item_bronze_chainbody_name">Brass Leather Vest</string>
     <string name="item_bronze_full_helmet_name">Brass Full Hat</string>
     <string name="item_bronze_kiteshield_name">Brass Iron Vest</string>
-    <string name="item_bronze_longsword_name">Brass Rifle</string>
+    <string name="item_bronze_longsword_name">Brass Officer\'s Sword</string>
     <string name="item_bronze_med_helmet_name">Brass Med Hat</string>
     <string name="item_bronze_plateskirt_name">Brass Riding Chaps</string>
     <string name="item_bronze_square_shield_name">Brass Tin Star Shield</string>
@@ -833,8 +833,8 @@
     <string name="item_divine_tinderbox_name">Engraved Tinderbox</string>
     <string name="item_dragon_amulet_name">Grizzly Amulet</string>
     <string name="item_dragon_boots_name">Grizzly Boots</string>
-    <string name="item_dragon_longsword_name">Grizzly Rifle</string>
-    <string name="item_dragon_scimitar_name">Grizzly Derringer</string>
+    <string name="item_dragon_longsword_name">Grizzly Officer\'s Sword</string>
+    <string name="item_dragon_scimitar_name">Grizzly Tomahawk</string>
     <string name="item_dragon_whelp_name">Grizzly Whelp</string>
     <string name="item_dwarven_axe_name">Pittsburgh Axe</string>
     <string name="item_dwarven_boots_name">Pittsburgh Boots</string>
@@ -848,11 +848,11 @@
     <string name="item_dwarven_pickaxe_name">Pittsburgh Pickaxe</string>
     <string name="item_dwarven_platebody_name">Pittsburgh Duster</string>
     <string name="item_dwarven_platelegs_name">Pittsburgh Chaps</string>
-    <string name="item_dwarven_scimitar_name">Pittsburgh Derringer</string>
+    <string name="item_dwarven_scimitar_name">Pittsburgh Tomahawk</string>
     <string name="item_dwarven_shield_name">Pittsburgh Shield</string>
-    <string name="item_dwarven_sword_name">Pittsburgh Revolver</string>
+    <string name="item_dwarven_sword_name">Pittsburgh Cavalry Sabre</string>
     <string name="item_dwarven_tinderbox_name">Pittsburgh Tinderbox</string>
-    <string name="item_dwarven_warhammer_name">Pittsburgh Coach Gun</string>
+    <string name="item_dwarven_warhammer_name">Colt Single Action Army "Peacemaker"</string>
     <string name="item_ent_name">Ent</string>
     <string name="item_farming_cape_name">Farming Cape</string>
     <string name="item_farming_guild_cape_name">Farming Guild Cape</string>
@@ -873,7 +873,7 @@
     <string name="item_iron_chainbody_name">Iron Leather Vest</string>
     <string name="item_iron_full_helmet_name">Iron Full Hat</string>
     <string name="item_iron_kiteshield_name">Iron Iron Vest</string>
-    <string name="item_iron_longsword_name">Iron Rifle</string>
+    <string name="item_iron_longsword_name">Iron Officer\'s Sword</string>
     <string name="item_iron_med_helmet_name">Iron Med Hat</string>
     <string name="item_iron_plateskirt_name">Iron Riding Chaps</string>
     <string name="item_iron_square_shield_name">Iron Tin Star Shield</string>
@@ -883,11 +883,11 @@
     <string name="item_kraken_tentacle_name">Flathead Lake Monster Tentacle</string>
     <string name="item_mages_guild_cape_name">Demolitionists Guild Cape</string>
     <string name="item_magic_cape_name">Explosives Cape</string>
-    <string name="item_magic_longbow_name">Explosives Tomahawk</string>
-    <string name="item_magic_shortbow_name">Explosives Throwing Knives</string>
-    <string name="item_elven_shortbow_name">Frontier Throwing Knives</string>
-    <string name="item_elven_longbow_name">Frontier Tomahawk</string>
-    <string name="item_maple_shortbow_name">Maple Throwing Knives</string>
+    <string name="item_magic_longbow_name">Sharps Rifle</string>
+    <string name="item_magic_shortbow_name">Winchester 1866</string>
+    <string name="item_elven_shortbow_name">Winchester 1873</string>
+    <string name="item_elven_longbow_name">Sharps "Big Fifty"</string>
+    <string name="item_maple_shortbow_name">Sharps Carbine</string>
     <string name="item_mercantile_guild_cape_name">Trading Post Guild Cape</string>
     <string name="item_mining_cape_name">Mining Cape</string>
     <string name="item_mining_guild_cape_name">Mining Guild Cape</string>
@@ -897,17 +897,17 @@
     <string name="item_mithril_dagger_name">Damascus Bowie Knife</string>
     <string name="item_mithril_full_helmet_name">Damascus Full Hat</string>
     <string name="item_mithril_kiteshield_name">Damascus Iron Vest</string>
-    <string name="item_mithril_longsword_name">Damascus Rifle</string>
+    <string name="item_mithril_longsword_name">Damascus Officer\'s Sword</string>
     <string name="item_mithril_med_helmet_name">Damascus Med Hat</string>
     <string name="item_mithril_plateskirt_name">Damascus Riding Chaps</string>
     <string name="item_mithril_square_shield_name">Damascus Tin Star Shield</string>
     <string name="item_mutton_name">Cooked Mutton</string>
     <string name="item_necklace_of_anguish_name">Necklace Of Anguish</string>
     <string name="item_necklace_of_anguish_desc">Provides exceptional ranged attack bonuses. Requires Trading Post level 99 to purchase.</string>
-    <string name="item_oak_shortbow_name">Oak Throwing Knives</string>
+    <string name="item_oak_shortbow_name">Oak-stock Carbine</string>
     <string name="item_prayer_cape_name">Faith Cape</string>
     <string name="item_prayer_guild_cape_name">Faith Guild Cape</string>
-    <string name="item_ranged_cape_name">Thrown &amp; Blades Cape</string>
+    <string name="item_ranged_cape_name">Long guns Cape</string>
     <string name="item_rat_meat_name">Cooked Rat Meat</string>
     <string name="item_ring_of_dragons_might_name">Ring Of Grizzlies Might</string>
     <string name="item_ring_of_flame_name">Ring Of Flame</string>
@@ -928,7 +928,7 @@
     <string name="item_runite_dagger_name">Stainless Bowie Knife</string>
     <string name="item_runite_full_helmet_name">Stainless Full Hat</string>
     <string name="item_runite_kiteshield_name">Stainless Iron Vest</string>
-    <string name="item_runite_longsword_name">Stainless Rifle</string>
+    <string name="item_runite_longsword_name">Stainless Officer\'s Sword</string>
     <string name="item_runite_med_helmet_name">Stainless Med Hat</string>
     <string name="item_runite_plateskirt_name">Stainless Riding Chaps</string>
     <string name="item_runite_square_shield_name">Stainless Tin Star Shield</string>
@@ -938,7 +938,7 @@
     <string name="item_shadow_dagger_name">Shadow Bowie Knife</string>
     <string name="item_shadow_grappling_hook_name">Shadow Grappling Hook</string>
     <string name="item_shadow_lockpick_name">Shadow Lockpick</string>
-    <string name="item_shortbow_name">Throwing Knives</string>
+    <string name="item_shortbow_name">Carbine</string>
     <string name="item_silver_diamond_necklace_name">Silver Diamond Necklace</string>
     <string name="item_silver_diamond_ring_name">Silver Diamond Ring</string>
     <string name="item_silver_emerald_necklace_name">Silver Emerald Necklace</string>
@@ -954,11 +954,11 @@
     <string name="item_steel_dagger_name">Steel Bowie Knife</string>
     <string name="item_steel_full_helmet_name">Steel Full Hat</string>
     <string name="item_steel_kiteshield_name">Steel Iron Vest</string>
-    <string name="item_steel_longsword_name">Steel Rifle</string>
+    <string name="item_steel_longsword_name">Steel Officer\'s Sword</string>
     <string name="item_steel_med_helmet_name">Steel Med Hat</string>
     <string name="item_steel_plateskirt_name">Steel Riding Chaps</string>
     <string name="item_steel_square_shield_name">Steel Tin Star Shield</string>
-    <string name="item_strength_cape_name">Long guns Cape</string>
+    <string name="item_strength_cape_name">Handguns Cape</string>
     <string name="item_tangleroot_name">Tangleroot</string>
     <string name="item_thieving_guild_cape_name">Outlawry Guild Cape</string>
     <string name="item_tiny_templar_name">Tiny Templar</string>
@@ -966,13 +966,13 @@
     <string name="item_tormented_necklace_desc">Provides exceptional explosives bonuses. Requires Trading Post level 99 to purchase.</string>
     <string name="item_trident_of_the_seas_name">Trident Of The Seas</string>
     <string name="item_warriors_guild_cape_name">Warriors Guild Cape</string>
-    <string name="item_willow_shortbow_name">Willow Throwing Knives</string>
+    <string name="item_willow_shortbow_name">Spencer Carbine</string>
     <string name="item_woodcutting_cape_name">Lumberjacking Cape</string>
     <string name="item_woodcutting_guild_cape_name">Lumberjacking Guild Cape</string>
-    <string name="item_yew_longbow_name">Yew Tomahawk</string>
-    <string name="item_yew_shortbow_name">Yew Throwing Knives</string>
-    <string name="item_void_reaver_name">Void Reaver</string>
-    <string name="item_void_reaver_desc">A blade forged from crystallised void energy. Its edge cuts through armour as if it were cloth.</string>
+    <string name="item_yew_longbow_name">Springfield Rifle</string>
+    <string name="item_yew_shortbow_name">Henry Rifle</string>
+    <string name="item_void_reaver_name">Colt Buntline Special</string>
+    <string name="item_void_reaver_desc">A Peacemaker with a 12-inch barrel. A legend of Tombstone. 1876, .45 Colt, 6 rounds.</string>
     <string name="item_sovereign_crown_name">Sovereign Crown</string>
     <string name="item_sovereign_crown_desc">The crown of the Headless Horseman itself, radiating dark majesty. Offers unparalleled protection.</string>
     <string name="item_amulet_of_the_void_name">Amulet of the Void</string>
@@ -992,14 +992,14 @@
     <string name="item_dragon_longsword_desc">A powerful rifle forged from grizzly metal.</string>
     <string name="item_dwarven_sword_desc">An ancient Pittsburgh blade, forged in the depths of the earth.</string>
     <string name="item_dwarven_scimitar_desc">A curved Pittsburgh blade, perfect for rapid strikes.</string>
-    <string name="item_dwarven_warhammer_desc">A massive Pittsburgh hammer that crushes all in its path.</string>
-    <string name="item_tower_sword_name">Tower Revolver</string>
+    <string name="item_dwarven_warhammer_desc">The gun that won the West. 1873, .45 Colt, 6 rounds.</string>
+    <string name="item_tower_sword_name">Tower Cavalry Sabre</string>
     <string name="item_tower_sword_desc">A blade that has cleaved through countless tower floors.</string>
     <string name="item_balrog_whip_desc">A whip of pure flame, torn from the Gothic Ember itself. Burns with an eternal fire.</string>
-    <string name="item_divine_sword_name">Engraved Revolver</string>
+    <string name="item_divine_sword_name">Engraved Cavalry Sabre</string>
     <string name="item_divine_sword_desc">A blade of pure engraved light, said to be wielded only by the chosen.</string>
-    <string name="item_divine_greatblade_name">Engraved Greatblade</string>
-    <string name="item_divine_greatblade_desc">A massive engraved blade that channels raw power into every swing.</string>
+    <string name="item_divine_greatblade_name">Engraved Colt Peacemaker</string>
+    <string name="item_divine_greatblade_desc">A hand-engraved Peacemaker with ivory grips. 1873, .45 Colt, 6 rounds.</string>
     <string name="item_shortbow_desc">A throwing Knives crafted from regular logs.</string>
     <string name="item_oak_shortbow_desc">A throwing Knives crafted from oak logs.</string>
     <string name="item_willow_shortbow_desc">A throwing Knives crafted from willow logs.</string>
@@ -1010,7 +1010,7 @@
     <string name="item_magic_longbow_desc">A tomahawk crafted from explosives logs.</string>
     <string name="item_elven_shortbow_desc">A swift bow strung with frontier silk. Only frontier hands know the ammo reloading.</string>
     <string name="item_elven_longbow_desc">A tall frontier warbow of layered redwood. Only frontier hands know the ammo reloading.</string>
-    <string name="item_tower_crossbow_name">Tower Crossbow</string>
+    <string name="item_tower_crossbow_name">Tower Repeater</string>
     <string name="item_tower_crossbow_desc">A precision crossbow wrought from tower metal.</string>
     <string name="item_arcane_staff_desc">A dynamite cane recovered from the Old Telegraph Station, still humming with contained volatile energy from the catastrophe that destroyed the spire above.</string>
     <string name="item_hellfire_staff_desc">A dynamite cane wreathed in demonic flame, torn from the El Diablo\'s grasp.</string>
@@ -1145,12 +1145,12 @@
     <string name="item_agility_guild_cape_desc" formatted="false">Awarded for reaching Horse Riding Guild level 10. Grants 5% more XP per session.</string>
     <string name="item_slayer_cape_name">Bounty Hunting Cape</string>
     <string name="item_slayer_cape_desc" formatted="false">Awarded for reaching level 99 Bounty Hunting. Grants 10% more Bounty Hunting points.</string>
-    <string name="item_attack_cape_desc" formatted="false">Awarded for reaching level 99 Handguns. Grants 10% bonus Handguns XP.</string>
-    <string name="item_strength_cape_desc" formatted="false">Awarded for reaching level 99 Long guns. Grants 10% bonus Long guns XP.</string>
+    <string name="item_attack_cape_desc" formatted="false">Awarded for reaching level 99 Melee. Grants 10% bonus Melee XP.</string>
+    <string name="item_strength_cape_desc" formatted="false">Awarded for reaching level 99 Handguns. Grants 10% bonus Handguns XP.</string>
     <string name="item_defense_cape_desc" formatted="false">Awarded for reaching level 99 Defense. Grants 10% bonus Defense XP.</string>
-    <string name="item_warriors_guild_cape_desc" formatted="false">Awarded for reaching Warriors Guild level 10. Grants 5% bonus Handguns, Long guns, and Defense XP.</string>
-    <string name="item_ranged_cape_desc" formatted="false">Awarded for reaching level 99 Thrown &amp; Blades. Grants 10% bonus Thrown &amp; Blades XP.</string>
-    <string name="item_archers_guild_cape_desc" formatted="false">Awarded for reaching Archers Guild level 10. Grants 5% bonus Thrown &amp; Blades XP.</string>
+    <string name="item_warriors_guild_cape_desc" formatted="false">Awarded for reaching Warriors Guild level 10. Grants 5% bonus Melee, Handguns, and Defense XP.</string>
+    <string name="item_ranged_cape_desc" formatted="false">Awarded for reaching level 99 Long guns. Grants 10% bonus Long guns XP.</string>
+    <string name="item_archers_guild_cape_desc" formatted="false">Awarded for reaching Archers Guild level 10. Grants 5% bonus Long guns XP.</string>
     <string name="item_magic_cape_desc" formatted="false">Awarded for reaching level 99 Explosives. Grants 10% bonus Explosives XP.</string>
     <string name="item_mages_guild_cape_desc" formatted="false">Awarded for reaching Demolitionists Guild level 10. Grants 5% bonus Explosives XP.</string>
     <string name="item_slayer_guild_cape_desc" formatted="false">Awarded for reaching Slayers Guild level 10. Grants 5% bonus Bounty Hunting XP.</string>
@@ -1217,7 +1217,7 @@
     <string name="item_shadow_lockpick_desc">A lockpick forged from shadow. No lock can resist it for long.</string>
     <string name="item_divine_lockpick_desc">A lockpick touched by engraved light. Every lock yields to it.</string>
     <string name="item_wraithbone_ring_desc">A pale ring carved from wight bone during the Gloomharvest. Steadies the hand and the heart.</string>
-    <string name="item_reaper_scythe_desc">The Ghost Sheriff\'s own harvest tool. It reaps more than wheat.</string>
+    <string name="item_reaper_scythe_desc">Colt\'s first factory cartridge revolver. 1872, .44 RF, 6 rounds.</string>
     <string name="item_gloomweave_cape_desc">Woven from dusk and lantern smoke at the Night Market. Only sold during the Gloomharvest.</string>
     <string name="item_gilded_full_helmet_desc">A stainless full hat wrapped in monument gold. Dropped by the Wells Fargo Iron Safe.</string>
     <string name="item_gilded_platebody_desc">A stainless duster wrapped in monument gold. Dropped by the Wells Fargo Iron Safe.</string>

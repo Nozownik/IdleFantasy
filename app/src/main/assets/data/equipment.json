@@ -12,7 +12,7 @@
   },
   "bronze_sword": {
     "name": "bronze_sword",
-    "display_name": "Brass Revolver",
+    "display_name": "Brass Cavalry Sabre",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A brass sword.",
@@ -23,7 +23,7 @@
   },
   "bronze_scimitar": {
     "name": "bronze_scimitar",
-    "display_name": "Brass Derringer",
+    "display_name": "Brass Tomahawk",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A brass derringer.",
@@ -34,7 +34,7 @@
   },
   "bronze_longsword": {
     "name": "bronze_longsword",
-    "display_name": "Brass Rifle",
+    "display_name": "Brass Officer's Sword",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A brass rifle.",
@@ -45,7 +45,7 @@
   },
   "bronze_2h_sword": {
     "name": "bronze_2h_sword",
-    "display_name": "Brass 2H Revolver",
+    "display_name": "Brass Broad Axe",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A brass 2h sword.",
@@ -57,25 +57,33 @@
   },
   "bronze_warhammer": {
     "name": "bronze_warhammer",
-    "display_name": "Brass Coach Gun",
+    "display_name": "Remington Double Derringer",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A brass coach Gun.",
-    "attack_bonus": 7,
-    "strength_bonus": 9,
+    "description": "A pocket two-shot derringer. Weak, but quick to reload. 1866, .41 RF, 2 rounds.",
+    "attack_bonus": 6,
+    "strength_bonus": 5,
     "defense_bonus": 0,
-    "requirements": {}
+    "requirements": {},
+    "cylinder_size": 2,
+    "reload_ticks": 1,
+    "attack_speed": 1.8,
+    "two_handed": false
   },
   "bronze_battleaxe": {
     "name": "bronze_battleaxe",
-    "display_name": "Brass Shotgun",
+    "display_name": "Colt Paterson",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A brass shotgun.",
-    "attack_bonus": 8,
+    "description": "Colt's first revolver. Five shots, and reloading means taking it apart. 1836, .36, 5 rounds.",
+    "attack_bonus": 6,
     "strength_bonus": 8,
     "defense_bonus": 0,
-    "requirements": {}
+    "requirements": {},
+    "cylinder_size": 5,
+    "reload_ticks": 3,
+    "attack_speed": 2.2,
+    "two_handed": false
   },
   "iron_dagger": {
     "name": "iron_dagger",
@@ -92,7 +100,7 @@
   },
   "iron_sword": {
     "name": "iron_sword",
-    "display_name": "Iron Revolver",
+    "display_name": "Iron Cavalry Sabre",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A iron sword.",
@@ -105,7 +113,7 @@
   },
   "iron_scimitar": {
     "name": "iron_scimitar",
-    "display_name": "Iron Derringer",
+    "display_name": "Iron Tomahawk",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A iron derringer.",
@@ -118,7 +126,7 @@
   },
   "iron_longsword": {
     "name": "iron_longsword",
-    "display_name": "Iron Rifle",
+    "display_name": "Iron Officer's Sword",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A iron rifle.",
@@ -131,7 +139,7 @@
   },
   "iron_2h_sword": {
     "name": "iron_2h_sword",
-    "display_name": "Iron 2H Revolver",
+    "display_name": "Iron Broad Axe",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A iron 2h sword.",
@@ -145,29 +153,37 @@
   },
   "iron_warhammer": {
     "name": "iron_warhammer",
-    "display_name": "Iron Coach Gun",
+    "display_name": "Colt Walker",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A iron coach Gun.",
-    "attack_bonus": 12,
-    "strength_bonus": 16,
+    "description": "A 2 kg Texas Ranger cannon. Hits hard, handles slow. 1847, .44, 6 rounds.",
+    "attack_bonus": 8,
+    "strength_bonus": 15,
     "defense_bonus": 0,
     "requirements": {
       "strength": 10
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 3,
+    "attack_speed": 2.4,
+    "two_handed": false
   },
   "iron_battleaxe": {
     "name": "iron_battleaxe",
-    "display_name": "Iron Shotgun",
+    "display_name": "Colt 1849 Pocket",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A iron shotgun.",
-    "attack_bonus": 14,
-    "strength_bonus": 14,
+    "description": "A light five-shot pocket revolver. 1849, .31, 5 rounds.",
+    "attack_bonus": 10,
+    "strength_bonus": 10,
     "defense_bonus": 0,
     "requirements": {
       "strength": 10
-    }
+    },
+    "cylinder_size": 5,
+    "reload_ticks": 2,
+    "attack_speed": 2.0,
+    "two_handed": false
   },
   "shadow_dagger": {
     "name": "shadow_dagger",
@@ -197,7 +213,7 @@
   },
   "steel_sword": {
     "name": "steel_sword",
-    "display_name": "Steel Revolver",
+    "display_name": "Steel Cavalry Sabre",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A steel sword.",
@@ -210,7 +226,7 @@
   },
   "steel_scimitar": {
     "name": "steel_scimitar",
-    "display_name": "Steel Derringer",
+    "display_name": "Steel Tomahawk",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A steel derringer.",
@@ -223,7 +239,7 @@
   },
   "steel_longsword": {
     "name": "steel_longsword",
-    "display_name": "Steel Rifle",
+    "display_name": "Steel Officer's Sword",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A steel rifle.",
@@ -236,7 +252,7 @@
   },
   "steel_2h_sword": {
     "name": "steel_2h_sword",
-    "display_name": "Steel 2H Revolver",
+    "display_name": "Steel Broad Axe",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A steel 2h sword.",
@@ -250,29 +266,37 @@
   },
   "steel_warhammer": {
     "name": "steel_warhammer",
-    "display_name": "Steel Coach Gun",
+    "display_name": "Colt Dragoon",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A steel coach Gun.",
-    "attack_bonus": 19,
-    "strength_bonus": 25,
+    "description": "The Walker's lighter successor for mounted troops. 1848, .44, 6 rounds.",
+    "attack_bonus": 13,
+    "strength_bonus": 19,
     "defense_bonus": 0,
     "requirements": {
       "strength": 20
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 3,
+    "attack_speed": 2.4,
+    "two_handed": false
   },
   "steel_battleaxe": {
     "name": "steel_battleaxe",
-    "display_name": "Steel Shotgun",
+    "display_name": "Remington 1858 Navy (brass frame)",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A steel shotgun.",
-    "attack_bonus": 22,
-    "strength_bonus": 22,
+    "description": "Solid-frame Remington in .36 with a soft brass frame. 1858, .36, 6 rounds.",
+    "attack_bonus": 15,
+    "strength_bonus": 14,
     "defense_bonus": 0,
     "requirements": {
       "strength": 20
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 2,
+    "attack_speed": 2.0,
+    "two_handed": false
   },
   "mithril_dagger": {
     "name": "mithril_dagger",
@@ -289,7 +313,7 @@
   },
   "mithril_sword": {
     "name": "mithril_sword",
-    "display_name": "Damascus Revolver",
+    "display_name": "Damascus Cavalry Sabre",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A Damascus sword.",
@@ -302,7 +326,7 @@
   },
   "mithril_scimitar": {
     "name": "mithril_scimitar",
-    "display_name": "Damascus Derringer",
+    "display_name": "Damascus Tomahawk",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A Damascus derringer.",
@@ -315,7 +339,7 @@
   },
   "mithril_longsword": {
     "name": "mithril_longsword",
-    "display_name": "Damascus Rifle",
+    "display_name": "Damascus Officer's Sword",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A Damascus rifle.",
@@ -328,7 +352,7 @@
   },
   "mithril_2h_sword": {
     "name": "mithril_2h_sword",
-    "display_name": "Damascus 2H Revolver",
+    "display_name": "Damascus Broad Axe",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A Damascus 2h sword.",
@@ -342,29 +366,37 @@
   },
   "mithril_warhammer": {
     "name": "mithril_warhammer",
-    "display_name": "Damascus Coach Gun",
+    "display_name": "Remington 1858 Army (brass frame)",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A Damascus coach Gun.",
-    "attack_bonus": 28,
-    "strength_bonus": 36,
+    "description": ".44 Army Remington on a brass frame. Strong, but the frame limits the load. 1858, .44, 6 rounds.",
+    "attack_bonus": 20,
+    "strength_bonus": 24,
     "defense_bonus": 0,
     "requirements": {
       "strength": 30
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 2,
+    "attack_speed": 2.0,
+    "two_handed": false
   },
   "mithril_battleaxe": {
     "name": "mithril_battleaxe",
-    "display_name": "Damascus Shotgun",
+    "display_name": "Colt 1851 Navy",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A Damascus shotgun.",
-    "attack_bonus": 32,
-    "strength_bonus": 32,
+    "description": "The classic .36 Navy. Balanced and accurate. 1851, .36, 6 rounds.",
+    "attack_bonus": 22,
+    "strength_bonus": 22,
     "defense_bonus": 0,
     "requirements": {
       "strength": 30
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 2,
+    "attack_speed": 2.0,
+    "two_handed": false
   },
   "adamantite_dagger": {
     "name": "adamantite_dagger",
@@ -381,7 +413,7 @@
   },
   "adamantite_sword": {
     "name": "adamantite_sword",
-    "display_name": "Bessemer Revolver",
+    "display_name": "Bessemer Cavalry Sabre",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A Bessemer sword.",
@@ -394,7 +426,7 @@
   },
   "adamantite_scimitar": {
     "name": "adamantite_scimitar",
-    "display_name": "Bessemer Derringer",
+    "display_name": "Bessemer Tomahawk",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A Bessemer derringer.",
@@ -407,7 +439,7 @@
   },
   "adamantite_longsword": {
     "name": "adamantite_longsword",
-    "display_name": "Bessemer Rifle",
+    "display_name": "Bessemer Officer's Sword",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A Bessemer rifle.",
@@ -420,7 +452,7 @@
   },
   "adamantite_2h_sword": {
     "name": "adamantite_2h_sword",
-    "display_name": "Bessemer 2H Revolver",
+    "display_name": "Bessemer Broad Axe",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A Bessemer 2h sword.",
@@ -434,29 +466,37 @@
   },
   "adamantite_warhammer": {
     "name": "adamantite_warhammer",
-    "display_name": "Bessemer Coach Gun",
+    "display_name": "Colt 1860 Army",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A Bessemer coach Gun.",
-    "attack_bonus": 38,
-    "strength_bonus": 49,
+    "description": "The Union cavalry's .44. Streamlined and hard-hitting. 1860, .44, 6 rounds.",
+    "attack_bonus": 30,
+    "strength_bonus": 33,
     "defense_bonus": 0,
     "requirements": {
       "strength": 40
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 2,
+    "attack_speed": 2.0,
+    "two_handed": false
   },
   "adamantite_battleaxe": {
     "name": "adamantite_battleaxe",
-    "display_name": "Bessemer Shotgun",
+    "display_name": "Remington 1858 Navy (steel frame)",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A Bessemer shotgun.",
-    "attack_bonus": 44,
-    "strength_bonus": 44,
+    "description": "Steel-framed .36 Navy. Takes a full charge. 1858, .36, 6 rounds.",
+    "attack_bonus": 30,
+    "strength_bonus": 29,
     "defense_bonus": 0,
     "requirements": {
       "strength": 40
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 2,
+    "attack_speed": 2.0,
+    "two_handed": false
   },
   "runite_dagger": {
     "name": "runite_dagger",
@@ -473,7 +513,7 @@
   },
   "runite_sword": {
     "name": "runite_sword",
-    "display_name": "Stainless Revolver",
+    "display_name": "Stainless Cavalry Sabre",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A stainless sword.",
@@ -486,7 +526,7 @@
   },
   "runite_scimitar": {
     "name": "runite_scimitar",
-    "display_name": "Stainless Derringer",
+    "display_name": "Stainless Tomahawk",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A stainless derringer.",
@@ -499,7 +539,7 @@
   },
   "runite_longsword": {
     "name": "runite_longsword",
-    "display_name": "Stainless Rifle",
+    "display_name": "Stainless Officer's Sword",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A stainless rifle.",
@@ -512,7 +552,7 @@
   },
   "runite_2h_sword": {
     "name": "runite_2h_sword",
-    "display_name": "Stainless 2H Revolver",
+    "display_name": "Stainless Broad Axe",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A stainless 2h sword.",
@@ -526,46 +566,58 @@
   },
   "runite_warhammer": {
     "name": "runite_warhammer",
-    "display_name": "Stainless Coach Gun",
+    "display_name": "Remington 1858 Army (steel frame)",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A stainless coach Gun.",
-    "attack_bonus": 52,
-    "strength_bonus": 67,
+    "description": "Steel-framed .44 Army. The strongest cap-and-ball revolver. 1858, .44, 6 rounds.",
+    "attack_bonus": 44,
+    "strength_bonus": 49,
     "defense_bonus": 0,
     "requirements": {
       "strength": 50
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 2,
+    "attack_speed": 2.0,
+    "two_handed": false
   },
   "runite_battleaxe": {
     "name": "runite_battleaxe",
-    "display_name": "Stainless Shotgun",
+    "display_name": "Colt 1861 Navy",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A stainless shotgun.",
-    "attack_bonus": 60,
-    "strength_bonus": 60,
+    "description": "The refined round-barrel .36 Navy. 1861, .36, 6 rounds.",
+    "attack_bonus": 42,
+    "strength_bonus": 40,
     "defense_bonus": 0,
     "requirements": {
       "strength": 50
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 2,
+    "attack_speed": 2.0,
+    "two_handed": false
   },
   "abyssal_whip": {
     "name": "abyssal_whip",
-    "display_name": "Abyssal Whip",
+    "display_name": "Smith & Wesson Schofield",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A whip forged from abyssal energy.",
-    "attack_bonus": 60,
-    "strength_bonus": 80,
+    "description": "A top-break revolver. Breaks open and reloads in a flash. 1875, .45 S&W, 6 rounds.",
+    "attack_bonus": 52,
+    "strength_bonus": 55,
     "defense_bonus": 0,
     "requirements": {
       "strength": 50
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 1,
+    "attack_speed": 2.0,
+    "two_handed": false
   },
   "dragon_scimitar": {
     "name": "dragon_scimitar",
-    "display_name": "Grizzly Derringer",
+    "display_name": "Grizzly Tomahawk",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A razor-sharp derringer forged from grizzly metal.",
@@ -578,7 +630,7 @@
   },
   "dragon_longsword": {
     "name": "dragon_longsword",
-    "display_name": "Grizzly Rifle",
+    "display_name": "Grizzly Officer's Sword",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A powerful rifle forged from grizzly metal.",
@@ -591,7 +643,7 @@
   },
   "dwarven_sword": {
     "name": "dwarven_sword",
-    "display_name": "Pittsburgh Revolver",
+    "display_name": "Pittsburgh Cavalry Sabre",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "An ancient Pittsburgh blade, forged in the depths of the earth.",
@@ -604,7 +656,7 @@
   },
   "dwarven_scimitar": {
     "name": "dwarven_scimitar",
-    "display_name": "Pittsburgh Derringer",
+    "display_name": "Pittsburgh Tomahawk",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A curved Pittsburgh blade, perfect for rapid strikes.",
@@ -617,20 +669,24 @@
   },
   "dwarven_warhammer": {
     "name": "dwarven_warhammer",
-    "display_name": "Pittsburgh Coach Gun",
+    "display_name": "Colt Single Action Army \"Peacemaker\"",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A massive Pittsburgh hammer that crushes all in its path.",
-    "attack_bonus": 55,
-    "strength_bonus": 70,
+    "description": "The gun that won the West. 1873, .45 Colt, 6 rounds.",
+    "attack_bonus": 60,
+    "strength_bonus": 64,
     "defense_bonus": 0,
     "requirements": {
       "strength": 60
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 2,
+    "attack_speed": 1.9,
+    "two_handed": false
   },
   "tower_sword": {
     "name": "tower_sword",
-    "display_name": "Tower Revolver",
+    "display_name": "Tower Cavalry Sabre",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A blade that has cleaved through countless tower floors.",
@@ -643,7 +699,7 @@
   },
   "balrog_whip": {
     "name": "balrog_whip",
-    "display_name": "Gothic Ember's Flaming Whip",
+    "display_name": "Gothic Ember's Flaming Bullwhip",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A whip of pure flame, torn from the Gothic Ember itself. Burns with an eternal fire.",
@@ -657,7 +713,7 @@
   },
   "divine_sword": {
     "name": "divine_sword",
-    "display_name": "Engraved Revolver",
+    "display_name": "Engraved Cavalry Sabre",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "A blade of pure engraved light, said to be wielded only by the chosen.",
@@ -670,34 +726,42 @@
   },
   "divine_greatblade": {
     "name": "divine_greatblade",
-    "display_name": "Engraved Greatblade",
+    "display_name": "Engraved Colt Peacemaker",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A massive engraved blade that channels raw power into every swing.",
-    "attack_bonus": 70,
-    "strength_bonus": 88,
+    "description": "A hand-engraved Peacemaker with ivory grips. 1873, .45 Colt, 6 rounds.",
+    "attack_bonus": 75,
+    "strength_bonus": 80,
     "defense_bonus": 0,
     "requirements": {
       "strength": 85
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 2,
+    "attack_speed": 1.8,
+    "two_handed": false
   },
   "void_reaver": {
     "name": "void_reaver",
-    "display_name": "Void Reaver",
+    "display_name": "Colt Buntline Special",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A blade forged from crystallised void energy. Its edge cuts through armour as if it were cloth.",
-    "attack_bonus": 120,
-    "strength_bonus": 130,
+    "description": "A Peacemaker with a 12-inch barrel. A legend of Tombstone. 1876, .45 Colt, 6 rounds.",
+    "attack_bonus": 95,
+    "strength_bonus": 100,
     "defense_bonus": 0,
     "requirements": {
       "attack": 90,
       "strength": 90
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 2,
+    "attack_speed": 1.8,
+    "two_handed": false
   },
   "wooden_bow": {
     "name": "wooden_bow",
-    "display_name": "Wooden Bow",
+    "display_name": "Old Musket",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,
@@ -711,7 +775,7 @@
   },
   "shortbow": {
     "name": "shortbow",
-    "display_name": "Throwing Knives",
+    "display_name": "Carbine",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,
@@ -725,7 +789,7 @@
   },
   "oak_bow": {
     "name": "oak_bow",
-    "display_name": "Oak Bow",
+    "display_name": "Oak-stock Musket",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,
@@ -741,7 +805,7 @@
   },
   "oak_shortbow": {
     "name": "oak_shortbow",
-    "display_name": "Oak Throwing Knives",
+    "display_name": "Oak-stock Carbine",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,
@@ -758,7 +822,7 @@
   },
   "willow_shortbow": {
     "name": "willow_shortbow",
-    "display_name": "Willow Throwing Knives",
+    "display_name": "Spencer Carbine",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,
@@ -775,7 +839,7 @@
   },
   "maple_shortbow": {
     "name": "maple_shortbow",
-    "display_name": "Maple Throwing Knives",
+    "display_name": "Sharps Carbine",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,
@@ -792,7 +856,7 @@
   },
   "yew_shortbow": {
     "name": "yew_shortbow",
-    "display_name": "Yew Throwing Knives",
+    "display_name": "Henry Rifle",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,
@@ -809,7 +873,7 @@
   },
   "yew_longbow": {
     "name": "yew_longbow",
-    "display_name": "Yew Tomahawk",
+    "display_name": "Springfield Rifle",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,
@@ -826,7 +890,7 @@
   },
   "magic_shortbow": {
     "name": "magic_shortbow",
-    "display_name": "Explosives Throwing Knives",
+    "display_name": "Winchester 1866",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,
@@ -843,7 +907,7 @@
   },
   "elven_shortbow": {
     "name": "elven_shortbow",
-    "display_name": "Frontier Throwing Knives",
+    "display_name": "Winchester 1873",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,
@@ -860,7 +924,7 @@
   },
   "elven_longbow": {
     "name": "elven_longbow",
-    "display_name": "Frontier Tomahawk",
+    "display_name": "Sharps \"Big Fifty\"",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,
@@ -877,7 +941,7 @@
   },
   "magic_longbow": {
     "name": "magic_longbow",
-    "display_name": "Explosives Tomahawk",
+    "display_name": "Sharps Rifle",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,
@@ -894,7 +958,7 @@
   },
   "tower_crossbow": {
     "name": "tower_crossbow",
-    "display_name": "Tower Crossbow",
+    "display_name": "Tower Repeater",
     "slot": "weapon",
     "combat_style": "ranged",
     "attack_speed": 1.5,
@@ -2298,7 +2362,7 @@
   },
   "amulet_of_strength": {
     "name": "amulet_of_strength",
-    "display_name": "Amulet of Long guns",
+    "display_name": "Amulet of Handguns",
     "slot": "necklace",
     "combat_style": null,
     "description": "Increases melee strength bonus.",
@@ -2651,7 +2715,7 @@
     "name": "strongmans_sigil",
     "display_name": "Strongman's Sigil",
     "slot": "ring",
-    "description": "A heavy iron ring etched with the mark of the strongman champion. Boosts Long guns.",
+    "description": "A heavy iron ring etched with the mark of the strongman champion. Boosts Handguns.",
     "attack_bonus": 0,
     "strength_bonus": 8,
     "defense_bonus": 0,
@@ -3227,10 +3291,10 @@
   },
   "attack_cape": {
     "name": "attack_cape",
-    "display_name": "Handguns Cape",
+    "display_name": "Melee Cape",
     "slot": "cape",
     "combat_style": null,
-    "description": "Awarded for reaching level 99 Handguns. Grants 10% bonus Handguns XP.",
+    "description": "Awarded for reaching level 99 Melee. Grants 10% bonus Melee XP.",
     "attack_bonus": 5,
     "strength_bonus": 0,
     "defense_bonus": 5,
@@ -3240,10 +3304,10 @@
   },
   "strength_cape": {
     "name": "strength_cape",
-    "display_name": "Long guns Cape",
+    "display_name": "Handguns Cape",
     "slot": "cape",
     "combat_style": null,
-    "description": "Awarded for reaching level 99 Long guns. Grants 10% bonus Long guns XP.",
+    "description": "Awarded for reaching level 99 Handguns. Grants 10% bonus Handguns XP.",
     "attack_bonus": 0,
     "strength_bonus": 5,
     "defense_bonus": 5,
@@ -3268,7 +3332,7 @@
     "name": "warriors_guild_cape",
     "display_name": "Warriors Guild Cape",
     "slot": "cape",
-    "description": "Awarded for reaching Warriors Guild level 10. Grants 5% bonus Handguns, Long guns, and Defense XP.",
+    "description": "Awarded for reaching Warriors Guild level 10. Grants 5% bonus Melee, Handguns, and Defense XP.",
     "attack_bonus": 5,
     "strength_bonus": 5,
     "defense_bonus": 5,
@@ -3278,10 +3342,10 @@
   },
   "ranged_cape": {
     "name": "ranged_cape",
-    "display_name": "Thrown & Blades Cape",
+    "display_name": "Long guns Cape",
     "slot": "cape",
     "combat_style": null,
-    "description": "Awarded for reaching level 99 Thrown & Blades. Grants 10% bonus Thrown & Blades XP.",
+    "description": "Awarded for reaching level 99 Long guns. Grants 10% bonus Long guns XP.",
     "attack_bonus": 0,
     "strength_bonus": 0,
     "defense_bonus": 5,
@@ -3295,7 +3359,7 @@
     "name": "archers_guild_cape",
     "display_name": "Archers Guild Cape",
     "slot": "cape",
-    "description": "Awarded for reaching Archers Guild level 10. Grants 5% bonus Thrown & Blades XP.",
+    "description": "Awarded for reaching Archers Guild level 10. Grants 5% bonus Long guns XP.",
     "attack_bonus": 0,
     "strength_bonus": 0,
     "defense_bonus": 5,
@@ -4520,16 +4584,20 @@
   },
   "reaper_scythe": {
     "name": "reaper_scythe",
-    "display_name": "Reaper's Scythe",
+    "display_name": "Colt 1872 Open Top",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "The Ghost Sheriff's own harvest tool. It reaps more than wheat.",
-    "attack_bonus": 58,
-    "strength_bonus": 75,
+    "description": "Colt's first factory cartridge revolver. 1872, .44 RF, 6 rounds.",
+    "attack_bonus": 54,
+    "strength_bonus": 57,
     "defense_bonus": 0,
     "requirements": {
       "strength": 55
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 2,
+    "attack_speed": 2.0,
+    "two_handed": false
   },
   "gloomweave_cape": {
     "name": "gloomweave_cape",
@@ -4727,7 +4795,7 @@
   },
   "heirloom_blade": {
     "name": "heirloom_blade",
-    "display_name": "Heirloom Blade",
+    "display_name": "Heirloom Sabre",
     "slot": "weapon",
     "combat_style": "attack",
     "description": "An ancestral blade that wakes a little more with every battle its line survives.",
@@ -4743,10 +4811,10 @@
   },
   "heirloom_greathammer": {
     "name": "heirloom_greathammer",
-    "display_name": "Heirloom Greathammer",
+    "display_name": "Heirloom Peacemaker",
     "slot": "weapon",
     "combat_style": "strength",
-    "description": "A colossal coach Gun of forgotten make. Each blow it lands adds to its legend.",
+    "description": "A family Peacemaker that grows with its owner. 1873, .45 Colt, 6 rounds.",
     "attack_bonus": 180,
     "strength_bonus": 195,
     "defense_bonus": 0,
@@ -4755,11 +4823,15 @@
     "heirloom_base": {
       "attack_bonus": 12,
       "strength_bonus": 16
-    }
+    },
+    "cylinder_size": 6,
+    "reload_ticks": 2,
+    "attack_speed": 1.8,
+    "two_handed": false
   },
   "heirloom_longbow": {
     "name": "heirloom_longbow",
-    "display_name": "Heirloom Tomahawk",
+    "display_name": "Heirloom Rifle",
     "slot": "weapon",
     "combat_style": "ranged",
     "two_handed": true,

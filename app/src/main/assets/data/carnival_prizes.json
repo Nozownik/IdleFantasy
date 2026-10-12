@@ -25,7 +25,7 @@
   "strongmans_sigil": {
     "key": "strongmans_sigil",
     "display_name": "Strongman's Sigil",
-    "description": "A heavy iron ring etched with the mark of the strongman champion. Boosts Long guns.",
+    "description": "A heavy iron ring etched with the mark of the strongman champion. Boosts Handguns.",
     "ticket_cost": 1600,
     "type": "equipment",
     "requirements": {

@@ -90,9 +90,9 @@
     <string name="game_dig_cooldown">You already dug today. Come back tomorrow.</string>
 
     <!-- ===== Equipment slot names ===== -->
-    <string name="equip_slot_weapon_atk">Weapon (Atk)</string>
-    <string name="equip_slot_weapon_str">Weapon (Str)</string>
-    <string name="equip_slot_weapon_ranged">Weapon (Thrown &amp; Blades)</string>
+    <string name="equip_slot_weapon_atk">Weapon (Melee)</string>
+    <string name="equip_slot_weapon_str">Weapon (Handgun)</string>
+    <string name="equip_slot_weapon_ranged">Weapon (Long gun)</string>
     <string name="equip_slot_weapon_magic">Weapon (Explosives)</string>
     <string name="equip_slot_weapon">Weapons</string>
     <string name="equip_slot_head">Head</string>

@@ -53,6 +53,9 @@ object CombatSimulator {
         chronosMultiplier: Float = 1.0f,
         doubleHitChance: Double = 0.0,
         secondChance: Boolean = false,
+        /** Handgun (strength-style) cylinder capacity and reload length in player ticks. */
+        handgunCylinder: Int = DEFAULT_CYLINDER,
+        handgunReloadTicks: Int = DEFAULT_RELOAD_TICKS,
         random: Random = Random.Default,
     ): SkillSimulator.Result {
         val speed = attackSpeedSec.coerceIn(1.2, BASE_ATTACK_SPEED_SEC)
@@ -64,11 +67,12 @@ object CombatSimulator {
         val effRanged   = playerRanged   + (potionBonuses["ranged"]   ?: 0)
         val effMagic    = playerMagic    + (potionBonuses["magic"]    ?: 0)
         val statsAtStart = mapOf(
-            "atk" to when (combatStyle) { "ranged" -> effRanged; "magic" -> effMagic; else -> effAttack } + weaponAttackBonus,
+            "atk" to when (combatStyle) { "ranged" -> effRanged; "magic" -> effMagic; "strength" -> effStrength; else -> effAttack } + weaponAttackBonus,
             "str" to when (combatStyle) {
                 "ranged" -> effRanged + rangedGearStrengthBonus
                 "magic"  -> spellMaxHit
-                else     -> effStrength + weaponStrengthBonus
+                "strength" -> effStrength + weaponStrengthBonus
+                else     -> effAttack + weaponStrengthBonus
             },
             "def" to effDefence,
             "atk_potion" to when (combatStyle) { "ranged" -> potionBonuses["ranged"] ?: 0; "magic" -> potionBonuses["magic"] ?: 0; else -> potionBonuses["attack"] ?: 0 },
@@ -103,6 +107,12 @@ object CombatSimulator {
         var arrowTierIdx = 0
         var arrowsLeft   = arrowTiers.getOrNull(0)?.second ?: if (combatStyle == "ranged") 0 else Int.MAX_VALUE
         var runesLeft    = availableRunes
+        // Handgun cylinder state persists across frames (a half-empty cylinder carries over).
+        val cylinder       = handgunCylinder.coerceAtLeast(1)
+        val reloadTicks    = handgunReloadTicks.coerceAtLeast(0)
+        var shotsLeft      = cylinder
+        var reloadLeft     = 0
+        val fanHammerChance = fanHammerChanceFor(combatStyle, playerStrength)
 
         var runningTotal = 0L
         var carryoverEnemyKey: String? = null
@@ -150,12 +160,17 @@ object CombatSimulator {
                         playerEffAtk = effMagic + weaponAttackBonus
                         enemyDefStat = enemy.defensiveStats.magicDefense
                     }
+                    "strength" -> {
+                        // Handguns: accuracy and damage both from the strength (Broń krótka) skill.
+                        playerMaxHit = handgunMaxHit(effStrength, weaponStrengthBonus)
+                        playerEffAtk = effStrength + weaponAttackBonus
+                        enemyDefStat = enemy.defensiveStats.rangedDefense
+                    }
                     else -> {
-                        val effStr   = effStrength + weaponStrengthBonus
-                        playerMaxHit = max(1, 1 + effStr * (weaponStrengthBonus + 64) / 640)
+                        // Melee: attack (Broń biała) alone drives accuracy and max hit.
+                        playerMaxHit = meleeMaxHit(effAttack, weaponStrengthBonus)
                         playerEffAtk = effAttack + weaponAttackBonus
-                        enemyDefStat = if (combatStyle == "strength") enemy.defensiveStats.strengthDefense
-                                       else enemy.defensiveStats.attackDefense
+                        enemyDefStat = enemy.defensiveStats.attackDefense
                     }
                 }
                 playerHitChance = when {
@@ -208,6 +223,26 @@ object CombatSimulator {
                             if (runeKey != null) { runesLeft -= runeCostPerAttack; frameRunesUsed++ }
                             if (rnd.nextDouble() < playerHitChance) rnd.nextInt(0, playerMaxHit + 1) else 0
                         } else 0
+                    }
+                    "strength" -> {
+                        if (reloadLeft > 0) {
+                            reloadLeft--
+                            if (reloadLeft == 0) shotsLeft = cylinder
+                            0
+                        } else {
+                            shotsLeft--
+                            var dmg = if (rnd.nextDouble() < playerHitChance) rnd.nextInt(0, playerMaxHit + 1) else 0
+                            // Fan the hammer: a second shot from the same cylinder.
+                            if (fanHammerChance > 0 && shotsLeft > 0 && enemyHp - dmg > 0 && rnd.nextDouble() < fanHammerChance) {
+                                shotsLeft--
+                                if (rnd.nextDouble() < playerHitChance) dmg += rnd.nextInt(0, playerMaxHit + 1)
+                                frameDoubleHitTicks += tick
+                            }
+                            if (shotsLeft <= 0) {
+                                if (reloadTicks == 0) shotsLeft = cylinder else reloadLeft = reloadTicks
+                            }
+                            dmg
+                        }
                     }
                     else -> {
                         var dmg = if (rnd.nextDouble() < playerHitChance) rnd.nextInt(0, playerMaxHit + 1)
@@ -359,6 +394,17 @@ object CombatSimulator {
         return max(1, 1 + effStr * (strBonus + 64) / 640)
     }
 
+    /** Melee (Broń biała) max hit: the attack level replaces the old separate strength roll. */
+    internal fun meleeMaxHit(effAttack: Int, strengthBonus: Int): Int =
+        max(1, 1 + (effAttack + strengthBonus) * (strengthBonus + 64) / 640)
+
+    /** Handgun (Broń krótka) max hit: ~70% of an equivalent long-gun shot. */
+    internal fun handgunMaxHit(effStrength: Int, strengthBonus: Int): Int =
+        max(1, ((1 + (effStrength + strengthBonus) * (strengthBonus + 64) / 640) * HANDGUN_DAMAGE_MULT).roundToInt())
+
+    internal fun fanHammerChanceFor(style: String, strengthLevel: Int): Double =
+        if (style == "strength" && strengthLevel >= FAN_HAMMER_LEVEL) FAN_HAMMER_CHANCE else 0.0
+
     private fun distributeXp(totalXp: Long, style: String): Map<String, Long> {
         val hp   = (totalXp * 0.15).toLong()
         val def  = (totalXp * 0.15).toLong()
@@ -426,6 +472,9 @@ object CombatSimulator {
         foodEatOrder: String = "descending",
         doubleHitChance: Double = 0.0,
         secondChance: Boolean = false,
+        /** Handgun (strength-style) cylinder capacity and reload length in player ticks. */
+        handgunCylinder: Int = DEFAULT_CYLINDER,
+        handgunReloadTicks: Int = DEFAULT_RELOAD_TICKS,
         mercenaries: List<MercCombatant> = emptyList(),
         /** Rare-drop item keys that must not roll (heirlooms the player already owns). */
         blockedRareDrops: Set<String> = emptySet(),
@@ -453,18 +502,26 @@ object CombatSimulator {
                 effAtk     = playerMagic + weaponAttackBonus
                 bossDefence = boss.defensiveStats.magicDefense
             }
+            "strength" -> {
+                playerMax   = handgunMaxHit(playerStrength, weaponStrBonus)
+                effAtk      = playerStrength + weaponAttackBonus
+                bossDefence = boss.defensiveStats.rangedDefense
+            }
             else -> {
-                val effStr = playerStrength + weaponStrBonus
-                playerMax  = max(1, 1 + effStr * (weaponStrBonus + 64) / 640)
-                effAtk     = playerAttack + weaponAttackBonus
-                bossDefence = if (combatStyle == "strength") boss.defensiveStats.strengthDefense
-                              else boss.defensiveStats.attackDefense
+                playerMax   = meleeMaxHit(playerAttack, weaponStrBonus)
+                effAtk      = playerAttack + weaponAttackBonus
+                bossDefence = boss.defensiveStats.attackDefense
             }
         }
         val arrowTiers   = availableArrows.entries.map { it.key to it.value }.toMutableList()
         var arrowTierIdx = 0
         var arrowsLeft   = arrowTiers.getOrNull(0)?.second ?: if (combatStyle == "ranged") 0 else Int.MAX_VALUE
         var runesLeft    = availableRunes
+        val cylinder       = handgunCylinder.coerceAtLeast(1)
+        val reloadTicks    = handgunReloadTicks.coerceAtLeast(0)
+        var shotsLeft      = cylinder
+        var reloadLeft     = 0
+        val fanHammerChance = fanHammerChanceFor(combatStyle, playerStrength)
         val playerHitChance = when {
             effAtk > bossDefence -> 1.0 - bossDefence / (2.0 * effAtk.coerceAtLeast(1))
             else                 -> effAtk / (2.0 * bossDefence.coerceAtLeast(1))
@@ -483,7 +540,8 @@ object CombatSimulator {
             "str" to when (combatStyle) {
                 "ranged" -> playerRanged + rangedGearStrengthBonus
                 "magic"  -> spellMaxHit
-                else     -> playerStrength + weaponStrBonus
+                "strength" -> playerStrength + weaponStrBonus
+                else     -> playerAttack + weaponStrBonus
             },
             "def" to effPlayerDefence,
             "atk_potion" to potionAttackBonus,
@@ -522,6 +580,7 @@ object CombatSimulator {
             val def = when (m.style) {
                 "ranged" -> boss.defensiveStats.rangedDefense
                 "magic"  -> boss.defensiveStats.magicDefense
+                "strength", "handgun" -> boss.defensiveStats.rangedDefense
                 else     -> boss.defensiveStats.attackDefense
             }
             when {
@@ -570,6 +629,26 @@ object CombatSimulator {
                             if (runeKey != null) { runesLeft -= runeCostPerAttack; frameRunesUsed++ }
                             if (rnd.nextDouble() < playerHitChance) rnd.nextInt(0, playerMax + 1) else 0
                         } else 0
+                    }
+                    "strength" -> {
+                        if (reloadLeft > 0) {
+                            reloadLeft--
+                            if (reloadLeft == 0) shotsLeft = cylinder
+                            0
+                        } else {
+                            shotsLeft--
+                            var dmg = if (rnd.nextDouble() < playerHitChance) rnd.nextInt(0, playerMax + 1) else 0
+                            // Fan the hammer: a second shot from the same cylinder.
+                            if (fanHammerChance > 0 && shotsLeft > 0 && currentBossHp - dmg > 0 && rnd.nextDouble() < fanHammerChance) {
+                                shotsLeft--
+                                if (rnd.nextDouble() < playerHitChance) dmg += rnd.nextInt(0, playerMax + 1)
+                                pDoubleHitTicks += tick
+                            }
+                            if (shotsLeft <= 0) {
+                                if (reloadTicks == 0) shotsLeft = cylinder else reloadLeft = reloadTicks
+                            }
+                            dmg
+                        }
                     }
                     else -> {
                         var dmg = if (rnd.nextDouble() < playerHitChance) rnd.nextInt(0, playerMax + 1)
@@ -777,6 +856,11 @@ object CombatSimulator {
 
     /** Default/enemy attack speed in seconds; player weapons may attack faster via their attackSpeed field. */
     const val BASE_ATTACK_SPEED_SEC = 2.4
+    const val DEFAULT_CYLINDER = 6
+    const val DEFAULT_RELOAD_TICKS = 2
+    const val FAN_HAMMER_LEVEL = 70
+    const val FAN_HAMMER_CHANCE = 0.10
+    const val HANDGUN_DAMAGE_MULT = 0.7
 
     /** Full raid party size (player + MercenaryRepository.MAX_PARTY mercenaries); raid bosses scale up against smaller parties. */
     const val RAID_FULL_PARTY = 4

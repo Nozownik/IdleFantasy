@@ -304,4 +304,120 @@ class CombatSimulatorTest {
         assertTrue(CombatSimulator.timeoutWon(bossHpLeft = 500, partyHpLeft = 10, playerDps = 2.0, bossDps = 0.0))
         assertFalse(CombatSimulator.timeoutWon(bossHpLeft = 5, partyHpLeft = 500, playerDps = 0.0, bossDps = 2.0))
     }
+    // ---------------------------------------------------------------------
+    // Western stage 1: 4 independent styles + handgun cylinder/reload
+    // ---------------------------------------------------------------------
+
+    private fun handgunRun(seed: Int, cylinder: Int, reload: Int, strength: Int = 60, strBonus: Int = 30, defense: Int = 0) =
+        CombatSimulator.simulateDungeon(
+            dungeon = dungeon(listOf(EnemySpawn("golem", 1))),
+            enemies = mapOf("golem" to tankyEnemy(defense)),
+            playerAttack = 1,
+            playerStrength = strength,
+            playerDefence = 99,
+            playerHp = 999,
+            weaponStrengthBonus = strBonus,
+            combatStyle = "strength",
+            handgunCylinder = cylinder,
+            handgunReloadTicks = reload,
+            random = Random(seed),
+        ).frames
+
+    @Test
+    fun `handgun reload ticks deal no damage and follow the cylinder`() {
+        // 6 shots then 2 reload ticks: pattern of 8 ticks, ticks 6 and 7 must be 0.
+        val hits = handgunRun(seed = 1, cylinder = 6, reload = 2).first().playerHits
+        for (i in hits.indices) if (i % 8 >= 6) assertEquals("tick $i should be reloading", 0, hits[i])
+    }
+
+    @Test
+    fun `a bigger cylinder deals more damage than a two-shot derringer`() {
+        val six = handgunRun(seed = 3, cylinder = 6, reload = 2).sumOf { it.playerHits.sum() }
+        val two = handgunRun(seed = 3, cylinder = 2, reload = 2).sumOf { it.playerHits.sum() }
+        assertTrue("six=$six two=$two", six > two)
+    }
+
+    @Test
+    fun `handgun damage uses the strength skill, not attack`() {
+        val weak   = handgunRun(seed = 5, cylinder = 6, reload = 2, strength = 1).sumOf { it.playerHits.sum() }
+        val strong = handgunRun(seed = 5, cylinder = 6, reload = 2, strength = 69).sumOf { it.playerHits.sum() }
+        assertTrue("weak=$weak strong=$strong", strong > weak * 2)
+    }
+
+    @Test
+    fun `fan the hammer unlocks at level 70`() {
+        assertEquals(0.0, CombatSimulator.fanHammerChanceFor("strength", 69), 0.0)
+        assertEquals(CombatSimulator.FAN_HAMMER_CHANCE, CombatSimulator.fanHammerChanceFor("strength", 70), 0.0)
+        assertEquals(0.0, CombatSimulator.fanHammerChanceFor("attack", 99), 0.0)
+        val fanned = handgunRun(seed = 9, cylinder = 6, reload = 2, strength = 70).flatMap { it.doubleHitTicks }
+        assertTrue("expected fan-the-hammer double shots", fanned.isNotEmpty())
+    }
+
+    @Test
+    fun `handgun max hit is about 70 percent of the equivalent long-gun shot`() {
+        val longGun = 1 + (80 + 40) * (40 + 64) / 640
+        val hg = CombatSimulator.handgunMaxHit(80, 40)
+        assertTrue("hg=$hg long=$longGun", hg in (longGun * 0.6).toInt()..(longGun * 0.8).toInt() + 1)
+    }
+
+    @Test
+    fun `melee max hit depends on attack only`() {
+        val a = CombatSimulator.meleeMaxHit(99, 64)
+        val b = CombatSimulator.meleeMaxHit(10, 64)
+        assertTrue(a > b)
+        // Strength level no longer matters for melee damage.
+        val lowStr  = totalMeleeDamageWith(strength = 1)
+        val highStr = totalMeleeDamageWith(strength = 99)
+        assertEquals(lowStr, highStr)
+    }
+
+    private fun totalMeleeDamageWith(strength: Int) = CombatSimulator.simulateDungeon(
+        dungeon = dungeon(listOf(EnemySpawn("golem", 1))),
+        enemies = mapOf("golem" to tankyEnemy(0)),
+        playerAttack = 99, playerStrength = strength, playerDefence = 99, playerHp = 999,
+        weaponStrengthBonus = 64, combatStyle = "attack", random = Random(21),
+    ).frames.sumOf { it.playerHits.sum() }
+
+    @Test
+    fun `handgun XP goes to strength and melee XP to attack`() {
+        val hgXp = handgunRun(seed = 2, cylinder = 6, reload = 2).flatMap { it.xpBySkill.keys }.toSet()
+        assertTrue(hgXp.isEmpty() || "strength" in hgXp)
+        val melee = runStrongPlayer(seed = 2).frames.flatMap { it.xpBySkill.keys }.toSet()
+        assertTrue("attack" in melee)
+        assertFalse("strength" in melee)
+    }
+
+    // --- Revolver lineup data rules (brass < steel, Navy .36 < Army .44) ---
+
+    private val equipment: Map<String, kotlinx.serialization.json.JsonObject> by lazy {
+        val f = listOf("src/main/assets/data/equipment.json", "app/src/main/assets/data/equipment.json").map(::File).first { it.exists() }
+        Json.parseToJsonElement(f.readText()).let { el ->
+            (el as kotlinx.serialization.json.JsonObject).mapValues { it.value as kotlinx.serialization.json.JsonObject }
+        }
+    }
+    private fun str(key: String) = equipment.getValue(key)["strength_bonus"].toString().toInt()
+    private fun int(key: String, f: String) = equipment.getValue(key)[f].toString().toInt()
+
+    @Test
+    fun `brass-frame Remingtons are weaker than steel-frame ones`() {
+        assertTrue(str("steel_battleaxe") < str("adamantite_battleaxe"))   // Navy brass < Navy steel
+        assertTrue(str("mithril_warhammer") < str("runite_warhammer"))     // Army brass < Army steel
+    }
+
+    @Test
+    fun `navy 36 revolvers are weaker than army 44 at the same tier`() {
+        assertTrue(str("steel_battleaxe") < str("mithril_warhammer"))      // Remington Navy brass < Army brass
+        assertTrue(str("adamantite_battleaxe") < str("runite_warhammer"))  // Remington Navy steel < Army steel
+        assertTrue(str("mithril_battleaxe") < str("adamantite_warhammer")) // Colt 1851 Navy < 1860 Army
+    }
+
+    @Test
+    fun `every strength-style weapon is a handgun with a cylinder`() {
+        val hg = equipment.filterValues { it["slot"].toString() == "\"weapon\"" && it["combat_style"].toString() == "\"strength\"" }
+        assertTrue(hg.size >= 15)
+        for ((k, v) in hg) assertTrue("$k missing cylinder_size", v.containsKey("cylinder_size"))
+        assertEquals(5, int("bronze_battleaxe", "cylinder_size")) // Colt Paterson
+        assertEquals(6, int("iron_warhammer", "cylinder_size"))   // Colt Walker
+        assertEquals(2, int("bronze_warhammer", "cylinder_size")) // Derringer
+    }
 }

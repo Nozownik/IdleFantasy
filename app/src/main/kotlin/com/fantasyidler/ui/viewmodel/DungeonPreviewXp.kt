@@ -117,6 +117,8 @@ internal fun estimateDungeonPreviewXp(
         runeCostPerAttack   = selectedSpell?.runeCost ?: 1,
         availableRunes      = Int.MAX_VALUE,
         attackSpeedSec      = weapon?.attackSpeed ?: CombatSimulator.BASE_ATTACK_SPEED_SEC,
+        handgunCylinder    = weapon?.cylinderSize ?: CombatSimulator.DEFAULT_CYLINDER,
+        handgunReloadTicks = weapon?.reloadTicks ?: CombatSimulator.DEFAULT_RELOAD_TICKS,
         eatThresholdPct     = flags.foodEatThresholdPct,
         foodEatOrder        = flags.foodEatOrder,
         chronosMultiplier   = townRepo.playerSessionDurationMultiplier(flags),

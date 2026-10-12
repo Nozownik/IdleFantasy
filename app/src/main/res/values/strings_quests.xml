@@ -287,17 +287,17 @@
 
     <!-- Herblore -->
     <string name="quest_herblore_1_name">Moonshining I</string>
-    <string name="quest_herblore_1_objective">Brew 100 Handguns Brews</string>
+    <string name="quest_herblore_1_objective">Brew 100 Melee Brews</string>
     <string name="quest_herblore_2_name">Moonshining II</string>
     <string name="quest_herblore_2_objective">Mix 250 Defense Tonics</string>
     <string name="quest_herblore_3_name">Moonshining III</string>
-    <string name="quest_herblore_3_objective">Mix 500 Long guns Tonics</string>
+    <string name="quest_herblore_3_objective">Mix 500 Handguns Tonics</string>
     <string name="quest_herblore_4_name">Moonshining IV</string>
     <string name="quest_herblore_4_objective">Mix 750 Ranging Tonics</string>
     <string name="quest_herblore_5_name">Moonshining V</string>
     <string name="quest_herblore_5_objective">Mix 1000 Explosives Tonics</string>
     <string name="quest_herblore_6_name">Moonshining VI</string>
-    <string name="quest_herblore_6_objective">Mix 1500 Super Long guns Tonics</string>
+    <string name="quest_herblore_6_objective">Mix 1500 Super Handguns Tonics</string>
 
     <!-- Construction -->
     <string name="quest_construction_1_name">Homesteading I</string>

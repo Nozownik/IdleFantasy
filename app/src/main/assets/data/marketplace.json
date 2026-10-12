@@ -295,7 +295,7 @@
         "mercantile_level_required": 60
       },
       "amulet_of_strength": {
-        "display_name": "Amulet of Long guns",
+        "display_name": "Amulet of Handguns",
         "description": "Increases melee strength bonus. Requires Trading Post level 20 to purchase.",
         "price": 15000,
         "stock": "unlimited",
@@ -347,8 +347,8 @@
         "stock": "unlimited"
       },
       "attack_cape": {
-        "display_name": "Handguns Cape",
-        "description": "Awarded for reaching level 99 Handguns. Grants 10% bonus Handguns XP.",
+        "display_name": "Melee Cape",
+        "description": "Awarded for reaching level 99 Melee. Grants 10% bonus Melee XP.",
         "price": 100000,
         "stock": "unlimited"
       },
@@ -437,8 +437,8 @@
         "stock": "unlimited"
       },
       "ranged_cape": {
-        "display_name": "Thrown & Blades Cape",
-        "description": "Awarded for reaching level 99 Thrown & Blades. Grants 10% bonus Thrown & Blades XP.",
+        "display_name": "Long guns Cape",
+        "description": "Awarded for reaching level 99 Long guns. Grants 10% bonus Long guns XP.",
         "price": 100000,
         "stock": "unlimited"
       },
@@ -461,8 +461,8 @@
         "stock": "unlimited"
       },
       "strength_cape": {
-        "display_name": "Long guns Cape",
-        "description": "Awarded for reaching level 99 Long guns. Grants 10% bonus Long guns XP.",
+        "display_name": "Handguns Cape",
+        "description": "Awarded for reaching level 99 Handguns. Grants 10% bonus Handguns XP.",
         "price": 100000,
         "stock": "unlimited"
       },
@@ -486,7 +486,7 @@
       },
       "archers_guild_cape": {
         "display_name": "Archers Guild Cape",
-        "description": "Awarded for reaching Archers Guild level 10. Grants 5% bonus Thrown & Blades XP.",
+        "description": "Awarded for reaching Archers Guild level 10. Grants 5% bonus Long guns XP.",
         "price": 250000,
         "stock": "unlimited"
       },
@@ -588,7 +588,7 @@
       },
       "warriors_guild_cape": {
         "display_name": "Warriors Guild Cape",
-        "description": "Awarded for reaching Warriors Guild level 10. Grants 5% bonus Handguns, Long guns, and Defense XP.",
+        "description": "Awarded for reaching Warriors Guild level 10. Grants 5% bonus Melee, Handguns, and Defense XP.",
         "price": 250000,
         "stock": "unlimited"
       },

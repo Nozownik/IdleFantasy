@@ -327,6 +327,8 @@ class WorkerQueuedSessionStarter @Inject constructor(
                     foodHealValues     = boostRepo.boostedFoodHeal(flags, gameData.foodHealValues),
                     blessingDefBonus   = ChurchRepository.defBonus(flags, prayerCapeMult, gameData.blessings),
                     attackSpeedSec     = bossWeapon?.attackSpeed ?: CombatSimulator.BASE_ATTACK_SPEED_SEC,
+                    handgunCylinder    = bossWeapon?.cylinderSize ?: CombatSimulator.DEFAULT_CYLINDER,
+                    handgunReloadTicks = bossWeapon?.reloadTicks ?: CombatSimulator.DEFAULT_RELOAD_TICKS,
                     eatThresholdPct    = flags.foodEatThresholdPct,
                     foodEatOrder       = flags.foodEatOrder,
                     blockedRareDrops   = HeirloomStats.ownedHeirloomKeys(gameData.equipment, inventory) + sessionRepo.pendingHeirloomKeys(),
@@ -385,6 +387,8 @@ class WorkerQueuedSessionStarter @Inject constructor(
                     foodHealValues      = boostRepo.boostedFoodHeal(flags, gameData.foodHealValues),
                     availableArrows     = availableArrows,
                     attackSpeedSec      = weapon?.attackSpeed ?: CombatSimulator.BASE_ATTACK_SPEED_SEC,
+                    handgunCylinder    = weapon?.cylinderSize ?: CombatSimulator.DEFAULT_CYLINDER,
+                    handgunReloadTicks = weapon?.reloadTicks ?: CombatSimulator.DEFAULT_RELOAD_TICKS,
                     eatThresholdPct     = flags.foodEatThresholdPct,
                     foodEatOrder        = flags.foodEatOrder,
                 )

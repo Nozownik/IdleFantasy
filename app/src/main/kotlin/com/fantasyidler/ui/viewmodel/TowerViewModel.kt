@@ -397,6 +397,8 @@ class TowerViewModel @Inject constructor(
                     runeKey             = runeKey,
                     runeCostPerAttack   = runeCost,
                     attackSpeedSec      = weaponAttackSpeed,
+                    handgunCylinder     = weapon?.cylinderSize ?: CombatSimulator.DEFAULT_CYLINDER,
+                    handgunReloadTicks  = weapon?.reloadTicks ?: CombatSimulator.DEFAULT_RELOAD_TICKS,
                     eatThresholdPct     = flags.foodEatThresholdPct,
                     foodEatOrder        = flags.foodEatOrder,
                     chronosMultiplier   = townRepo.playerSessionDurationMultiplier(flags),
