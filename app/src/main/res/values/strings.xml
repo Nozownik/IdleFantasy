@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Idle Fantasy</string>
+    <string name="app_name" translatable="false">Idle Frontier: Dust &amp; Lead</string>
     <string name="home_title_elder_isle" translatable="false">Idle Fantasy · Elder Isle</string>
 
     <!-- ===== Bottom navigation ===== -->
     <string name="nav_skills">Skills</string>
     <string name="nav_combat">Combat</string>
     <string name="nav_home">Home</string>
-    <string name="nav_crafting">Crafting</string>
+    <string name="nav_crafting">Leatherworking</string>
     <string name="nav_quests">Quests</string>
     <string name="nav_profile">Profile</string>
 
@@ -49,13 +49,13 @@
     <string name="label_xp">XP</string>
     <string name="label_coins">Coins</string>
     <string name="label_hp">HP</string>
-    <string name="label_attack">Attack</string>
-    <string name="label_strength">Strength</string>
+    <string name="label_attack">Handguns</string>
+    <string name="label_strength">Long guns</string>
     <string name="label_defense">Defense</string>
-    <string name="label_ranged">Ranged</string>
-    <string name="label_magic">Magic</string>
-    <string name="label_prayer">Prayer</string>
-    <string name="label_hitpoints">Hitpoints</string>
+    <string name="label_ranged">Thrown &amp; Blades</string>
+    <string name="label_magic">Explosives</string>
+    <string name="label_prayer">Faith</string>
+    <string name="label_hitpoints">Health</string>
     <string name="label_inventory">Inventory</string>
     <string name="label_equipment">Gear</string>
     <string name="label_combat_equipment">Gear</string>
@@ -101,7 +101,7 @@
     <string name="worker_skill_complete_title">Worker: %1$s Complete</string>
     <string name="label_training">Training</string>
     <string name="label_gathering_skills">Gathering</string>
-    <string name="label_crafting_skills">Crafting Skills</string>
+    <string name="label_crafting_skills">Leatherworking Skills</string>
     <string name="label_choose_activity">Choose Activity</string>
     <string name="label_coming_soon">Coming soon</string>
     <string name="label_time_remaining">Time remaining</string>
@@ -136,17 +136,17 @@
     <string name="inventory_cat_armour">Armour</string>
     <string name="inventory_cat_tools">Tools</string>
     <string name="inventory_cat_food">Food</string>
-    <string name="inventory_cat_potions">Potions</string>
+    <string name="inventory_cat_potions">Tonics</string>
     <string name="inventory_cat_materials">Materials</string>
     <string name="inventory_cat_other">Other</string>
     <string name="inventory_cat_raw_food">Raw Food</string>
     <string name="inventory_cat_ammunition">Ammunition</string>
     <string name="inventory_cat_ores">Ores &amp; Gems</string>
-    <string name="inventory_cat_construction">Construction</string>
+    <string name="inventory_cat_construction">Homesteading</string>
     <string name="inventory_cat_seeds">Seeds &amp; Crops</string>
     <string name="inventory_cat_filter_all">All</string>
     <string name="label_combat_style">Combat Style</string>
-    <string name="label_active_spell">Active Spell</string>
+    <string name="label_active_spell">Active Trick</string>
     <string name="label_drops">Drops</string>
     <string name="label_boss">Boss</string>
     <string name="label_dungeon">Dungeon</string>
@@ -172,17 +172,17 @@
     <string name="label_food">Food</string>
     <string name="label_arrows_consumed">Arrows Consumed</string>
     <string name="label_arrows_reclaimed">Arrows Reclaimed</string>
-    <string name="label_runes_consumed">Runes Consumed</string>
-    <string name="label_runes_reclaimed">Runes Reclaimed</string>
+    <string name="label_runes_consumed">Charges Consumed</string>
+    <string name="label_runes_reclaimed">Charges Reclaimed</string>
     <string name="label_arrows">Arrows</string>
-    <string name="label_runes">Runes</string>
-    <string name="label_spell">Spell</string>
+    <string name="label_runes">Charges</string>
+    <string name="label_spell">Trick</string>
     <string name="label_none">None</string>
     <string name="label_melee">Melee</string>
-    <string name="label_ranged_style">Ranged</string>
-    <string name="label_magic_style">Magic</string>
+    <string name="label_ranged_style">Thrown &amp; Blades</string>
+    <string name="label_magic_style">Explosives</string>
     <string name="label_gathering">Gathering</string>
-    <string name="label_crafting">Crafting</string>
+    <string name="label_crafting">Leatherworking</string>
     <string name="label_jewellery">Jewelry</string>
     <string name="label_combat">Combat</string>
     <string name="label_recipe">Recipe</string>
@@ -286,7 +286,7 @@
     <string name="session_abandon_body">All progress from this session will be lost.</string>
 
     <!-- ===== Onboarding ===== -->
-    <string name="onboarding_welcome_title">Welcome to Idle Fantasy</string>
+    <string name="onboarding_welcome_title">Welcome to Idle Frontier: Dust &amp; Lead</string>
     <string name="onboarding_welcome_body">Start a skill session and watch your character grow. Sessions run for one hour, even when the app is closed.</string>
     <string name="onboarding_first_session_hint">Tap any skill to get started.</string>
 
@@ -295,7 +295,7 @@
     <string name="settings_notifications">Session Notifications</string>
     <string name="settings_notifications_desc">Show an alert when your session completes</string>
     <string name="settings_battery_optimization">Battery Optimization</string>
-    <string name="settings_battery_optimization_desc">Disable battery optimization for Idle Fantasy to receive timely session alerts</string>
+    <string name="settings_battery_optimization_desc">Disable battery optimization for Idle Frontier: Dust &amp; Lead to receive timely session alerts</string>
     <string name="settings_battery_optimization_btn">Adjust Setting</string>
     <string name="settings_language">Language</string>
     <string name="settings_about">About</string>
@@ -347,7 +347,7 @@
     <!-- ===== SkillsScreen ===== -->
     <string name="btn_back_arrow">← Back</string>
     <string name="btn_start_burying">Start Burying</string>
-    <string name="btn_start_crafting">Start Crafting</string>
+    <string name="btn_start_crafting">Start Leatherworking</string>
     <string name="btn_select">Select</string>
     <string name="label_special">Special</string>
 
@@ -360,11 +360,11 @@
     <string name="label_weekly_reset">Resets Monday at %1$s</string>
     <string name="weekly_bonus_title">Weekly Bonus!</string>
     <string name="weekly_bonus_claim">Claim Weekly Bonus</string>
-    <string name="label_daily_info_pity">Each daily quest rewards coins. Every quest also has a 1 in %1$d chance to drop a piece of Dwarven gear you don\'t own yet. Each claim without a drop improves the odds; a drop resets them to 1 in 100.</string>
-    <string name="label_daily_info_complete">Each daily quest rewards coins. You already own every piece of Dwarven gear!</string>
-    <string name="label_weekly_info">Each weekly challenge rewards coins based on its level requirement. Complete all 5 to earn a bonus: 100,000 coins, or a %1$s chance at a piece of Divine gear.</string>
-    <string name="label_weekly_info_complete">Each weekly challenge rewards coins based on its level requirement. Complete all 5 to earn a bonus: 100,000 coins. You already own every piece of Divine gear!</string>
-    <string name="label_daily_reward_pity">2,000 coins (1/%1$d: Dwarven gear)</string>
+    <string name="label_daily_info_pity">Each daily quest rewards coins. Every quest also has a 1 in %1$d chance to drop a piece of Pittsburgh gear you don\'t own yet. Each claim without a drop improves the odds; a drop resets them to 1 in 100.</string>
+    <string name="label_daily_info_complete">Each daily quest rewards coins. You already own every piece of Pittsburgh gear!</string>
+    <string name="label_weekly_info">Each weekly challenge rewards coins based on its level requirement. Complete all 5 to earn a bonus: 100,000 coins, or a %1$s chance at a piece of Engraved gear.</string>
+    <string name="label_weekly_info_complete">Each weekly challenge rewards coins based on its level requirement. Complete all 5 to earn a bonus: 100,000 coins. You already own every piece of Engraved gear!</string>
+    <string name="label_daily_reward_pity">2,000 coins (1/%1$d: Pittsburgh gear)</string>
     <string name="label_daily_reward_complete">2,000 coins</string>
     <string name="msg_daily_claimed_coins">Daily quest complete! +2,000 coins.</string>
     <string name="msg_daily_claimed_dwarven">Daily quest complete! You found %1$s!</string>
@@ -385,7 +385,7 @@
     <string name="settings_changelog_title">What\'s New</string>
     <string name="settings_changelog_desc">View the latest update changes</string>
     <string name="settings_changelog_btn">View</string>
-    <string name="settings_foss_desc">Idle Fantasy is free and open source software.</string>
+    <string name="settings_foss_desc">Idle Frontier: Dust &amp; Lead is free and open source software.</string>
     <string name="settings_reset_title">Reset Progression</string>
     <string name="settings_reset_desc">Erase all skills, items, quests, and coins</string>
     <string name="settings_reset_btn">Reset</string>
@@ -397,7 +397,7 @@
 
     <!-- ===== Battery prompt dialog ===== -->
     <string name="battery_prompt_title">Keep sessions running</string>
-    <string name="battery_prompt_body">For the best experience, allow Idle Fantasy to run in the background so you receive timely session notifications.</string>
+    <string name="battery_prompt_body">For the best experience, allow Idle Frontier: Dust &amp; Lead to run in the background so you receive timely session notifications.</string>
     <string name="battery_prompt_open_settings">Open Settings</string>
     <string name="battery_prompt_dismiss">Not now</string>
 
@@ -514,7 +514,7 @@
 
     <!-- ===== HomeScreen ===== -->
     <string name="home_town_title">Town</string>
-    <string name="home_town_desc">Visit the shop, inn, guild, church, builder\'s workshop, slayer master, and carnival</string>
+    <string name="home_town_desc">Visit the shop, inn, guild, church, builder\'s workshop, bounty Hunting master, and carnival</string>
     <string name="guild_not_unlocked">Not yet unlocked</string>
     <string name="guild_dailies_done_today">Dailies done today</string>
     <string name="guild_dailies_remaining_today">%1$d left today</string>
@@ -535,7 +535,7 @@
     <string name="home_whats_new">What\'s New</string>
     <string name="home_got_it">Got it</string>
     <!-- Translator note: %1$s = player name or "Adventurer" -->
-    <string name="home_adventurer">Adventurer</string>
+    <string name="home_adventurer">Cowpoke</string>
     <!-- Translator note: %1$d = current queue size, %2$d = max queue size (base 3, +1 per Queue Master tier) -->
     <string name="home_up_next">Up Next (%1$d/%2$d)</string>
     <!-- Translator note: %1$s = formatted duration string (e.g. "2h 15m") -->
@@ -586,18 +586,18 @@
     <string name="combat_best_arrow">Best arrow</string>
     <string name="combat_arrow_auto">Auto (best available)</string>
     <string name="combat_label_arrow">Arrow</string>
-    <string name="combat_arrow_ranged_str">+%1$d Ranged Strength</string>
+    <string name="combat_arrow_ranged_str">+%1$d Thrown &amp; Blades Long guns</string>
     <string name="combat_select_loadout">Select Loadout</string>
     <string name="combat_enemies">Enemies</string>
-    <string name="combat_no_spells">No spells available at your magic level.</string>
+    <string name="combat_no_spells">No tricks available at your explosives level.</string>
     <string name="combat_only_castable">Only Castable</string>
     <string name="combat_max_hit">max hit</string>
     <string name="combat_you_have_runes">(you have %1$d %2$s)</string>
     <string name="combat_infinite_runes">(infinite %1$s)</string>
-    <string name="combat_spell_locked">Requires Magic level %1$d</string>
-    <string name="combat_spell_level_met">Magic level %1$d</string>
-    <string name="combat_no_potion">No Potion</string>
-    <string name="label_potion">Potion</string>
+    <string name="combat_spell_locked">Requires Explosives level %1$d</string>
+    <string name="combat_spell_level_met">Explosives level %1$d</string>
+    <string name="combat_no_potion">No Tonic</string>
+    <string name="label_potion">Tonic</string>
     <string name="combat_req_level">Required combat level</string>
     <string name="combat_duration">Duration</string>
     <!-- Translator note: %1$d = minutes -->
@@ -621,7 +621,7 @@
     <string name="combat_prestige_bonus">+%1$d prestige</string>
 
     <!-- ===== ProfileScreen ===== -->
-    <string name="profile_unnamed">Unnamed Adventurer</string>
+    <string name="profile_unnamed">Unnamed Cowpoke</string>
     <string name="profile_no_pets">No pets available</string>
     <string name="profile_pet_collected">Collected</string>
     <string name="profile_pet_not_found">Not Yet Found</string>
@@ -658,17 +658,17 @@
     <string name="profile_no_items">No eligible items in inventory</string>
     <string name="profile_stat_atk">Atk</string>
     <string name="profile_stat_str">Str</string>
-    <string name="profile_stat_ranged">Ranged</string>
-    <string name="profile_stat_magic">Magic</string>
+    <string name="profile_stat_ranged">Thrown &amp; Blades</string>
+    <string name="profile_stat_magic">Explosives</string>
     <string name="profile_stat_mining">Mining</string>
     <string name="profile_stat_wc">WC</string>
     <string name="profile_stat_fishing">Fishing</string>
     <string name="profile_stat_farming">Farming</string>
-    <string name="profile_stat_smithing">Smithing</string>
-    <string name="profile_stat_firemaking">Firemaking</string>
-    <string name="profile_stat_agility">Agility</string>
+    <string name="profile_stat_smithing">Gunsmithing</string>
+    <string name="profile_stat_firemaking">Campfire</string>
+    <string name="profile_stat_agility">Horse Riding</string>
     <string name="profile_stat_cooking">Cooking</string>
-    <string name="profile_stat_thieving">Thieving</string>
+    <string name="profile_stat_thieving">Outlawry</string>
     <string name="profile_stat_def">Def</string>
     <string name="profile_req_lv">Req lv.</string>
 
@@ -690,21 +690,21 @@
     <!-- Translator note: %1$d = fishing level -->
     <string name="skills_fishing_desc">Level %1$d  •  Level-appropriate catches</string>
     <!-- Translator note: %1$d = prayer level -->
-    <string name="skills_prayer_desc">Level %1$d  •  Bury bones or scatter ashes for Prayer XP</string>
+    <string name="skills_prayer_desc">Level %1$d  •  Bury bones or scatter ashes for Faith XP</string>
     <string name="skills_no_bones">No bones or ashes in inventory</string>
     <string name="skills_xp_each">%1$d XP each</string>
     <!-- Translator note: %1$d = XP per bone, %2$d = quantity available -->
     <string name="skills_bone_selected">%1$d XP each  •  %2$d available</string>
     <!-- Translator note: %1$d = total XP -->
     <string name="skills_xp_total">+%1$d XP total</string>
-    <string name="skills_no_essence">No Rune Essence in inventory — mine some first</string>
-    <string name="skills_no_runes">No rune types unlocked yet</string>
+    <string name="skills_no_essence">No Saltpeter in inventory — mine some first</string>
+    <string name="skills_no_runes">No charge types unlocked yet</string>
     <!-- Translator note: %1$d = essence quantity -->
-    <string name="skills_essence_qty">%1$d Rune Essence in inventory</string>
+    <string name="skills_essence_qty">%1$d Saltpeter in inventory</string>
     <!-- Translator note: %1$d = XP per rune, %2$d = level required -->
-    <string name="skills_rune_desc">%1$d XP/rune  •  Lv. %2$d</string>
+    <string name="skills_rune_desc">%1$d XP/charge  •  Lv. %2$d</string>
     <!-- Translator note: %1$d = XP per rune, %2$d = essence available -->
-    <string name="skills_rune_selected">%1$d XP/rune  •  %2$d essence available</string>
+    <string name="skills_rune_selected">%1$d XP/charge  •  %2$d essence available</string>
     <!-- Translator note: %1$d = level reached -->
     <string name="skills_level_reached">Level %1$d reached!</string>
     <string name="skills_no_logs">No logs in inventory</string>
@@ -745,7 +745,7 @@
     <string name="quest_legend_guild_daily">Guild daily</string>
     <string name="quest_legend_guild">Guild quest</string>
     <string name="quest_legend_quest">Quest</string>
-    <string name="quest_legend_slayer_target">Slayer Task</string>
+    <string name="quest_legend_slayer_target">Bounty Hunting Task</string>
     <string name="quest_legend_gold_dot">Timed quest is available.</string>
     <string name="quest_legend_notes">Dimmed icons can\'t be completed yet (missing level or materials). A small raised number means several quests of that type want the same thing.</string>
     <!-- Translator note: %1$s = quantity in inventory -->
@@ -790,7 +790,7 @@
     <string name="farming_clear_patch">Clear Patch</string>
     <!-- Translator note: %1$s = crop name -->
     <string name="farming_clear_desc_named">Remove the %1$s without any reward?</string>
-    <string name="farming_clear_desc_bean">Remove the Magic Bean? It will be returned to your inventory.</string>
+    <string name="farming_clear_desc_bean">Remove the Jumping Bean? It will be returned to your inventory.</string>
     <string name="farming_harvest_and_plant">Harvest and Plant All</string>
     <string name="farming_harvest_all_complete">All Patches Harvested!</string>
     <string name="farming_no_crops_ready">No crops ready to harvest</string>
@@ -815,11 +815,11 @@
     <string name="character_gender_custom_hint">Describe your gender</string>
     <string name="character_race">Race</string>
     <string name="character_race_human">Human</string>
-    <string name="character_race_elf">Elf</string>
-    <string name="character_race_dwarf">Dwarf</string>
-    <string name="character_race_orc">Orc</string>
-    <string name="character_race_halfling">Halfling</string>
-    <string name="character_race_gnome">Gnome</string>
+    <string name="character_race_elf">Mountain Tracker</string>
+    <string name="character_race_dwarf">Cornish Miner</string>
+    <string name="character_race_orc">Outlaw</string>
+    <string name="character_race_halfling">Prairie Kid</string>
+    <string name="character_race_gnome">Tinkerer</string>
 
     <!-- ===== CharacterCustomizationSheet ===== -->
     <string name="appearance_title">Customise Appearance</string>
@@ -883,11 +883,11 @@
     <string name="worker_journeyman">Journeyman</string>
     <string name="worker_master">Master</string>
     <string name="inn_long_laborer_desc">One job per hire, dismissed after collecting. 8h gathering, 0.5x efficiency, unlimited crafting qty. He\'s slow, but he\'ll do anything.</string>
-    <string name="inn_apprentice_desc">One job per hire, dismissed after collecting. 8h gathering, 1x efficiency. Crafting, prayer, and runecrafting capped at 480 items per session.</string>
-    <string name="inn_journeyman_desc">One job per hire, dismissed after collecting. 6h gathering, 1.5x efficiency. Crafting, prayer, and runecrafting capped at 540 items per session.</string>
-    <string name="inn_master_desc">One job per hire, dismissed after collecting. 4h gathering, 2.5x efficiency. Crafting, prayer, and runecrafting capped at 600 items per session.</string>
+    <string name="inn_apprentice_desc">One job per hire, dismissed after collecting. 8h gathering, 1x efficiency. Leatherworking, prayer, and powder Mixing capped at 480 items per session.</string>
+    <string name="inn_journeyman_desc">One job per hire, dismissed after collecting. 6h gathering, 1.5x efficiency. Leatherworking, prayer, and powder Mixing capped at 540 items per session.</string>
+    <string name="inn_master_desc">One job per hire, dismissed after collecting. 4h gathering, 2.5x efficiency. Leatherworking, prayer, and powder Mixing capped at 600 items per session.</string>
     <string name="inn_gathering_note">Gathering: session hours x efficiency multiplier applied to loot and XP</string>
-    <string name="inn_crafting_note">Crafting/prayer/runecrafting: quantity capped per tier; Long Laborer has no cap</string>
+    <string name="inn_crafting_note">Leatherworking/prayer/powder Mixing: quantity capped per tier; Long Laborer has no cap</string>
     <string name="worker_skills_title">Worker: %1$s</string>
     <string name="worker_session_active">Worker Session Active</string>
     <string name="worker_session_complete">Worker Session Complete</string>
@@ -915,7 +915,7 @@
     <string name="achievement_group_quests">Quests</string>
     <string name="achievement_group_collection">Collection</string>
 
-    <string name="achievement_total_50_name">Adventurer</string>
+    <string name="achievement_total_50_name">Cowpoke</string>
     <string name="achievement_total_50_desc">Reach total level 50</string>
     <string name="achievement_total_100_name">Journeyman</string>
     <string name="achievement_total_100_desc">Reach total level 100</string>
@@ -964,9 +964,9 @@
     <string name="achievement_pet_all_desc">Collect all pets</string>
 
     <!-- ===== Quest display names (override toTitleCase fallback) ===== -->
-    <string name="quest_kbd_slayer_1_name">King Black Dragon Slayer I</string>
-    <string name="quest_kbd_slayer_2_name">King Black Dragon Slayer II</string>
-    <string name="quest_kbd_slayer_3_name">King Black Dragon Slayer III</string>
+    <string name="quest_kbd_slayer_1_name">Black Grizzly Bounty Hunting I</string>
+    <string name="quest_kbd_slayer_2_name">Black Grizzly Bounty Hunting II</string>
+    <string name="quest_kbd_slayer_3_name">Black Grizzly Bounty Hunting III</string>
     <string name="inn_daily_resets">Refreshes daily at %1$s</string>
     <string name="inn_food_heal">+%1$d HP</string>
     <string name="inn_food_purchased">Food purchased.</string>
@@ -1001,38 +1001,38 @@
     <string name="guild_quest_desc_pickpocket">Pickpocket the %2$s %1$d times for the %3$s.</string>
     <string name="guild_combat_warriors">melee</string>
     <string name="guild_combat_archers">ranged</string>
-    <string name="guild_combat_mages">magic</string>
+    <string name="guild_combat_mages">explosives</string>
     <string name="guild_rep_label">%1$d / %2$d dailies</string>
     <string name="guild_quest_complete">Quest complete: %1$s!</string>
     <string name="guild_daily_complete">Daily reward claimed!</string>
     <string name="guild_name_mining">Mining Guild</string>
     <string name="guild_name_fishing">Fishing Guild</string>
-    <string name="guild_name_woodcutting">Woodcutting Guild</string>
+    <string name="guild_name_woodcutting">Lumberjacking Guild</string>
     <string name="guild_name_farming">Farming Guild</string>
     <string name="guild_name_firemaking">Firemakers Guild</string>
-    <string name="guild_name_agility">Agility Guild</string>
-    <string name="guild_name_smithing">Smithing Guild</string>
+    <string name="guild_name_agility">Horse Riding Guild</string>
+    <string name="guild_name_smithing">Gunsmithing Guild</string>
     <string name="guild_name_cooking">Cooks Guild</string>
     <string name="guild_name_fletching">Fletchers Guild</string>
-    <string name="guild_name_crafting">Crafting Guild</string>
-    <string name="guild_name_runecrafting">Runecrafters Guild</string>
+    <string name="guild_name_crafting">Leatherworking Guild</string>
+    <string name="guild_name_runecrafting">Powder Mixers Guild</string>
     <string name="guild_name_herblore">Herblorists Guild</string>
     <string name="guild_name_warriors">Warriors Guild</string>
     <string name="guild_name_archers">Archers Guild</string>
-    <string name="guild_name_mages">Mages Guild</string>
-    <string name="guild_name_prayer">Prayer Guild</string>
+    <string name="guild_name_mages">Demolitionists Guild</string>
+    <string name="guild_name_prayer">Faith Guild</string>
     <string name="guild_name_thieving">Thieves Guild</string>
     <string name="guild_name_mercantile">Merchants Guild</string>
     <string name="guild_name_construction">Builders Guild</string>
     <string name="guild_name_slayer">Slayers Guild</string>
-    <string name="guild_quest_desc_slayer_task">Complete %1$d slayer tasks for the %2$s.</string>
-    <string name="guild_quest_desc_slayer_kill">Defeat %1$d enemies while on a slayer task.</string>
+    <string name="guild_quest_desc_slayer_task">Complete %1$d bounty Hunting tasks for the %2$s.</string>
+    <string name="guild_quest_desc_slayer_kill">Defeat %1$d enemies while on a bounty Hunting task.</string>
 
     <!-- Mercantile skill -->
-    <string name="skill_mercantile">Mercantile</string>
+    <string name="skill_mercantile">Trading Post</string>
     <string name="label_support_skills">Support</string>
     <string name="mercantile_routes_label">Trade Routes</string>
-    <string name="mercantile_level_label">Level %1$d Mercantile</string>
+    <string name="mercantile_level_label">Level %1$d Trading Post</string>
     <string name="mercantile_xp_label">XP: %1$s</string>
     <string name="mercantile_coins_label">Coins: %1$s</string>
     <string name="mercantile_perks_title">Perks</string>
@@ -1055,7 +1055,7 @@
     <string name="church_section_xp">XP Blessings</string>
     <string name="church_section_defense">Defense Blessings</string>
     <string name="church_section_coins">Coin Blessings</string>
-    <string name="church_locked_level">Requires Prayer level %1$d</string>
+    <string name="church_locked_level">Requires Faith level %1$d</string>
     <string name="church_active_chip">Active</string>
     <string name="church_activate">Activate</string>
     <string name="church_blessing_bonus">+%1$s from blessing</string>
@@ -1091,16 +1091,16 @@
     <string name="blessing_tithe_blessing_iii_name">Tithe Blessing III</string>
     <string name="blessing_iron_ward_ii_name">Iron Ward II</string>
     <string name="blessing_fortune_iii_name">Fortune III</string>
-    <string name="blessing_divine_focus_name">Divine Focus</string>
+    <string name="blessing_divine_focus_name">Engraved Focus</string>
     <string name="blessing_diamond_skin_name">Diamond Skin</string>
     <string name="blessing_fortune_iv_name">Fortune IV</string>
-    <string name="blessing_divine_focus_ii_name">Divine Focus II</string>
+    <string name="blessing_divine_focus_ii_name">Engraved Focus II</string>
     <string name="blessing_diamond_skin_ii_name">Diamond Skin II</string>
     <string name="blessing_fortune_v_name">Fortune V</string>
-    <string name="blessing_divine_grace_name">Divine Grace</string>
+    <string name="blessing_divine_grace_name">Engraved Grace</string>
     <string name="blessing_holy_shield_name">Holy Shield</string>
     <string name="blessing_abundance_name">Abundance</string>
-    <string name="blessing_divine_grace_ii_name">Divine Grace II</string>
+    <string name="blessing_divine_grace_ii_name">Engraved Grace II</string>
     <string name="blessing_holy_shield_ii_name">Holy Shield II</string>
     <string name="blessing_abundance_ii_name">Abundance II</string>
     <string name="blessing_sacred_grace_name">Sacred Grace</string>
@@ -1110,12 +1110,12 @@
     <!-- Skilling dungeon names and descriptions -->
     <string name="skilling_dungeon_copper_caverns_name">Copper Caverns</string>
     <string name="skilling_dungeon_copper_caverns_desc">A long-abandoned mine beneath the foothills. Its copper veins still glitter in the dark.</string>
-    <string name="skilling_dungeon_dwarven_depths_name">Dwarven Depths</string>
-    <string name="skilling_dungeon_dwarven_depths_desc">The deepest level of an ancient dwarven excavation. Rich veins of rare metal hide behind the bones of its builders.</string>
+    <string name="skilling_dungeon_dwarven_depths_name">Pittsburgh Depths</string>
+    <string name="skilling_dungeon_dwarven_depths_desc">The deepest level of an ancient Pittsburgh excavation. Rich veins of rare metal hide behind the bones of its builders.</string>
     <string name="skilling_dungeon_whispering_grove_name">Whispering Grove</string>
     <string name="skilling_dungeon_whispering_grove_desc">A primeval forest where the trees have grown for thousands of years undisturbed. Something speaks between the branches.</string>
     <string name="skilling_dungeon_corrupted_canopy_name">Corrupted Canopy</string>
-    <string name="skilling_dungeon_corrupted_canopy_desc">A forest where shadow has replaced sunlight. The trees bleed black sap and the air tastes of old magic.</string>
+    <string name="skilling_dungeon_corrupted_canopy_desc">A forest where shadow has replaced sunlight. The trees bleed black sap and the air tastes of old explosives.</string>
     <string name="skilling_dungeon_sunken_grotto_name">Sunken Grotto</string>
     <string name="skilling_dungeon_sunken_grotto_desc">A sea cave carved by centuries of tides. Strange stone pillars rise from the water.</string>
     <string name="skilling_dungeon_abyssal_lagoon_name">Abyssal Lagoon</string>
@@ -1123,11 +1123,11 @@
     <string name="skilling_dungeon_crumbling_watchtower_name">Crumbling Watchtower</string>
     <string name="skilling_dungeon_crumbling_watchtower_desc">A decrepit stone tower perched at the edge of the foothills. Something still guards what was once stored inside.</string>
     <string name="skilling_dungeon_shattered_spire_name">Shattered Spire</string>
-    <string name="skilling_dungeon_shattered_spire_desc">The remains of a wizard\'s tower reduced to a field of rubble. The air still crackles with residual magic.</string>
+    <string name="skilling_dungeon_shattered_spire_desc">The remains of a quack\'s tower reduced to a field of rubble. The air still crackles with residual explosives.</string>
     <string name="skilling_dungeon_thieves_den_name">Thieves\' Den</string>
     <string name="skilling_dungeon_thieves_den_desc">A labyrinth of tunnels beneath the city streets, used by an organised ring of thieves.</string>
     <string name="skilling_dungeon_shadow_vault_name">Shadow Vault</string>
-    <string name="skilling_dungeon_shadow_vault_desc">A hidden vault beneath the Rogue Sanctum where the guild\'s most valuable stolen goods are kept.</string>
+    <string name="skilling_dungeon_shadow_vault_desc">A hidden vault beneath the Hole-in-the-Wall Hideout where the guild\'s most valuable stolen goods are kept.</string>
 
     <!-- Expeditions -->
     <string name="nav_expeditions">Expeditions</string>
@@ -1144,8 +1144,8 @@
     <string name="label_notes">Notes</string>
 
     <!-- Slayer -->
-    <string name="skill_slayer_name">Slayer</string>
-    <string name="skill_slayer_desc">Receive tasks from the Slayer Master in Town.</string>
+    <string name="skill_slayer_name">Bounty Hunting</string>
+    <string name="skill_slayer_desc">Receive tasks from the Bounty Office in Town.</string>
     <string name="builder_title">Builder\'s Workshop</string>
     <string name="builder_card_desc">Upgrade the Inn, Guild Hall, and Church</string>
 
@@ -1155,7 +1155,7 @@
     <string name="house_done">Done</string>
     <string name="house_share">Share a picture of your house</string>
     <string name="house_rooms_owned">Rooms: %1$d</string>
-    <string name="house_construction_level">Construction level %1$d</string>
+    <string name="house_construction_level">Homesteading level %1$d</string>
     <string name="house_add_room">Add room (%1$s)</string>
     <string name="house_add_room_locked">Add room (Lv %1$d)</string>
     <string name="house_bill_title">Bill of Sale</string>
@@ -1168,8 +1168,8 @@
     <string name="house_bill_shrink_credit">Shrink room %1$d credit (%2$d cells)</string>
     <string name="house_bill_materials_header">Materials needed</string>
     <string name="house_bill_credit_header">Credited on purchase</string>
-    <string name="house_bill_xp_total">+%1$s Construction XP on purchase</string>
-    <string name="house_bill_level_required">Requires Construction level %1$d</string>
+    <string name="house_bill_xp_total">+%1$s Homesteading XP on purchase</string>
+    <string name="house_bill_level_required">Requires Homesteading level %1$d</string>
     <string name="house_bill_coins_total">Total: %1$s coins</string>
     <string name="house_purchase_build">Purchase Build</string>
     <string name="house_apply_changes">Apply Changes</string>
@@ -1191,7 +1191,7 @@
     <string name="house_blueprint_load_message">Your unpurchased changes will be replaced with \"%1$s\".</string>
     <string name="house_mode_place_item">Placing %1$s. Drag or tap a spot in your house.</string>
     <string name="house_mode_place_room">Placing a new 3x3 room. It must touch an existing room.</string>
-    <string name="house_error_level">Your Construction level is too low.</string>
+    <string name="house_error_level">Your Homesteading level is too low.</string>
     <string name="house_error_coins">Not enough coins.</string>
     <string name="house_error_materials">Not enough materials.</string>
     <string name="house_error_spot">That spot doesn\'t work.</string>
@@ -1339,14 +1339,14 @@
     <string name="house_item_wall_art_dark_sunshine_ocean">Sunny Seas (Dark Frame)</string>
     <string name="house_item_wall_art_dark_starry_night_grass">Starry Meadow (Dark Frame)</string>
     <string name="house_item_wall_art_dark_starry_night_ocean">Starry Seas (Dark Frame)</string>
-    <string name="house_item_helmet_trophy">Helmet Trophy</string>
+    <string name="house_item_helmet_trophy">Hat Trophy</string>
     <string name="house_item_shield_round">Round Shield Display</string>
     <string name="house_item_shield_kite">Kite Shield Display</string>
     <string name="house_item_swords_crossed">Crossed Swords</string>
     <string name="house_item_lamp">Wall Lantern</string>
-    <string name="slayer_title">Slayer Master</string>
+    <string name="slayer_title">Bounty Office</string>
     <string name="slayer_card_desc">Tasks and rewards for slayers</string>
-    <string name="slayer_desc">Complete tasks to earn Slayer XP and points. Spend points in the shop for exclusive gear.</string>
+    <string name="slayer_desc">Complete tasks to earn Bounty Hunting XP and points. Spend points in the shop for exclusive gear.</string>
     <string name="slayer_level_label">Level %1$d</string>
     <string name="slayer_xp_label">%1$s XP</string>
     <string name="slayer_points">%1$d pts</string>
@@ -1357,13 +1357,13 @@
     <string name="slayer_no_task">No active task. Tap Get New Task.</string>
     <string name="slayer_task_stuck">This enemy is only found in an Expeditions dungeon you haven\'t discovered yet. Reroll for free.</string>
     <string name="slayer_reroll_free">Reroll (free)</string>
-    <string name="slayer_no_eligible_tasks">No eligible tasks at your Slayer level.</string>
-    <string name="slayer_task_complete">Task complete! Visit the Slayer Master for a new one.</string>
+    <string name="slayer_no_eligible_tasks">No eligible tasks at your Bounty Hunting level.</string>
+    <string name="slayer_task_complete">Task complete! Visit the Bounty Office for a new one.</string>
     <string name="slayer_xp_per_kill">%1$d XP/kill</string>
     <string name="slayer_points_on_complete">+%1$d pts on completion</string>
-    <string name="slayer_shop_title">Slayer Shop</string>
+    <string name="slayer_shop_title">Bounty Hunting Shop</string>
     <string name="slayer_shop_cost">%1$d pts</string>
-    <string name="slayer_not_enough_points">Not enough Slayer points.</string>
+    <string name="slayer_not_enough_points">Not enough Bounty Hunting points.</string>
     <string name="slayer_already_owned">Already owned.</string>
     <string name="slayer_purchased">Added to inventory.</string>
     <string name="slayer_owned">Owned</string>
@@ -1386,7 +1386,7 @@
     <string name="slayer_queue_added_many">Added %1$d dungeons to queue.</string>
     <string name="slayer_queue_added_partial">Added %1$d of %2$d dungeons to queue.</string>
     <string name="slayer_foretell_title">Foretell Future Tasks</string>
-    <string name="slayer_foretell_desc">Pre-assign upcoming Slayer tasks by paying bones. They are assigned automatically when your current task is completed.</string>
+    <string name="slayer_foretell_desc">Pre-assign upcoming Bounty Hunting tasks by paying bones. They are assigned automatically when your current task is completed.</string>
     <string name="slayer_foretell_queue_empty">No tasks queued.</string>
     <string name="slayer_foretell_queue_btn">+ Queue</string>
     <string name="slayer_foretell_queue_full">Foretell queue is full (%1$d/%1$d).</string>
@@ -1460,26 +1460,26 @@
     <string name="crafting_cat_food">Food</string>
     <string name="crafting_cat_ammunition">Ammunition</string>
     <string name="crafting_cat_jewellery">Jewellery</string>
-    <string name="crafting_cat_potion">Potion</string>
+    <string name="crafting_cat_potion">Tonic</string>
     <string name="crafting_cat_arrow">Arrow</string>
     <string name="crafting_cat_bow">Bow</string>
     <string name="crafting_cat_plank">Plank</string>
-    <string name="crafting_cat_staff">Staff</string>
-    <string name="crafting_cat_super_potion">Super Potion</string>
+    <string name="crafting_cat_staff">Dynamite Cane</string>
+    <string name="crafting_cat_super_potion">Super Tonic</string>
 
     <!-- Crafting tier filter chips -->
-    <string name="crafting_tier_adamantite">Adamantite</string>
-    <string name="crafting_tier_bronze">Bronze</string>
+    <string name="crafting_tier_adamantite">Bessemer</string>
+    <string name="crafting_tier_bronze">Brass</string>
     <string name="crafting_tier_gold">Gold</string>
     <string name="crafting_tier_iron">Iron</string>
-    <string name="crafting_tier_magic">Magic</string>
+    <string name="crafting_tier_magic">Explosives</string>
     <string name="crafting_tier_maple">Maple</string>
-    <string name="crafting_tier_mithril">Mithril</string>
+    <string name="crafting_tier_mithril">Damascus</string>
     <string name="crafting_tier_oak">Oak</string>
     <string name="crafting_tier_plank">Plank</string>
     <string name="crafting_tier_platinum">Platinum</string>
     <string name="crafting_tier_redwood">Redwood</string>
-    <string name="crafting_tier_runite">Runite</string>
+    <string name="crafting_tier_runite">Stainless</string>
     <string name="crafting_tier_silver">Silver</string>
     <string name="crafting_tier_steel">Steel</string>
     <string name="crafting_tier_stone">Stone</string>
@@ -1487,9 +1487,9 @@
     <string name="crafting_tier_yew">Yew</string>
 
     <!-- Bone Altar -->
-    <string name="bone_altar_title">Bone Altar</string>
-    <string name="bone_altar_open">Use Altar</string>
-    <string name="bone_altar_select_prompt">Select a bone to bury at the altar</string>
+    <string name="bone_altar_title">Bone Chapel</string>
+    <string name="bone_altar_open">Use Chapel</string>
+    <string name="bone_altar_select_prompt">Select a bone to bury at the chapel</string>
     <string name="bone_altar_tap">Tap to Bury</string>
     <string name="bone_altar_change_bone">Change</string>
     <string name="bone_altar_combo_count" formatted="false">Combo ×%d</string>
@@ -1497,7 +1497,7 @@
     <string name="bone_altar_session_xp" formatted="false">+%s XP this session</string>
     <string name="bone_altar_buried_count" formatted="false">%d buried</string>
     <string name="bone_altar_no_bones">No bones in inventory</string>
-    <string name="bone_altar_cape_awarded">Prayer cape earned!</string>
+    <string name="bone_altar_cape_awarded">Faith cape earned!</string>
 
     <!-- Firemaking rework + ash catalyst + fertilizer -->
     <string name="firemaking_logs_in_inventory">in inventory</string>
@@ -1508,17 +1508,17 @@
     <string name="farming_fertilizer_yield">+%1$d%% yield</string>
     <string name="farming_fertilized">Fertilized</string>
     <string name="catalyst_optional">Ash catalyst (optional)</string>
-    <string name="catalyst_enhanced_output">Produces enhanced potion</string>
-    <string name="catalyst_rune_bonus">%1$d runes per essence</string>
+    <string name="catalyst_enhanced_output">Produces enhanced tonic</string>
+    <string name="catalyst_rune_bonus">%1$d charges per essence</string>
     <string name="catalyst_none">No catalyst</string>
-    <string name="skills_rune_output">Produces %1$d runes</string>
+    <string name="skills_rune_output">Produces %1$d charges</string>
 
     <!-- Construction skill -->
-    <string name="skill_construction_name">Construction</string>
-    <string name="skill_construction_desc">Build furniture using planks and nails to gain XP. Higher Construction levels let you upgrade the town\'s buildings for permanent bonuses.</string>
+    <string name="skill_construction_name">Homesteading</string>
+    <string name="skill_construction_desc">Build furniture using planks and nails to gain XP. Higher Homesteading levels let you upgrade the town\'s buildings for permanent bonuses.</string>
 
     <!-- Thieving skill -->
-    <string name="skill_thieving_name">Thieving</string>
+    <string name="skill_thieving_name">Outlawry</string>
     <string name="skill_thieving_desc">Pickpocket NPCs each session. Success chance depends on your level vs the target. Failed attempts earn nothing that minute. Better lockpicks raise both success chance and XP. Higher tiers drop rare items and large coin purses.</string>
     <string name="thieving_npc_detail">Lv. %1$d • %2$d XP • %3$d%% success</string>
     <string name="thieving_npc_coins">%1$d–%2$d coins per success</string>
@@ -1531,7 +1531,7 @@
     <string name="thieving_npc_noble_name">Noble</string>
     <string name="thieving_npc_city_guard_name">City Guard</string>
     <string name="thieving_npc_royal_guard_name">Royal Guard</string>
-    <string name="thieving_npc_knight_name">Knight</string>
+    <string name="thieving_npc_knight_name">Lawman</string>
     <string name="thieving_npc_bishop_name">Bishop</string>
     <string name="thieving_npc_high_priest_name">High Priest</string>
 
@@ -1543,13 +1543,13 @@
     <string name="town_building_current_tier">Tier %1$d / %2$d</string>
     <string name="town_building_maxed_label">Fully Upgraded</string>
     <string name="town_upgrade_next_label">Next Upgrade</string>
-    <string name="town_upgrade_constr_req">Construction Lv. %1$d required</string>
+    <string name="town_upgrade_constr_req">Homesteading Lv. %1$d required</string>
     <string name="town_upgrade_cost">Cost: %1$s coins</string>
     <string name="town_builder_discount">Builder\'s discount: %1$d%% off</string>
     <string name="town_upgrade_materials_header">Materials:</string>
     <string name="town_upgrade_btn">Upgrade</string>
     <string name="town_upgrade_success">Building upgraded!</string>
-    <string name="town_upgrade_fail_level">Need Construction Lv. %1$d</string>
+    <string name="town_upgrade_fail_level">Need Homesteading Lv. %1$d</string>
     <string name="town_upgrade_fail_coins">Not enough coins</string>
     <string name="town_upgrade_fail_mats">Missing materials</string>
     <string name="town_inn_active_bonus">+%1$d%% Worker XP per session</string>
@@ -1590,28 +1590,28 @@
     <string name="elder_isle_title">Elder Isle</string>
     <string name="elder_isle_sail_title">Sail to Elder Isle</string>
     <string name="elder_isle_zone_beach">Beach &amp; Cliffs</string>
-    <string name="elder_isle_zone_forest">Ancient Forest</string>
-    <string name="elder_isle_zone_volcano">Volcano Peak</string>
-    <string name="elder_isle_zone_abyss">Abyssal Depths</string>
+    <string name="elder_isle_zone_forest">Redwood Forest</string>
+    <string name="elder_isle_zone_volcano">Devil\'s Peak</string>
+    <string name="elder_isle_zone_abyss">Bottomless Mine</string>
     <string name="elder_isle_zone_locked">Locked</string>
     <string name="elder_isle_coming_soon">Elder Isle is barely charted. Return once the isle has been built out.</string>
-    <string name="elder_isle_boss_sea_serpent">Sea Serpent</string>
+    <string name="elder_isle_boss_sea_serpent">Mississippi River Serpent</string>
     <string name="elder_isle_set_sail">Set sail for Elder Isle</string>
     <string name="elder_isle_return">Return to the mainland</string>
     <string name="elder_isle_sail_blocked_by_session">Finish your active session before setting sail.</string>
     <string name="elder_isle_sail_blocked_locked">Elder Isle is not yet unlocked.</string>
-    <string name="elder_isle_sail_blocked_serpent">The Sea Serpent guards the passage. Defeat it to reach Elder Isle.</string>
+    <string name="elder_isle_sail_blocked_serpent">The Mississippi River Serpent guards the passage. Defeat it to reach Elder Isle.</string>
     <string name="elder_isle_dock_unlocked_title">The Dock stands ready</string>
-    <string name="elder_isle_dock_unlocked_body">The pier is complete and the boats are waiting, but no crew will make the crossing until the Sea Serpent that has drowned every prior voyage lies dead. Find it in the mainland Combat tab under Bosses. The passage opens the moment it falls.</string>
-    <string name="elder_isle_dock_unlocked_cta">Face the Sea Serpent</string>
+    <string name="elder_isle_dock_unlocked_body">The pier is complete and the boats are waiting, but no crew will make the crossing until the Mississippi River Serpent that has drowned every prior voyage lies dead. Find it in the mainland Combat tab under Bosses. The passage opens the moment it falls.</string>
+    <string name="elder_isle_dock_unlocked_cta">Face the Mississippi River Serpent</string>
     <string name="elder_isle_dock_unlocked_later">Later</string>
     <string name="boss_masked_name">\?\?\?</string>
     <string name="boss_last_elder_masked_desc">Something ancient stirs at the bottom of the isle. Assemble the full Elder set to face it.</string>
     <string name="elder_isle_welcome_title">Landfall on Elder Isle</string>
-    <string name="elder_isle_welcome_body">The salt spray fades and the fog lifts. Ahead: a bone-white shore, a jungle laced with pale runes, and further in, smoke curling from a peak that shouldn\'t be smoking. The old sailors were right. Something ancient still lives here.\n\nYour mainland skills, boosts, and gear stay on the ship. Everything you level or craft on the isle grows a separate track of its own. Elder gear will carry back to the mainland; mainland power will not carry here.\n\nStart with the Skills tab. Head to Mining or Woodcutting to gather isle materials. Then check the Quests tab for your first objective, and open the Lore Master in town whenever a new fragment unlocks.</string>
+    <string name="elder_isle_welcome_body">The salt spray fades and the fog lifts. Ahead: a bone-white shore, a jungle laced with pale charges, and further in, smoke curling from a peak that shouldn\'t be smoking. The old sailors were right. Something ancient still lives here.\n\nYour mainland skills, boosts, and gear stay on the ship. Everything you level or craft on the isle grows a separate track of its own. Elder gear will carry back to the mainland; mainland power will not carry here.\n\nStart with the Skills tab. Head to Mining or Lumberjacking to gather isle materials. Then check the Quests tab for your first objective, and open the Lore Master in town whenever a new fragment unlocks.</string>
     <string name="elder_isle_welcome_cta">Step ashore</string>
     <string name="elder_isle_stub_skills">Elder skills are being charted. Full skill tracks arrive in a later build.</string>
-    <string name="elder_isle_stub_combat">Elder dungeons and the Last Elder fight are being drawn up. Later build.</string>
+    <string name="elder_isle_stub_combat">Elder dungeons and the Last Shaman fight are being drawn up. Later build.</string>
     <string name="elder_isle_stub_quests">Isle quests will appear here once the story chain lands.</string>
     <string name="elder_isle_stub_profile">Isle stats and gear layout land with the skill-tracks build.</string>
     <string name="elder_isle_skills_title">Elder Skills</string>
@@ -1626,10 +1626,10 @@
     <string name="elder_isle_combat_title">Elder Dungeons</string>
     <string name="elder_isle_profile_title">Isle Profile</string>
     <string name="elder_isle_dungeon_beach">Beach &amp; Cliffs</string>
-    <string name="elder_isle_dungeon_forest">Ancient Forest</string>
-    <string name="elder_isle_dungeon_volcano">Volcano Peak</string>
-    <string name="elder_isle_dungeon_abyss">Abyssal Depths</string>
-    <string name="elder_isle_dungeon_boss">The Last Elder</string>
+    <string name="elder_isle_dungeon_forest">Redwood Forest</string>
+    <string name="elder_isle_dungeon_volcano">Devil\'s Peak</string>
+    <string name="elder_isle_dungeon_abyss">Bottomless Mine</string>
+    <string name="elder_isle_dungeon_boss">The Last Shaman</string>
     <string name="elder_isle_tab_dungeons">Dungeons</string>
     <string name="elder_isle_tab_bosses">Bosses</string>
     <string name="elder_isle_shop_title">Isle Shop</string>
@@ -1651,14 +1651,14 @@
     <string name="elder_armor_sigil_embed">Embed</string>
     <string name="elder_armor_sigil_remove">Remove</string>
     <string name="elder_armor_pick_stone">Pick a sigil stone</string>
-    <string name="item_mythrite_ore_name">Mythrite Ore</string>
+    <string name="item_mythrite_ore_name">Quartz Ore</string>
     <string name="item_abyssal_ore_name">Abyssal Ore</string>
-    <string name="item_voidsteel_ore_name">Voidsteel Ore</string>
-    <string name="item_starforged_ore_name">Starforged Ore</string>
-    <string name="item_mythrite_bar_name">Mythrite Bar</string>
+    <string name="item_voidsteel_ore_name">Black Gold Ore</string>
+    <string name="item_starforged_ore_name">Meteorite Ore</string>
+    <string name="item_mythrite_bar_name">Quartz Bar</string>
     <string name="item_abyssal_bar_name">Abyssal Bar</string>
-    <string name="item_voidsteel_bar_name">Voidsteel Bar</string>
-    <string name="item_starforged_bar_name">Starforged Bar</string>
+    <string name="item_voidsteel_bar_name">Black Gold Bar</string>
+    <string name="item_starforged_bar_name">Meteorite Bar</string>
     <string name="item_coastal_pine_log_name">Coastal Pine Log</string>
     <string name="item_grove_oak_log_name">Grove Oak Log</string>
     <string name="item_abyssal_log_name">Abyssal Log</string>
@@ -1684,20 +1684,20 @@
 
     <!-- Elder Isle: crafted armor pieces (tier progression Coastal → Grove → Volcanic → Elder) -->
     <string name="item_coastal_helm_name">Coastal Helm</string>
-    <string name="item_coastal_platebody_name">Coastal Platebody</string>
-    <string name="item_coastal_platelegs_name">Coastal Platelegs</string>
+    <string name="item_coastal_platebody_name">Coastal Duster</string>
+    <string name="item_coastal_platelegs_name">Coastal Chaps</string>
     <string name="item_coastal_boots_name">Coastal Boots</string>
     <string name="item_grove_helm_name">Grove Helm</string>
-    <string name="item_grove_platebody_name">Grove Platebody</string>
-    <string name="item_grove_platelegs_name">Grove Platelegs</string>
+    <string name="item_grove_platebody_name">Grove Duster</string>
+    <string name="item_grove_platelegs_name">Grove Chaps</string>
     <string name="item_grove_boots_name">Grove Boots</string>
     <string name="item_volcanic_helm_name">Volcanic Helm</string>
-    <string name="item_volcanic_platebody_name">Volcanic Platebody</string>
-    <string name="item_volcanic_platelegs_name">Volcanic Platelegs</string>
+    <string name="item_volcanic_platebody_name">Volcanic Duster</string>
+    <string name="item_volcanic_platelegs_name">Volcanic Chaps</string>
     <string name="item_volcanic_boots_name">Volcanic Boots</string>
     <string name="item_elder_helm_name">Elder Helm</string>
-    <string name="item_elder_platebody_name">Elder Platebody</string>
-    <string name="item_elder_platelegs_name">Elder Platelegs</string>
+    <string name="item_elder_platebody_name">Elder Duster</string>
+    <string name="item_elder_platelegs_name">Elder Chaps</string>
     <string name="item_elder_boots_name">Elder Boots</string>
     <string name="item_elder_cape_name">Elder Cape</string>
     <string name="item_elder_shield_name">Elder Shield</string>
@@ -1724,10 +1724,10 @@
     <string name="item_elder_familiar_name">Elder Familiar</string>
 
     <!-- Elder Isle: ore descriptions -->
-    <string name="item_mythrite_ore_desc">Silvery isle ore. Smelts into Mythrite Bars, the base metal of the Coastal armor tier.</string>
+    <string name="item_mythrite_ore_desc">Silvery isle ore. Smelts into Quartz Bars, the base metal of the Coastal armor tier.</string>
     <string name="item_abyssal_ore_desc">Dark isle ore laced with pressure-cracked veins. Smelts into Abyssal Bars for Grove-tier gear.</string>
-    <string name="item_voidsteel_ore_desc">Isle ore that hums faintly under pressure. Smelts into Voidsteel Bars for Volcanic-tier gear.</string>
-    <string name="item_starforged_ore_desc">The isle\'s rarest ore, said to be shed from the seal itself. Smelts into Starforged Bars for the Elder set.</string>
+    <string name="item_voidsteel_ore_desc">Isle ore that hums faintly under pressure. Smelts into Black Gold Bars for Volcanic-tier gear.</string>
+    <string name="item_starforged_ore_desc">The isle\'s rarest ore, said to be shed from the seal itself. Smelts into Meteorite Bars for the Elder set.</string>
     <string name="town_chronos_spire_no_bonus">Upgrade to reduce player session durations</string>
     <string name="town_chronos_spire_active_bonus">%1$d%% reduction to player session durations</string>
 
@@ -1766,11 +1766,11 @@
     <string name="carnival_shop_tab">Prize Shop</string>
     <string name="carnival_idle_hint">Queue a session to earn tickets. A higher relevant skill level means more tickets per session.</string>
     <string name="carnival_archery_range">Archery Range</string>
-    <string name="carnival_idle_desc_archery">Shoot at moving targets. Ranged level boosts ticket yield.</string>
+    <string name="carnival_idle_desc_archery">Shoot at moving targets. Thrown &amp; Blades level boosts ticket yield.</string>
     <string name="carnival_strongman_competition">Strongman Competition</string>
-    <string name="carnival_idle_desc_strongman">Lift stones and swing hammers. Strength level boosts ticket yield.</string>
-    <string name="carnival_wizards_duel">Wizard\'s Duel</string>
-    <string name="carnival_idle_desc_wizard">Cast illusion spells against rival mages. Magic level boosts ticket yield.</string>
+    <string name="carnival_idle_desc_strongman">Lift stones and swing hammers. Long guns level boosts ticket yield.</string>
+    <string name="carnival_wizards_duel">Quack\'s Duel</string>
+    <string name="carnival_idle_desc_wizard">Cast illusion tricks against rival demolitionists. Explosives level boosts ticket yield.</string>
     <string name="carnival_fishing_derby">Fishing Derby</string>
     <string name="carnival_idle_desc_fishing">Catch the biggest fish in the carnival pond. Fishing level boosts ticket yield.</string>
     <string name="carnival_skill_level">%1$s Lv.%2$d</string>
@@ -1787,8 +1787,8 @@
     <string name="carnival_hammer_good_zone">Good</string>
     <string name="carnival_hammer_perfect_zone">Perfect!</string>
     <string name="carnival_strike">Strike!</string>
-    <string name="carnival_potion_sequence">Potion Sequence</string>
-    <string name="carnival_active_sequence_desc">Watch the potion colours and tap them back in the same order.</string>
+    <string name="carnival_potion_sequence">Tonic Sequence</string>
+    <string name="carnival_active_sequence_desc">Watch the tonic colours and tap them back in the same order.</string>
     <string name="carnival_sequence_watch">Watch the sequence…</string>
     <string name="carnival_sequence_input">Tap colour %1$d of %2$d</string>
     <string name="carnival_item_appraisal">Item Appraisal</string>
@@ -1851,9 +1851,9 @@
     <string name="farming_bean_climbed">You have climbed the beanstalk. A serpent\'s hiss catches your attention…</string>
     <string name="farming_bean_climbed_title">Beanstalk Climbed!</string>
     <string name="farming_bean_unlock_hint">New dungeon unlocked: %1$s. Find it under Combat, in the Dungeons list.</string>
-    <string name="farming_bean_cleared">The Magic Bean was returned to your inventory.</string>
+    <string name="farming_bean_cleared">The Jumping Bean was returned to your inventory.</string>
     <string name="farming_bean_picker_stats" translatable="false">\?\?\?  •  \?\?\?  •  \?\?\?</string>
-    <string name="farming_magic_bean_one_plot">Magic Beans can only be planted in one plot</string>
+    <string name="farming_magic_bean_one_plot">Jumping Beans can only be planted in one plot</string>
 
     <!-- ===== Armory Tab ===== -->
     <string name="armory_tab">Armory</string>
@@ -1871,35 +1871,35 @@
     <string name="armory_filter_accessories">Accessories</string>
     <string name="armory_filter_tools">Tools</string>
     <string name="armory_sort_default">Default</string>
-    <string name="armory_sort_attack">Attack</string>
-    <string name="armory_sort_strength">Strength</string>
+    <string name="armory_sort_attack">Handguns</string>
+    <string name="armory_sort_strength">Long guns</string>
     <string name="armory_sort_defense">Defense</string>
     <string name="armory_sort_requirement">Requirement</string>
     <string name="armory_progress_bar">obtained</string>
     <string name="armory_stat_mining">Mining Efficiency</string>
-    <string name="armory_stat_woodcutting">Woodcutting Efficiency</string>
+    <string name="armory_stat_woodcutting">Lumberjacking Efficiency</string>
     <string name="armory_stat_fishing">Fishing Efficiency</string>
     <string name="armory_stat_farming">Farming Efficiency</string>
-    <string name="armory_stat_smithing">Smithing Efficiency</string>
-    <string name="armory_stat_firemaking">Firemaking Efficiency</string>
-    <string name="armory_stat_agility">Agility Efficiency</string>
+    <string name="armory_stat_smithing">Gunsmithing Efficiency</string>
+    <string name="armory_stat_firemaking">Campfire Efficiency</string>
+    <string name="armory_stat_agility">Horse Riding Efficiency</string>
     <string name="armory_stat_cooking">Cooking Efficiency</string>
-    <string name="armory_stat_thieving">Thieving Efficiency</string>
-    <string name="armory_stat_attack">Attack Bonus</string>
-    <string name="armory_stat_strength">Strength Bonus</string>
+    <string name="armory_stat_thieving">Outlawry Efficiency</string>
+    <string name="armory_stat_attack">Handguns Bonus</string>
+    <string name="armory_stat_strength">Long guns Bonus</string>
     <string name="armory_stat_defense">Defense Bonus</string>
-    <string name="armory_stat_ranged_atk">Ranged Attack</string>
-    <string name="armory_stat_ranged_str">Ranged Strength</string>
-    <string name="armory_stat_magic_atk">Magic Attack</string>
-    <string name="armory_stat_magic_dmg">Magic Damage</string>
-    <string name="armory_stat_attack_speed">Attack Speed</string>
+    <string name="armory_stat_ranged_atk">Thrown &amp; Blades Handguns</string>
+    <string name="armory_stat_ranged_str">Thrown &amp; Blades Long guns</string>
+    <string name="armory_stat_magic_atk">Explosives Accuracy</string>
+    <string name="armory_stat_magic_dmg">Explosives Damage</string>
+    <string name="armory_stat_attack_speed">Handguns Speed</string>
     <string name="armory_stat_cape">XP Bonus</string>
     <string name="armory_stat_cape_yield">Yield Bonus</string>
     <string name="armory_stat_cape_boost">Boost Bonus</string>
     <string name="armory_source_carnival">Carnival Prize Shop</string>
-    <string name="armory_source_smithing">Smithing</string>
-    <string name="armory_source_crafting">Crafting</string>
-    <string name="armory_source_fletching">Fletching</string>
+    <string name="armory_source_smithing">Gunsmithing</string>
+    <string name="armory_source_crafting">Leatherworking</string>
+    <string name="armory_source_fletching">Ammo Reloading</string>
     <string name="armory_source_prestige_locked">%1$s (requires prestige perk %2$s, %3$s only)</string>
     <string name="armory_source_prestige_locked_any">%1$s (requires prestige perk %2$s)</string>
     <string name="armory_source_drop_always">Dropped by %1$s (Always)</string>
@@ -1913,14 +1913,14 @@
 
     <!-- Session / queue messages (issue #596) -->
     <string name="skill_no_logs">No logs in inventory</string>
-    <string name="skill_not_enough_rune_essence">Not enough Rune Essence</string>
+    <string name="skill_not_enough_rune_essence">Not enough Saltpeter</string>
     <string name="skill_not_enough_item">Not enough %1$s</string>
     <string name="skill_not_enough_materials">Not enough materials</string>
     <string name="skill_session_start_failed">Failed to start session: %1$s</string>
     <string name="skill_added_to_queue_activity">Added to queue: %1$s — %2$s.</string>
     <string name="worker_already_busy">Worker is already busy.</string>
     <string name="worker_not_enough_logs">Not enough logs.</string>
-    <string name="worker_not_enough_rune_essence">Not enough Rune Essence.</string>
+    <string name="worker_not_enough_rune_essence">Not enough Saltpeter.</string>
     <string name="worker_not_enough_materials">Not enough materials.</string>
     <string name="shop_no_junk">No junk to sell</string>
     <string name="shop_sold_junk">Sold junk for %1$s coins</string>
@@ -1940,14 +1940,14 @@
     <string name="quest_complete_notification">Quest complete: %1$s!</string>
     <string name="quest_complete_with_rewards">Quest complete: %1$s! Claimed: %2$s</string>
     <string name="quest_daily_complete_coins">Daily quest complete! +%1$s coins</string>
-    <string name="quest_daily_complete_dwarven">Daily quest complete! You found dwarven gear!</string>
+    <string name="quest_daily_complete_dwarven">Daily quest complete! You found Pittsburgh gear!</string>
     <string name="quest_weekly_complete">Weekly challenge complete! +%1$s coins</string>
     <string name="quest_weekly_bonus_complete_coins">All weekly challenges complete! +%1$s coins</string>
-    <string name="quest_weekly_bonus_complete_divine">All weekly challenges complete! You found divine gear!</string>
+    <string name="quest_weekly_bonus_complete_divine">All weekly challenges complete! You found engraved gear!</string>
     <string name="guild_contributed_items">Contributed %1$d items.</string>
     <string name="mercantile_not_enough_coins">Not enough coins (need %1$s coins).</string>
     <string name="mercantile_route_start_failed">Failed to start route: %1$s</string>
-    <string name="mercantile_added_to_queue">Added to queue: Mercantile — %1$s.</string>
+    <string name="mercantile_added_to_queue">Added to queue: Trading Post — %1$s.</string>
     <string name="inventory_requires_to_equip">Requires %1$s to equip.</string>
     <string name="home_found_pet">You found a pet: %1$s!</string>
     <string name="pet_found_title">New Pet!</string>
@@ -1979,8 +1979,8 @@
     <string name="combat_start_failed">Could not start: %1$s</string>
     <string name="skill_session_voided_prestige">Your %1$s level no longer meets this session\'s requirement (likely from prestiging) — its rewards were voided and any materials used were refunded.</string>
     <string name="combat_session_voided_prestige">Your level dropped after prestiging, so this session\'s XP was forfeited. All other rewards were granted.</string>
-    <string name="combat_select_spell">Select a spell before entering.</string>
-    <string name="combat_spell_level_required">Need Magic %1$d for %2$s.</string>
+    <string name="combat_select_spell">Select a trick before entering.</string>
+    <string name="combat_spell_level_required">Need Explosives %1$d for %2$s.</string>
     <string name="guild_daily_reward_claimed">Daily reward claimed!</string>
     <string name="reward_part_coins">+%1$s coins</string>
     <string name="reward_part_coins_plain">%1$s coins</string>
@@ -2003,7 +2003,7 @@
     <string name="monument_stage_2_reward">Unlocks the daily monument touch</string>
     <string name="monument_stage_3_reward">Church blessings last 6 hours longer</string>
     <string name="monument_stage_4_reward" formatted="false">+1 action queue slot, and the Golden Goose takes roost (+10% coin drops)</string>
-    <string name="monument_stage_5_reward">Unlocks the Vault Guardian boss and the Patron of the Realm title</string>
+    <string name="monument_stage_5_reward">Unlocks the Wells Fargo Iron Safe boss and the Patron of the Frontier title</string>
     <string name="monument_built">Built</string>
     <string name="monument_build_btn">Build (%1$s)</string>
     <string name="monument_contribute_label">Feed the Eternal Flame</string>
@@ -2019,17 +2019,17 @@
     <string name="monument_touch_blessing_extended">The Monument extends your blessing by two hours.</string>
     <string name="monument_touch_items">The Monument grants: %1$s</string>
     <string name="monument_contributed">The flame grows brighter!</string>
-    <string name="monument_flame_lit">The Eternal Flame is lit! The Vault Guardian awaits.</string>
+    <string name="monument_flame_lit">The Eternal Flame is lit! The Wells Fargo Iron Safe awaits.</string>
     <string name="monument_stage_built">Stage complete!</string>
     <string name="monument_goose_joined">Stage complete! The Golden Goose takes roost.</string>
     <string name="monument_not_enough_coins">Not enough coins.</string>
-    <string name="title_patron_of_the_realm_name">Patron of the Realm</string>
+    <string name="title_patron_of_the_realm_name">Patron of the Frontier</string>
     <string name="title_patron_of_the_realm_requirement">Complete the Grand Monument</string>
     <string name="title_isle_champion_name">Champion of the Elder Isle</string>
-    <string name="title_isle_champion_requirement">Defeat the Last Elder on Elder Isle</string>
-    <string name="item_gilded_full_helmet_name">Gilded Full Helmet</string>
-    <string name="item_gilded_platebody_name">Gilded Platebody</string>
-    <string name="item_gilded_kiteshield_name">Gilded Kiteshield</string>
+    <string name="title_isle_champion_requirement">Defeat the Last Shaman on Elder Isle</string>
+    <string name="item_gilded_full_helmet_name">Gilded Full Hat</string>
+    <string name="item_gilded_platebody_name">Gilded Duster</string>
+    <string name="item_gilded_kiteshield_name">Gilded Iron Vest</string>
     <string name="boss_coin_cap_remaining">Full coin drops left today for this boss: %1$d</string>
     <string name="boss_coin_cap_spent">This boss\'s coin drops are reduced until tomorrow</string>
     <string name="bestiary_coin_cap_label">After %1$d kills/day</string>
@@ -2107,9 +2107,9 @@
     <string name="tower_milestone_coins_100k">100,000 coins</string>
     <string name="tower_milestone_legs_set">%1$s (defense +125) + %2$s (defense +58) + %3$s (defense +125)</string>
     <string name="tower_milestone_sword">%1$s (attack +72, strength +75)</string>
-    <string name="tower_milestone_cape">%1$s (attack/str/def +14, ranged/magic +12) + 500,000 coins</string>
+    <string name="tower_milestone_cape">%1$s (attack/str/def +14, ranged/explosives +12) + 500,000 coins</string>
     <string name="tower_milestone_crossbow">%1$s (ranged attack +78, ranged strength +52)</string>
-    <string name="tower_milestone_staff">%1$s (magic attack +68, magic damage +18, infinite runes) + 1,000,000 coins</string>
+    <string name="tower_milestone_staff">%1$s (explosives attack +68, explosives damage +18, infinite charges) + 1,000,000 coins</string>
     <string name="tower_enemies_this_floor">Enemies</string>
     <string name="tower_enemy_strength">Enemy strength: %1$s%%</string>
     <string name="tower_entry_card_desc">Endless floors. How far can you climb?</string>
@@ -2146,28 +2146,28 @@
     <string name="seasonal_bounty_reroll">Reroll bounty</string>
     <string name="seasonal_bounty_reroll_confirm">Swap this bounty for a different one for %1$s coins? Progress on it is lost.</string>
     <string name="seasonal_go">Go</string>
-    <string name="seasonal_event_sunspire_solstice_2026_name">Sunspire Solstice</string>
-    <string name="seasonal_event_sunspire_solstice_2026_banner">Participated in the Sunspire Solstice 2026</string>
+    <string name="seasonal_event_sunspire_solstice_2026_name">Sun Mesa Solstice</string>
+    <string name="seasonal_event_sunspire_solstice_2026_banner">Participated in Sun Mesa Solstice 2026</string>
     <string name="seasonal_minigame_bonfire_rhythm_name">Bonfire Rhythm</string>
-    <string name="seasonal_reward_sunspire_solstice_2026_100_desc">Sunspire Solstice 2026 banner</string>
+    <string name="seasonal_reward_sunspire_solstice_2026_100_desc">Sun Mesa Solstice 2026 banner</string>
     <string name="seasonal_bounty_sunspire_firewood_name">Bring firewood for the bonfire</string>
-    <string name="seasonal_bounty_sunspire_firewood_hint">Chop Oak Logs — Woodcutting</string>
+    <string name="seasonal_bounty_sunspire_firewood_hint">Chop Oak Logs — Lumberjacking</string>
     <string name="seasonal_bounty_sunspire_kindling_name">Gather kindling for the bonfire</string>
-    <string name="seasonal_bounty_sunspire_kindling_hint">Chop Willow Logs — Woodcutting</string>
+    <string name="seasonal_bounty_sunspire_kindling_hint">Chop Willow Logs — Lumberjacking</string>
     <string name="seasonal_bounty_sunspire_sunore_name">Mine gold to gild the sun-tower</string>
     <string name="seasonal_bounty_sunspire_sunore_hint">Mine Gold Ore — Mining</string>
-    <string name="seasonal_bounty_sunspire_draughts_name">Brew Strength Potions</string>
-    <string name="seasonal_bounty_sunspire_draughts_hint">Herblore</string>
-    <string name="seasonal_bounty_sunspire_embers_brew_name">Brew Attack Potions for the solstice watch</string>
-    <string name="seasonal_bounty_sunspire_embers_brew_hint">Herblore</string>
-    <string name="seasonal_bounty_sunspire_sunfire_arrows_name">Fletch Mithril arrows to hold back the wisps</string>
-    <string name="seasonal_bounty_sunspire_sunfire_arrows_hint">Fletching</string>
+    <string name="seasonal_bounty_sunspire_draughts_name">Brew Long guns Tonics</string>
+    <string name="seasonal_bounty_sunspire_draughts_hint">Moonshining</string>
+    <string name="seasonal_bounty_sunspire_embers_brew_name">Brew Handguns Tonics for the solstice watch</string>
+    <string name="seasonal_bounty_sunspire_embers_brew_hint">Moonshining</string>
+    <string name="seasonal_bounty_sunspire_sunfire_arrows_name">Fletch Damascus arrows to hold back the wisps</string>
+    <string name="seasonal_bounty_sunspire_sunfire_arrows_hint">Ammo Reloading</string>
     <string name="seasonal_bounty_sunspire_wisps_name">Drive off Sun Wisps</string>
-    <string name="seasonal_bounty_sunspire_wisps_hint">Only found in The Sunspire Expedition</string>
+    <string name="seasonal_bounty_sunspire_wisps_hint">Only found in Sun Mesa Expedition</string>
     <string name="seasonal_bounty_sunspire_hounds_name">Drive off Ember Hounds</string>
-    <string name="seasonal_bounty_sunspire_hounds_hint">Only found in The Sunspire Expedition</string>
+    <string name="seasonal_bounty_sunspire_hounds_hint">Only found in Sun Mesa Expedition</string>
     <string name="seasonal_bounty_sunspire_colossus_name">Topple Cinder Colossi</string>
-    <string name="seasonal_bounty_sunspire_colossus_hint">Only found in The Sunspire Expedition — rare</string>
+    <string name="seasonal_bounty_sunspire_colossus_hint">Only found in Sun Mesa Expedition — rare</string>
     <string name="seasonal_rewards_title">Rewards</string>
     <string name="seasonal_reward_tier_requirement">%1$d tokens</string>
     <string name="seasonal_reward_claimed">Claimed</string>
@@ -2203,31 +2203,31 @@
     <string name="seasonal_bounty_gloom_corn_name">Bring in the corn harvest</string>
     <string name="seasonal_bounty_gloom_corn_hint">Grow Corn (Farming)</string>
     <string name="seasonal_bounty_gloom_maples_name">Chop maple wood for the pyres</string>
-    <string name="seasonal_bounty_gloom_maples_hint">Chop Maple Logs (Woodcutting)</string>
+    <string name="seasonal_bounty_gloom_maples_hint">Chop Maple Logs (Lumberjacking)</string>
     <string name="seasonal_bounty_gloom_swordfish_name">Land swordfish for the feast</string>
     <string name="seasonal_bounty_gloom_swordfish_hint">Fish Raw Swordfish (Fishing)</string>
-    <string name="seasonal_bounty_gloom_mithril_name">Mine mithril to ward the gates</string>
-    <string name="seasonal_bounty_gloom_mithril_hint">Mine Mithril Ore (Mining)</string>
-    <string name="seasonal_bounty_gloom_brews_name">Brew Defense Potions for the night watch</string>
-    <string name="seasonal_bounty_gloom_brews_hint">Herblore</string>
+    <string name="seasonal_bounty_gloom_mithril_name">Mine Damascus to ward the gates</string>
+    <string name="seasonal_bounty_gloom_mithril_hint">Mine Damascus Ore (Mining)</string>
+    <string name="seasonal_bounty_gloom_brews_name">Brew Defense Tonics for the night watch</string>
+    <string name="seasonal_bounty_gloom_brews_hint">Moonshining</string>
     <string name="seasonal_bounty_gloom_shortbows_name">Fletch Maple Shortbows for the wardens</string>
-    <string name="seasonal_bounty_gloom_shortbows_hint">Fletching</string>
+    <string name="seasonal_bounty_gloom_shortbows_hint">Ammo Reloading</string>
     <string name="seasonal_bounty_gloom_feast_name">Cook swordfish for the harvest feast</string>
     <string name="seasonal_bounty_gloom_feast_hint">Cooking</string>
-    <string name="seasonal_bounty_gloom_bars_name">Smelt adamantite for grave-iron</string>
-    <string name="seasonal_bounty_gloom_bars_hint">Smithing</string>
-    <string name="seasonal_bounty_gloom_runes_name">Craft Death Runes to quiet the spirits</string>
-    <string name="seasonal_bounty_gloom_runes_hint">Runecrafting</string>
+    <string name="seasonal_bounty_gloom_bars_name">Smelt Bessemer for grave-iron</string>
+    <string name="seasonal_bounty_gloom_bars_hint">Gunsmithing</string>
+    <string name="seasonal_bounty_gloom_runes_name">Craft Death Charges to quiet the spirits</string>
+    <string name="seasonal_bounty_gloom_runes_hint">Powder Mixing</string>
     <string name="seasonal_bounty_gloom_wisps_name">Snuff out Will-o\'-Wisps</string>
-    <string name="seasonal_bounty_gloom_wisps_hint">Only found in The Hollowfen</string>
+    <string name="seasonal_bounty_gloom_wisps_hint">Only found in Louisiana Bayou</string>
     <string name="seasonal_bounty_gloom_ghouls_name">Put down Grave Ghouls</string>
-    <string name="seasonal_bounty_gloom_ghouls_hint">Only found in The Hollowfen</string>
+    <string name="seasonal_bounty_gloom_ghouls_hint">Only found in Louisiana Bayou</string>
     <string name="seasonal_bounty_gloom_husks_name">Fell the Husk Horrors</string>
-    <string name="seasonal_bounty_gloom_husks_hint">Only found in The Hollowfen</string>
+    <string name="seasonal_bounty_gloom_husks_hint">Only found in Louisiana Bayou</string>
     <string name="seasonal_bounty_gloom_stalkers_name">Hunt Shade Stalkers</string>
-    <string name="seasonal_bounty_gloom_stalkers_hint">Only found in The Blightwood</string>
+    <string name="seasonal_bounty_gloom_stalkers_hint">Only found in Hangman\'s Woods</string>
     <string name="seasonal_bounty_gloom_wights_name">Topple Barrow Wights</string>
-    <string name="seasonal_bounty_gloom_wights_hint">Only found in The Hollowfen (rare)</string>
+    <string name="seasonal_bounty_gloom_wights_hint">Only found in Louisiana Bayou (rare)</string>
     <string name="seasonal_bounty_gloom_tithe_pumpkins_name">Tithe: donate pumpkins</string>
     <string name="seasonal_bounty_gloom_tithe_pumpkins_hint">Donated straight from your inventory</string>
     <string name="seasonal_bounty_gloom_tithe_maple_name">Tithe: donate maple logs</string>
@@ -2248,7 +2248,7 @@
     <string name="character_title_none">No Title</string>
     <string name="character_name_with_title">%1$s the %2$s</string>
     <string name="title_master_smith_name">Master Smith</string>
-    <string name="title_master_smith_requirement">Complete all Smithing quests</string>
+    <string name="title_master_smith_requirement">Complete all Gunsmithing quests</string>
     <string name="title_head_chef_name">Head Chef</string>
     <string name="title_head_chef_requirement">Complete all Cooking quests</string>
     <string name="title_master_miner_name">Master Miner</string>
@@ -2256,25 +2256,25 @@
     <string name="title_master_angler_name">Master Angler</string>
     <string name="title_master_angler_requirement">Complete all Fishing quests</string>
     <string name="title_master_woodcutter_name">Master Woodcutter</string>
-    <string name="title_master_woodcutter_requirement">Complete all Woodcutting quests</string>
+    <string name="title_master_woodcutter_requirement">Complete all Lumberjacking quests</string>
     <string name="title_master_fletcher_name">Master Fletcher</string>
-    <string name="title_master_fletcher_requirement">Complete all Fletching quests</string>
+    <string name="title_master_fletcher_requirement">Complete all Ammo Reloading quests</string>
     <string name="title_master_artisan_name">Master Artisan</string>
-    <string name="title_master_artisan_requirement">Complete all Crafting quests</string>
-    <string name="title_runemaster_name">Runemaster</string>
-    <string name="title_runemaster_requirement">Complete all Runecrafting quests</string>
+    <string name="title_master_artisan_requirement">Complete all Leatherworking quests</string>
+    <string name="title_runemaster_name">Powder Master</string>
+    <string name="title_runemaster_requirement">Complete all Powder Mixing quests</string>
     <string name="title_master_herbalist_name">Master Herbalist</string>
-    <string name="title_master_herbalist_requirement">Complete all Herblore quests</string>
+    <string name="title_master_herbalist_requirement">Complete all Moonshining quests</string>
     <string name="title_master_builder_name">Master Builder</string>
-    <string name="title_master_builder_requirement">Complete all Construction quests</string>
+    <string name="title_master_builder_requirement">Complete all Homesteading quests</string>
     <string name="title_devout_name">Devout</string>
-    <string name="title_devout_requirement">Complete all Prayer quests</string>
+    <string name="title_devout_requirement">Complete all Faith quests</string>
     <string name="title_master_thief_name">Master Thief</string>
-    <string name="title_master_thief_requirement">Complete all Thieving quests</string>
+    <string name="title_master_thief_requirement">Complete all Outlawry quests</string>
     <string name="title_flamekeeper_name">Flamekeeper</string>
-    <string name="title_flamekeeper_requirement">Complete all Firemaking quests</string>
-    <string name="title_slayer_name">Slayer</string>
-    <string name="title_slayer_requirement">Complete all Slayer quests</string>
+    <string name="title_flamekeeper_requirement">Complete all Campfire quests</string>
+    <string name="title_slayer_name">Bounty Hunting</string>
+    <string name="title_slayer_requirement">Complete all Bounty Hunting quests</string>
     <string name="title_godslayer_name">Godslayer</string>
     <string name="title_godslayer_requirement">Defeat every boss at least once</string>
     <string name="title_warlord_name">Warlord</string>
@@ -2282,11 +2282,11 @@
     <string name="title_marksman_name">Marksman</string>
     <string name="title_marksman_requirement">Reach max level in the Archers Guild</string>
     <string name="title_archmage_name">Archmage</string>
-    <string name="title_archmage_requirement">Reach max level in the Mages Guild</string>
+    <string name="title_archmage_requirement">Reach max level in the Demolitionists Guild</string>
     <string name="title_merchant_prince_name">Merchant Prince</string>
-    <string name="title_merchant_prince_requirement">Reach max level in the Mercantile Guild</string>
+    <string name="title_merchant_prince_requirement">Reach max level in the Trading Post Guild</string>
     <string name="title_pathfinder_name">Pathfinder</string>
-    <string name="title_pathfinder_requirement">Reach max level in the Agility Guild</string>
+    <string name="title_pathfinder_requirement">Reach max level in the Horse Riding Guild</string>
     <string name="title_master_farmer_name">Master Farmer</string>
     <string name="title_master_farmer_requirement">Reach max level in the Farming Guild</string>
     <string name="settings_art_credits">Art Credits</string>
@@ -2308,24 +2308,24 @@
     <string name="home_welcome_title">The %1$s!</string>
 
     <!-- Pet names and descriptions -->
-    <string name="pet_dragon_whelp_name">Dragon Whelp</string>
-    <string name="pet_dragon_whelp_desc">A young dragon that boosts your combat prowess.</string>
-    <string name="pet_imp_pet_name">Imp Pet</string>
-    <string name="pet_imp_pet_desc">A mischievous imp that enhances your prayer training.</string>
-    <string name="pet_baby_kraken_name">Baby Kraken</string>
-    <string name="pet_baby_kraken_desc">A tiny kraken that improves your cooking abilities.</string>
-    <string name="pet_rock_golem_name">Rock Golem</string>
+    <string name="pet_dragon_whelp_name">Grizzly Whelp</string>
+    <string name="pet_dragon_whelp_desc">A young grizzly that boosts your combat prowess.</string>
+    <string name="pet_imp_pet_name">Rattler Pet</string>
+    <string name="pet_imp_pet_desc">A mischievous rattler that enhances your prayer training.</string>
+    <string name="pet_baby_kraken_name">Baby Flathead Lake Monster</string>
+    <string name="pet_baby_kraken_desc">A tiny Flathead Lake Monster that improves your cooking abilities.</string>
+    <string name="pet_rock_golem_name">Rockslide</string>
     <string name="pet_rock_golem_desc">A living rock formation that enhances your mining prowess.</string>
     <string name="pet_ent_name">Ent</string>
-    <string name="pet_ent_desc">An ancient tree spirit that aids your woodcutting.</string>
+    <string name="pet_ent_desc">An ancient tree spirit that aids your lumberjacking.</string>
     <string name="pet_tiny_templar_name">Tiny Templar</string>
     <string name="pet_tiny_templar_desc">A small fish that boosts your fishing expertise.</string>
     <string name="pet_tangleroot_name">Tangleroot</string>
-    <string name="pet_tangleroot_desc">A magical plant creature that enhances your farming.</string>
+    <string name="pet_tangleroot_desc">A volatile plant creature that enhances your farming.</string>
     <string name="pet_baby_balrog_name">Gothic Emberling</string>
-    <string name="pet_baby_balrog_desc">A tiny demon of fire and shadow that enhances your magic.</string>
+    <string name="pet_baby_balrog_desc">A tiny desert Devil of fire and shadow that enhances your explosives.</string>
     <string name="pet_void_wisp_name">Void Wisp</string>
-    <string name="pet_void_wisp_desc">A fragment of the Void Sovereign\'s essence, bound to those who bested its master. Amplifies combat experience.</string>
+    <string name="pet_void_wisp_desc">A fragment of the Headless Horseman\'s essence, bound to those who bested its master. Amplifies combat experience.</string>
     <string name="pet_graceling_sprite_name">Graceling Sprite</string>
     <string name="pet_graceling_sprite_desc">A nimble fairy born from thousands of laps run in silence. Guides your feet with uncanny grace.</string>
     <string name="pet_shadow_fox_name">Shadow Fox</string>
@@ -2333,27 +2333,27 @@
     <string name="pet_ember_moth_name">Ember Moth</string>
     <string name="pet_ember_moth_desc">Drawn to flame for so long it became one. Its wings shimmer with residual heat.</string>
     <string name="pet_herb_wisp_name">Herb Wisp</string>
-    <string name="pet_herb_wisp_desc">A spirit born from the vapour of a thousand brewed potions. Its presence sharpens the mind.</string>
-    <string name="pet_rune_sprite_name">Rune Sprite</string>
-    <string name="pet_rune_sprite_desc">A crystallised fragment of magical energy that escaped the Runecrafting altar.</string>
+    <string name="pet_herb_wisp_desc">A spirit born from the vapour of a thousand brewed tonics. Its presence sharpens the mind.</string>
+    <string name="pet_rune_sprite_name">Charge Sprite</string>
+    <string name="pet_rune_sprite_desc">A crystallised fragment of volatile energy that escaped the Powder Mixing chapel.</string>
     <string name="pet_gem_golem_name">Gem Golem</string>
     <string name="pet_gem_golem_desc">A tiny creature sculpted from gem shards and polishing dust. Keeps your tools sharp.</string>
     <string name="pet_feather_drake_name">Feather Drake</string>
-    <string name="pet_feather_drake_desc">A miniature dragon made entirely of arrow fletching. Surprisingly aerodynamic.</string>
-    <string name="pet_forge_imp_name">Forge Imp</string>
-    <string name="pet_forge_imp_desc">A mischievous imp that lives inside the forge. Its heat-hardened hide is impervious to burns.</string>
+    <string name="pet_feather_drake_desc">A miniature grizzly made entirely of arrow ammo reloading. Surprisingly aerodynamic.</string>
+    <string name="pet_forge_imp_name">Forge Rattler</string>
+    <string name="pet_forge_imp_desc">A mischievous rattler that lives inside the forge. Its heat-hardened hide is impervious to burns.</string>
     <string name="pet_coin_drake_name">Coin Drake</string>
-    <string name="pet_coin_drake_desc">A dragon hatchling raised on a diet of gold coins. It has an uncanny nose for profit.</string>
+    <string name="pet_coin_drake_desc">A grizzly hatchling raised on a diet of gold coins. It has an uncanny nose for profit.</string>
     <string name="pet_timber_sprite_name">Timber Sprite</string>
     <string name="pet_timber_sprite_desc">A wood spirit awakened from sawdust and lumber. It knows exactly where every nail should go.</string>
-    <string name="pet_juggling_imp_name">Juggling Imp</string>
-    <string name="pet_juggling_imp_desc" formatted="false">A mischievous imp that juggles your worries away. Boosts all skill XP by 3%.</string>
+    <string name="pet_juggling_imp_name">Juggling Rattler</string>
+    <string name="pet_juggling_imp_desc" formatted="false">A mischievous rattler that juggles your worries away. Boosts all skill XP by 3%.</string>
     <string name="pet_tower_pet_name">Stone Guardian</string>
     <string name="pet_tower_pet_desc">An ancient stone golem that guards the tower\'s secrets. Boosts combat XP.</string>
     <string name="pet_solstice_sprite_name">Solstice Sprite</string>
-    <string name="pet_solstice_sprite_desc">A tiny ember spirit from the Sunspire Solstice event that boosts your combat prowess.</string>
+    <string name="pet_solstice_sprite_desc">A tiny ember spirit from Sun Mesa Solstice event that boosts your combat prowess.</string>
     <string name="pet_lantern_wisp_name">Lantern Wisp</string>
-    <string name="pet_lantern_wisp_desc">A grinning gourd-light that escaped the Hollow King\'s crown and now lights your way to battle.</string>
+    <string name="pet_lantern_wisp_desc">A grinning gourd-light that escaped the Ghost Sheriff\'s crown and now lights your way to battle.</string>
     <string name="pet_grave_sprout_name">Grave Sprout</string>
     <string name="pet_grave_sprout_desc">A stubborn little seedling that took root in a barrow mound. It knows a thing or two about growing.</string>
     <string name="pet_golden_goose_name">Golden Goose</string>
@@ -2363,19 +2363,19 @@
     <string name="pet_tidal_sprite_name">Tidal Sprite</string>
     <string name="pet_tidal_sprite_desc">A shimmering water spirit born from the surf of Beach &amp; Cliffs. Never seems to fully dry.</string>
     <string name="pet_grove_fawn_name">Grove Fawn</string>
-    <string name="pet_grove_fawn_desc">A young forest creature with rune-patterned fur, found among the ancient trees.</string>
+    <string name="pet_grove_fawn_desc">A young forest creature with charge-patterned fur, found among the ancient trees.</string>
     <string name="pet_magma_salamander_name">Magma Salamander</string>
-    <string name="pet_magma_salamander_desc">A heat-forged lizard that thrives in Volcano Peak\'s cracks. Its skin is always faintly warm.</string>
+    <string name="pet_magma_salamander_desc">A heat-forged lizard that thrives in Devil\'s Peak\'s cracks. Its skin is always faintly warm.</string>
     <string name="pet_abyss_wisp_name">Abyss Wisp</string>
-    <string name="pet_abyss_wisp_desc">A cold silver light that drifted up from the Abyssal Depths and refused to sink back.</string>
+    <string name="pet_abyss_wisp_desc">A cold silver light that drifted up from the Bottomless Mine and refused to sink back.</string>
     <string name="pet_ancient_turtle_name">Ancient Turtle</string>
-    <string name="pet_ancient_turtle_desc">A tiny turtle whose shell bears the same runes as the isle\'s seal. Older than it looks.</string>
+    <string name="pet_ancient_turtle_desc">A tiny turtle whose shell bears the same charges as the isle\'s seal. Older than it looks.</string>
     <string name="pet_cinder_hawk_name">Cinder Hawk</string>
     <string name="pet_cinder_hawk_desc">A bird of banked embers that circles the volcano and roosts on your shoulder between fights.</string>
     <string name="pet_deepwater_serpent_name">Deepwater Serpent</string>
-    <string name="pet_deepwater_serpent_desc">A miniature cousin of the Sea Serpent, coiled around your wrist like a living bracelet.</string>
+    <string name="pet_deepwater_serpent_desc">A miniature cousin of the Mississippi River Serpent, coiled around your wrist like a living bracelet.</string>
     <string name="pet_elder_familiar_name">Elder Familiar</string>
-    <string name="pet_elder_familiar_desc">The Last Elder\'s dying companion, bound now to whoever felled its master. Its eyes still remember.</string>
+    <string name="pet_elder_familiar_desc">The Last Shaman\'s dying companion, bound now to whoever felled its master. Its eyes still remember.</string>
 
     <!-- Save slots / character manager -->
     <string name="settings_characters">Characters</string>
@@ -2413,8 +2413,8 @@
     <string name="settings_imported_demoted">Save imported. It was modified outside the game, so Ironman status was removed.</string>
     <string name="shop_xp_boost_name">2× XP Boost (48h)</string>
     <string name="bestiary_stat_hp">HP</string>
-    <string name="bestiary_stat_attack">Attack</string>
-    <string name="bestiary_stat_strength">Strength</string>
+    <string name="bestiary_stat_attack">Handguns</string>
+    <string name="bestiary_stat_strength">Long guns</string>
     <string name="bestiary_stat_defense">Defense</string>
     <string name="bestiary_stat_atk_defense">Atk Defense</string>
     <string name="bestiary_stat_str_defense">Str Defense</string>
@@ -2505,23 +2505,23 @@
     <string name="prestige_effect_tool_eff_pct">Tool efficiency +%1$d%%.</string>
     <string name="prestige_effect_per_level_bonus">+%1$s tool or combat bonus per level of this skill.</string>
     <string name="prestige_effect_success_chance_pct">Pickpocket success chance +%1$d%%.</string>
-    <string name="prestige_effect_reclaim_pct">+%1$d%% chance to recover spent arrows and runes after combat.</string>
+    <string name="prestige_effect_reclaim_pct">+%1$d%% chance to recover spent arrows and charges after combat.</string>
     <string name="prestige_effect_heal_pct">Food heals +%1$d%% more in combat.</string>
     <string name="prestige_effect_death_keep_pct">Keep an extra %1$d%% of XP and loot when defeated.</string>
     <string name="prestige_effect_queue_slot">+%1$d session queue slot.</string>
     <string name="prestige_effect_pet_boost_pct">Pet boosts for this skill are %1$d%% stronger.</string>
     <string name="prestige_effect_blessing_duration_pct">Church blessings last %1$d%% longer.</string>
     <string name="prestige_effect_blessing_cost_pct">Church blessings cost %1$d%% fewer bones.</string>
-    <string name="prestige_effect_potion_bonus_flat">Combat potions grant +%1$d more to their stats.</string>
+    <string name="prestige_effect_potion_bonus_flat">Combat tonics grant +%1$d more to their stats.</string>
     <string name="prestige_effect_input_save_pct">%1$d%% of crafting materials are refunded.</string>
     <string name="prestige_effect_builder_discount_pct">Town building upgrades cost %1$d%% less.</string>
     <string name="prestige_effect_sell_price_pct">Shop sell prices +%1$d%%.</string>
-    <string name="prestige_effect_slayer_points_pct">Slayer task points +%1$d%%.</string>
+    <string name="prestige_effect_slayer_points_pct">Bounty Hunting task points +%1$d%%.</string>
     <string name="prestige_effect_double_hit_pct">%1$d%% chance to strike a second melee hit.</string>
     <string name="prestige_effect_second_chance">Missed melee attacks are rerolled once.</string>
-    <string name="prestige_effect_foretell_slots">+%1$d foretold slayer task slots.</string>
+    <string name="prestige_effect_foretell_slots">+%1$d foretold bounty Hunting task slots.</string>
     <string name="prestige_effect_slayer_multi_task">Dungeon kills also count toward matching foretold tasks.</string>
-    <string name="prestige_effect_unlock_recipe">Unlocks the %1$s fletching recipe.</string>
+    <string name="prestige_effect_unlock_recipe">Unlocks the %1$s ammo reloading recipe.</string>
 
     <!-- New distinctive base path names (variety pass) -->
     <string name="prestige_path_fishing_rod">Sturdy Rod</string>
@@ -2529,9 +2529,9 @@
     <string name="prestige_path_cooking_hearty">Hearty Meals</string>
     <string name="prestige_path_smithing_thrift">Careful Smith</string>
     <string name="prestige_path_crafting_thrift">Steady Hands</string>
-    <string name="prestige_path_herblore_potency">Potent Potions</string>
+    <string name="prestige_path_herblore_potency">Potent Tonics</string>
     <string name="prestige_path_runecrafting_runethrift">Essence Bond</string>
-    <string name="prestige_path_magic_runethrift">Rune Thrift</string>
+    <string name="prestige_path_magic_runethrift">Charge Thrift</string>
     <string name="prestige_path_construction_efficient">Efficient Builder</string>
     <string name="prestige_path_prayer_devotion">Devotion</string>
     <string name="prestige_path_mercantile_trade">Trade Baron</string>
@@ -2618,15 +2618,15 @@
     <string name="item_heirloom_lockpick_name">Heirloom Lockpick</string>
     <string name="item_heirloom_lockpick_desc">A thief\'s pick that has whispered open countless locks. It grows subtler with every job.</string>
     <string name="item_midas_band_name">Midas Band</string>
-    <string name="item_midas_band_desc">A sliver of the Vault Guardian\'s living gold. It drinks in a little of every battle its wearer survives.</string>
+    <string name="item_midas_band_desc">A sliver of the Wells Fargo Iron Safe\'s living gold. It drinks in a little of every battle its wearer survives.</string>
     <string name="item_heirloom_blade_name">Heirloom Blade</string>
     <string name="item_heirloom_blade_desc">An ancestral blade that wakes a little more with every battle its line survives.</string>
     <string name="item_heirloom_greathammer_name">Heirloom Greathammer</string>
-    <string name="item_heirloom_greathammer_desc">A colossal warhammer of forgotten make. Each blow it lands adds to its legend.</string>
-    <string name="item_heirloom_longbow_name">Heirloom Longbow</string>
+    <string name="item_heirloom_greathammer_desc">A colossal coach Gun of forgotten make. Each blow it lands adds to its legend.</string>
+    <string name="item_heirloom_longbow_name">Heirloom Tomahawk</string>
     <string name="item_heirloom_longbow_desc">A bow strung and restrung across generations of archers. Every arrow teaches it something.</string>
-    <string name="item_heirloom_staff_name">Heirloom Staff</string>
-    <string name="item_heirloom_staff_desc">A staff steeped in the castings of every mage who ever bore it. Its power still deepens.</string>
+    <string name="item_heirloom_staff_name">Heirloom Dynamite Cane</string>
+    <string name="item_heirloom_staff_desc">A dynamite cane steeped in the castings of every demolitionist who ever bore it. Its power still deepens.</string>
     <string name="heirloom_section_title">Heirloom</string>
     <!-- Translator note: %1$d = the heirloom item\'s current level (1-99) -->
     <string name="heirloom_level_label">Heirloom Lv. %1$d</string>
@@ -2635,4 +2635,152 @@
     <string name="shop_sell_blocked_heirloom">%1$s is an heirloom and cannot be sold.</string>
     <!-- Translator note: %1$s = a dungeon or boss name -->
     <string name="repeat_blocked_level">Your combat level is too low to repeat %1$s.</string>
+    <!-- Western reskin: display names for skills/dungeons/bosses/enemies (IDs unchanged) -->
+    <string name="skill_attack_name">Handguns</string>
+    <string name="skill_strength_name">Long guns</string>
+    <string name="skill_defense_name">Toughness</string>
+    <string name="skill_hitpoints_name">Health</string>
+    <string name="skill_ranged_name">Thrown &amp; Blades</string>
+    <string name="skill_magic_name">Explosives</string>
+    <string name="skill_prayer_name">Faith</string>
+    <string name="skill_woodcutting_name">Lumberjacking</string>
+    <string name="skill_mining_name">Prospecting</string>
+    <string name="skill_fishing_name">Fishing</string>
+    <string name="skill_farming_name">Ranching</string>
+    <string name="skill_agility_name">Horse Riding</string>
+    <string name="skill_cooking_name">Chuckwagon Cooking</string>
+    <string name="skill_smithing_name">Gunsmithing</string>
+    <string name="skill_crafting_name">Leatherworking</string>
+    <string name="skill_fletching_name">Ammo Reloading</string>
+    <string name="skill_firemaking_name">Campfire</string>
+    <string name="skill_herblore_name">Moonshining</string>
+    <string name="skill_runecrafting_name">Powder Mixing</string>
+    <string name="skill_mercantile_name">Trading Post</string>
+    <string name="dungeon_corrupted_sanctum_name">False Prophet\'s Church</string>
+    <string name="dungeon_blightwood_name">Hangman\'s Woods</string>
+    <string name="dungeon_frozen_citadel_name">Donner Pass</string>
+    <string name="dungeon_void_rift_name">Death Valley</string>
+    <string name="dungeon_abyssal_throne_name">Railroad Baron\'s Throne</string>
+    <string name="dungeon_rogue_sanctum_name">Hole-in-the-Wall Hideout</string>
+    <string name="dungeon_arcane_ruins_name">Old Telegraph Station</string>
+    <string name="dungeon_volcanic_depths_name">Sulfur Springs</string>
+    <string name="dungeon_collapsed_mine_name">Collapsed Silver Mine</string>
+    <string name="dungeon_hollowfen_name">Louisiana Bayou</string>
+    <string name="dungeon_undead_crypt_name">Boot Hill Cemetery</string>
+    <string name="dungeon_drowned_temple_name">Drowned Town</string>
+    <string name="dungeon_ancient_temple_name">Stone Pueblo</string>
+    <string name="dungeon_spider_den_name">Scorpion Nest</string>
+    <string name="dungeon_infernal_stronghold_name">Hellfire Tombstone</string>
+    <string name="dungeon_ancient_forest_ruins_name">Old Mission Ruins</string>
+    <string name="dungeon_fortress_ruins_name">Burned Fort Union</string>
+    <string name="dungeon_ancient_forest_name">Redwood Forest</string>
+    <string name="dungeon_volcano_peak_name">Devil\'s Peak</string>
+    <string name="dungeon_bandit_camp_name">Dalton Gang Camp</string>
+    <string name="dungeon_imp_cavern_name">Rattlesnake Cave</string>
+    <string name="dungeon_goblin_cave_name">Coyote Canyon</string>
+    <string name="dungeon_abyssal_depths_name">Bottomless Mine</string>
+    <string name="dungeon_orc_stronghold_name">Outlaw Fort</string>
+    <string name="dungeon_farm_name">Farm</string>
+    <string name="dungeon_beach_and_cliffs_name">Rio Grande Cliffs</string>
+    <string name="dungeon_sunspire_name">Sun Mesa</string>
+    <string name="dungeon_abyssal_ruins_name">Ruins of Cibola</string>
+    <string name="dungeon_ancient_forge_name">Union Pacific Foundry</string>
+    <string name="dungeon_guild_of_shadows_name">Gunslinger Brotherhood</string>
+    <string name="dungeon_dragon_lair_name">Great Grizzly\'s Den</string>
+    <string name="dungeon_shadow_den_name">Smugglers\' Den</string>
+    <string name="dungeon_cloud_kingdom_name">Armored Train</string>
+    <string name="boss_king_black_dragon_name">Black Grizzly</string>
+    <string name="boss_demon_lord_name">El Diablo</string>
+    <string name="boss_kraken_name">Flathead Lake Monster</string>
+    <string name="boss_balrog_name">Gothic Ember, the Burning Oil Well</string>
+    <string name="boss_void_sovereign_name">The Headless Horseman</string>
+    <string name="boss_sol_invictus_name">Sol Invictus, Sun Chief of the Mesa</string>
+    <string name="boss_the_hollow_king_name">The Ghost Sheriff</string>
+    <string name="boss_the_vault_guardian_name">The Wells Fargo Iron Safe</string>
+    <string name="boss_obsidian_colossus_name">Steam Colossus</string>
+    <string name="boss_brood_empress_name">Scorpion Queen</string>
+    <string name="boss_the_world_ender_name">The Ghost Train</string>
+    <string name="boss_last_elder_name">The Last Shaman</string>
+    <string name="boss_sea_serpent_name">Mississippi River Serpent</string>
+    <string name="enemy_giant_rat_name">Giant Rat</string>
+    <string name="enemy_goblin_name">Coyote</string>
+    <string name="enemy_skeleton_name">Skeleton</string>
+    <string name="enemy_zombie_name">Zombie</string>
+    <string name="enemy_bandit_name">Bandit</string>
+    <string name="enemy_guard_name">Guard</string>
+    <string name="enemy_dark_wizard_name">Snake-Oil Swindler</string>
+    <string name="enemy_orc_warrior_name">Outlaw Brute</string>
+    <string name="enemy_spider_name">Giant Tarantula</string>
+    <string name="enemy_wild_monkey_name">Wild Mustang</string>
+    <string name="enemy_rogue_name">Rogue</string>
+    <string name="enemy_knight_name">Lawman</string>
+    <string name="enemy_hellhound_name">Hellhound Coyote</string>
+    <string name="enemy_troll_name">Mountain Man</string>
+    <string name="enemy_demon_name">Desert Devil</string>
+    <string name="enemy_dragon_name">Grizzly Bear</string>
+    <string name="enemy_imp_name">Rattler</string>
+    <string name="enemy_chicken_name">Chicken</string>
+    <string name="enemy_sheep_name">Sheep</string>
+    <string name="enemy_cow_name">Cow</string>
+    <string name="enemy_fire_giant_name">Blast Furnace Brute</string>
+    <string name="enemy_ancient_guardian_name">Ancient Guardian</string>
+    <string name="enemy_lich_name">Undead Preacher</string>
+    <string name="enemy_cave_troll_name">Cave Hermit</string>
+    <string name="enemy_mine_spider_name">Mine Scorpion</string>
+    <string name="enemy_rock_golem_name">Rockslide</string>
+    <string name="enemy_iron_golem_name">Iron Horse</string>
+    <string name="enemy_forge_demon_name">Foundry Fiend</string>
+    <string name="enemy_dwarven_guardian_name">Cornish Mine Guard</string>
+    <string name="enemy_drowned_cultist_name">Drowned Cultist</string>
+    <string name="enemy_sea_spirit_name">River Ghost</string>
+    <string name="enemy_cursed_fisherman_name">Cursed Fisherman</string>
+    <string name="enemy_abyssal_leech_name">Bayou Leech</string>
+    <string name="enemy_deep_horror_name">Swamp Horror</string>
+    <string name="enemy_void_guardian_name">Void Guardian</string>
+    <string name="enemy_corrupted_druid_name">Crazed Medicine Man</string>
+    <string name="enemy_vine_beast_name">Cactus Beast</string>
+    <string name="enemy_forest_spirit_name">Prairie Spirit</string>
+    <string name="enemy_shadow_beast_name">Shadow Beast</string>
+    <string name="enemy_twisted_treant_name">Hanging Tree</string>
+    <string name="enemy_corrupted_mage_name">Crazed Quack Doctor</string>
+    <string name="enemy_cutpurse_name">Cutpurse</string>
+    <string name="enemy_arcane_construct_name">Clockwork Automaton</string>
+    <string name="enemy_void_stalker_name">Void Stalker</string>
+    <string name="enemy_rift_guardian_name">Rift Guardian</string>
+    <string name="enemy_chaos_elemental_name">Dust Devil</string>
+    <string name="enemy_frost_giant_name">Frostbitten Trapper</string>
+    <string name="enemy_ice_golem_name">Ice Wagon</string>
+    <string name="enemy_glacial_mage_name">Frozen Quack</string>
+    <string name="enemy_abyssal_lord_name">Abyssal Lord</string>
+    <string name="enemy_eternal_sentinel_name">Eternal Sentinel</string>
+    <string name="enemy_void_archon_name">Death Valley Warlord</string>
+    <string name="enemy_assassin_name">Assassin</string>
+    <string name="enemy_shadow_assassin_name">Shadow Assassin</string>
+    <string name="enemy_vault_guardian_name">Vault Guardian</string>
+    <string name="enemy_guild_master_name">Guild Master</string>
+    <string name="enemy_storm_imp_name">Storm Rattler</string>
+    <string name="enemy_sky_serpent_name">Thunderbird</string>
+    <string name="enemy_cloud_giant_name">Train Robber Giant</string>
+    <string name="enemy_frost_wyvern_name">Frost Buzzard</string>
+    <string name="enemy_abyssal_guardian_name">Abyssal Guardian</string>
+    <string name="enemy_shadow_thief_name">Shadow Thief</string>
+    <string name="enemy_elder_lich_name">Elder Undead Preacher</string>
+    <string name="enemy_sun_wisp_name">Sun Ghost</string>
+    <string name="enemy_ember_hound_name">Ember Hound</string>
+    <string name="enemy_cinder_colossus_name">Cinder Colossus</string>
+    <string name="enemy_will_o_wisp_name">Ghost Light</string>
+    <string name="enemy_grave_ghoul_name">Grave Ghoul</string>
+    <string name="enemy_husk_horror_name">Husk Horror</string>
+    <string name="enemy_barrow_wight_name">Boot Hill Revenant</string>
+    <string name="enemy_shade_stalker_name">Shade Stalker</string>
+    <string name="enemy_bone_colossus_name">Bone Colossus</string>
+    <string name="enemy_dread_dullahan_name">Headless Rider</string>
+    <string name="enemy_beach_marauder_name">River Pirate</string>
+    <string name="enemy_beach_leviathan_name">River Monster</string>
+    <string name="enemy_grove_stalker_name">Grove Stalker</string>
+    <string name="enemy_grove_dryad_name">Prairie Witch</string>
+    <string name="enemy_ash_beast_name">Ash Beast</string>
+    <string name="enemy_lava_wraith_name">Sulfur Wraith</string>
+    <string name="enemy_abyssal_horror_name">Abyssal Horror</string>
+    <string name="enemy_void_seraph_name">Angel of Death Valley</string>
 </resources>
