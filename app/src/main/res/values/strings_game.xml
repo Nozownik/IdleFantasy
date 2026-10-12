@@ -56,7 +56,7 @@
 
     <!-- ===== Prayer / burying ===== -->
     <!-- Translator note: %1$s = bone display name, %2$s = formatted XP gained -->
-    <string name="game_bones_buried">Buried %1$s — +%2$s Prayer XP.</string>
+    <string name="game_bones_buried">Buried %1$s — +%2$s Faith XP.</string>
 
     <!-- ===== Quest messages ===== -->
     <!-- Translator note: %1$s = quest display name -->
@@ -92,8 +92,8 @@
     <!-- ===== Equipment slot names ===== -->
     <string name="equip_slot_weapon_atk">Weapon (Atk)</string>
     <string name="equip_slot_weapon_str">Weapon (Str)</string>
-    <string name="equip_slot_weapon_ranged">Weapon (Ranged)</string>
-    <string name="equip_slot_weapon_magic">Weapon (Magic)</string>
+    <string name="equip_slot_weapon_ranged">Weapon (Thrown &amp; Blades)</string>
+    <string name="equip_slot_weapon_magic">Weapon (Explosives)</string>
     <string name="equip_slot_weapon">Weapons</string>
     <string name="equip_slot_head">Head</string>
     <string name="equip_slot_body">Body</string>

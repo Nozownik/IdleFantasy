@@ -237,7 +237,7 @@
   },
   "bronze_sword": {
     "type": "equipment",
-    "display_name": "Brass Sword",
+    "display_name": "Brass Revolver",
     "level_required": 4,
     "materials": {
       "bronze_bar": 1
@@ -248,7 +248,7 @@
   },
   "iron_sword": {
     "type": "equipment",
-    "display_name": "Iron Sword",
+    "display_name": "Iron Revolver",
     "level_required": 19,
     "materials": {
       "iron_bar": 1
@@ -259,7 +259,7 @@
   },
   "steel_sword": {
     "type": "equipment",
-    "display_name": "Steel Sword",
+    "display_name": "Steel Revolver",
     "level_required": 34,
     "materials": {
       "steel_bar": 1
@@ -270,7 +270,7 @@
   },
   "mithril_sword": {
     "type": "equipment",
-    "display_name": "Damascus Sword",
+    "display_name": "Damascus Revolver",
     "level_required": 54,
     "materials": {
       "mithril_bar": 1
@@ -281,7 +281,7 @@
   },
   "adamantite_sword": {
     "type": "equipment",
-    "display_name": "Bessemer Sword",
+    "display_name": "Bessemer Revolver",
     "level_required": 74,
     "materials": {
       "adamantite_bar": 1
@@ -292,7 +292,7 @@
   },
   "runite_sword": {
     "type": "equipment",
-    "display_name": "Stainless Sword",
+    "display_name": "Stainless Revolver",
     "level_required": 89,
     "materials": {
       "runite_bar": 1
@@ -435,7 +435,7 @@
   },
   "bronze_2h_sword": {
     "type": "equipment",
-    "display_name": "Brass 2H Sword",
+    "display_name": "Brass 2H Revolver",
     "level_required": 14,
     "materials": {
       "bronze_bar": 3
@@ -446,7 +446,7 @@
   },
   "iron_2h_sword": {
     "type": "equipment",
-    "display_name": "Iron 2H Sword",
+    "display_name": "Iron 2H Revolver",
     "level_required": 29,
     "materials": {
       "iron_bar": 3
@@ -457,7 +457,7 @@
   },
   "steel_2h_sword": {
     "type": "equipment",
-    "display_name": "Steel 2H Sword",
+    "display_name": "Steel 2H Revolver",
     "level_required": 44,
     "materials": {
       "steel_bar": 3
@@ -468,7 +468,7 @@
   },
   "mithril_2h_sword": {
     "type": "equipment",
-    "display_name": "Damascus 2H Sword",
+    "display_name": "Damascus 2H Revolver",
     "level_required": 64,
     "materials": {
       "mithril_bar": 3
@@ -479,7 +479,7 @@
   },
   "adamantite_2h_sword": {
     "type": "equipment",
-    "display_name": "Bessemer 2H Sword",
+    "display_name": "Bessemer 2H Revolver",
     "level_required": 84,
     "materials": {
       "adamantite_bar": 3
@@ -490,7 +490,7 @@
   },
   "runite_2h_sword": {
     "type": "equipment",
-    "display_name": "Stainless 2H Sword",
+    "display_name": "Stainless 2H Revolver",
     "level_required": 99,
     "materials": {
       "runite_bar": 3

@@ -3,48 +3,48 @@
     <!-- ===== Skill names and descriptions ===== -->
 
     <!-- Gathering skills -->
-    <string name="skill_mining_name">Górnictwo</string>
+    <string name="skill_mining_name">Poszukiwanie złota</string>
     <string name="skill_mining_desc">Wydobywaj cenne rudy i klejnoty z ziemi.</string>
     <string name="skill_fishing_name">Wędkarstwo</string>
     <string name="skill_fishing_desc">Łów ryby i wodne skarby z wód.</string>
-    <string name="skill_woodcutting_name">Drwalstwo</string>
+    <string name="skill_woodcutting_name">Wyrąb</string>
     <string name="skill_woodcutting_desc">Ścinaj drzewa i zbieraj różne rodzaje drewna.</string>
-    <string name="skill_farming_name">Uprawa</string>
+    <string name="skill_farming_name">Ranczo</string>
     <string name="skill_farming_desc">Sadź i zbieraj plony ze swoich grządek uprawnych.</string>
-    <string name="skill_firemaking_name">Rozniecanie Ognia</string>
-    <string name="skill_firemaking_desc">Spalaj kłody z ekwipunku, aby zdobywać XP Rozniecania Ognia. Każda spalona kłoda daje też popiół, który można rozsypać w umiejętności Modlitwy dla dodatkowego XP Modlitwy.</string>
-    <string name="skill_agility_name">Zwinność</string>
+    <string name="skill_firemaking_name">Ognisko</string>
+    <string name="skill_firemaking_desc">Spalaj kłody z ekwipunku, aby zdobywać XP Rozniecania Ognia. Każda spalona kłoda daje też popiół, który można rozsypać w umiejętności Wiary dla dodatkowego XP Wiary.</string>
+    <string name="skill_agility_name">Jeździectwo</string>
     <string name="skill_agility_desc">Trenuj Zwinność, aby skrócić czas sesji we wszystkich umiejętnościach. Poziom 99 skraca godzinę o %1$d minut (60 min → %2$d min), z płynną liniową redukcją wraz ze wzrostem poziomu.</string>
 
     <!-- Crafting skills -->
-    <string name="skill_smithing_name">Kowalstwo</string>
+    <string name="skill_smithing_name">Rusznikarstwo</string>
     <string name="skill_smithing_desc">Wytapiaj rudy w sztabki i wykuwaj potężny sprzęt metalowy.</string>
-    <string name="skill_cooking_name">Gotowanie</string>
+    <string name="skill_cooking_name">Gotowanie przy ognisku</string>
     <string name="skill_cooking_desc">Gotuj surowe składniki na jedzenie, które przywraca HP w walce.</string>
-    <string name="skill_fletching_name">Łuczarstwo</string>
+    <string name="skill_fletching_name">Robienie amunicji</string>
     <string name="skill_fletching_desc">Wytwarzaj łuki i strzały z kłód i elementów metalowych.</string>
-    <string name="skill_crafting_name">Rzemiosło</string>
+    <string name="skill_crafting_name">Rymarstwo</string>
     <string name="skill_crafting_desc">Twórz biżuterię i inne wyroby z cennych materiałów.</string>
-    <string name="skill_runecrafting_name">Tworzenie Run</string>
-    <string name="skill_runecrafting_desc">Twórz magiczne runy z esencji run do wykorzystania w rzucaniu zaklęć.</string>
-    <string name="skill_herblore_name">Zielarstwo</string>
-    <string name="skill_herblore_desc">Warz mikstury z ziół uprawnych i składników z lochów, aby wzmocnić swoje statystyki bojowe.</string>
+    <string name="skill_runecrafting_name">Mieszanie prochu</string>
+    <string name="skill_runecrafting_desc">Twórz wybuchowe ładunki z saletry do wykorzystania w rzucaniu sztuczek.</string>
+    <string name="skill_herblore_name">Bimbrownictwo</string>
+    <string name="skill_herblore_desc">Warz toniku z ziół uprawnych i składników z lochów, aby wzmocnić swoje statystyki bojowe.</string>
 
     <!-- Combat skills -->
-    <string name="skill_attack_name">Atak</string>
+    <string name="skill_attack_name">Broń krótka</string>
     <string name="skill_attack_desc">Zwiększa twoją celność w walce wręcz, podnosząc szansę na trafienie.</string>
-    <string name="skill_strength_name">Siła</string>
+    <string name="skill_strength_name">Broń długa</string>
     <string name="skill_strength_desc">Zwiększa maksymalne obrażenia zadawane w walce wręcz na trafienie.</string>
-    <string name="skill_defense_name">Obrona</string>
+    <string name="skill_defense_name">Twardziel</string>
     <string name="skill_defense_desc">Zmniejsza obrażenia otrzymywane z ataków wrogów.</string>
-    <string name="skill_ranged_name">Strzelec</string>
+    <string name="skill_ranged_name">Broń miotana i biała</string>
     <string name="skill_ranged_desc">Atakuj wrogów z bezpiecznej odległości, używając łuku i strzał.</string>
-    <string name="skill_magic_name">Magia</string>
-    <string name="skill_magic_desc">Rzucaj potężne zaklęcia, używając run. Wyższe poziomy odblokowują silniejsze zaklęcia.</string>
-    <string name="skill_hitpoints_name">Punkty Życia</string>
+    <string name="skill_magic_name">Materiały wybuchowe</string>
+    <string name="skill_magic_desc">Rzucaj potężne sztuczki, używając run. Wyższe poziomy odblokowują silniejsze sztuczki.</string>
+    <string name="skill_hitpoints_name">Zdrowie</string>
     <string name="skill_hitpoints_desc">Twoje całkowite zdrowie. Wyższe poziomy pozwalają przetrwać dłużej w walce.</string>
-    <string name="skill_prayer_name">Modlitwa</string>
-    <string name="skill_prayer_desc">Zakopuj kości zdobyte w walce, aby zdobywać XP Modlitwy. Wyższe poziomy odblokowują potężniejsze błogosławieństwa Kościoła.</string>
+    <string name="skill_prayer_name">Wiara</string>
+    <string name="skill_prayer_desc">Zakopuj kości zdobyte w walce, aby zdobywać XP Wiary. Wyższe poziomy odblokowują potężniejsze błogosławieństwa Kościoła.</string>
 
     <!-- ===== Skill unlock sheet labels ===== -->
     <string name="label_lv">Poz. %1$d</string>
@@ -63,7 +63,7 @@
     <string name="tree_willow_tree_name">Willow Tree</string> <!-- untranslated -->
     <string name="tree_maple_tree_name">Maple Tree</string> <!-- untranslated -->
     <string name="tree_yew_tree_name">Yew Tree</string> <!-- untranslated -->
-    <string name="tree_magic_tree_name">Magic Tree</string> <!-- untranslated -->
+    <string name="tree_magic_tree_name">Explosives Tree</string> <!-- untranslated -->
     <string name="tree_redwood_tree_name">Redwood Tree</string> <!-- untranslated -->
     <!-- Elder Isle woodcutting targets -->
     <string name="tree_coastal_pine_name">Coastal Pine</string> <!-- untranslated -->
@@ -106,11 +106,11 @@
     <string name="agility_elder_coastal_run_name">Coastal Run</string> <!-- untranslated -->
     <string name="agility_elder_coastal_run_desc">A jog along the isle\'s wave-scarred beach. Rocks shift underfoot with the tide.</string> <!-- untranslated -->
     <string name="agility_elder_grove_traverse_name">Grove Traverse</string> <!-- untranslated -->
-    <string name="agility_elder_grove_traverse_desc">A rope-and-ledge circuit through the rune-lit canopy of the Ancient Forest.</string> <!-- untranslated -->
+    <string name="agility_elder_grove_traverse_desc">A rope-and-ledge circuit through the charge-lit canopy of the Redwood Forest.</string> <!-- untranslated -->
     <string name="agility_elder_volcano_scramble_name">Volcano Scramble</string> <!-- untranslated -->
-    <string name="agility_elder_volcano_scramble_desc">A climb across the smoking flanks of the peak. The stone remembers being an altar.</string> <!-- untranslated -->
+    <string name="agility_elder_volcano_scramble_desc">A climb across the smoking flanks of the peak. The stone remembers being an chapel.</string> <!-- untranslated -->
     <string name="agility_elder_abyssal_ascent_name">Abyssal Ascent</string> <!-- untranslated -->
-    <string name="agility_elder_abyssal_ascent_desc">A vertical route up the pressure-cracked walls of the Abyssal Depths. Few make the top.</string> <!-- untranslated -->
+    <string name="agility_elder_abyssal_ascent_desc">A vertical route up the pressure-cracked walls of the Bottomless Mine. Few make the top.</string> <!-- untranslated -->
 
     <!-- ===== Session skill type labels ===== -->
     <string name="skill_expedition_name">Wyprawa</string>
