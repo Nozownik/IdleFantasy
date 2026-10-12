@@ -1,7 +1,7 @@
 {
   "name": "cloud_kingdom",
-  "display_name": "Cloud Kingdom",
-  "description": "A realm above the clouds, reached by climbing a legendary beanstalk. Giants roam vast floating islands, sky serpents drift between the cloudbanks, and storm imps crackle with restless energy. Few have seen it. Fewer still have returned to speak of it.",
+  "display_name": "Armored Train",
+  "description": "A frontier above the clouds, reached by climbing a legendary beanstalk. Giants roam vast floating islands, sky serpents drift between the cloudbanks, and storm rattlers crackle with restless energy. Few have seen it. Fewer still have returned to speak of it.",
   "recommended_level": 55,
   "encounter_rate": 0.28,
   "lore_unlock_only": true,

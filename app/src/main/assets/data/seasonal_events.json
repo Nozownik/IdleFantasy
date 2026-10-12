@@ -1,7 +1,7 @@
 {
   "sunspire_solstice_2026": {
     "id": "sunspire_solstice_2026",
-    "display_name": "Sunspire Solstice",
+    "display_name": "Sun Mesa Solstice",
     "start_ms": 1780272000000,
     "end_ms": 1788220800000,
     "token_goal": 100,
@@ -14,7 +14,7 @@
         "target": "oak_log",
         "amount": 20,
         "display_name": "Bring firewood for the bonfire",
-        "hint": "Chop Oak Logs — Woodcutting",
+        "hint": "Chop Oak Logs — Lumberjacking",
         "skill": "woodcutting"
       },
       {
@@ -23,7 +23,7 @@
         "target": "willow_log",
         "amount": 25,
         "display_name": "Gather kindling for the bonfire",
-        "hint": "Chop Willow Logs — Woodcutting",
+        "hint": "Chop Willow Logs — Lumberjacking",
         "skill": "woodcutting"
       },
       {
@@ -40,8 +40,8 @@
         "type": "craft",
         "target": "strength_potion",
         "amount": 5,
-        "display_name": "Brew Strength Potions",
-        "hint": "Herblore",
+        "display_name": "Brew Long guns Tonics",
+        "hint": "Moonshining",
         "skill": "herblore"
       },
       {
@@ -49,8 +49,8 @@
         "type": "craft",
         "target": "attack_potion",
         "amount": 5,
-        "display_name": "Brew Attack Potions for the solstice watch",
-        "hint": "Herblore",
+        "display_name": "Brew Handguns Tonics for the solstice watch",
+        "hint": "Moonshining",
         "skill": "herblore"
       },
       {
@@ -58,8 +58,8 @@
         "type": "craft",
         "target": "mithril_arrow",
         "amount": 50,
-        "display_name": "Fletch Mithril arrows to hold back the wisps",
-        "hint": "Fletching",
+        "display_name": "Fletch Damascus arrows to hold back the wisps",
+        "hint": "Ammo Reloading",
         "skill": "fletching"
       },
       {
@@ -68,7 +68,7 @@
         "target": "sun_wisp",
         "amount": 15,
         "display_name": "Drive off Sun Wisps",
-        "hint": "Only found in The Sunspire Expedition"
+        "hint": "Only found in Sun Mesa Expedition"
       },
       {
         "id": "sunspire_hounds",
@@ -76,7 +76,7 @@
         "target": "ember_hound",
         "amount": 10,
         "display_name": "Drive off Ember Hounds",
-        "hint": "Only found in The Sunspire Expedition"
+        "hint": "Only found in Sun Mesa Expedition"
       },
       {
         "id": "sunspire_colossus",
@@ -84,7 +84,7 @@
         "target": "cinder_colossus",
         "amount": 3,
         "display_name": "Topple Cinder Colossi",
-        "hint": "Only found in The Sunspire Expedition — rare"
+        "hint": "Only found in Sun Mesa Expedition — rare"
       }
     ],
     "bounty_rotation_ms": 3600000,
@@ -104,7 +104,7 @@
     "reward_tiers": [
       {
         "tokens": 100,
-        "description": "Sunspire Solstice 2026 banner"
+        "description": "Sun Mesa Solstice 2026 banner"
       }
     ],
     "banner_text": "Participated in the Sunspire Solstice 2026",
@@ -143,7 +143,7 @@
         "target": "maple_log",
         "amount": 25,
         "display_name": "Chop maple wood for the pyres",
-        "hint": "Chop Maple Logs (Woodcutting)",
+        "hint": "Chop Maple Logs (Lumberjacking)",
         "skill": "woodcutting"
       },
       {
@@ -160,8 +160,8 @@
         "type": "gather",
         "target": "mithril_ore",
         "amount": 15,
-        "display_name": "Mine mithril to ward the gates",
-        "hint": "Mine Mithril Ore (Mining)",
+        "display_name": "Mine Damascus to ward the gates",
+        "hint": "Mine Damascus Ore (Mining)",
         "skill": "mining"
       },
       {
@@ -169,8 +169,8 @@
         "type": "craft",
         "target": "defense_potion",
         "amount": 5,
-        "display_name": "Brew Defense Potions for the night watch",
-        "hint": "Herblore",
+        "display_name": "Brew Defense Tonics for the night watch",
+        "hint": "Moonshining",
         "skill": "herblore"
       },
       {
@@ -179,7 +179,7 @@
         "target": "maple_shortbow",
         "amount": 10,
         "display_name": "Fletch Maple Shortbows for the wardens",
-        "hint": "Fletching",
+        "hint": "Ammo Reloading",
         "skill": "fletching"
       },
       {
@@ -196,8 +196,8 @@
         "type": "craft",
         "target": "adamantite_bar",
         "amount": 10,
-        "display_name": "Smelt adamantite for grave-iron",
-        "hint": "Smithing",
+        "display_name": "Smelt Bessemer for grave-iron",
+        "hint": "Gunsmithing",
         "skill": "smithing"
       },
       {
@@ -205,8 +205,8 @@
         "type": "craft",
         "target": "death_rune",
         "amount": 40,
-        "display_name": "Craft Death Runes to quiet the spirits",
-        "hint": "Runecrafting",
+        "display_name": "Craft Death Charges to quiet the spirits",
+        "hint": "Powder Mixing",
         "skill": "runecrafting"
       },
       {
@@ -215,7 +215,7 @@
         "target": "will_o_wisp",
         "amount": 15,
         "display_name": "Snuff out Will-o'-Wisps",
-        "hint": "Only found in The Hollowfen"
+        "hint": "Only found in Louisiana Bayou"
       },
       {
         "id": "gloom_ghouls",
@@ -223,7 +223,7 @@
         "target": "grave_ghoul",
         "amount": 10,
         "display_name": "Put down Grave Ghouls",
-        "hint": "Only found in The Hollowfen"
+        "hint": "Only found in Louisiana Bayou"
       },
       {
         "id": "gloom_husks",
@@ -231,7 +231,7 @@
         "target": "husk_horror",
         "amount": 8,
         "display_name": "Fell the Husk Horrors",
-        "hint": "Only found in The Hollowfen"
+        "hint": "Only found in Louisiana Bayou"
       },
       {
         "id": "gloom_stalkers",
@@ -239,7 +239,7 @@
         "target": "shade_stalker",
         "amount": 8,
         "display_name": "Hunt Shade Stalkers",
-        "hint": "Only found in The Blightwood"
+        "hint": "Only found in Hangman's Woods"
       },
       {
         "id": "gloom_wights",
@@ -247,7 +247,7 @@
         "target": "barrow_wight",
         "amount": 3,
         "display_name": "Topple Barrow Wights",
-        "hint": "Only found in The Hollowfen (rare)"
+        "hint": "Only found in Louisiana Bayou (rare)"
       },
       {
         "id": "gloom_tithe_pumpkins",

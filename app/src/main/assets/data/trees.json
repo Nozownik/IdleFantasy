@@ -40,9 +40,9 @@
     "time_per_log": 1
   },
   "magic_tree": {
-    "display_name": "Magic Tree",
+    "display_name": "Explosives Tree",
     "log_name": "magic_log",
-    "log_display_name": "Magic Log",
+    "log_display_name": "Volatile Log",
     "level_required": 75,
     "xp_per_log": 250,
     "time_per_log": 1

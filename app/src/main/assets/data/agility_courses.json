@@ -4,7 +4,7 @@
     "display_name": "Beginner Course",
     "level_required": 1,
     "xp_per_success": 15,
-    "description": "A simple obstacle course for those just starting their agility training."
+    "description": "A simple obstacle course for those just starting their horse Riding training."
   },
   "novice_course": {
     "name": "novice_course",
@@ -32,7 +32,7 @@
     "display_name": "Advanced Course",
     "level_required": 20,
     "xp_per_success": 85,
-    "description": "A challenging course that tests your agility prowess."
+    "description": "A challenging course that tests your horse Riding prowess."
   },
   "expert_course": {
     "name": "expert_course",
@@ -92,17 +92,17 @@
   },
   "divine_course": {
     "name": "divine_course",
-    "display_name": "Divine Course",
+    "display_name": "Engraved Course",
     "level_required": 80,
     "xp_per_success": 790,
-    "description": "A divine course blessed by the gods of agility."
+    "description": "A engraved course blessed by the gods of horse Riding."
   },
   "transcendent_course": {
     "name": "transcendent_course",
     "display_name": "Transcendent Course",
     "level_required": 90,
     "xp_per_success": 1000,
-    "description": "The ultimate test of agility, transcending mortal limits."
+    "description": "The ultimate test of horse Riding, transcending mortal limits."
   },
   "elder_coastal_run": {
     "name": "elder_coastal_run",
@@ -116,20 +116,20 @@
     "display_name": "Grove Traverse",
     "level_required": 30,
     "xp_per_success": 60,
-    "description": "A rope-and-ledge circuit through the rune-lit canopy of the Ancient Forest."
+    "description": "A rope-and-ledge circuit through the charge-lit canopy of the Redwood Forest."
   },
   "elder_volcano_scramble": {
     "name": "elder_volcano_scramble",
     "display_name": "Volcano Scramble",
     "level_required": 60,
     "xp_per_success": 160,
-    "description": "A climb across the smoking flanks of the peak. The stone remembers being an altar."
+    "description": "A climb across the smoking flanks of the peak. The stone remembers being an chapel."
   },
   "elder_abyssal_ascent": {
     "name": "elder_abyssal_ascent",
     "display_name": "Abyssal Ascent",
     "level_required": 85,
     "xp_per_success": 300,
-    "description": "A vertical route up the pressure-cracked walls of the Abyssal Depths. Few make the top."
+    "description": "A vertical route up the pressure-cracked walls of the Bottomless Mine. Few make the top."
   }
 }

@@ -1,7 +1,7 @@
 {
   "bronze_bar": {
     "type": "bar",
-    "display_name": "Bronze Bar",
+    "display_name": "Brass Bar",
     "level_required": 1,
     "materials": {
       "copper_ore": 1,
@@ -58,7 +58,7 @@
   },
   "mithril_bar": {
     "type": "bar",
-    "display_name": "Mithril Bar",
+    "display_name": "Damascus Bar",
     "level_required": 50,
     "materials": {
       "mithril_ore": 1,
@@ -70,7 +70,7 @@
   },
   "adamantite_bar": {
     "type": "bar",
-    "display_name": "Adamantite Bar",
+    "display_name": "Bessemer Bar",
     "level_required": 70,
     "materials": {
       "adamantite_ore": 1,
@@ -93,7 +93,7 @@
   },
   "runite_bar": {
     "type": "bar",
-    "display_name": "Runite Bar",
+    "display_name": "Stainless Bar",
     "level_required": 85,
     "materials": {
       "runite_ore": 1,
@@ -105,7 +105,7 @@
   },
   "bronze_arrow_tip": {
     "type": "component",
-    "display_name": "Bronze Arrow Tips",
+    "display_name": "Brass Arrow Tips",
     "level_required": 1,
     "materials": {
       "bronze_bar": 1
@@ -138,7 +138,7 @@
   },
   "mithril_arrow_tip": {
     "type": "component",
-    "display_name": "Mithril Arrow Tips",
+    "display_name": "Damascus Arrow Tips",
     "level_required": 55,
     "materials": {
       "mithril_bar": 1
@@ -149,7 +149,7 @@
   },
   "adamantite_arrow_tip": {
     "type": "component",
-    "display_name": "Adamantite Arrow Tips",
+    "display_name": "Bessemer Arrow Tips",
     "level_required": 75,
     "materials": {
       "adamantite_bar": 1
@@ -160,7 +160,7 @@
   },
   "runite_arrow_tip": {
     "type": "component",
-    "display_name": "Runite Arrow Tips",
+    "display_name": "Stainless Arrow Tips",
     "level_required": 90,
     "materials": {
       "runite_bar": 1
@@ -171,7 +171,7 @@
   },
   "bronze_dagger": {
     "type": "equipment",
-    "display_name": "Bronze Dagger",
+    "display_name": "Brass Bowie Knife",
     "level_required": 1,
     "materials": {
       "bronze_bar": 1
@@ -182,7 +182,7 @@
   },
   "iron_dagger": {
     "type": "equipment",
-    "display_name": "Iron Dagger",
+    "display_name": "Iron Bowie Knife",
     "level_required": 15,
     "materials": {
       "iron_bar": 1
@@ -193,7 +193,7 @@
   },
   "steel_dagger": {
     "type": "equipment",
-    "display_name": "Steel Dagger",
+    "display_name": "Steel Bowie Knife",
     "level_required": 30,
     "materials": {
       "steel_bar": 1
@@ -204,7 +204,7 @@
   },
   "mithril_dagger": {
     "type": "equipment",
-    "display_name": "Mithril Dagger",
+    "display_name": "Damascus Bowie Knife",
     "level_required": 50,
     "materials": {
       "mithril_bar": 1
@@ -215,7 +215,7 @@
   },
   "adamantite_dagger": {
     "type": "equipment",
-    "display_name": "Adamantite Dagger",
+    "display_name": "Bessemer Bowie Knife",
     "level_required": 70,
     "materials": {
       "adamantite_bar": 1
@@ -226,7 +226,7 @@
   },
   "runite_dagger": {
     "type": "equipment",
-    "display_name": "Runite Dagger",
+    "display_name": "Stainless Bowie Knife",
     "level_required": 85,
     "materials": {
       "runite_bar": 1
@@ -237,7 +237,7 @@
   },
   "bronze_sword": {
     "type": "equipment",
-    "display_name": "Bronze Sword",
+    "display_name": "Brass Sword",
     "level_required": 4,
     "materials": {
       "bronze_bar": 1
@@ -270,7 +270,7 @@
   },
   "mithril_sword": {
     "type": "equipment",
-    "display_name": "Mithril Sword",
+    "display_name": "Damascus Sword",
     "level_required": 54,
     "materials": {
       "mithril_bar": 1
@@ -281,7 +281,7 @@
   },
   "adamantite_sword": {
     "type": "equipment",
-    "display_name": "Adamantite Sword",
+    "display_name": "Bessemer Sword",
     "level_required": 74,
     "materials": {
       "adamantite_bar": 1
@@ -292,7 +292,7 @@
   },
   "runite_sword": {
     "type": "equipment",
-    "display_name": "Runite Sword",
+    "display_name": "Stainless Sword",
     "level_required": 89,
     "materials": {
       "runite_bar": 1
@@ -303,7 +303,7 @@
   },
   "bronze_scimitar": {
     "type": "equipment",
-    "display_name": "Bronze Scimitar",
+    "display_name": "Brass Derringer",
     "level_required": 5,
     "materials": {
       "bronze_bar": 2
@@ -314,7 +314,7 @@
   },
   "iron_scimitar": {
     "type": "equipment",
-    "display_name": "Iron Scimitar",
+    "display_name": "Iron Derringer",
     "level_required": 20,
     "materials": {
       "iron_bar": 2
@@ -325,7 +325,7 @@
   },
   "steel_scimitar": {
     "type": "equipment",
-    "display_name": "Steel Scimitar",
+    "display_name": "Steel Derringer",
     "level_required": 35,
     "materials": {
       "steel_bar": 2
@@ -336,7 +336,7 @@
   },
   "mithril_scimitar": {
     "type": "equipment",
-    "display_name": "Mithril Scimitar",
+    "display_name": "Damascus Derringer",
     "level_required": 55,
     "materials": {
       "mithril_bar": 2
@@ -347,7 +347,7 @@
   },
   "adamantite_scimitar": {
     "type": "equipment",
-    "display_name": "Adamantite Scimitar",
+    "display_name": "Bessemer Derringer",
     "level_required": 75,
     "materials": {
       "adamantite_bar": 2
@@ -358,7 +358,7 @@
   },
   "runite_scimitar": {
     "type": "equipment",
-    "display_name": "Runite Scimitar",
+    "display_name": "Stainless Derringer",
     "level_required": 90,
     "materials": {
       "runite_bar": 2
@@ -369,7 +369,7 @@
   },
   "bronze_longsword": {
     "type": "equipment",
-    "display_name": "Bronze Longsword",
+    "display_name": "Brass Rifle",
     "level_required": 6,
     "materials": {
       "bronze_bar": 2
@@ -380,7 +380,7 @@
   },
   "iron_longsword": {
     "type": "equipment",
-    "display_name": "Iron Longsword",
+    "display_name": "Iron Rifle",
     "level_required": 21,
     "materials": {
       "iron_bar": 2
@@ -391,7 +391,7 @@
   },
   "steel_longsword": {
     "type": "equipment",
-    "display_name": "Steel Longsword",
+    "display_name": "Steel Rifle",
     "level_required": 36,
     "materials": {
       "steel_bar": 2
@@ -402,7 +402,7 @@
   },
   "mithril_longsword": {
     "type": "equipment",
-    "display_name": "Mithril Longsword",
+    "display_name": "Damascus Rifle",
     "level_required": 56,
     "materials": {
       "mithril_bar": 2
@@ -413,7 +413,7 @@
   },
   "adamantite_longsword": {
     "type": "equipment",
-    "display_name": "Adamantite Longsword",
+    "display_name": "Bessemer Rifle",
     "level_required": 76,
     "materials": {
       "adamantite_bar": 2
@@ -424,7 +424,7 @@
   },
   "runite_longsword": {
     "type": "equipment",
-    "display_name": "Runite Longsword",
+    "display_name": "Stainless Rifle",
     "level_required": 91,
     "materials": {
       "runite_bar": 2
@@ -435,7 +435,7 @@
   },
   "bronze_2h_sword": {
     "type": "equipment",
-    "display_name": "Bronze 2H Sword",
+    "display_name": "Brass 2H Sword",
     "level_required": 14,
     "materials": {
       "bronze_bar": 3
@@ -468,7 +468,7 @@
   },
   "mithril_2h_sword": {
     "type": "equipment",
-    "display_name": "Mithril 2H Sword",
+    "display_name": "Damascus 2H Sword",
     "level_required": 64,
     "materials": {
       "mithril_bar": 3
@@ -479,7 +479,7 @@
   },
   "adamantite_2h_sword": {
     "type": "equipment",
-    "display_name": "Adamantite 2H Sword",
+    "display_name": "Bessemer 2H Sword",
     "level_required": 84,
     "materials": {
       "adamantite_bar": 3
@@ -490,7 +490,7 @@
   },
   "runite_2h_sword": {
     "type": "equipment",
-    "display_name": "Runite 2H Sword",
+    "display_name": "Stainless 2H Sword",
     "level_required": 99,
     "materials": {
       "runite_bar": 3
@@ -501,7 +501,7 @@
   },
   "bronze_warhammer": {
     "type": "equipment",
-    "display_name": "Bronze Warhammer",
+    "display_name": "Brass Coach Gun",
     "level_required": 9,
     "materials": {
       "bronze_bar": 3
@@ -512,7 +512,7 @@
   },
   "iron_warhammer": {
     "type": "equipment",
-    "display_name": "Iron Warhammer",
+    "display_name": "Iron Coach Gun",
     "level_required": 24,
     "materials": {
       "iron_bar": 3
@@ -523,7 +523,7 @@
   },
   "steel_warhammer": {
     "type": "equipment",
-    "display_name": "Steel Warhammer",
+    "display_name": "Steel Coach Gun",
     "level_required": 39,
     "materials": {
       "steel_bar": 3
@@ -534,7 +534,7 @@
   },
   "mithril_warhammer": {
     "type": "equipment",
-    "display_name": "Mithril Warhammer",
+    "display_name": "Damascus Coach Gun",
     "level_required": 59,
     "materials": {
       "mithril_bar": 3
@@ -545,7 +545,7 @@
   },
   "adamantite_warhammer": {
     "type": "equipment",
-    "display_name": "Adamantite Warhammer",
+    "display_name": "Bessemer Coach Gun",
     "level_required": 79,
     "materials": {
       "adamantite_bar": 3
@@ -556,7 +556,7 @@
   },
   "runite_warhammer": {
     "type": "equipment",
-    "display_name": "Runite Warhammer",
+    "display_name": "Stainless Coach Gun",
     "level_required": 94,
     "materials": {
       "runite_bar": 3
@@ -567,7 +567,7 @@
   },
   "bronze_battleaxe": {
     "type": "equipment",
-    "display_name": "Bronze Battleaxe",
+    "display_name": "Brass Shotgun",
     "level_required": 10,
     "materials": {
       "bronze_bar": 3
@@ -578,7 +578,7 @@
   },
   "iron_battleaxe": {
     "type": "equipment",
-    "display_name": "Iron Battleaxe",
+    "display_name": "Iron Shotgun",
     "level_required": 25,
     "materials": {
       "iron_bar": 3
@@ -589,7 +589,7 @@
   },
   "steel_battleaxe": {
     "type": "equipment",
-    "display_name": "Steel Battleaxe",
+    "display_name": "Steel Shotgun",
     "level_required": 40,
     "materials": {
       "steel_bar": 3
@@ -600,7 +600,7 @@
   },
   "mithril_battleaxe": {
     "type": "equipment",
-    "display_name": "Mithril Battleaxe",
+    "display_name": "Damascus Shotgun",
     "level_required": 60,
     "materials": {
       "mithril_bar": 3
@@ -611,7 +611,7 @@
   },
   "adamantite_battleaxe": {
     "type": "equipment",
-    "display_name": "Adamantite Battleaxe",
+    "display_name": "Bessemer Shotgun",
     "level_required": 80,
     "materials": {
       "adamantite_bar": 3
@@ -622,7 +622,7 @@
   },
   "runite_battleaxe": {
     "type": "equipment",
-    "display_name": "Runite Battleaxe",
+    "display_name": "Stainless Shotgun",
     "level_required": 95,
     "materials": {
       "runite_bar": 3
@@ -633,7 +633,7 @@
   },
   "bronze_med_helmet": {
     "type": "equipment",
-    "display_name": "Bronze Med Helmet",
+    "display_name": "Brass Med Hat",
     "level_required": 3,
     "materials": {
       "bronze_bar": 1
@@ -644,7 +644,7 @@
   },
   "iron_med_helmet": {
     "type": "equipment",
-    "display_name": "Iron Med Helmet",
+    "display_name": "Iron Med Hat",
     "level_required": 18,
     "materials": {
       "iron_bar": 1
@@ -655,7 +655,7 @@
   },
   "steel_med_helmet": {
     "type": "equipment",
-    "display_name": "Steel Med Helmet",
+    "display_name": "Steel Med Hat",
     "level_required": 33,
     "materials": {
       "steel_bar": 1
@@ -666,7 +666,7 @@
   },
   "mithril_med_helmet": {
     "type": "equipment",
-    "display_name": "Mithril Med Helmet",
+    "display_name": "Damascus Med Hat",
     "level_required": 53,
     "materials": {
       "mithril_bar": 1
@@ -677,7 +677,7 @@
   },
   "adamantite_med_helmet": {
     "type": "equipment",
-    "display_name": "Adamantite Med Helmet",
+    "display_name": "Bessemer Med Hat",
     "level_required": 73,
     "materials": {
       "adamantite_bar": 1
@@ -688,7 +688,7 @@
   },
   "runite_med_helmet": {
     "type": "equipment",
-    "display_name": "Runite Med Helmet",
+    "display_name": "Stainless Med Hat",
     "level_required": 88,
     "materials": {
       "runite_bar": 1
@@ -699,7 +699,7 @@
   },
   "bronze_boots": {
     "type": "equipment",
-    "display_name": "Bronze Boots",
+    "display_name": "Brass Boots",
     "level_required": 4,
     "materials": {
       "bronze_bar": 1
@@ -732,7 +732,7 @@
   },
   "mithril_boots": {
     "type": "equipment",
-    "display_name": "Mithril Boots",
+    "display_name": "Damascus Boots",
     "level_required": 54,
     "materials": {
       "mithril_bar": 1
@@ -743,7 +743,7 @@
   },
   "adamantite_boots": {
     "type": "equipment",
-    "display_name": "Adamantite Boots",
+    "display_name": "Bessemer Boots",
     "level_required": 74,
     "materials": {
       "adamantite_bar": 1
@@ -754,7 +754,7 @@
   },
   "runite_boots": {
     "type": "equipment",
-    "display_name": "Runite Boots",
+    "display_name": "Stainless Boots",
     "level_required": 89,
     "materials": {
       "runite_bar": 1
@@ -765,7 +765,7 @@
   },
   "bronze_full_helmet": {
     "type": "equipment",
-    "display_name": "Bronze Full Helmet",
+    "display_name": "Brass Full Hat",
     "level_required": 7,
     "materials": {
       "bronze_bar": 2
@@ -776,7 +776,7 @@
   },
   "iron_full_helmet": {
     "type": "equipment",
-    "display_name": "Iron Full Helmet",
+    "display_name": "Iron Full Hat",
     "level_required": 22,
     "materials": {
       "iron_bar": 2
@@ -787,7 +787,7 @@
   },
   "steel_full_helmet": {
     "type": "equipment",
-    "display_name": "Steel Full Helmet",
+    "display_name": "Steel Full Hat",
     "level_required": 37,
     "materials": {
       "steel_bar": 2
@@ -798,7 +798,7 @@
   },
   "mithril_full_helmet": {
     "type": "equipment",
-    "display_name": "Mithril Full Helmet",
+    "display_name": "Damascus Full Hat",
     "level_required": 57,
     "materials": {
       "mithril_bar": 2
@@ -809,7 +809,7 @@
   },
   "adamantite_full_helmet": {
     "type": "equipment",
-    "display_name": "Adamantite Full Helmet",
+    "display_name": "Bessemer Full Hat",
     "level_required": 77,
     "materials": {
       "adamantite_bar": 2
@@ -820,7 +820,7 @@
   },
   "runite_full_helmet": {
     "type": "equipment",
-    "display_name": "Runite Full Helmet",
+    "display_name": "Stainless Full Hat",
     "level_required": 92,
     "materials": {
       "runite_bar": 2
@@ -831,7 +831,7 @@
   },
   "bronze_chainbody": {
     "type": "equipment",
-    "display_name": "Bronze Chainbody",
+    "display_name": "Brass Leather Vest",
     "level_required": 11,
     "materials": {
       "bronze_bar": 3
@@ -842,7 +842,7 @@
   },
   "iron_chainbody": {
     "type": "equipment",
-    "display_name": "Iron Chainbody",
+    "display_name": "Iron Leather Vest",
     "level_required": 26,
     "materials": {
       "iron_bar": 3
@@ -853,7 +853,7 @@
   },
   "steel_chainbody": {
     "type": "equipment",
-    "display_name": "Steel Chainbody",
+    "display_name": "Steel Leather Vest",
     "level_required": 41,
     "materials": {
       "steel_bar": 3
@@ -864,7 +864,7 @@
   },
   "mithril_chainbody": {
     "type": "equipment",
-    "display_name": "Mithril Chainbody",
+    "display_name": "Damascus Leather Vest",
     "level_required": 61,
     "materials": {
       "mithril_bar": 3
@@ -875,7 +875,7 @@
   },
   "adamantite_chainbody": {
     "type": "equipment",
-    "display_name": "Adamantite Chainbody",
+    "display_name": "Bessemer Leather Vest",
     "level_required": 81,
     "materials": {
       "adamantite_bar": 3
@@ -886,7 +886,7 @@
   },
   "runite_chainbody": {
     "type": "equipment",
-    "display_name": "Runite Chainbody",
+    "display_name": "Stainless Leather Vest",
     "level_required": 96,
     "materials": {
       "runite_bar": 3
@@ -897,7 +897,7 @@
   },
   "bronze_platelegs": {
     "type": "equipment",
-    "display_name": "Bronze Platelegs",
+    "display_name": "Brass Chaps",
     "level_required": 16,
     "materials": {
       "bronze_bar": 3
@@ -908,7 +908,7 @@
   },
   "iron_platelegs": {
     "type": "equipment",
-    "display_name": "Iron Platelegs",
+    "display_name": "Iron Chaps",
     "level_required": 31,
     "materials": {
       "iron_bar": 3
@@ -919,7 +919,7 @@
   },
   "steel_platelegs": {
     "type": "equipment",
-    "display_name": "Steel Platelegs",
+    "display_name": "Steel Chaps",
     "level_required": 46,
     "materials": {
       "steel_bar": 3
@@ -930,7 +930,7 @@
   },
   "mithril_platelegs": {
     "type": "equipment",
-    "display_name": "Mithril Platelegs",
+    "display_name": "Damascus Chaps",
     "level_required": 66,
     "materials": {
       "mithril_bar": 3
@@ -941,7 +941,7 @@
   },
   "adamantite_platelegs": {
     "type": "equipment",
-    "display_name": "Adamantite Platelegs",
+    "display_name": "Bessemer Chaps",
     "level_required": 86,
     "materials": {
       "adamantite_bar": 3
@@ -952,7 +952,7 @@
   },
   "runite_platelegs": {
     "type": "equipment",
-    "display_name": "Runite Platelegs",
+    "display_name": "Stainless Chaps",
     "level_required": 99,
     "materials": {
       "runite_bar": 3
@@ -963,7 +963,7 @@
   },
   "bronze_plateskirt": {
     "type": "equipment",
-    "display_name": "Bronze Plateskirt",
+    "display_name": "Brass Riding Chaps",
     "level_required": 16,
     "materials": {
       "bronze_bar": 3
@@ -974,7 +974,7 @@
   },
   "iron_plateskirt": {
     "type": "equipment",
-    "display_name": "Iron Plateskirt",
+    "display_name": "Iron Riding Chaps",
     "level_required": 31,
     "materials": {
       "iron_bar": 3
@@ -985,7 +985,7 @@
   },
   "steel_plateskirt": {
     "type": "equipment",
-    "display_name": "Steel Plateskirt",
+    "display_name": "Steel Riding Chaps",
     "level_required": 46,
     "materials": {
       "steel_bar": 3
@@ -996,7 +996,7 @@
   },
   "mithril_plateskirt": {
     "type": "equipment",
-    "display_name": "Mithril Plateskirt",
+    "display_name": "Damascus Riding Chaps",
     "level_required": 66,
     "materials": {
       "mithril_bar": 3
@@ -1007,7 +1007,7 @@
   },
   "adamantite_plateskirt": {
     "type": "equipment",
-    "display_name": "Adamantite Plateskirt",
+    "display_name": "Bessemer Riding Chaps",
     "level_required": 86,
     "materials": {
       "adamantite_bar": 3
@@ -1018,7 +1018,7 @@
   },
   "runite_plateskirt": {
     "type": "equipment",
-    "display_name": "Runite Plateskirt",
+    "display_name": "Stainless Riding Chaps",
     "level_required": 99,
     "materials": {
       "runite_bar": 3
@@ -1029,7 +1029,7 @@
   },
   "bronze_platebody": {
     "type": "equipment",
-    "display_name": "Bronze Platebody",
+    "display_name": "Brass Duster",
     "level_required": 18,
     "materials": {
       "bronze_bar": 5
@@ -1040,7 +1040,7 @@
   },
   "iron_platebody": {
     "type": "equipment",
-    "display_name": "Iron Platebody",
+    "display_name": "Iron Duster",
     "level_required": 33,
     "materials": {
       "iron_bar": 5
@@ -1051,7 +1051,7 @@
   },
   "steel_platebody": {
     "type": "equipment",
-    "display_name": "Steel Platebody",
+    "display_name": "Steel Duster",
     "level_required": 48,
     "materials": {
       "steel_bar": 5
@@ -1062,7 +1062,7 @@
   },
   "mithril_platebody": {
     "type": "equipment",
-    "display_name": "Mithril Platebody",
+    "display_name": "Damascus Duster",
     "level_required": 68,
     "materials": {
       "mithril_bar": 5
@@ -1073,7 +1073,7 @@
   },
   "adamantite_platebody": {
     "type": "equipment",
-    "display_name": "Adamantite Platebody",
+    "display_name": "Bessemer Duster",
     "level_required": 88,
     "materials": {
       "adamantite_bar": 5
@@ -1084,7 +1084,7 @@
   },
   "runite_platebody": {
     "type": "equipment",
-    "display_name": "Runite Platebody",
+    "display_name": "Stainless Duster",
     "level_required": 99,
     "materials": {
       "runite_bar": 5
@@ -1095,7 +1095,7 @@
   },
   "bronze_square_shield": {
     "type": "equipment",
-    "display_name": "Bronze Square Shield",
+    "display_name": "Brass Tin Star Shield",
     "level_required": 8,
     "materials": {
       "bronze_bar": 2
@@ -1106,7 +1106,7 @@
   },
   "iron_square_shield": {
     "type": "equipment",
-    "display_name": "Iron Square Shield",
+    "display_name": "Iron Tin Star Shield",
     "level_required": 23,
     "materials": {
       "iron_bar": 2
@@ -1117,7 +1117,7 @@
   },
   "steel_square_shield": {
     "type": "equipment",
-    "display_name": "Steel Square Shield",
+    "display_name": "Steel Tin Star Shield",
     "level_required": 38,
     "materials": {
       "steel_bar": 2
@@ -1128,7 +1128,7 @@
   },
   "mithril_square_shield": {
     "type": "equipment",
-    "display_name": "Mithril Square Shield",
+    "display_name": "Damascus Tin Star Shield",
     "level_required": 58,
     "materials": {
       "mithril_bar": 2
@@ -1139,7 +1139,7 @@
   },
   "adamantite_square_shield": {
     "type": "equipment",
-    "display_name": "Adamantite Square Shield",
+    "display_name": "Bessemer Tin Star Shield",
     "level_required": 78,
     "materials": {
       "adamantite_bar": 2
@@ -1150,7 +1150,7 @@
   },
   "runite_square_shield": {
     "type": "equipment",
-    "display_name": "Runite Square Shield",
+    "display_name": "Stainless Tin Star Shield",
     "level_required": 93,
     "materials": {
       "runite_bar": 2
@@ -1161,7 +1161,7 @@
   },
   "bronze_kiteshield": {
     "type": "equipment",
-    "display_name": "Bronze Kiteshield",
+    "display_name": "Brass Iron Vest",
     "level_required": 12,
     "materials": {
       "bronze_bar": 3
@@ -1172,7 +1172,7 @@
   },
   "iron_kiteshield": {
     "type": "equipment",
-    "display_name": "Iron Kiteshield",
+    "display_name": "Iron Iron Vest",
     "level_required": 27,
     "materials": {
       "iron_bar": 3
@@ -1183,7 +1183,7 @@
   },
   "steel_kiteshield": {
     "type": "equipment",
-    "display_name": "Steel Kiteshield",
+    "display_name": "Steel Iron Vest",
     "level_required": 42,
     "materials": {
       "steel_bar": 3
@@ -1194,7 +1194,7 @@
   },
   "mithril_kiteshield": {
     "type": "equipment",
-    "display_name": "Mithril Kiteshield",
+    "display_name": "Damascus Iron Vest",
     "level_required": 62,
     "materials": {
       "mithril_bar": 3
@@ -1205,7 +1205,7 @@
   },
   "adamantite_kiteshield": {
     "type": "equipment",
-    "display_name": "Adamantite Kiteshield",
+    "display_name": "Bessemer Iron Vest",
     "level_required": 82,
     "materials": {
       "adamantite_bar": 3
@@ -1216,7 +1216,7 @@
   },
   "runite_kiteshield": {
     "type": "equipment",
-    "display_name": "Runite Kiteshield",
+    "display_name": "Stainless Iron Vest",
     "level_required": 97,
     "materials": {
       "runite_bar": 3
@@ -1227,7 +1227,7 @@
   },
   "bronze_pickaxe": {
     "type": "tool",
-    "display_name": "Bronze Pickaxe",
+    "display_name": "Brass Pickaxe",
     "level_required": 1,
     "materials": {
       "bronze_bar": 2
@@ -1260,7 +1260,7 @@
   },
   "mithril_pickaxe": {
     "type": "tool",
-    "display_name": "Mithril Pickaxe",
+    "display_name": "Damascus Pickaxe",
     "level_required": 55,
     "materials": {
       "mithril_bar": 2
@@ -1271,7 +1271,7 @@
   },
   "adamantite_pickaxe": {
     "type": "tool",
-    "display_name": "Adamantite Pickaxe",
+    "display_name": "Bessemer Pickaxe",
     "level_required": 70,
     "materials": {
       "adamantite_bar": 2
@@ -1282,7 +1282,7 @@
   },
   "runite_pickaxe": {
     "type": "tool",
-    "display_name": "Runite Pickaxe",
+    "display_name": "Stainless Pickaxe",
     "level_required": 85,
     "materials": {
       "runite_bar": 2
@@ -1293,7 +1293,7 @@
   },
   "bronze_hammer": {
     "type": "tool",
-    "display_name": "Bronze Hammer",
+    "display_name": "Brass Hammer",
     "level_required": 1,
     "materials": {
       "bronze_bar": 2
@@ -1326,7 +1326,7 @@
   },
   "mithril_hammer": {
     "type": "tool",
-    "display_name": "Mithril Hammer",
+    "display_name": "Damascus Hammer",
     "level_required": 55,
     "materials": {
       "mithril_bar": 2
@@ -1337,7 +1337,7 @@
   },
   "adamantite_hammer": {
     "type": "tool",
-    "display_name": "Adamantite Hammer",
+    "display_name": "Bessemer Hammer",
     "level_required": 70,
     "materials": {
       "adamantite_bar": 2
@@ -1348,7 +1348,7 @@
   },
   "runite_hammer": {
     "type": "tool",
-    "display_name": "Runite Hammer",
+    "display_name": "Stainless Hammer",
     "level_required": 85,
     "materials": {
       "runite_bar": 2
@@ -1359,7 +1359,7 @@
   },
   "bronze_tinderbox": {
     "type": "tool",
-    "display_name": "Bronze Tinderbox",
+    "display_name": "Brass Tinderbox",
     "level_required": 1,
     "materials": {
       "bronze_bar": 2
@@ -1392,7 +1392,7 @@
   },
   "mithril_tinderbox": {
     "type": "tool",
-    "display_name": "Mithril Tinderbox",
+    "display_name": "Damascus Tinderbox",
     "level_required": 55,
     "materials": {
       "mithril_bar": 2
@@ -1403,7 +1403,7 @@
   },
   "adamantite_tinderbox": {
     "type": "tool",
-    "display_name": "Adamantite Tinderbox",
+    "display_name": "Bessemer Tinderbox",
     "level_required": 70,
     "materials": {
       "adamantite_bar": 2
@@ -1414,7 +1414,7 @@
   },
   "runite_tinderbox": {
     "type": "tool",
-    "display_name": "Runite Tinderbox",
+    "display_name": "Stainless Tinderbox",
     "level_required": 85,
     "materials": {
       "runite_bar": 2
@@ -1425,7 +1425,7 @@
   },
   "bronze_grappling_hook": {
     "type": "tool",
-    "display_name": "Bronze Grappling Hook",
+    "display_name": "Brass Grappling Hook",
     "level_required": 1,
     "materials": {
       "bronze_bar": 2
@@ -1458,7 +1458,7 @@
   },
   "mithril_grappling_hook": {
     "type": "tool",
-    "display_name": "Mithril Grappling Hook",
+    "display_name": "Damascus Grappling Hook",
     "level_required": 55,
     "materials": {
       "mithril_bar": 2
@@ -1469,7 +1469,7 @@
   },
   "adamantite_grappling_hook": {
     "type": "tool",
-    "display_name": "Adamantite Grappling Hook",
+    "display_name": "Bessemer Grappling Hook",
     "level_required": 70,
     "materials": {
       "adamantite_bar": 2
@@ -1480,7 +1480,7 @@
   },
   "runite_grappling_hook": {
     "type": "tool",
-    "display_name": "Runite Grappling Hook",
+    "display_name": "Stainless Grappling Hook",
     "level_required": 85,
     "materials": {
       "runite_bar": 2
@@ -1491,7 +1491,7 @@
   },
   "bronze_frying_pan": {
     "type": "tool",
-    "display_name": "Bronze Frying Pan",
+    "display_name": "Brass Frying Pan",
     "level_required": 1,
     "materials": {
       "bronze_bar": 2
@@ -1524,7 +1524,7 @@
   },
   "mithril_frying_pan": {
     "type": "tool",
-    "display_name": "Mithril Frying Pan",
+    "display_name": "Damascus Frying Pan",
     "level_required": 55,
     "materials": {
       "mithril_bar": 2
@@ -1535,7 +1535,7 @@
   },
   "adamantite_frying_pan": {
     "type": "tool",
-    "display_name": "Adamantite Frying Pan",
+    "display_name": "Bessemer Frying Pan",
     "level_required": 70,
     "materials": {
       "adamantite_bar": 2
@@ -1546,7 +1546,7 @@
   },
   "runite_frying_pan": {
     "type": "tool",
-    "display_name": "Runite Frying Pan",
+    "display_name": "Stainless Frying Pan",
     "level_required": 85,
     "materials": {
       "runite_bar": 2
@@ -1557,7 +1557,7 @@
   },
   "bronze_axe": {
     "type": "tool",
-    "display_name": "Bronze Axe",
+    "display_name": "Brass Axe",
     "level_required": 1,
     "materials": {
       "bronze_bar": 2
@@ -1590,7 +1590,7 @@
   },
   "mithril_axe": {
     "type": "tool",
-    "display_name": "Mithril Axe",
+    "display_name": "Damascus Axe",
     "level_required": 55,
     "materials": {
       "mithril_bar": 2
@@ -1601,7 +1601,7 @@
   },
   "adamantite_axe": {
     "type": "tool",
-    "display_name": "Adamantite Axe",
+    "display_name": "Bessemer Axe",
     "level_required": 70,
     "materials": {
       "adamantite_bar": 2
@@ -1612,7 +1612,7 @@
   },
   "runite_axe": {
     "type": "tool",
-    "display_name": "Runite Axe",
+    "display_name": "Stainless Axe",
     "level_required": 85,
     "materials": {
       "runite_bar": 2
@@ -1623,7 +1623,7 @@
   },
   "bronze_fishing_rod": {
     "type": "tool",
-    "display_name": "Bronze Fishing Rod",
+    "display_name": "Brass Fishing Rod",
     "level_required": 1,
     "materials": {
       "bronze_bar": 2
@@ -1656,7 +1656,7 @@
   },
   "mithril_fishing_rod": {
     "type": "tool",
-    "display_name": "Mithril Fishing Rod",
+    "display_name": "Damascus Fishing Rod",
     "level_required": 55,
     "materials": {
       "mithril_bar": 2
@@ -1667,7 +1667,7 @@
   },
   "adamantite_fishing_rod": {
     "type": "tool",
-    "display_name": "Adamantite Fishing Rod",
+    "display_name": "Bessemer Fishing Rod",
     "level_required": 70,
     "materials": {
       "adamantite_bar": 2
@@ -1678,7 +1678,7 @@
   },
   "runite_fishing_rod": {
     "type": "tool",
-    "display_name": "Runite Fishing Rod",
+    "display_name": "Stainless Fishing Rod",
     "level_required": 85,
     "materials": {
       "runite_bar": 2
@@ -1689,7 +1689,7 @@
   },
   "bronze_hoe": {
     "type": "tool",
-    "display_name": "Bronze Hoe",
+    "display_name": "Brass Hoe",
     "level_required": 1,
     "materials": {
       "bronze_bar": 2
@@ -1722,7 +1722,7 @@
   },
   "mithril_hoe": {
     "type": "tool",
-    "display_name": "Mithril Hoe",
+    "display_name": "Damascus Hoe",
     "level_required": 55,
     "materials": {
       "mithril_bar": 2
@@ -1733,7 +1733,7 @@
   },
   "adamantite_hoe": {
     "type": "tool",
-    "display_name": "Adamantite Hoe",
+    "display_name": "Bessemer Hoe",
     "level_required": 70,
     "materials": {
       "adamantite_bar": 2
@@ -1744,7 +1744,7 @@
   },
   "runite_hoe": {
     "type": "tool",
-    "display_name": "Runite Hoe",
+    "display_name": "Stainless Hoe",
     "level_required": 85,
     "materials": {
       "runite_bar": 2
@@ -1777,7 +1777,7 @@
   },
   "mithril_nail": {
     "type": "component",
-    "display_name": "Mithril Nails",
+    "display_name": "Damascus Nails",
     "level_required": 55,
     "materials": {
       "mithril_bar": 1
@@ -1788,7 +1788,7 @@
   },
   "runite_nail": {
     "type": "component",
-    "display_name": "Runite Nails",
+    "display_name": "Stainless Nails",
     "level_required": 85,
     "materials": {
       "runite_bar": 1
@@ -1799,7 +1799,7 @@
   },
   "bronze_lockpick": {
     "type": "tool",
-    "display_name": "Bronze Lockpick",
+    "display_name": "Brass Lockpick",
     "level_required": 1,
     "materials": {
       "bronze_bar": 2
@@ -1832,7 +1832,7 @@
   },
   "mithril_lockpick": {
     "type": "tool",
-    "display_name": "Mithril Lockpick",
+    "display_name": "Damascus Lockpick",
     "level_required": 55,
     "materials": {
       "mithril_bar": 2
@@ -1843,7 +1843,7 @@
   },
   "adamantite_lockpick": {
     "type": "tool",
-    "display_name": "Adamantite Lockpick",
+    "display_name": "Bessemer Lockpick",
     "level_required": 70,
     "materials": {
       "adamantite_bar": 2
@@ -1854,7 +1854,7 @@
   },
   "runite_lockpick": {
     "type": "tool",
-    "display_name": "Runite Lockpick",
+    "display_name": "Stainless Lockpick",
     "level_required": 85,
     "materials": {
       "runite_bar": 2
@@ -1865,7 +1865,7 @@
   },
   "mythrite_bar": {
     "type": "bar",
-    "display_name": "Mythrite Bar",
+    "display_name": "Quartz Bar",
     "level_required": 1,
     "materials": {
       "mythrite_ore": 2
@@ -1887,7 +1887,7 @@
   },
   "voidsteel_bar": {
     "type": "bar",
-    "display_name": "Voidsteel Bar",
+    "display_name": "Black Gold Bar",
     "level_required": 60,
     "materials": {
       "voidsteel_ore": 2
@@ -1898,7 +1898,7 @@
   },
   "starforged_bar": {
     "type": "bar",
-    "display_name": "Starforged Bar",
+    "display_name": "Meteorite Bar",
     "level_required": 85,
     "materials": {
       "starforged_ore": 2
@@ -1921,7 +1921,7 @@
   },
   "coastal_platebody": {
     "type": "armor",
-    "display_name": "Coastal Platebody",
+    "display_name": "Coastal Duster",
     "level_required": 5,
     "materials": {
       "mythrite_bar": 8,
@@ -1933,7 +1933,7 @@
   },
   "coastal_platelegs": {
     "type": "armor",
-    "display_name": "Coastal Platelegs",
+    "display_name": "Coastal Chaps",
     "level_required": 5,
     "materials": {
       "mythrite_bar": 7,
@@ -1969,7 +1969,7 @@
   },
   "grove_platebody": {
     "type": "armor",
-    "display_name": "Grove Platebody",
+    "display_name": "Grove Duster",
     "level_required": 35,
     "materials": {
       "abyssal_bar": 8,
@@ -1981,7 +1981,7 @@
   },
   "grove_platelegs": {
     "type": "armor",
-    "display_name": "Grove Platelegs",
+    "display_name": "Grove Chaps",
     "level_required": 35,
     "materials": {
       "abyssal_bar": 7,
@@ -2017,7 +2017,7 @@
   },
   "volcanic_platebody": {
     "type": "armor",
-    "display_name": "Volcanic Platebody",
+    "display_name": "Volcanic Duster",
     "level_required": 65,
     "materials": {
       "voidsteel_bar": 8,
@@ -2029,7 +2029,7 @@
   },
   "volcanic_platelegs": {
     "type": "armor",
-    "display_name": "Volcanic Platelegs",
+    "display_name": "Volcanic Chaps",
     "level_required": 65,
     "materials": {
       "voidsteel_bar": 7,
@@ -2066,7 +2066,7 @@
   },
   "elder_platebody": {
     "type": "armor",
-    "display_name": "Elder Platebody",
+    "display_name": "Elder Duster",
     "level_required": 90,
     "materials": {
       "starforged_bar": 8,
@@ -2079,7 +2079,7 @@
   },
   "elder_platelegs": {
     "type": "armor",
-    "display_name": "Elder Platelegs",
+    "display_name": "Elder Chaps",
     "level_required": 90,
     "materials": {
       "starforged_bar": 7,

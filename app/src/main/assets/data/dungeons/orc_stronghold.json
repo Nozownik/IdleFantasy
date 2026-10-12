@@ -1,7 +1,7 @@
 {
   "name": "orc_stronghold",
-  "display_name": "Orc Stronghold",
-  "description": "A fortified orc settlement deep in the mountains. Only the brave dare enter.",
+  "display_name": "Outlaw Fort",
+  "description": "A fortified outlaw settlement deep in the mountains. Only the brave dare enter.",
   "recommended_level": 22,
   "encounter_rate": 0.32,
   "enemy_spawns": [

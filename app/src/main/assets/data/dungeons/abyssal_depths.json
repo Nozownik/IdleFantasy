@@ -1,7 +1,7 @@
 {
   "name": "abyssal_depths",
-  "display_name": "Abyssal Depths",
-  "description": "Flooded caldera below the volcano. Rarest gathering nodes on the isle, and the sealed chamber of the Last Elder.",
+  "display_name": "Bottomless Mine",
+  "description": "Flooded caldera below the volcano. Rarest gathering nodes on the isle, and the sealed chamber of the Last Shaman.",
   "recommended_level": 85,
   "encounter_rate": 0.5,
   "enemy_spawns": [

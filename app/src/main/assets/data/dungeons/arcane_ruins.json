@@ -1,7 +1,7 @@
 {
   "name": "arcane_ruins",
-  "display_name": "Arcane Ruins",
-  "description": "The functional underground chambers of a destroyed wizard's tower. Arcane constructs follow their last orders with no master left to countermand them. Corrupted mages drawn to the residual magic make the ruins doubly dangerous.",
+  "display_name": "Old Telegraph Station",
+  "description": "The functional underground chambers of a destroyed quack's tower. Arcane constructs follow their last orders with no master left to countermand them. Corrupted demolitionists drawn to the residual explosives make the ruins doubly dangerous.",
   "recommended_level": 55,
   "encounter_rate": 0.30,
   "lore_unlock_only": true,

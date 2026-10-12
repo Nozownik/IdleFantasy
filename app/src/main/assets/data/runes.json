@@ -1,66 +1,66 @@
 {
   "air_rune": {
-    "display_name": "Air Rune",
+    "display_name": "Gunpowder",
     "level_required": 1,
     "essence_cost": 1,
     "xp_per_rune": 5,
     "time_per_rune": 1,
-    "description": "A rune used to cast air spells."
+    "description": "A charge used to cast air tricks."
   },
   "water_rune": {
-    "display_name": "Water Rune",
+    "display_name": "Kerosene",
     "level_required": 5,
     "essence_cost": 1,
     "xp_per_rune": 6,
     "time_per_rune": 1,
-    "description": "A rune used to cast water spells."
+    "description": "A charge used to cast water tricks."
   },
   "earth_rune": {
-    "display_name": "Earth Rune",
+    "display_name": "Saltpeter Charge",
     "level_required": 10,
     "essence_cost": 1,
     "xp_per_rune": 7,
     "time_per_rune": 1,
-    "description": "A rune used to cast earth spells."
+    "description": "A charge used to cast earth tricks."
   },
   "fire_rune": {
-    "display_name": "Fire Rune",
+    "display_name": "Fuse",
     "level_required": 15,
     "essence_cost": 1,
     "xp_per_rune": 8,
     "time_per_rune": 1,
-    "description": "A rune used to cast fire spells."
+    "description": "A charge used to cast fire tricks."
   },
   "mind_rune": {
-    "display_name": "Mind Rune",
+    "display_name": "Laudanum",
     "level_required": 25,
     "essence_cost": 1,
     "xp_per_rune": 10,
     "time_per_rune": 1,
-    "description": "A rune used to cast mind spells."
+    "description": "A charge used to cast mind tricks."
   },
   "chaos_rune": {
-    "display_name": "Chaos Rune",
+    "display_name": "Nitroglycerin",
     "level_required": 35,
     "essence_cost": 1,
     "xp_per_rune": 12,
     "time_per_rune": 1,
-    "description": "A rune used to cast chaos spells."
+    "description": "A charge used to cast chaos tricks."
   },
   "death_rune": {
-    "display_name": "Death Rune",
+    "display_name": "Silver Bullet",
     "level_required": 50,
     "essence_cost": 1,
     "xp_per_rune": 15,
     "time_per_rune": 1,
-    "description": "A rune used to cast death spells."
+    "description": "A charge used to cast death tricks."
   },
   "blood_rune": {
-    "display_name": "Blood Rune",
+    "display_name": "Snake Venom",
     "level_required": 65,
     "essence_cost": 1,
     "xp_per_rune": 20,
     "time_per_rune": 1,
-    "description": "A rune used to cast blood spells."
+    "description": "A charge used to cast blood tricks."
   }
 }

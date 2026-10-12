@@ -1,6 +1,6 @@
 {
   "name": "woodcutting",
-  "display_name": "Woodcutting",
+  "display_name": "Lumberjacking",
   "description": "Chop trees and gather various types of wood",
   "max_level": 99,
   "xp_ranges": {

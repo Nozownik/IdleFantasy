@@ -25,7 +25,7 @@
   "strongmans_sigil": {
     "key": "strongmans_sigil",
     "display_name": "Strongman's Sigil",
-    "description": "A heavy iron ring etched with the mark of the strongman champion. Boosts Strength.",
+    "description": "A heavy iron ring etched with the mark of the strongman champion. Boosts Long guns.",
     "ticket_cost": 1600,
     "type": "equipment",
     "requirements": {
@@ -41,8 +41,8 @@
   },
   "juggling_imp": {
     "key": "juggling_imp",
-    "display_name": "Juggling Imp",
-    "description": "A mischievous imp that juggles your worries away. Boosts all skill XP by 3%.",
+    "display_name": "Juggling Rattler",
+    "description": "A mischievous rattler that juggles your worries away. Boosts all skill XP by 3%.",
     "ticket_cost": 4000,
     "type": "pet"
   }

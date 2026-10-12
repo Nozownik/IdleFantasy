@@ -118,7 +118,7 @@
   },
   "magic_herb": {
     "id": "magic_herb",
-    "display_name": "Magic Herb",
+    "display_name": "Explosives Herb",
     "emoji": "\ud83c\udf3f",
     "seed_name": "magic_herb_seed",
     "growth_time_hours": 13,
@@ -131,7 +131,7 @@
   },
   "dragon_fruit": {
     "id": "dragon_fruit",
-    "display_name": "Dragon Fruit",
+    "display_name": "Grizzly Fruit",
     "emoji": "\ud83c\udf3a",
     "seed_name": "dragon_fruit_seed",
     "growth_time_hours": 14,
@@ -209,7 +209,7 @@
   },
   "magic_bean": {
     "id": "magic_bean",
-    "display_name": "Magic Bean",
+    "display_name": "Jumping Bean",
     "emoji": "\ud83e\uded8",
     "seed_name": "magic_bean",
     "growth_time_hours": 336,

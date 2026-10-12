@@ -30,7 +30,7 @@
     "time_per_log": 1
   },
   "magic_log": {
-    "display_name": "Magic Log",
+    "display_name": "Explosives Log",
     "level_required": 75,
     "xp_per_log": 303,
     "time_per_log": 1

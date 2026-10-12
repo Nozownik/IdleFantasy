@@ -1,6 +1,6 @@
 {
   "name": "crafting",
-  "display_name": "Crafting",
+  "display_name": "Leatherworking",
   "description": "Create jewelry and other crafted items",
   "max_level": 99,
   "xp_ranges": {

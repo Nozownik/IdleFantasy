@@ -1,7 +1,7 @@
 {
   "name": "dwarven_depths",
-  "display_name": "Dwarven Depths",
-  "description": "The deepest level of an ancient dwarven excavation. Rich veins of adamantite and runite ore line the walls, but something slumbers in the forge chamber below.",
+  "display_name": "Pittsburgh Depths",
+  "description": "The deepest level of an ancient Pittsburgh excavation. Rich veins of Bessemer and stainless ore line the walls, but something slumbers in the forge chamber below.",
   "skill": "mining",
   "level_required": 40,
   "requires_previous_unlock": "collapsed_mine",
@@ -50,11 +50,11 @@
   "note_chance_per_frame": 0.003,
   "note_threshold": 5,
   "note_texts": [
-    "Ancient rune-carved walls pulse faintly. The dwarves who built this place are long gone.",
+    "Ancient charge-carved walls pulse faintly. The Cornish Miners who built this place are long gone.",
     "A colossal forge stands at the passage end, its fires somehow still burning after centuries.",
     "Iron golems stand dormant in the alcoves. Their eyes flicker as you mine nearby.",
-    "The forge runes are a warning — something was bound here, and it grows restless.",
-    "The golems rise fully to life. The Ancient Forge awakens — its guardians await those brave enough to enter."
+    "The forge charges are a warning — something was bound here, and it grows restless.",
+    "The golems rise fully to life. The Union Pacific Foundry awakens — its guardians await those brave enough to enter."
   ],
   "unlock_dungeon": "ancient_forge",
   "unlock_message": "The Ancient Forge stirs to life — enter and face its iron guardians."

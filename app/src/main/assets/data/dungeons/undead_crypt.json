@@ -1,7 +1,7 @@
 {
   "name": "undead_crypt",
-  "display_name": "Undead Crypt",
-  "description": "An ancient burial ground where the dead refuse to rest. Beware the dark magic!",
+  "display_name": "Boot Hill Cemetery",
+  "description": "An ancient burial ground where the dead refuse to rest. Beware the dark explosives!",
   "recommended_level": 12,
   "encounter_rate": 0.28,
   "enemy_spawns": [

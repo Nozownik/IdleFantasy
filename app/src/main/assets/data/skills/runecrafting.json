@@ -1,7 +1,7 @@
 {
   "name": "runecrafting",
-  "display_name": "Runecrafting",
-  "description": "Craft magical runes from rune essence",
+  "display_name": "Powder Mixing",
+  "description": "Craft volatile charges from charge essence",
   "max_level": 99,
   "xp_ranges": {
     "1": {"min": 5, "max": 10},

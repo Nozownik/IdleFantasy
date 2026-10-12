@@ -5,7 +5,7 @@
     "magic_level_required": 1,
     "max_hit": 3,
     "rune_cost": 1,
-    "description": "A basic air spell that strikes your foe."
+    "description": "A basic air trick that strikes your foe."
   },
   "wind_bolt": {
     "display_name": "Wind Bolt",
@@ -13,7 +13,7 @@
     "magic_level_required": 10,
     "max_hit": 6,
     "rune_cost": 2,
-    "description": "A moderate air spell that bolts your foe."
+    "description": "A moderate air trick that bolts your foe."
   },
   "wind_blast": {
     "display_name": "Wind Blast",
@@ -21,7 +21,7 @@
     "magic_level_required": 20,
     "max_hit": 10,
     "rune_cost": 3,
-    "description": "A powerful air spell that blasts your foe."
+    "description": "A powerful air trick that blasts your foe."
   },
   "wind_wave": {
     "display_name": "Wind Wave",
@@ -29,7 +29,7 @@
     "magic_level_required": 30,
     "max_hit": 16,
     "rune_cost": 4,
-    "description": "A devastating air spell that waves across your foe."
+    "description": "A devastating air trick that waves across your foe."
   },
   "water_strike": {
     "display_name": "Water Strike",
@@ -37,7 +37,7 @@
     "magic_level_required": 5,
     "max_hit": 4,
     "rune_cost": 1,
-    "description": "A basic water spell that strikes your foe."
+    "description": "A basic water trick that strikes your foe."
   },
   "water_bolt": {
     "display_name": "Water Bolt",
@@ -45,7 +45,7 @@
     "magic_level_required": 15,
     "max_hit": 7,
     "rune_cost": 2,
-    "description": "A moderate water spell that bolts your foe."
+    "description": "A moderate water trick that bolts your foe."
   },
   "water_blast": {
     "display_name": "Water Blast",
@@ -53,7 +53,7 @@
     "magic_level_required": 25,
     "max_hit": 11,
     "rune_cost": 3,
-    "description": "A powerful water spell that blasts your foe."
+    "description": "A powerful water trick that blasts your foe."
   },
   "water_wave": {
     "display_name": "Water Wave",
@@ -61,7 +61,7 @@
     "magic_level_required": 35,
     "max_hit": 17,
     "rune_cost": 4,
-    "description": "A devastating water spell that waves across your foe."
+    "description": "A devastating water trick that waves across your foe."
   },
   "earth_strike": {
     "display_name": "Earth Strike",
@@ -69,7 +69,7 @@
     "magic_level_required": 10,
     "max_hit": 4,
     "rune_cost": 1,
-    "description": "A basic earth spell that strikes your foe."
+    "description": "A basic earth trick that strikes your foe."
   },
   "earth_bolt": {
     "display_name": "Earth Bolt",
@@ -77,7 +77,7 @@
     "magic_level_required": 20,
     "max_hit": 8,
     "rune_cost": 2,
-    "description": "A moderate earth spell that bolts your foe."
+    "description": "A moderate earth trick that bolts your foe."
   },
   "earth_blast": {
     "display_name": "Earth Blast",
@@ -85,7 +85,7 @@
     "magic_level_required": 30,
     "max_hit": 13,
     "rune_cost": 3,
-    "description": "A powerful earth spell that blasts your foe."
+    "description": "A powerful earth trick that blasts your foe."
   },
   "earth_wave": {
     "display_name": "Earth Wave",
@@ -93,7 +93,7 @@
     "magic_level_required": 40,
     "max_hit": 20,
     "rune_cost": 4,
-    "description": "A devastating earth spell that waves across your foe."
+    "description": "A devastating earth trick that waves across your foe."
   },
   "fire_strike": {
     "display_name": "Fire Strike",
@@ -101,7 +101,7 @@
     "magic_level_required": 15,
     "max_hit": 5,
     "rune_cost": 1,
-    "description": "A basic fire spell that strikes your foe."
+    "description": "A basic fire trick that strikes your foe."
   },
   "fire_bolt": {
     "display_name": "Fire Bolt",
@@ -109,7 +109,7 @@
     "magic_level_required": 25,
     "max_hit": 9,
     "rune_cost": 2,
-    "description": "A moderate fire spell that bolts your foe."
+    "description": "A moderate fire trick that bolts your foe."
   },
   "fire_blast": {
     "display_name": "Fire Blast",
@@ -117,7 +117,7 @@
     "magic_level_required": 35,
     "max_hit": 15,
     "rune_cost": 3,
-    "description": "A powerful fire spell that blasts your foe."
+    "description": "A powerful fire trick that blasts your foe."
   },
   "fire_wave": {
     "display_name": "Fire Wave",
@@ -125,7 +125,7 @@
     "magic_level_required": 45,
     "max_hit": 23,
     "rune_cost": 4,
-    "description": "A devastating fire spell that waves across your foe."
+    "description": "A devastating fire trick that waves across your foe."
   },
   "mind_strike": {
     "display_name": "Mind Strike",
@@ -133,7 +133,7 @@
     "magic_level_required": 25,
     "max_hit": 6,
     "rune_cost": 1,
-    "description": "A basic mind spell that strikes your foe."
+    "description": "A basic mind trick that strikes your foe."
   },
   "mind_bolt": {
     "display_name": "Mind Bolt",
@@ -141,7 +141,7 @@
     "magic_level_required": 35,
     "max_hit": 11,
     "rune_cost": 2,
-    "description": "A moderate mind spell that bolts your foe."
+    "description": "A moderate mind trick that bolts your foe."
   },
   "mind_blast": {
     "display_name": "Mind Blast",
@@ -149,7 +149,7 @@
     "magic_level_required": 45,
     "max_hit": 18,
     "rune_cost": 3,
-    "description": "A powerful mind spell that blasts your foe."
+    "description": "A powerful mind trick that blasts your foe."
   },
   "mind_wave": {
     "display_name": "Mind Wave",
@@ -157,7 +157,7 @@
     "magic_level_required": 55,
     "max_hit": 27,
     "rune_cost": 4,
-    "description": "A devastating mind spell that waves across your foe."
+    "description": "A devastating mind trick that waves across your foe."
   },
   "chaos_strike": {
     "display_name": "Chaos Strike",
@@ -165,7 +165,7 @@
     "magic_level_required": 35,
     "max_hit": 7,
     "rune_cost": 1,
-    "description": "A basic chaos spell that strikes your foe."
+    "description": "A basic chaos trick that strikes your foe."
   },
   "chaos_bolt": {
     "display_name": "Chaos Bolt",
@@ -173,7 +173,7 @@
     "magic_level_required": 45,
     "max_hit": 13,
     "rune_cost": 2,
-    "description": "A moderate chaos spell that bolts your foe."
+    "description": "A moderate chaos trick that bolts your foe."
   },
   "chaos_blast": {
     "display_name": "Chaos Blast",
@@ -181,7 +181,7 @@
     "magic_level_required": 55,
     "max_hit": 21,
     "rune_cost": 3,
-    "description": "A powerful chaos spell that blasts your foe."
+    "description": "A powerful chaos trick that blasts your foe."
   },
   "chaos_wave": {
     "display_name": "Chaos Wave",
@@ -189,7 +189,7 @@
     "magic_level_required": 65,
     "max_hit": 32,
     "rune_cost": 4,
-    "description": "A devastating chaos spell that waves across your foe."
+    "description": "A devastating chaos trick that waves across your foe."
   },
   "death_strike": {
     "display_name": "Death Strike",
@@ -197,7 +197,7 @@
     "magic_level_required": 50,
     "max_hit": 8,
     "rune_cost": 1,
-    "description": "A basic death spell that strikes your foe."
+    "description": "A basic death trick that strikes your foe."
   },
   "death_bolt": {
     "display_name": "Death Bolt",
@@ -205,7 +205,7 @@
     "magic_level_required": 60,
     "max_hit": 15,
     "rune_cost": 2,
-    "description": "A moderate death spell that bolts your foe."
+    "description": "A moderate death trick that bolts your foe."
   },
   "death_blast": {
     "display_name": "Death Blast",
@@ -213,7 +213,7 @@
     "magic_level_required": 70,
     "max_hit": 25,
     "rune_cost": 3,
-    "description": "A powerful death spell that blasts your foe."
+    "description": "A powerful death trick that blasts your foe."
   },
   "death_wave": {
     "display_name": "Death Wave",
@@ -221,7 +221,7 @@
     "magic_level_required": 80,
     "max_hit": 38,
     "rune_cost": 4,
-    "description": "A devastating death spell that waves across your foe."
+    "description": "A devastating death trick that waves across your foe."
   },
   "blood_strike": {
     "display_name": "Blood Strike",
@@ -229,7 +229,7 @@
     "magic_level_required": 65,
     "max_hit": 9,
     "rune_cost": 1,
-    "description": "A basic blood spell that strikes your foe."
+    "description": "A basic blood trick that strikes your foe."
   },
   "blood_bolt": {
     "display_name": "Blood Bolt",
@@ -237,7 +237,7 @@
     "magic_level_required": 75,
     "max_hit": 17,
     "rune_cost": 2,
-    "description": "A moderate blood spell that bolts your foe."
+    "description": "A moderate blood trick that bolts your foe."
   },
   "blood_blast": {
     "display_name": "Blood Blast",
@@ -245,7 +245,7 @@
     "magic_level_required": 85,
     "max_hit": 28,
     "rune_cost": 3,
-    "description": "A powerful blood spell that blasts your foe."
+    "description": "A powerful blood trick that blasts your foe."
   },
   "blood_wave": {
     "display_name": "Blood Wave",
@@ -253,6 +253,6 @@
     "magic_level_required": 95,
     "max_hit": 44,
     "rune_cost": 4,
-    "description": "A devastating blood spell that waves across your foe."
+    "description": "A devastating blood trick that waves across your foe."
   }
 }

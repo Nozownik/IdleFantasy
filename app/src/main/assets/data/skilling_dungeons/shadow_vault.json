@@ -1,7 +1,7 @@
 {
   "name": "shadow_vault",
   "display_name": "Shadow Vault",
-  "description": "A hidden vault beneath the Rogue Sanctum where the guild's most valuable stolen goods are kept. The further you go, the more dangerous the secrets become.",
+  "description": "A hidden vault beneath the Hole-in-the-Wall Hideout where the guild's most valuable stolen goods are kept. The further you go, the more dangerous the secrets become.",
   "skill": "thieving",
   "level_required": 40,
   "requires_previous_unlock": "rogue_sanctum",
@@ -57,7 +57,7 @@
     "A dossier on every major merchant in the city. Someone has been compiling this for years.",
     "A vault door, partially ajar. Inside — crates of stolen weapons, armour, and sealed scroll cases.",
     "One scroll case is different from the others. It bears the seal of the royal treasury. It is empty.",
-    "A private journal: 'The Guild of Shadows is not just a guild. It is a government. They have always been watching.'",
+    "A private journal: 'The Gunslinger Brotherhood is not just a guild. It is a government. They have always been watching.'",
     "The deepest vault is not locked. It is guarded. What waits inside is the Guild's greatest secret — and its most dangerous protectors."
   ],
   "unlock_dungeon": "guild_of_shadows",

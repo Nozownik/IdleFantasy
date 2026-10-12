@@ -1,7 +1,7 @@
 {
   "name": "corrupted_sanctum",
-  "display_name": "Corrupted Sanctum",
-  "description": "A shadow-drenched sanctum at the heart of the corrupted canopy. Shadow beasts stalk the halls, twisted treants block the passages, and corrupted mages channel the darkness.",
+  "display_name": "False Prophet's Church",
+  "description": "A shadow-drenched sanctum at the heart of the corrupted canopy. Shadow beasts stalk the halls, twisted treants block the passages, and corrupted demolitionists channel the darkness.",
   "recommended_level": 55,
   "encounter_rate": 0.32,
   "lore_unlock_only": true,

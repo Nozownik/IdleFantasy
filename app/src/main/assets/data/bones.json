@@ -2,7 +2,7 @@
   "ashes": {
     "name": "ashes",
     "display_name": "Ashes",
-    "description": "Burnt remnants of regular logs. Scatter for Prayer XP.",
+    "description": "Burnt remnants of regular logs. Scatter for Faith XP.",
     "xp_per_bone": 3,
     "time_per_bone": 60,
     "is_ash": true
@@ -10,7 +10,7 @@
   "oak_ashes": {
     "name": "oak_ashes",
     "display_name": "Oak Ashes",
-    "description": "Burnt remnants of oak logs. Scatter for more Prayer XP.",
+    "description": "Burnt remnants of oak logs. Scatter for more Faith XP.",
     "xp_per_bone": 5,
     "time_per_bone": 60,
     "is_ash": true
@@ -18,7 +18,7 @@
   "willow_ashes": {
     "name": "willow_ashes",
     "display_name": "Willow Ashes",
-    "description": "Burnt remnants of willow logs. Scatter for Prayer XP.",
+    "description": "Burnt remnants of willow logs. Scatter for Faith XP.",
     "xp_per_bone": 8,
     "time_per_bone": 60,
     "is_ash": true
@@ -26,7 +26,7 @@
   "maple_ashes": {
     "name": "maple_ashes",
     "display_name": "Maple Ashes",
-    "description": "Burnt remnants of maple logs. Scatter for Prayer XP.",
+    "description": "Burnt remnants of maple logs. Scatter for Faith XP.",
     "xp_per_bone": 12,
     "time_per_bone": 60,
     "is_ash": true
@@ -34,15 +34,15 @@
   "yew_ashes": {
     "name": "yew_ashes",
     "display_name": "Yew Ashes",
-    "description": "Burnt remnants of yew logs. Scatter for significant Prayer XP.",
+    "description": "Burnt remnants of yew logs. Scatter for significant Faith XP.",
     "xp_per_bone": 18,
     "time_per_bone": 60,
     "is_ash": true
   },
   "magic_ashes": {
     "name": "magic_ashes",
-    "display_name": "Magic Ashes",
-    "description": "Burnt remnants of magic logs. Scatter for substantial Prayer XP.",
+    "display_name": "Explosives Ashes",
+    "description": "Burnt remnants of explosives logs. Scatter for substantial Faith XP.",
     "xp_per_bone": 27,
     "time_per_bone": 60,
     "is_ash": true
@@ -50,7 +50,7 @@
   "redwood_ashes": {
     "name": "redwood_ashes",
     "display_name": "Redwood Ashes",
-    "description": "Burnt remnants of redwood logs. Scatter for the most Prayer XP.",
+    "description": "Burnt remnants of redwood logs. Scatter for the most Faith XP.",
     "xp_per_bone": 40,
     "time_per_bone": 60,
     "is_ash": true
@@ -65,28 +65,28 @@
   "big_bones": {
     "name": "big_bones",
     "display_name": "Big Bones",
-    "description": "Larger bones from stronger enemies. Grant more Prayer XP.",
+    "description": "Larger bones from stronger enemies. Grant more Faith XP.",
     "xp_per_bone": 20,
     "time_per_bone": 60
   },
   "giant_bones": {
     "name": "giant_bones",
     "display_name": "Giant Bones",
-    "description": "Massive bones from powerful foes. Grant significant Prayer XP.",
+    "description": "Massive bones from powerful foes. Grant significant Faith XP.",
     "xp_per_bone": 40,
     "time_per_bone": 60
   },
   "troll_bone": {
     "name": "troll_bone",
-    "display_name": "Troll Bone",
-    "description": "A thick, gnarled bone from a Mountain Troll. Grant good Prayer XP.",
+    "display_name": "Mountain Man Bone",
+    "description": "A thick, gnarled bone from a Mountain Man. Grant good Faith XP.",
     "xp_per_bone": 30,
     "time_per_bone": 60
   },
   "dragon_bone": {
     "name": "dragon_bone",
-    "display_name": "Dragon Bone",
-    "description": "Ancient dragon bones. Grant the most Prayer XP.",
+    "display_name": "Grizzly Bone",
+    "description": "Ancient grizzly bones. Grant the most Faith XP.",
     "xp_per_bone": 80,
     "time_per_bone": 60
   }

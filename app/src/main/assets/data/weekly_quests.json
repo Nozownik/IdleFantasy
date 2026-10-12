@@ -21,12 +21,12 @@
   },
   {
     "id": "weekly_mithril_miner",
-    "display_name": "Mithril Seeker",
+    "display_name": "Damascus Seeker",
     "skill": "mining",
     "type": "gather",
     "target": "mithril_ore",
     "amount": 300,
-    "description": "Mine 300 mithril ore this week.",
+    "description": "Mine 300 Damascus ore this week.",
     "level_required": 55
   },
   {
@@ -36,7 +36,7 @@
     "type": "gather",
     "target": "runite_ore",
     "amount": 150,
-    "description": "Mine 150 runite ore this week.",
+    "description": "Mine 150 stainless ore this week.",
     "level_required": 85
   },
   {
@@ -66,7 +66,7 @@
     "type": "gather",
     "target": "magic_log",
     "amount": 150,
-    "description": "Chop 150 magic logs this week.",
+    "description": "Chop 150 explosives logs this week.",
     "level_required": 75
   },
   {
@@ -111,12 +111,12 @@
   },
   {
     "id": "weekly_mithril_smith",
-    "display_name": "Mithril Founder",
+    "display_name": "Damascus Founder",
     "skill": "smithing",
     "type": "craft",
     "target": "mithril_bar",
     "amount": 150,
-    "description": "Smelt 150 mithril bars this week.",
+    "description": "Smelt 150 Damascus bars this week.",
     "level_required": 55
   },
   {
@@ -126,7 +126,7 @@
     "type": "craft",
     "target": "runite_bar",
     "amount": 75,
-    "description": "Smelt 75 runite bars this week.",
+    "description": "Smelt 75 stainless bars this week.",
     "level_required": 85
   },
   {
@@ -166,7 +166,7 @@
     "type": "craft",
     "target": "mithril_arrow",
     "amount": 450,
-    "description": "Fletch 450 mithril arrows this week.",
+    "description": "Fletch 450 Damascus arrows this week.",
     "level_required": 45
   },
   {
@@ -176,17 +176,17 @@
     "type": "craft",
     "target": "runite_arrow",
     "amount": 300,
-    "description": "Fletch 300 runite arrows this week.",
+    "description": "Fletch 300 stainless arrows this week.",
     "level_required": 75
   },
   {
     "id": "weekly_goblin_slayer",
-    "display_name": "Goblin Exterminator",
+    "display_name": "Coyote Exterminator",
     "skill": "combat",
     "type": "kill_enemy",
     "target": "goblin",
     "amount": 750,
-    "description": "Kill 750 goblins this week.",
+    "description": "Kill 750 coyotes this week.",
     "level_required": 1
   },
   {
@@ -211,12 +211,12 @@
   },
   {
     "id": "weekly_demon_slayer",
-    "display_name": "Demon Slayer",
+    "display_name": "Desert Devil Bounty Hunting",
     "skill": "combat",
     "type": "kill_enemy",
     "target": "demon",
     "amount": 225,
-    "description": "Kill 225 demons this week.",
+    "description": "Kill 225 desert Devils this week.",
     "level_required": 60
   },
   {
@@ -231,12 +231,12 @@
   },
   {
     "id": "weekly_kbd_slayer",
-    "display_name": "Dragon Bane",
+    "display_name": "Grizzly Bane",
     "skill": "combat",
     "type": "boss",
     "target": "king_black_dragon",
     "amount": 5,
-    "description": "Defeat the King Black Dragon 5 times.",
+    "description": "Defeat the Black Grizzly 5 times.",
     "level_required": 60
   },
   {
@@ -246,7 +246,7 @@
     "type": "boss",
     "target": "void_sovereign",
     "amount": 5,
-    "description": "Defeat the Void Sovereign 5 times.",
+    "description": "Defeat the Headless Horseman 5 times.",
     "level_required": 110
   },
   {
@@ -256,17 +256,17 @@
     "type": "slayer_task",
     "target": "any",
     "amount": 15,
-    "description": "Complete 15 Slayer tasks this week.",
+    "description": "Complete 15 Bounty Hunting tasks this week.",
     "level_required": 10
   },
   {
     "id": "weekly_slayer_master",
-    "display_name": "Slayer Champion",
+    "display_name": "Bounty Hunting Champion",
     "skill": "combat",
     "type": "slayer_task",
     "target": "any",
     "amount": 30,
-    "description": "Complete 30 Slayer tasks this week.",
+    "description": "Complete 30 Bounty Hunting tasks this week.",
     "level_required": 40
   },
   {

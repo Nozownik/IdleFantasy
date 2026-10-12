@@ -1,6 +1,6 @@
 {
   "attack_brew": {
-    "display_name": "Attack Brew",
+    "display_name": "Handguns Brew",
     "level_required": 1,
     "materials": { "potato": 2 },
     "output_quantity": 1,
@@ -18,7 +18,7 @@
     "effects": { "defense": 3 }
   },
   "attack_potion": {
-    "display_name": "Attack Potion",
+    "display_name": "Handguns Tonic",
     "level_required": 8,
     "materials": { "potato": 1, "imp_hide": 1 },
     "output_quantity": 1,
@@ -27,7 +27,7 @@
     "effects": { "attack": 5 }
   },
   "defense_potion": {
-    "display_name": "Defense Potion",
+    "display_name": "Defense Tonic",
     "level_required": 14,
     "materials": { "cabbage": 1, "goblin_mail": 1 },
     "output_quantity": 1,
@@ -54,7 +54,7 @@
     "effects": { "ranged": 2 }
   },
   "strength_brew": {
-    "display_name": "Strength Brew",
+    "display_name": "Long guns Brew",
     "level_required": 20,
     "materials": { "corn": 2 },
     "output_quantity": 1,
@@ -63,7 +63,7 @@
     "effects": { "strength": 3 }
   },
   "strength_potion": {
-    "display_name": "Strength Potion",
+    "display_name": "Long guns Tonic",
     "level_required": 26,
     "materials": { "corn": 1, "spider_silk": 1 },
     "output_quantity": 1,
@@ -72,7 +72,7 @@
     "effects": { "strength": 5 }
   },
   "ranging_potion": {
-    "display_name": "Ranging Potion",
+    "display_name": "Ranging Tonic",
     "level_required": 30,
     "materials": { "corn": 1, "spider_fang": 1 },
     "output_quantity": 1,
@@ -81,7 +81,7 @@
     "effects": { "ranged": 5 }
   },
   "magic_potion": {
-    "display_name": "Magic Potion",
+    "display_name": "Explosives Tonic",
     "level_required": 38,
     "materials": { "magic_herb": 1, "magic_bean": 1 },
     "output_quantity": 1,
@@ -90,7 +90,7 @@
     "effects": { "magic": 5 }
   },
   "super_strength_potion": {
-    "display_name": "Super Strength Potion",
+    "display_name": "Super Long guns Tonic",
     "level_required": 48,
     "materials": { "dragon_fruit": 1, "rotten_flesh": 1 },
     "output_quantity": 1,
@@ -99,7 +99,7 @@
     "effects": { "strength": 8 }
   },
   "super_attack_potion": {
-    "display_name": "Super Attack Potion",
+    "display_name": "Super Handguns Tonic",
     "level_required": 56,
     "materials": { "golden_wheat": 2 },
     "output_quantity": 1,
@@ -108,7 +108,7 @@
     "effects": { "attack": 8 }
   },
   "super_defense_potion": {
-    "display_name": "Super Defense Potion",
+    "display_name": "Super Defense Tonic",
     "level_required": 66,
     "materials": { "spirit_herb": 1, "troll_bone": 1 },
     "output_quantity": 1,
@@ -117,7 +117,7 @@
     "effects": { "defense": 8 }
   },
   "super_ranging_potion": {
-    "display_name": "Super Ranging Potion",
+    "display_name": "Super Ranging Tonic",
     "level_required": 76,
     "materials": { "celestial_bloom": 1, "hellhound_fang": 1 },
     "output_quantity": 1,
@@ -126,7 +126,7 @@
     "effects": { "ranged": 10 }
   },
   "super_magic_potion": {
-    "display_name": "Super Magic Potion",
+    "display_name": "Super Explosives Tonic",
     "level_required": 88,
     "materials": { "starfruit": 1, "dragon_scale": 1 },
     "output_quantity": 1,
@@ -135,7 +135,7 @@
     "effects": { "magic": 10 }
   },
   "overload_potion": {
-    "display_name": "Overload Potion",
+    "display_name": "Overload Tonic",
     "level_required": 96,
     "materials": { "void_lotus": 1, "demon_horn": 1 },
     "output_quantity": 1,

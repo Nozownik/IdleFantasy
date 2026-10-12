@@ -1,7 +1,7 @@
 {
   "name": "blightwood",
-  "display_name": "The Blightwood",
-  "description": "A rotting forest deep past the Hollowfen, where the Gloomharvest's strongest horrors gather. Part of the Gloomharvest event.",
+  "display_name": "Hangman's Woods",
+  "description": "A rotting forest deep past Louisiana Bayou, where the Gloomharvest's strongest horrors gather. Part of the Gloomharvest event.",
   "recommended_level": 62,
   "encounter_rate": 0.38,
   "enemy_spawns": [

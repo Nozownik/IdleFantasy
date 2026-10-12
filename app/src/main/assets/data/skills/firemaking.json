@@ -1,7 +1,7 @@
 {
   "name": "firemaking",
-  "display_name": "Firemaking",
-  "description": "Burn logs to train your Firemaking skill",
+  "display_name": "Campfire",
+  "description": "Burn logs to train your Campfire skill",
   "max_level": 99,
   "xp_ranges": {
     "1": {"min": 5, "max": 10},

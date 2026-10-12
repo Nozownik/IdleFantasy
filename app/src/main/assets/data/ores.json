@@ -1,6 +1,6 @@
 {
   "rune_essence": {
-    "display_name": "Rune Essence",
+    "display_name": "Saltpeter",
     "level_required": 1,
     "xp_per_ore": 15,
     "time_per_ore": 1
@@ -42,19 +42,19 @@
     "time_per_ore": 1
   },
   "mithril_ore": {
-    "display_name": "Mithril Ore",
+    "display_name": "Damascus Ore",
     "level_required": 55,
     "xp_per_ore": 80,
     "time_per_ore": 1
   },
   "adamantite_ore": {
-    "display_name": "Adamantite Ore",
+    "display_name": "Bessemer Ore",
     "level_required": 70,
     "xp_per_ore": 95,
     "time_per_ore": 1
   },
   "runite_ore": {
-    "display_name": "Runite Ore",
+    "display_name": "Stainless Ore",
     "level_required": 85,
     "xp_per_ore": 125,
     "time_per_ore": 1
@@ -72,7 +72,7 @@
     "time_per_ore": 1
   },
   "mythrite_ore": {
-    "display_name": "Mythrite Ore",
+    "display_name": "Quartz Ore",
     "level_required": 1,
     "xp_per_ore": 120,
     "time_per_ore": 1
@@ -84,13 +84,13 @@
     "time_per_ore": 1
   },
   "voidsteel_ore": {
-    "display_name": "Voidsteel Ore",
+    "display_name": "Black Gold Ore",
     "level_required": 60,
     "xp_per_ore": 480,
     "time_per_ore": 1
   },
   "starforged_ore": {
-    "display_name": "Starforged Ore",
+    "display_name": "Meteorite Ore",
     "level_required": 85,
     "xp_per_ore": 750,
     "time_per_ore": 1

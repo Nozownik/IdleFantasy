@@ -1,17 +1,17 @@
 {
   "ores": {
     "category_name": "Ores & Materials",
-    "description": "Raw materials for smithing and crafting",
+    "description": "Raw materials for gunsmithing and crafting",
     "items": {
       "copper_ore": {
         "display_name": "Copper Ore",
-        "description": "A common copper ore used for bronze bars.",
+        "description": "A common copper ore used for brass bars.",
         "price": 5,
         "stock": "unlimited"
       },
       "tin_ore": {
         "display_name": "Tin Ore",
-        "description": "A common tin ore used for bronze bars.",
+        "description": "A common tin ore used for brass bars.",
         "price": 5,
         "stock": "unlimited"
       },
@@ -22,8 +22,8 @@
         "stock": "unlimited"
       },
       "rune_essence": {
-        "display_name": "Rune Essence",
-        "description": "Raw magical essence used to craft runes.",
+        "display_name": "Saltpeter",
+        "description": "Raw volatile essence used to craft charges.",
         "price": 5,
         "stock": "unlimited"
       },
@@ -52,14 +52,14 @@
         "stock": "unlimited"
       },
       "mithril_ore": {
-        "display_name": "Mithril Ore",
-        "description": "A rare blue ore used for mithril bars.",
+        "display_name": "Damascus Ore",
+        "description": "A rare blue ore used for Damascus bars.",
         "price": 100,
         "stock": "unlimited"
       },
       "adamantite_ore": {
-        "display_name": "Adamantite Ore",
-        "description": "A valuable green ore used for adamantite bars.",
+        "display_name": "Bessemer Ore",
+        "description": "A valuable green ore used for Bessemer bars.",
         "price": 250,
         "stock": "unlimited"
       },
@@ -70,8 +70,8 @@
         "stock": "unlimited"
       },
       "runite_ore": {
-        "display_name": "Runite Ore",
-        "description": "The rarest ore, used for runite bars.",
+        "display_name": "Stainless Ore",
+        "description": "The rarest ore, used for stainless bars.",
         "price": 500,
         "stock": "unlimited"
       }
@@ -79,47 +79,47 @@
   },
   "logs": {
     "category_name": "Logs & Wood",
-    "description": "Logs for fletching and crafting",
+    "description": "Logs for ammo reloading and crafting",
     "items": {
       "log": {
         "display_name": "Log",
-        "description": "Basic logs from normal trees. Used for fletching.",
+        "description": "Basic logs from normal trees. Used for ammo reloading.",
         "price": 10,
         "stock": "unlimited"
       },
       "oak_log": {
         "display_name": "Oak Log",
-        "description": "Sturdy oak logs. Used for fletching.",
+        "description": "Sturdy oak logs. Used for ammo reloading.",
         "price": 20,
         "stock": "unlimited"
       },
       "willow_log": {
         "display_name": "Willow Log",
-        "description": "Flexible willow logs. Used for fletching.",
+        "description": "Flexible willow logs. Used for ammo reloading.",
         "price": 40,
         "stock": "unlimited"
       },
       "maple_log": {
         "display_name": "Maple Log",
-        "description": "Strong maple logs. Used for fletching.",
+        "description": "Strong maple logs. Used for ammo reloading.",
         "price": 75,
         "stock": "unlimited"
       },
       "yew_log": {
         "display_name": "Yew Log",
-        "description": "High-quality yew logs. Used for fletching.",
+        "description": "High-quality yew logs. Used for ammo reloading.",
         "price": 150,
         "stock": "unlimited"
       },
       "magic_log": {
-        "display_name": "Magic Log",
-        "description": "Rare magical logs. Used for fletching.",
+        "display_name": "Explosives Log",
+        "description": "Rare volatile logs. Used for ammo reloading.",
         "price": 300,
         "stock": "unlimited"
       },
       "redwood_log": {
         "display_name": "Redwood Log",
-        "description": "Ancient redwood logs. Used for fletching.",
+        "description": "Ancient redwood logs. Used for ammo reloading.",
         "price": 500,
         "stock": "unlimited"
       }
@@ -184,14 +184,14 @@
         "stock": "unlimited"
       },
       "magic_herb_seed": {
-        "display_name": "Magic Herb Seed",
-        "description": "Plant to grow magic herbs. Grows in 13h.\nRequires farming level 50.",
+        "display_name": "Explosives Herb Seed",
+        "description": "Plant to grow explosives herbs. Grows in 13h.\nRequires farming level 50.",
         "price": 300,
         "stock": "unlimited"
       },
       "dragon_fruit_seed": {
-        "display_name": "Dragon Fruit Seed",
-        "description": "Plant to grow dragon fruit. Grows in 14h.\nRequires farming level 55.",
+        "display_name": "Grizzly Fruit Seed",
+        "description": "Plant to grow grizzly fruit. Grows in 14h.\nRequires farming level 55.",
         "price": 500,
         "stock": "unlimited"
       },
@@ -229,95 +229,95 @@
   },
   "merchants_guild": {
     "category_name": "Merchant's Guild",
-    "description": "Exclusive items unlocked by levelling your Mercantile skill.",
+    "description": "Exclusive items unlocked by levelling your Trading Post skill.",
     "items": {
       "spirit_herb": {
         "display_name": "Spirit Herb",
-        "description": "A rare herb used in high-level herblore. Requires Mercantile level 20 to purchase.",
+        "description": "A rare herb used in high-level moonshining. Requires Trading Post level 20 to purchase.",
         "price": 5000,
         "stock": "unlimited",
         "mercantile_level_required": 20
       },
       "celestial_bloom": {
         "display_name": "Celestial Bloom",
-        "description": "An ethereal flower used in master potions. Requires Mercantile level 40 to purchase.",
+        "description": "An ethereal flower used in master tonics. Requires Trading Post level 40 to purchase.",
         "price": 12000,
         "stock": "unlimited",
         "mercantile_level_required": 40
       },
       "void_lotus": {
         "display_name": "Void Lotus",
-        "description": "A mysterious lotus used in the rarest concoctions. Requires Mercantile level 60 to purchase.",
+        "description": "A mysterious lotus used in the rarest concoctions. Requires Trading Post level 60 to purchase.",
         "price": 30000,
         "stock": "unlimited",
         "mercantile_level_required": 60
       },
       "ring_of_wealth": {
         "display_name": "Ring of Wealth",
-        "description": "Increases coin drops slightly. Requires Mercantile level 40 to purchase.",
+        "description": "Increases coin drops slightly. Requires Trading Post level 40 to purchase.",
         "price": 50000,
         "stock": "unlimited",
         "mercantile_level_required": 40
       },
       "ring_of_recoil": {
         "display_name": "Ring of Recoil",
-        "description": "Returns a portion of damage taken to attackers. Requires Mercantile level 20 to purchase.",
+        "description": "Returns a portion of damage taken to attackers. Requires Trading Post level 20 to purchase.",
         "price": 25000,
         "stock": "unlimited",
         "mercantile_level_required": 20
       },
       "ring_of_suffering": {
         "display_name": "Ring of Suffering",
-        "description": "A powerful ring that grants significant defense. Requires Mercantile level 80 to purchase.",
+        "description": "A powerful ring that grants significant defense. Requires Trading Post level 80 to purchase.",
         "price": 500000,
         "stock": "unlimited",
         "mercantile_level_required": 80
       },
       "berserker_ring": {
         "display_name": "Berserker Ring",
-        "description": "Increases melee strength. Requires Mercantile level 60 to purchase.",
+        "description": "Increases melee strength. Requires Trading Post level 60 to purchase.",
         "price": 200000,
         "stock": "unlimited",
         "mercantile_level_required": 60
       },
       "archers_ring": {
         "display_name": "Archer's Ring",
-        "description": "Increases ranged accuracy. Requires Mercantile level 60 to purchase.",
+        "description": "Increases ranged accuracy. Requires Trading Post level 60 to purchase.",
         "price": 200000,
         "stock": "unlimited",
         "mercantile_level_required": 60
       },
       "seers_ring": {
         "display_name": "Seers' Ring",
-        "description": "Increases magic accuracy. Requires Mercantile level 60 to purchase.",
+        "description": "Increases explosives accuracy. Requires Trading Post level 60 to purchase.",
         "price": 200000,
         "stock": "unlimited",
         "mercantile_level_required": 60
       },
       "amulet_of_strength": {
-        "display_name": "Amulet of Strength",
-        "description": "Increases melee strength bonus. Requires Mercantile level 20 to purchase.",
+        "display_name": "Amulet of Long guns",
+        "description": "Increases melee strength bonus. Requires Trading Post level 20 to purchase.",
         "price": 15000,
         "stock": "unlimited",
         "mercantile_level_required": 20
       },
       "amulet_of_fury": {
         "display_name": "Amulet of Fury",
-        "description": "A powerful amulet granting bonuses to all combat styles. Requires Mercantile level 80 to purchase.",
+        "description": "A powerful amulet granting bonuses to all combat styles. Requires Trading Post level 80 to purchase.",
         "price": 800000,
         "stock": "unlimited",
         "mercantile_level_required": 80
       },
       "necklace_of_anguish": {
         "display_name": "Necklace of Anguish",
-        "description": "Provides exceptional ranged attack bonuses. Requires Mercantile level 99 to purchase.",
+        "description": "Provides exceptional ranged attack bonuses. Requires Trading Post level 99 to purchase.",
         "price": 3000000,
         "stock": "unlimited",
         "mercantile_level_required": 99
       },
       "tormented_necklace": {
         "display_name": "Tormented Necklace",
-        "description": "Provides exceptional magic bonuses. Requires Mercantile level 99 to purchase.",
+        "description": "Provides exceptional explosives bonuses. Requires Trading Post level 99 to purchase.",
         "price": 3000000,
         "stock": "unlimited",
         "mercantile_level_required": 99
@@ -326,11 +326,11 @@
   },
   "equipment": {
     "category_name": "Equipment",
-    "description": "Weapons and gear for adventurers",
+    "description": "Weapons and gear for cowpokes",
     "items": {
       "basic_staff": {
-        "display_name": "Basic Staff",
-        "description": "A simple wooden staff. Good for training magic.",
+        "display_name": "Basic Dynamite Cane",
+        "description": "A simple wooden dynamite cane. Good for training explosives.",
         "price": 500,
         "stock": "unlimited"
       }
@@ -341,20 +341,20 @@
     "description": "Recover milestone capes you earned but accidentally sold.",
     "items": {
       "agility_cape": {
-        "display_name": "Agility Cape",
-        "description": "Awarded for reaching level 99 Agility. Grants 10% more XP per session.",
+        "display_name": "Horse Riding Cape",
+        "description": "Awarded for reaching level 99 Horse Riding. Grants 10% more XP per session.",
         "price": 100000,
         "stock": "unlimited"
       },
       "attack_cape": {
-        "display_name": "Attack Cape",
-        "description": "Awarded for reaching level 99 Attack. Grants 10% bonus Attack XP.",
+        "display_name": "Handguns Cape",
+        "description": "Awarded for reaching level 99 Handguns. Grants 10% bonus Handguns XP.",
         "price": 100000,
         "stock": "unlimited"
       },
       "construction_cape": {
-        "display_name": "Construction Cape",
-        "description": "Awarded for reaching level 99 Construction. Grants 10% more items per session.",
+        "display_name": "Homesteading Cape",
+        "description": "Awarded for reaching level 99 Homesteading. Grants 10% more items per session.",
         "price": 100000,
         "stock": "unlimited"
       },
@@ -365,8 +365,8 @@
         "stock": "unlimited"
       },
       "crafting_cape": {
-        "display_name": "Crafting Cape",
-        "description": "Awarded for reaching level 99 Crafting. Grants 10% more items per session.",
+        "display_name": "Leatherworking Cape",
+        "description": "Awarded for reaching level 99 Leatherworking. Grants 10% more items per session.",
         "price": 100000,
         "stock": "unlimited"
       },
@@ -383,8 +383,8 @@
         "stock": "unlimited"
       },
       "firemaking_cape": {
-        "display_name": "Firemaking Cape",
-        "description": "Awarded for reaching level 99 Firemaking. Grants 10% more ashes per session.",
+        "display_name": "Campfire Cape",
+        "description": "Awarded for reaching level 99 Campfire. Grants 10% more ashes per session.",
         "price": 100000,
         "stock": "unlimited"
       },
@@ -395,32 +395,32 @@
         "stock": "unlimited"
       },
       "fletching_cape": {
-        "display_name": "Fletching Cape",
-        "description": "Awarded for reaching level 99 Fletching. Grants 10% more arrows per session.",
+        "display_name": "Ammo Reloading Cape",
+        "description": "Awarded for reaching level 99 Ammo Reloading. Grants 10% more arrows per session.",
         "price": 100000,
         "stock": "unlimited"
       },
       "herblore_cape": {
-        "display_name": "Herblore Cape",
-        "description": "Awarded for reaching level 99 Herblore. Grants 10% more potions per session.",
+        "display_name": "Moonshining Cape",
+        "description": "Awarded for reaching level 99 Moonshining. Grants 10% more tonics per session.",
         "price": 100000,
         "stock": "unlimited"
       },
       "hp_cape": {
         "display_name": "HP Cape",
-        "description": "Awarded for reaching level 99 HP. Grants 10% bonus Hitpoints XP.",
+        "description": "Awarded for reaching level 99 HP. Grants 10% bonus Health XP.",
         "price": 100000,
         "stock": "unlimited"
       },
       "magic_cape": {
-        "display_name": "Magic Cape",
-        "description": "Awarded for reaching level 99 Magic. Grants 10% bonus Magic XP.",
+        "display_name": "Explosives Cape",
+        "description": "Awarded for reaching level 99 Explosives. Grants 10% bonus Explosives XP.",
         "price": 100000,
         "stock": "unlimited"
       },
       "mercantile_cape": {
-        "display_name": "Mercantile Cape",
-        "description": "Awarded for reaching level 99 Mercantile. Grants 10% better shop prices and trade returns.",
+        "display_name": "Trading Post Cape",
+        "description": "Awarded for reaching level 99 Trading Post. Grants 10% better shop prices and trade returns.",
         "price": 100000,
         "stock": "unlimited"
       },
@@ -431,62 +431,62 @@
         "stock": "unlimited"
       },
       "prayer_cape": {
-        "display_name": "Prayer Cape",
-        "description": "Awarded for reaching level 99 Prayer. Strengthens your active blessing by 10%.",
+        "display_name": "Faith Cape",
+        "description": "Awarded for reaching level 99 Faith. Strengthens your active blessing by 10%.",
         "price": 100000,
         "stock": "unlimited"
       },
       "ranged_cape": {
-        "display_name": "Ranged Cape",
-        "description": "Awarded for reaching level 99 Ranged. Grants 10% bonus Ranged XP.",
+        "display_name": "Thrown & Blades Cape",
+        "description": "Awarded for reaching level 99 Thrown & Blades. Grants 10% bonus Thrown & Blades XP.",
         "price": 100000,
         "stock": "unlimited"
       },
       "runecrafting_cape": {
-        "display_name": "Runecrafting Cape",
-        "description": "Awarded for reaching level 99 Runecrafting. Grants 10% more runes per session.",
+        "display_name": "Powder Mixing Cape",
+        "description": "Awarded for reaching level 99 Powder Mixing. Grants 10% more charges per session.",
         "price": 100000,
         "stock": "unlimited"
       },
       "slayer_cape": {
-        "display_name": "Slayer Cape",
-        "description": "Awarded for reaching level 99 Slayer. Grants 10% more Slayer points.",
+        "display_name": "Bounty Hunting Cape",
+        "description": "Awarded for reaching level 99 Bounty Hunting. Grants 10% more Bounty Hunting points.",
         "price": 100000,
         "stock": "unlimited"
       },
       "smithing_cape": {
-        "display_name": "Smithing Cape",
-        "description": "Awarded for reaching level 99 Smithing. Grants 10% more items per session.",
+        "display_name": "Gunsmithing Cape",
+        "description": "Awarded for reaching level 99 Gunsmithing. Grants 10% more items per session.",
         "price": 100000,
         "stock": "unlimited"
       },
       "strength_cape": {
-        "display_name": "Strength Cape",
-        "description": "Awarded for reaching level 99 Strength. Grants 10% bonus Strength XP.",
+        "display_name": "Long guns Cape",
+        "description": "Awarded for reaching level 99 Long guns. Grants 10% bonus Long guns XP.",
         "price": 100000,
         "stock": "unlimited"
       },
       "thieving_cape": {
-        "display_name": "Thieving Cape",
-        "description": "Awarded for reaching level 99 Thieving. Grants 10% more successful pickpockets per session.",
+        "display_name": "Outlawry Cape",
+        "description": "Awarded for reaching level 99 Outlawry. Grants 10% more successful pickpockets per session.",
         "price": 100000,
         "stock": "unlimited"
       },
       "woodcutting_cape": {
-        "display_name": "Woodcutting Cape",
-        "description": "Awarded for reaching level 99 Woodcutting. Grants 10% more logs per session.",
+        "display_name": "Lumberjacking Cape",
+        "description": "Awarded for reaching level 99 Lumberjacking. Grants 10% more logs per session.",
         "price": 100000,
         "stock": "unlimited"
       },
       "agility_guild_cape": {
-        "display_name": "Agility Guild Cape",
-        "description": "Awarded for reaching Agility Guild level 10. Grants 5% more XP per session.",
+        "display_name": "Horse Riding Guild Cape",
+        "description": "Awarded for reaching Horse Riding Guild level 10. Grants 5% more XP per session.",
         "price": 250000,
         "stock": "unlimited"
       },
       "archers_guild_cape": {
         "display_name": "Archers Guild Cape",
-        "description": "Awarded for reaching Archers Guild level 10. Grants 5% bonus Ranged XP.",
+        "description": "Awarded for reaching Archers Guild level 10. Grants 5% bonus Thrown & Blades XP.",
         "price": 250000,
         "stock": "unlimited"
       },
@@ -503,8 +503,8 @@
         "stock": "unlimited"
       },
       "crafting_guild_cape": {
-        "display_name": "Crafting Guild Cape",
-        "description": "Awarded for reaching Crafting Guild level 10. Grants 5% more items per session.",
+        "display_name": "Leatherworking Guild Cape",
+        "description": "Awarded for reaching Leatherworking Guild level 10. Grants 5% more items per session.",
         "price": 250000,
         "stock": "unlimited"
       },
@@ -515,8 +515,8 @@
         "stock": "unlimited"
       },
       "firemaking_guild_cape": {
-        "display_name": "Firemaking Guild Cape",
-        "description": "Awarded for reaching Firemaking Guild level 10. Grants 5% more ashes per session.",
+        "display_name": "Campfire Guild Cape",
+        "description": "Awarded for reaching Campfire Guild level 10. Grants 5% more ashes per session.",
         "price": 250000,
         "stock": "unlimited"
       },
@@ -527,20 +527,20 @@
         "stock": "unlimited"
       },
       "fletching_guild_cape": {
-        "display_name": "Fletching Guild Cape",
-        "description": "Awarded for reaching Fletching Guild level 10. Grants 5% more arrows per session.",
+        "display_name": "Ammo Reloading Guild Cape",
+        "description": "Awarded for reaching Ammo Reloading Guild level 10. Grants 5% more arrows per session.",
         "price": 250000,
         "stock": "unlimited"
       },
       "herblore_guild_cape": {
-        "display_name": "Herblore Guild Cape",
-        "description": "Awarded for reaching Herblore Guild level 10. Grants 5% more potions per session.",
+        "display_name": "Moonshining Guild Cape",
+        "description": "Awarded for reaching Moonshining Guild level 10. Grants 5% more tonics per session.",
         "price": 250000,
         "stock": "unlimited"
       },
       "mages_guild_cape": {
-        "display_name": "Mages Guild Cape",
-        "description": "Awarded for reaching Mages Guild level 10. Grants 5% bonus Magic XP.",
+        "display_name": "Demolitionists Guild Cape",
+        "description": "Awarded for reaching Demolitionists Guild level 10. Grants 5% bonus Explosives XP.",
         "price": 250000,
         "stock": "unlimited"
       },
@@ -557,26 +557,26 @@
         "stock": "unlimited"
       },
       "prayer_guild_cape": {
-        "display_name": "Prayer Guild Cape",
-        "description": "Awarded for reaching Prayer Guild level 10. Strengthens your active blessing by 5%.",
+        "display_name": "Faith Guild Cape",
+        "description": "Awarded for reaching Faith Guild level 10. Strengthens your active blessing by 5%.",
         "price": 250000,
         "stock": "unlimited"
       },
       "runecrafting_guild_cape": {
-        "display_name": "Runecrafting Guild Cape",
-        "description": "Awarded for reaching Runecrafting Guild level 10. Grants 5% more runes per session.",
+        "display_name": "Powder Mixing Guild Cape",
+        "description": "Awarded for reaching Powder Mixing Guild level 10. Grants 5% more charges per session.",
         "price": 250000,
         "stock": "unlimited"
       },
       "slayer_guild_cape": {
         "display_name": "Slayers Guild Cape",
-        "description": "Awarded for reaching Slayers Guild level 10. Grants 5% bonus Slayer XP.",
+        "description": "Awarded for reaching Slayers Guild level 10. Grants 5% bonus Bounty Hunting XP.",
         "price": 250000,
         "stock": "unlimited"
       },
       "smithing_guild_cape": {
-        "display_name": "Smithing Guild Cape",
-        "description": "Awarded for reaching Smithing Guild level 10. Grants 5% more items per session.",
+        "display_name": "Gunsmithing Guild Cape",
+        "description": "Awarded for reaching Gunsmithing Guild level 10. Grants 5% more items per session.",
         "price": 250000,
         "stock": "unlimited"
       },
@@ -588,13 +588,13 @@
       },
       "warriors_guild_cape": {
         "display_name": "Warriors Guild Cape",
-        "description": "Awarded for reaching Warriors Guild level 10. Grants 5% bonus Attack, Strength, and Defense XP.",
+        "description": "Awarded for reaching Warriors Guild level 10. Grants 5% bonus Handguns, Long guns, and Defense XP.",
         "price": 250000,
         "stock": "unlimited"
       },
       "woodcutting_guild_cape": {
-        "display_name": "Woodcutting Guild Cape",
-        "description": "Awarded for reaching Woodcutting Guild level 10. Grants 5% more logs per session.",
+        "display_name": "Lumberjacking Guild Cape",
+        "description": "Awarded for reaching Lumberjacking Guild level 10. Grants 5% more logs per session.",
         "price": 250000,
         "stock": "unlimited"
       },

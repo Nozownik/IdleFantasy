@@ -1,9 +1,9 @@
 {
   "king_black_dragon": {
     "id": "king_black_dragon",
-    "display_name": "King Black Dragon",
+    "display_name": "Black Grizzly",
     "emoji": "\ud83d\udc09",
-    "description": "The legendary three-headed dragon, feared across the realm.",
+    "description": "The legendary three-headed grizzly, feared across the frontier.",
     "combat_level_required": 50,
     "duration_minutes": 45,
     "hp": 1500,
@@ -79,7 +79,7 @@
     ],
     "pet": {
       "id": "dragon_whelp",
-      "display_name": "Dragon Whelp",
+      "display_name": "Grizzly Whelp",
       "emoji": "\ud83d\udc09",
       "chance": 0.01,
       "comment": "1/100 per kill"
@@ -90,9 +90,9 @@
   },
   "demon_lord": {
     "id": "demon_lord",
-    "display_name": "Demon Lord",
+    "display_name": "El Diablo",
     "emoji": "\ud83d\ude08",
-    "description": "An ancient demon from the abyss, master of dark magic.",
+    "description": "An ancient desert Devil from the abyss, master of dark explosives.",
     "combat_level_required": 70,
     "duration_minutes": 60,
     "hp": 2200,
@@ -173,7 +173,7 @@
     ],
     "pet": {
       "id": "imp_pet",
-      "display_name": "Imp Pet",
+      "display_name": "Rattler Pet",
       "emoji": "\ud83d\ude08",
       "chance": 0.01,
       "comment": "1/100 per kill"
@@ -184,7 +184,7 @@
   },
   "kraken": {
     "id": "kraken",
-    "display_name": "Kraken",
+    "display_name": "Flathead Lake Monster",
     "emoji": "\ud83e\udd91",
     "description": "The terror of the deep seas, a colossal sea monster.",
     "combat_level_required": 90,
@@ -270,7 +270,7 @@
     ],
     "pet": {
       "id": "baby_kraken",
-      "display_name": "Baby Kraken",
+      "display_name": "Baby Flathead Lake Monster",
       "emoji": "\ud83e\udd91",
       "chance": 0.01,
       "comment": "1/100 per kill"
@@ -278,12 +278,12 @@
   },
   "balrog": {
     "id": "balrog",
-    "display_name": "Gothic Ember, Ancient Flame of the Deep",
+    "display_name": "Gothic Ember, the Burning Oil Well",
     "emoji": "\ud83d\udd25",
     "tags": [
       "demon"
     ],
-    "description": "An ancient demon of flame and shadow, awakened from its slumber deep beneath the earth.",
+    "description": "An ancient desert Devil of flame and shadow, awakened from its slumber deep beneath the earth.",
     "combat_level_required": 100,
     "duration_minutes": 120,
     "hp": 2800,
@@ -376,7 +376,7 @@
   },
   "void_sovereign": {
     "id": "void_sovereign",
-    "display_name": "The Void Sovereign",
+    "display_name": "The Headless Horseman",
     "emoji": "\ud83c\udf11",
     "description": "The primordial entity behind the void rifts. Ancient beyond reckoning, it regards mortal challengers with contempt.",
     "combat_level_required": 110,
@@ -466,9 +466,9 @@
   },
   "sol_invictus": {
     "id": "sol_invictus",
-    "display_name": "Sol Invictus, the Sundered Flame",
+    "display_name": "Sol Invictus, Sun Chief of the Mesa",
     "emoji": "\u2600\ufe0f",
-    "description": "A shard of the sun itself, torn loose from the Sunspire ruin. Only the boldest warriors dare approach.",
+    "description": "A shard of the sun itself, torn loose from Sun Mesa ruin. Only the boldest warriors dare approach.",
     "combat_level_required": 65,
     "duration_minutes": 50,
     "hp": 2200,
@@ -529,9 +529,9 @@
   },
   "the_hollow_king": {
     "id": "the_hollow_king",
-    "display_name": "The Hollow King",
+    "display_name": "The Ghost Sheriff",
     "emoji": "\ud83c\udf83",
-    "description": "The headless sovereign of the Gloomharvest, riding out from the Blightwood to reap what the living have sown.",
+    "description": "The headless sovereign of the Gloomharvest, riding out from hangman's Woods to reap what the living have sown.",
     "combat_level_required": 70,
     "duration_minutes": 55,
     "hp": 2600,
@@ -592,7 +592,7 @@
   },
   "the_vault_guardian": {
     "id": "the_vault_guardian",
-    "display_name": "The Vault Guardian",
+    "display_name": "The Wells Fargo Iron Safe",
     "emoji": "\ud83c\udfc6",
     "description": "A colossus of living gold, woken by the lighting of the Eternal Flame. Only patrons of the Grand Monument may face it.",
     "combat_level_required": 100,
@@ -664,7 +664,7 @@
   },
   "obsidian_colossus": {
     "id": "obsidian_colossus",
-    "display_name": "Obsidian Colossus",
+    "display_name": "Steam Colossus",
     "emoji": "\ud83d\uddff",
     "description": "A mountain given wrath. No lone hero has ever chipped more than a scar into it. Bring a party.",
     "combat_level_required": 130,
@@ -745,7 +745,7 @@
   },
   "brood_empress": {
     "id": "brood_empress",
-    "display_name": "Brood Empress",
+    "display_name": "Scorpion Queen",
     "emoji": "\ud83d\udc41\ufe0f",
     "description": "Mother of the swarm between the stars. Her brood has ended armies; yours had better be paid well.",
     "combat_level_required": 140,
@@ -831,7 +831,7 @@
   },
   "the_world_ender": {
     "id": "the_world_ender",
-    "display_name": "The World Ender",
+    "display_name": "The Ghost Train",
     "emoji": "\ud83c\udf0b",
     "description": "When it stirs, kingdoms write their wills. Four names on the contract or none return.",
     "combat_level_required": 150,
@@ -921,9 +921,9 @@
   },
   "last_elder": {
     "id": "last_elder",
-    "display_name": "The Last Elder",
+    "display_name": "The Last Shaman",
     "emoji": "\ud83d\udd6f\ufe0f",
-    "description": "The last of the Elders, sealed at the bottom of the Abyssal Depths. Only a full Elder set can survive the fight.",
+    "description": "The last of the Elders, sealed at the bottom of the Bottomless Mine. Only a full Elder set can survive the fight.",
     "combat_level_required": 99,
     "duration_minutes": 120,
     "hp": 40000,
@@ -982,7 +982,7 @@
   },
   "sea_serpent": {
     "id": "sea_serpent",
-    "display_name": "Sea Serpent",
+    "display_name": "Mississippi River Serpent",
     "emoji": "\ud83d\udc0d",
     "description": "A vast coiling terror of the deep sea that has drowned every prior voyage to the Elder Isle. Slay it and the passage opens.",
     "combat_level_required": 90,

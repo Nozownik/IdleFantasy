@@ -72,7 +72,7 @@
     "time_per_item": 60
   },
   "magic_throne": {
-    "display_name": "Magic Throne",
+    "display_name": "Explosives Throne",
     "level_required": 75,
     "materials": { "magic_plank": 8, "mithril_nail": 15 },
     "output_quantity": 1,

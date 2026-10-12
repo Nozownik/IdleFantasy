@@ -36,7 +36,7 @@
   },
   "goblin": {
     "name": "goblin",
-    "display_name": "Goblin",
+    "display_name": "Coyote",
     "hp": 20,
     "combat_stats": {
       "attack_level": 2,
@@ -313,7 +313,7 @@
   },
   "dark_wizard": {
     "name": "dark_wizard",
-    "display_name": "Dark Wizard",
+    "display_name": "Snake-Oil Swindler",
     "hp": 40,
     "combat_stats": {
       "attack_level": 8,
@@ -366,7 +366,7 @@
   },
   "orc_warrior": {
     "name": "orc_warrior",
-    "display_name": "Orc Warrior",
+    "display_name": "Outlaw Brute",
     "hp": 65,
     "combat_stats": {
       "attack_level": 12,
@@ -425,7 +425,7 @@
   },
   "spider": {
     "name": "spider",
-    "display_name": "Giant Spider",
+    "display_name": "Giant Tarantula",
     "hp": 25,
     "combat_stats": {
       "attack_level": 3,
@@ -472,7 +472,7 @@
   },
   "wild_monkey": {
     "name": "wild_monkey",
-    "display_name": "Wild Monkey",
+    "display_name": "Wild Mustang",
     "hp": 18,
     "combat_stats": {
       "attack_level": 3,
@@ -572,7 +572,7 @@
   },
   "knight": {
     "name": "knight",
-    "display_name": "Knight",
+    "display_name": "Lawman",
     "hp": 70,
     "combat_stats": {
       "attack_level": 15,
@@ -631,7 +631,7 @@
   },
   "hellhound": {
     "name": "hellhound",
-    "display_name": "Hellhound",
+    "display_name": "Hellhound Coyote",
     "hp": 80,
     "combat_stats": {
       "attack_level": 18,
@@ -696,7 +696,7 @@
   },
   "troll": {
     "name": "troll",
-    "display_name": "Mountain Troll",
+    "display_name": "Mountain Man",
     "hp": 95,
     "combat_stats": {
       "attack_level": 16,
@@ -755,7 +755,7 @@
   },
   "demon": {
     "name": "demon",
-    "display_name": "Lesser Demon",
+    "display_name": "Desert Devil",
     "hp": 110,
     "combat_stats": {
       "attack_level": 22,
@@ -820,7 +820,7 @@
   },
   "dragon": {
     "name": "dragon",
-    "display_name": "Green Dragon",
+    "display_name": "Grizzly Bear",
     "tags": [
       "green_dragon"
     ],
@@ -894,7 +894,7 @@
   },
   "imp": {
     "name": "imp",
-    "display_name": "Imp",
+    "display_name": "Rattler",
     "hp": 12,
     "combat_stats": {
       "attack_level": 2,
@@ -1070,7 +1070,7 @@
   },
   "fire_giant": {
     "name": "fire_giant",
-    "display_name": "Fire Giant",
+    "display_name": "Blast Furnace Brute",
     "hp": 160,
     "combat_stats": {
       "attack_level": 25,
@@ -1194,7 +1194,7 @@
   },
   "lich": {
     "name": "lich",
-    "display_name": "Lich",
+    "display_name": "Undead Preacher",
     "hp": 140,
     "combat_stats": {
       "attack_level": 28,
@@ -1247,7 +1247,7 @@
   },
   "cave_troll": {
     "name": "cave_troll",
-    "display_name": "Cave Troll",
+    "display_name": "Cave Hermit",
     "hp": 55,
     "combat_stats": {
       "attack_level": 8,
@@ -1294,7 +1294,7 @@
   },
   "mine_spider": {
     "name": "mine_spider",
-    "display_name": "Mine Spider",
+    "display_name": "Mine Scorpion",
     "hp": 35,
     "combat_stats": {
       "attack_level": 10,
@@ -1336,7 +1336,7 @@
   },
   "rock_golem": {
     "name": "rock_golem",
-    "display_name": "Rock Golem",
+    "display_name": "Rockslide",
     "hp": 80,
     "combat_stats": {
       "attack_level": 12,
@@ -1390,7 +1390,7 @@
   },
   "iron_golem": {
     "name": "iron_golem",
-    "display_name": "Iron Golem",
+    "display_name": "Iron Horse",
     "hp": 120,
     "combat_stats": {
       "attack_level": 22,
@@ -1450,7 +1450,7 @@
   },
   "forge_demon": {
     "name": "forge_demon",
-    "display_name": "Forge Demon",
+    "display_name": "Foundry Fiend",
     "hp": 105,
     "combat_stats": {
       "attack_level": 25,
@@ -1507,7 +1507,7 @@
   },
   "dwarven_guardian": {
     "name": "dwarven_guardian",
-    "display_name": "Dwarven Guardian",
+    "display_name": "Cornish Mine Guard",
     "hp": 95,
     "combat_stats": {
       "attack_level": 20,
@@ -1613,7 +1613,7 @@
   },
   "sea_spirit": {
     "name": "sea_spirit",
-    "display_name": "Sea Spirit",
+    "display_name": "River Ghost",
     "hp": 45,
     "combat_stats": {
       "attack_level": 11,
@@ -1702,7 +1702,7 @@
   },
   "abyssal_leech": {
     "name": "abyssal_leech",
-    "display_name": "Abyssal Leech",
+    "display_name": "Bayou Leech",
     "hp": 90,
     "combat_stats": {
       "attack_level": 20,
@@ -1744,7 +1744,7 @@
   },
   "deep_horror": {
     "name": "deep_horror",
-    "display_name": "Deep Horror",
+    "display_name": "Swamp Horror",
     "hp": 130,
     "combat_stats": {
       "attack_level": 26,
@@ -1852,7 +1852,7 @@
   },
   "corrupted_druid": {
     "name": "corrupted_druid",
-    "display_name": "Corrupted Druid",
+    "display_name": "Crazed Medicine Man",
     "hp": 55,
     "combat_stats": {
       "attack_level": 10,
@@ -1899,7 +1899,7 @@
   },
   "vine_beast": {
     "name": "vine_beast",
-    "display_name": "Vine Beast",
+    "display_name": "Cactus Beast",
     "hp": 70,
     "combat_stats": {
       "attack_level": 13,
@@ -1941,7 +1941,7 @@
   },
   "forest_spirit": {
     "name": "forest_spirit",
-    "display_name": "Forest Spirit",
+    "display_name": "Prairie Spirit",
     "hp": 60,
     "combat_stats": {
       "attack_level": 12,
@@ -2025,7 +2025,7 @@
   },
   "twisted_treant": {
     "name": "twisted_treant",
-    "display_name": "Twisted Treant",
+    "display_name": "Hanging Tree",
     "hp": 135,
     "combat_stats": {
       "attack_level": 25,
@@ -2073,7 +2073,7 @@
   },
   "corrupted_mage": {
     "name": "corrupted_mage",
-    "display_name": "Corrupted Mage",
+    "display_name": "Crazed Quack Doctor",
     "hp": 95,
     "combat_stats": {
       "attack_level": 22,
@@ -2179,7 +2179,7 @@
   },
   "arcane_construct": {
     "name": "arcane_construct",
-    "display_name": "Arcane Construct",
+    "display_name": "Clockwork Automaton",
     "hp": 115,
     "combat_stats": {
       "attack_level": 25,
@@ -2315,7 +2315,7 @@
   },
   "chaos_elemental": {
     "name": "chaos_elemental",
-    "display_name": "Chaos Elemental",
+    "display_name": "Dust Devil",
     "hp": 240,
     "combat_stats": {
       "attack_level": 35,
@@ -2368,7 +2368,7 @@
   },
   "frost_giant": {
     "name": "frost_giant",
-    "display_name": "Frost Giant",
+    "display_name": "Frostbitten Trapper",
     "hp": 300,
     "combat_stats": {
       "attack_level": 35,
@@ -2415,7 +2415,7 @@
   },
   "ice_golem": {
     "name": "ice_golem",
-    "display_name": "Ice Golem",
+    "display_name": "Ice Wagon",
     "hp": 350,
     "combat_stats": {
       "attack_level": 32,
@@ -2462,7 +2462,7 @@
   },
   "glacial_mage": {
     "name": "glacial_mage",
-    "display_name": "Glacial Mage",
+    "display_name": "Frozen Quack",
     "hp": 260,
     "combat_stats": {
       "attack_level": 40,
@@ -2627,7 +2627,7 @@
   },
   "void_archon": {
     "name": "void_archon",
-    "display_name": "Void Archon",
+    "display_name": "Death Valley Warlord",
     "hp": 320,
     "combat_stats": {
       "attack_level": 45,
@@ -2880,7 +2880,7 @@
   },
   "storm_imp": {
     "name": "storm_imp",
-    "display_name": "Storm Imp",
+    "display_name": "Storm Rattler",
     "hp": 72,
     "combat_stats": {
       "attack_level": 20,
@@ -2927,7 +2927,7 @@
   },
   "sky_serpent": {
     "name": "sky_serpent",
-    "display_name": "Sky Serpent",
+    "display_name": "Thunderbird",
     "hp": 95,
     "combat_stats": {
       "attack_level": 24,
@@ -2980,7 +2980,7 @@
   },
   "cloud_giant": {
     "name": "cloud_giant",
-    "display_name": "Cloud Giant",
+    "display_name": "Train Robber Giant",
     "hp": 190,
     "combat_stats": {
       "attack_level": 30,
@@ -3039,7 +3039,7 @@
   },
   "frost_wyvern": {
     "name": "frost_wyvern",
-    "display_name": "Frost Wyvern",
+    "display_name": "Frost Buzzard",
     "hp": 280,
     "combat_stats": {
       "attack_level": 40,
@@ -3198,7 +3198,7 @@
   },
   "elder_lich": {
     "name": "elder_lich",
-    "display_name": "Elder Lich",
+    "display_name": "Elder Undead Preacher",
     "hp": 380,
     "combat_stats": {
       "attack_level": 48,
@@ -3251,7 +3251,7 @@
   },
   "sun_wisp": {
     "name": "sun_wisp",
-    "display_name": "Sun Wisp",
+    "display_name": "Sun Ghost",
     "hp": 55,
     "combat_stats": {
       "attack_level": 20,
@@ -3386,7 +3386,7 @@
   },
   "will_o_wisp": {
     "name": "will_o_wisp",
-    "display_name": "Will-o'-Wisp",
+    "display_name": "Ghost Light",
     "hp": 65,
     "combat_stats": {
       "attack_level": 23,
@@ -3515,7 +3515,7 @@
   },
   "barrow_wight": {
     "name": "barrow_wight",
-    "display_name": "Barrow Wight",
+    "display_name": "Boot Hill Revenant",
     "hp": 340,
     "combat_stats": {
       "attack_level": 48,
@@ -3668,7 +3668,7 @@
   },
   "dread_dullahan": {
     "name": "dread_dullahan",
-    "display_name": "Dread Dullahan",
+    "display_name": "Headless Rider",
     "hp": 500,
     "combat_stats": {
       "attack_level": 60,
@@ -3727,7 +3727,7 @@
   },
   "beach_marauder": {
     "name": "beach_marauder",
-    "display_name": "Beach Marauder",
+    "display_name": "River Pirate",
     "hp": 200,
     "combat_stats": {
       "attack_level": 55,
@@ -3780,7 +3780,7 @@
   },
   "beach_leviathan": {
     "name": "beach_leviathan",
-    "display_name": "Beach Leviathan",
+    "display_name": "River Monster",
     "hp": 240,
     "combat_stats": {
       "attack_level": 60,
@@ -3880,7 +3880,7 @@
   },
   "grove_dryad": {
     "name": "grove_dryad",
-    "display_name": "Grove Dryad",
+    "display_name": "Prairie Witch",
     "hp": 320,
     "combat_stats": {
       "attack_level": 70,
@@ -3986,7 +3986,7 @@
   },
   "lava_wraith": {
     "name": "lava_wraith",
-    "display_name": "Lava Wraith",
+    "display_name": "Sulfur Wraith",
     "hp": 380,
     "combat_stats": {
       "attack_level": 80,
@@ -4104,7 +4104,7 @@
   },
   "void_seraph": {
     "name": "void_seraph",
-    "display_name": "Void Seraph",
+    "display_name": "Angel of Death Valley",
     "hp": 380,
     "combat_stats": {
       "attack_level": 90,

@@ -21,22 +21,22 @@
   },
   {
     "id": "daily_mine_mithril",
-    "display_name": "Mithril Prospector",
+    "display_name": "Damascus Prospector",
     "skill": "mining",
     "type": "gather",
     "target": "mithril_ore",
     "amount": 50,
-    "description": "Mine 50 mithril ore.",
+    "description": "Mine 50 Damascus ore.",
     "level_required": 55
   },
   {
     "id": "daily_mine_runite",
-    "display_name": "Runite Rush",
+    "display_name": "Stainless Rush",
     "skill": "mining",
     "type": "gather",
     "target": "runite_ore",
     "amount": 20,
-    "description": "Mine 20 runite ore.",
+    "description": "Mine 20 stainless ore.",
     "level_required": 85
   },
   {
@@ -111,12 +111,12 @@
   },
   {
     "id": "daily_wc_magic",
-    "display_name": "Magic Lumberjack",
+    "display_name": "Explosives Lumberjack",
     "skill": "woodcutting",
     "type": "gather",
     "target": "magic_log",
     "amount": 10,
-    "description": "Chop 10 magic logs.",
+    "description": "Chop 10 explosives logs.",
     "level_required": 75
   },
   {
@@ -131,32 +131,32 @@
   },
   {
     "id": "daily_smith_mithril",
-    "display_name": "Mithril Forger",
+    "display_name": "Damascus Forger",
     "skill": "smithing",
     "type": "craft",
     "target": "mithril_bar",
     "amount": 15,
-    "description": "Smith 15 mithril bars.",
+    "description": "Smith 15 Damascus bars.",
     "level_required": 50
   },
   {
     "id": "daily_smith_adamantite",
-    "display_name": "Adamantite Artisan",
+    "display_name": "Bessemer Artisan",
     "skill": "smithing",
     "type": "craft",
     "target": "adamantite_bar",
     "amount": 10,
-    "description": "Smith 10 adamantite bars.",
+    "description": "Smith 10 Bessemer bars.",
     "level_required": 70
   },
   {
     "id": "daily_smith_runite",
-    "display_name": "Runite Smelter",
+    "display_name": "Stainless Smelter",
     "skill": "smithing",
     "type": "craft",
     "target": "runite_bar",
     "amount": 5,
-    "description": "Smith 5 runite bars.",
+    "description": "Smith 5 stainless bars.",
     "level_required": 85
   },
   {
@@ -201,12 +201,12 @@
   },
   {
     "id": "daily_kill_goblin",
-    "display_name": "Goblin Slayer",
+    "display_name": "Coyote Bounty Hunting",
     "skill": "combat",
     "type": "kill_enemy",
     "target": "goblin",
     "amount": 80,
-    "description": "Defeat 80 goblins.",
+    "description": "Defeat 80 coyotes.",
     "level_required": 1
   },
   {
@@ -221,22 +221,22 @@
   },
   {
     "id": "daily_kill_demon",
-    "display_name": "Demon Hunter",
+    "display_name": "Desert Devil Hunter",
     "skill": "combat",
     "type": "kill_enemy",
     "target": "demon",
     "amount": 20,
-    "description": "Defeat 20 demons.",
+    "description": "Defeat 20 desert Devils.",
     "level_required": 60
   },
   {
     "id": "daily_kill_dragon",
-    "display_name": "Dragon Slayer",
+    "display_name": "Grizzly Bounty Hunting",
     "skill": "combat",
     "type": "kill_enemy",
     "target": "dragon",
     "amount": 10,
-    "description": "Defeat 10 dragons.",
+    "description": "Defeat 10 grizzlies.",
     "level_required": 80
   }
 ]
