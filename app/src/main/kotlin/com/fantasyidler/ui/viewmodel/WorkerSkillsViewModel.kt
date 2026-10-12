@@ -392,10 +392,10 @@ class WorkerSkillsViewModel @Inject constructor(
     // ------------------------------------------------------------------
 
     fun startMiningSession(oreKey: String)          = enqueueGathering(Skills.MINING,     "Mining",     oreKey)
-    fun startWoodcuttingSession(treeKey: String)    = enqueueGathering(Skills.WOODCUTTING, "Woodcutting", treeKey)
+    fun startWoodcuttingSession(treeKey: String)    = enqueueGathering(Skills.WOODCUTTING, "Lumberjacking", treeKey)
     fun startFishingSession(fishKey: String)        = enqueueGathering(Skills.FISHING,    "Fishing",    fishKey)
-    fun startAgilitySession(courseKey: String)      = enqueueGathering(Skills.AGILITY,    "Agility",    courseKey)
-    fun startThievingSession(npcKey: String)        = enqueueGathering(Skills.THIEVING,   "Thieving",   npcKey)
+    fun startAgilitySession(courseKey: String)      = enqueueGathering(Skills.AGILITY,    "Horse Riding",    courseKey)
+    fun startThievingSession(npcKey: String)        = enqueueGathering(Skills.THIEVING,   "Outlawry",   npcKey)
 
     private fun enqueueGathering(skillName: String, displayName: String, activityKey: String) {
         viewModelScope.launch {
@@ -437,7 +437,7 @@ class WorkerSkillsViewModel @Inject constructor(
                 QueuedAction(
                     skillName           = Skills.FIREMAKING,
                     activityKey         = logKey,
-                    skillDisplayName    = "Firemaking",
+                    skillDisplayName    = "Campfire",
                     qty                 = qty,
                     estimatedDurationMs = qty.toLong() * tier.craftingPerItemMs,
                 )
@@ -476,7 +476,7 @@ class WorkerSkillsViewModel @Inject constructor(
                 QueuedAction(
                     skillName           = Skills.RUNECRAFTING,
                     activityKey         = runeKey,
-                    skillDisplayName    = "Runecrafting",
+                    skillDisplayName    = "Powder Mixing",
                     qty                 = qty,
                     estimatedDurationMs = qty.toLong() * perItemMs,
                     catalystKey         = catalystKey,
@@ -515,7 +515,7 @@ class WorkerSkillsViewModel @Inject constructor(
                 QueuedAction(
                     skillName           = Skills.PRAYER,
                     activityKey         = boneKey,
-                    skillDisplayName    = "Prayer",
+                    skillDisplayName    = "Faith",
                     qty                 = qty,
                     estimatedDurationMs = qty.toLong() * perBoneMs,
                 )

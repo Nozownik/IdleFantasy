@@ -545,7 +545,7 @@ class SkillsViewModel @Inject constructor(
             val action = QueuedAction(
                 skillName           = Skills.FIREMAKING,
                 activityKey         = logKey,
-                skillDisplayName    = "Firemaking",
+                skillDisplayName    = "Campfire",
                 qty                 = actualQty,
                 estimatedXpGain     = (actualQty.toLong() * logXp * xpQueueMult * prestigeMult * toolEff).toLong(),
                 estimatedDurationMs = actualQty.toLong() * perLogMs,
@@ -559,7 +559,7 @@ class SkillsViewModel @Inject constructor(
                 if (enqueued) queuedSessionStarter.startNextQueued()
                 _uiState.update {
                     it.copy(
-                        snackbarMessage = if (enqueued) context.withAppLocale().getString(R.string.slayer_queue_added, "Firemaking") else context.withAppLocale().getString(R.string.slayer_queue_full),
+                        snackbarMessage = if (enqueued) context.withAppLocale().getString(R.string.slayer_queue_added, "Campfire") else context.withAppLocale().getString(R.string.slayer_queue_full),
                     )
                 }
                 return@launch
@@ -611,7 +611,7 @@ class SkillsViewModel @Inject constructor(
                     QueuedAction(
                         skillName           = Skills.RUNECRAFTING,
                         activityKey         = runeKey,
-                        skillDisplayName    = "Runecrafting",
+                        skillDisplayName    = "Powder Mixing",
                         qty                 = qty,
                         estimatedXpGain     = (qty.toLong() * (runeData.xpPerRune * mult).toLong() * xpQueueMult * prestigeMult).toLong(),
                         estimatedDurationMs = qty.toLong() * perItemMs,
@@ -698,7 +698,7 @@ class SkillsViewModel @Inject constructor(
                     activityKey      = runeKey,
                     frames           = framesJson,
                     durationMs       = qty.toLong() * perEssenceMs,
-                    skillDisplayName = "Runecrafting",
+                    skillDisplayName = "Powder Mixing",
                     catalystKey      = catalystKey,
                     catalystQty      = consumedAshCost,
                     consumedMaterials = consumedMatsJson,
@@ -732,7 +732,7 @@ class SkillsViewModel @Inject constructor(
                     QueuedAction(
                         skillName           = Skills.PRAYER,
                         activityKey         = boneKey,
-                        skillDisplayName    = "Prayer",
+                        skillDisplayName    = "Faith",
                         qty                 = qty,
                         estimatedXpGain     = (qty.toLong() * bone.xpPerBone.toLong() * xpQueueMult * prestigeMult).toLong(),
                         estimatedDurationMs = qty.toLong() * perBoneMs,
@@ -790,7 +790,7 @@ class SkillsViewModel @Inject constructor(
                     activityKey       = boneKey,
                     frames            = framesJson,
                     durationMs        = qty.toLong() * perBoneMs,
-                    skillDisplayName  = "Prayer",
+                    skillDisplayName  = "Faith",
                     consumedMaterials = consumedMatsJson,
                 )
             } catch (e: Exception) {
@@ -849,7 +849,7 @@ class SkillsViewModel @Inject constructor(
                     QueuedAction(
                         skillName           = Skills.THIEVING,
                         activityKey         = npcKey,
-                        skillDisplayName    = "Thieving",
+                        skillDisplayName    = "Outlawry",
                         estimatedXpGain     = estimatedXpGain,
                         estimatedDurationMs = SkillSimulator.sessionDurationMs(agility, boostRepo.sessionFloorReductionMin(thievingFlags), townRepo.playerSessionDurationMultiplier(thievingFlags)),
                         // Must record every multiplier baked into the estimate (prestige included),
@@ -898,7 +898,7 @@ class SkillsViewModel @Inject constructor(
                     activityKey      = npcKey,
                     frames           = framesJson,
                     durationMs       = result.durationMs,
-                    skillDisplayName = "Thieving",
+                    skillDisplayName = "Outlawry",
                 )
                 _uiState.update {
                     it.copy(

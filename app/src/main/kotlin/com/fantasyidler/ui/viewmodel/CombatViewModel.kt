@@ -948,7 +948,7 @@ class CombatViewModel @Inject constructor(
                 }
                 val magicLevel = levels[Skills.MAGIC] ?: 1
                 if (combatStyle == "magic" && selectedSpell != null && magicLevel < selectedSpell.magicLevelRequired) {
-                    _extra.update { it.copy(snackbarMessage = "Need Magic ${selectedSpell.magicLevelRequired} for ${selectedSpell.displayName}.", startingSession = false) }
+                    _extra.update { it.copy(snackbarMessage = "Need Explosives ${selectedSpell.magicLevelRequired} for ${selectedSpell.displayName}.", startingSession = false) }
                     return@launch
                 }
                 val preferredArrow = _extra.value.selectedArrowKey?.takeIf { (inventory[it] ?: 0) > 0 }

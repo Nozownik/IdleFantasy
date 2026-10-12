@@ -114,7 +114,7 @@ fun ElderArmorMasterScreen(
                         )
                         Spacer(Modifier.height(6.dp))
                         Text(
-                            text  = "Craft Elder armor via the Smithing skill. This screen embeds sigil stones into the pieces you own.",
+                            text  = "Craft Elder armor via the Gunsmithing skill. This screen embeds sigil stones into the pieces you own.",
                             style = MaterialTheme.typography.labelSmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
@@ -140,7 +140,7 @@ fun ElderArmorMasterScreen(
                             )
                             Spacer(Modifier.height(6.dp))
                             Text(
-                                text      = "Craft your first Elder piece via Smithing to unlock the Sigil Embedder.",
+                                text      = "Craft your first Elder piece via Gunsmithing to unlock the Sigil Embedder.",
                                 style     = MaterialTheme.typography.bodySmall,
                                 textAlign = TextAlign.Center,
                                 color     = MaterialTheme.colorScheme.onSurfaceVariant,

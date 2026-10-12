@@ -165,7 +165,7 @@ class MercantileViewModel @Inject constructor(
                     QueuedAction(
                         skillName           = Skills.MERCANTILE,
                         activityKey         = routeId,
-                        skillDisplayName    = "Mercantile",
+                        skillDisplayName    = "Trading Post",
                         estimatedXpGain     = estimatedXpGain,
                         estimatedDurationMs = SkillSimulator.sessionDurationMs(agilityLevel, boostRepo.sessionFloorReductionMin(mercFlags), townRepo.playerSessionDurationMultiplier(mercFlags)),
                         // Must record every multiplier baked into the estimate (prestige included),
@@ -209,7 +209,7 @@ class MercantileViewModel @Inject constructor(
                     activityKey      = routeId,
                     frames           = framesJson,
                     durationMs       = result.durationMs,
-                    skillDisplayName = "Mercantile",
+                    skillDisplayName = "Trading Post",
                 )
             } catch (e: Exception) {
                 playerRepo.addCoins(route.coinCost.toLong())
