@@ -1,3 +1,13 @@
+# Idle Frontier: Dust & Lead
+
+A Wild West reskin of **[IdleFantasy](https://github.com/tristinbaker/IdleFantasy) by Tristin Baker**, licensed under the GNU General Public License v3.0. This fork keeps the original GPL-3.0 license (see `LICENSE`). All game mechanics, code and original assets are the work of Tristin Baker and IdleFantasy contributors; this fork changes only display names, descriptions and English/Polish UI strings to a Wild West theme. Internal IDs and save format are unchanged.
+
+Status: graphics are unchanged (still fantasy sprites); only EN and PL text is reskinned, other languages remain original.
+
+---
+
+## Original README
+
 # Idle Fantasy
 
 **Set your hero to work. Close the app. Come back to loot.**
