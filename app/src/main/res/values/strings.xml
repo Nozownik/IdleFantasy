@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">Idle Frontier: Dust &amp; Lead</string>
-    <string name="home_title_elder_isle" translatable="false">Idle Fantasy · Elder Isle</string>
+    <string name="home_title_elder_isle" translatable="false">Idle Frontier · Elder Isle</string>
 
     <!-- ===== Bottom navigation ===== -->
     <string name="nav_skills">Skills</string>
@@ -838,7 +838,7 @@
     <string name="onboarding_progress_desc">Mine ore to smelt bars, then forge better weapons and armour. Equip stronger gear to tackle harder dungeons and bosses. Better tools speed up gathering, and higher-tier equipment unlocks content that weaker gear can\'t survive.</string>
     <string name="onboarding_quests_title">Quests &amp; Pets</string>
     <string name="onboarding_quests_desc">Complete quests to earn XP rewards. Rare pets can drop while training skills and provide permanent XP boosts.</string>
-    <string name="onboarding_welcome_desc">An idle RPG inspired by classic MMORPGs. Train skills, fight dungeons, and craft gear. All offline, no accounts, no ads.</string>
+    <string name="onboarding_welcome_desc">An offline idle RPG set on the frontier. Train skills, clear forts and canyons, and craft gear. No accounts, no ads.</string>
 
     <!-- Quantity picker quick buttons -->
     <string name="qty_max">Max</string>

@@ -1,8 +1,8 @@
 [
   {
     "id": "bran_the_sellsword",
-    "display_name": "Bran the Sellsword",
-    "emoji": "⚔️",
+    "display_name": "Bran the Hired Gun",
+    "emoji": "🔫",
     "tier": "cheap",
     "combat_style": "melee",
     "attack_level": 40,
@@ -15,8 +15,8 @@
   },
   {
     "id": "wren_the_stray",
-    "display_name": "Wren the Stray",
-    "emoji": "🏹",
+    "display_name": "Wren the Drifter",
+    "emoji": "🔪",
     "tier": "cheap",
     "combat_style": "ranged",
     "attack_level": 42,
@@ -29,7 +29,7 @@
   },
   {
     "id": "tam_the_grey",
-    "display_name": "Tam the Grey",
+    "display_name": "Tam Dustcoat",
     "emoji": "🔮",
     "tier": "cheap",
     "combat_style": "magic",
@@ -43,7 +43,7 @@
   },
   {
     "id": "nix_the_cutpurse",
-    "display_name": "Nix the Cutpurse",
+    "display_name": "Nix the Road Agent",
     "emoji": "🗡️",
     "tier": "cheap",
     "combat_style": "melee",
@@ -57,8 +57,8 @@
   },
   {
     "id": "sera_ironsong",
-    "display_name": "Sera Ironsong",
-    "emoji": "⚔️",
+    "display_name": "Sera Ironside",
+    "emoji": "🔫",
     "tier": "seasoned",
     "combat_style": "melee",
     "attack_level": 72,
@@ -71,7 +71,7 @@
   },
   {
     "id": "kael_emberhand",
-    "display_name": "Kael Emberhand",
+    "display_name": "Kael Blackpowder",
     "emoji": "🔥",
     "tier": "seasoned",
     "combat_style": "magic",
@@ -85,7 +85,7 @@
   },
   {
     "id": "dorn_shieldbreaker",
-    "display_name": "Dorn Shieldbreaker",
+    "display_name": "Dorn the Shotgunner",
     "emoji": "🛡️",
     "tier": "seasoned",
     "combat_style": "melee",
@@ -99,8 +99,8 @@
   },
   {
     "id": "fenna_swiftarrow",
-    "display_name": "Fenna Swiftarrow",
-    "emoji": "🏹",
+    "display_name": "Fenna Quickdraw",
+    "emoji": "🔪",
     "tier": "seasoned",
     "combat_style": "ranged",
     "attack_level": 75,
@@ -113,7 +113,7 @@
   },
   {
     "id": "grimjaw_the_colossus",
-    "display_name": "Grimjaw the Colossus",
+    "display_name": "Grimjaw the Brute",
     "emoji": "👹",
     "tier": "elite",
     "combat_style": "melee",
@@ -127,7 +127,7 @@
   },
   {
     "id": "sylvara_trueshot",
-    "display_name": "Sylvara Trueshot",
+    "display_name": "Sylvara Deadeye",
     "emoji": "🎯",
     "tier": "elite",
     "combat_style": "ranged",
@@ -141,7 +141,7 @@
   },
   {
     "id": "vex_the_undying",
-    "display_name": "Vex the Undying",
+    "display_name": "Vex Hard-to-Kill",
     "emoji": "💀",
     "tier": "elite",
     "combat_style": "magic",
@@ -155,7 +155,7 @@
   },
   {
     "id": "thane_dawnbringer",
-    "display_name": "Thane Dawnbringer",
+    "display_name": "Thane Sunrider",
     "emoji": "🌟",
     "tier": "elite",
     "combat_style": "melee",

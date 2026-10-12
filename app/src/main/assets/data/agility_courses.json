@@ -127,7 +127,7 @@
   },
   "elder_abyssal_ascent": {
     "name": "elder_abyssal_ascent",
-    "display_name": "Abyssal Ascent",
+    "display_name": "Bottomless Ascent",
     "level_required": 85,
     "xp_per_success": 300,
     "description": "A vertical route up the pressure-cracked walls of the Bottomless Mine. Few make the top."

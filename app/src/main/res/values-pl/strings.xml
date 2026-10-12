@@ -854,7 +854,7 @@
     <string name="onboarding_progress_desc">Wydobywaj rudę, by wytapiać sztabki, a następnie kuj lepszą broń i zbroje. Zakładaj mocniejsze wyposażenie, by mierzyć się z trudniejszymi lochami i bossami. Lepsze narzędzia przyspieszają zbieractwo, a wyposażenie wyższego poziomu odblokowuje treści, których słabszy sprzęt nie przetrwa.</string>
     <string name="onboarding_quests_title">Zadania i zwierzaki</string>
     <string name="onboarding_quests_desc">Wykonuj zadania, by zdobywać nagrody XP. Rzadkie zwierzaki mogą wypadać podczas treningu umiejętności i zapewniają stałe wzmocnienia XP.</string>
-    <string name="onboarding_welcome_desc">Idle RPG inspirowane klasycznymi MMORPG. Trenuj umiejętności, walcz w lochach i wytwarzaj wyposażenie. W pełni offline, bez kont, bez reklam.</string>
+    <string name="onboarding_welcome_desc">Offline idle RPG na Dzikim Zachodzie. Trenuj umiejętności, czyść forty i kaniony, wytwarzaj sprzęt. Bez kont, bez reklam.</string>
 
     <!-- Quantity picker quick buttons -->
     <string name="qty_max">Maks.</string>
