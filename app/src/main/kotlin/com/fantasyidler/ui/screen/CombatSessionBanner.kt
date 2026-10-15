@@ -102,6 +102,9 @@ internal data class CombatLogEntry(
     val ally: Boolean = false,
     /** True when a prestige Double Hit landed this tick (issue #1567). */
     val doubleHit: Boolean = false,
+    /** Handgun reload tick — no shot fired; [reloadTicksLeft] is remaining including this tick. */
+    val isReload: Boolean = false,
+    val reloadTicksLeft: Int = 0,
 )
 
 @Composable
@@ -338,7 +341,11 @@ internal fun CombatSessionBanner(
                             var killIdx = 0
                             val lastTick = if (i < currentFrameIdx) maxOf(f.playerHits.size, f.enemyHits.size) - 1 else tickInFrame
                             for (t in 0..lastTick) {
-                                f.playerHits.getOrNull(t)?.let { dmg ->
+                                val reloading = f.reloading.getOrNull(t) == true
+                                if (reloading) {
+                                    val left = f.reloadLeftTicks.getOrNull(t) ?: 1
+                                    add(CombatLogEntry(true, 0, eName, isReload = true, reloadTicksLeft = left))
+                                } else f.playerHits.getOrNull(t)?.let { dmg ->
                                     add(CombatLogEntry(true, dmg, eName, doubleHit = t in f.doubleHitTicks))
                                     hp -= dmg
                                     if (hp <= 0) {
@@ -455,6 +462,20 @@ internal fun CombatSessionBanner(
                                 fontWeight = FontWeight.SemiBold,
                                 color      = hpColor,
                             )
+                            val cyl = currentFrame?.handgunCylinder ?: 0
+                            if (cyl > 0) {
+                                val reloadingNow = currentFrame?.reloading?.getOrNull(tickInFrame) == true
+                                val shots = if (reloadingNow) 0
+                                    else (currentFrame?.cylinderShots?.getOrNull(tickInFrame) ?: cyl)
+                                Text(
+                                    text       = stringResource(R.string.combat_cylinder, shots, cyl),
+                                    style      = MaterialTheme.typography.bodySmall,
+                                    fontWeight = FontWeight.SemiBold,
+                                    color      = if (reloadingNow)
+                                        MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.55f)
+                                    else MaterialTheme.colorScheme.onSecondaryContainer,
+                                )
+                            }
                         }
                         Spacer(Modifier.height(4.dp))
                         LinearProgressIndicator(
@@ -704,6 +725,12 @@ internal fun CombatSessionBanner(
                                             text  = stringResource(R.string.combat_log_ally_hit, entry.enemyName, entry.damage),
                                             style = MaterialTheme.typography.bodySmall,
                                             color = Color(0xFF64B5F6),
+                                        )
+                                    } else if (entry.isReload) {
+                                        Text(
+                                            text  = stringResource(R.string.combat_log_reload, entry.reloadTicksLeft),
+                                            style = MaterialTheme.typography.bodySmall,
+                                            color = MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.7f),
                                         )
                                     } else if (entry.isPlayer) {
                                         val color = if (entry.damage > 0) MaterialTheme.colorScheme.tertiary

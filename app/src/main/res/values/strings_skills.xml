@@ -22,7 +22,7 @@
     <string name="skill_cooking_name">Chuckwagon Cooking</string>
     <string name="skill_cooking_desc">Cook raw ingredients into food that restores HP in combat.</string>
     <string name="skill_fletching_name">Ammo Reloading</string>
-    <string name="skill_fletching_desc">Craft bows and arrows from logs and metal components.</string>
+    <string name="skill_fletching_desc">Load lead balls and cartridges from cases and metal components.</string>
     <string name="skill_crafting_name">Leatherworking</string>
     <string name="skill_crafting_desc">Create jewellery and other crafted items from precious materials.</string>
     <string name="skill_runecrafting_name">Powder Mixing</string>

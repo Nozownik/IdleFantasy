@@ -1,7 +1,7 @@
 {
   "arrow_shaft": {
     "item_name": "arrow_shaft",
-    "display_name": "Arrow Shaft",
+    "display_name": "Cartridge Case",
     "type": "component",
     "level_required": 1,
     "xp_per_item": 5,
@@ -13,7 +13,7 @@
   },
   "bronze_arrow": {
     "item_name": "bronze_arrow",
-    "display_name": "Brass Arrow",
+    "display_name": "Lead Ball",
     "type": "ammunition",
     "level_required": 1,
     "xp_per_item": 2,
@@ -28,7 +28,7 @@
   },
   "iron_arrow": {
     "item_name": "iron_arrow",
-    "display_name": "Iron Arrow",
+    "display_name": "Centerfire Cartridge",
     "type": "ammunition",
     "level_required": 15,
     "xp_per_item": 4,
@@ -43,7 +43,7 @@
   },
   "steel_arrow": {
     "item_name": "steel_arrow",
-    "display_name": "Steel Arrow",
+    "display_name": "Hardened-Core Cartridge",
     "type": "ammunition",
     "level_required": 30,
     "xp_per_item": 6,
@@ -58,7 +58,7 @@
   },
   "mithril_arrow": {
     "item_name": "mithril_arrow",
-    "display_name": "Damascus Arrow",
+    "display_name": "Silver Cartridge",
     "type": "ammunition",
     "level_required": 45,
     "xp_per_item": 8,
@@ -73,7 +73,7 @@
   },
   "adamantite_arrow": {
     "item_name": "adamantite_arrow",
-    "display_name": "Bessemer Arrow",
+    "display_name": "Armor-Piercing Cartridge",
     "type": "ammunition",
     "level_required": 60,
     "xp_per_item": 10,
@@ -88,7 +88,7 @@
   },
   "runite_arrow": {
     "item_name": "runite_arrow",
-    "display_name": "Stainless Arrow",
+    "display_name": "Hollow-Point Cartridge",
     "type": "ammunition",
     "level_required": 75,
     "xp_per_item": 12,

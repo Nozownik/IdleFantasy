@@ -33,8 +33,8 @@
     <string name="quest_weekly_cook_lobster_desc">Ugotuj 225 Homarów w tym tygodniu.</string>
     <string name="quest_weekly_cook_shark_name">Mistrz Kuchni</string>
     <string name="quest_weekly_cook_shark_desc">Ugotuj 110 Rekinów w tym tygodniu.</string>
-    <string name="quest_weekly_fletch_mithril_name">Twórca Strzał</string>
-    <string name="quest_weekly_fletch_mithril_desc">Wykonaj 450 Damasceńskich Strzał w tym tygodniu.</string>
+    <string name="quest_weekly_fletch_mithril_name">Ładowacz amunicji</string>
+    <string name="quest_weekly_fletch_mithril_desc">Załaduj 450 nabojów srebrnych w tym tygodniu.</string>
     <string name="quest_weekly_fletch_runite_name">Mistrz Płatnerz</string>
     <string name="quest_weekly_fletch_runite_desc">Wykonaj 300 Runitowych Strzał w tym tygodniu.</string>
     <string name="quest_weekly_goblin_slayer_name">Pogromca Coyoteów</string>

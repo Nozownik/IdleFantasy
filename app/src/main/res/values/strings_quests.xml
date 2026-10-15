@@ -99,17 +99,17 @@
 
     <!-- Fletching -->
     <string name="quest_fletching_1_name">Ammo Reloading I</string>
-    <string name="quest_fletching_1_objective">Fletch 500 Brass Arrows</string>
+    <string name="quest_fletching_1_objective">Load 500 Lead Balls</string>
     <string name="quest_fletching_2_name">Ammo Reloading II</string>
-    <string name="quest_fletching_2_objective">Fletch 750 Iron Arrows</string>
+    <string name="quest_fletching_2_objective">Load 750 Centerfire Cartridges</string>
     <string name="quest_fletching_3_name">Ammo Reloading III</string>
-    <string name="quest_fletching_3_objective">Fletch 1100 Steel Arrows</string>
+    <string name="quest_fletching_3_objective">Load 1100 Hardened-Core Cartridges</string>
     <string name="quest_fletching_4_name">Ammo Reloading IV</string>
-    <string name="quest_fletching_4_objective">Fletch 1650 Damascus Arrows</string>
+    <string name="quest_fletching_4_objective">Load 1650 Silver Cartridges</string>
     <string name="quest_fletching_5_name">Ammo Reloading V</string>
-    <string name="quest_fletching_5_objective">Fletch 2450 Bessemer Arrows</string>
+    <string name="quest_fletching_5_objective">Load 2450 Armor-Piercing Cartridges</string>
     <string name="quest_fletching_6_name">Ammo Reloading VI</string>
-    <string name="quest_fletching_6_objective">Fletch 3650 Stainless Arrows</string>
+    <string name="quest_fletching_6_objective">Load 3650 Hollow-Point Cartridges</string>
 
     <!-- Prayer -->
     <string name="quest_prayer_1_name">Faith I</string>
@@ -500,7 +500,7 @@
     <!-- Quest objective verb strings for craft skills -->
     <string name="daily_verb_crafting">Craft</string>
     <string name="daily_verb_firemaking">Burn</string>
-    <string name="daily_verb_fletching">Fletch</string>
+    <string name="daily_verb_fletching">Load</string>
     <string name="daily_verb_herblore">Brew</string>
     <string name="daily_verb_runecrafting">Craft</string>
     <string name="daily_verb_prayer">Bury</string>

@@ -22,7 +22,7 @@
     <string name="skill_cooking_name">Gotowanie przy ognisku</string>
     <string name="skill_cooking_desc">Gotuj surowe składniki na jedzenie, które przywraca HP w walce.</string>
     <string name="skill_fletching_name">Robienie amunicji</string>
-    <string name="skill_fletching_desc">Wytwarzaj łuki i strzały z kłód i elementów metalowych.</string>
+    <string name="skill_fletching_desc">Ładuj ołowiane kule i naboje z łusek oraz elementów metalowych.</string>
     <string name="skill_crafting_name">Rymarstwo</string>
     <string name="skill_crafting_desc">Twórz biżuterię i inne wyroby z cennych materiałów.</string>
     <string name="skill_runecrafting_name">Mieszanie prochu</string>

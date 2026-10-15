@@ -662,7 +662,7 @@
     "type": "craft",
     "target": "bronze_arrow",
     "amount": 500,
-    "description": "Fletch 500 Brass Arrows",
+    "description": "Load 500 Lead Balls",
     "rewards": {
       "coins": 1000,
       "xp": 2000,
@@ -680,7 +680,7 @@
     "type": "craft",
     "target": "iron_arrow",
     "amount": 750,
-    "description": "Fletch 750 Iron Arrows",
+    "description": "Load 750 Centerfire Cartridges",
     "rewards": {
       "coins": 2000,
       "xp": 5000,
@@ -698,7 +698,7 @@
     "type": "craft",
     "target": "steel_arrow",
     "amount": 1100,
-    "description": "Fletch 1100 Steel Arrows",
+    "description": "Load 1100 Hardened-Core Cartridges",
     "rewards": {
       "coins": 4000,
       "xp": 10000,
@@ -716,7 +716,7 @@
     "type": "craft",
     "target": "mithril_arrow",
     "amount": 1650,
-    "description": "Fletch 1650 Damascus Arrows",
+    "description": "Load 1650 Silver Cartridges",
     "rewards": {
       "coins": 8000,
       "xp": 20000,
@@ -734,7 +734,7 @@
     "type": "craft",
     "target": "adamantite_arrow",
     "amount": 2450,
-    "description": "Fletch 2450 Bessemer Arrows",
+    "description": "Load 2450 Armor-Piercing Cartridges",
     "rewards": {
       "coins": 16000,
       "xp": 40000,
@@ -752,7 +752,7 @@
     "type": "craft",
     "target": "runite_arrow",
     "amount": 3650,
-    "description": "Fletch 3650 Stainless Arrows",
+    "description": "Load 3650 Hollow-Point Cartridges",
     "rewards": {
       "coins": 32000,
       "xp": 80000,

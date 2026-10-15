@@ -98,18 +98,18 @@
     <string name="quest_cooking_mutton_3_objective">Ugotuj 500 Baraniny</string>
 
     <!-- Fletching -->
-    <string name="quest_fletching_1_name">Strzelarstwo I</string>
-    <string name="quest_fletching_1_objective">Wykonaj 500 Mosiężnych Strzał</string>
-    <string name="quest_fletching_2_name">Strzelarstwo II</string>
-    <string name="quest_fletching_2_objective">Wykonaj 750 Żelaznych Strzał</string>
-    <string name="quest_fletching_3_name">Strzelarstwo III</string>
-    <string name="quest_fletching_3_objective">Wykonaj 1100 Stalowych Strzał</string>
-    <string name="quest_fletching_4_name">Strzelarstwo IV</string>
-    <string name="quest_fletching_4_objective">Wykonaj 1650 Damasceńskich Strzał</string>
-    <string name="quest_fletching_5_name">Strzelarstwo V</string>
-    <string name="quest_fletching_5_objective">Wykonaj 2450 Bessemerowskich Strzał</string>
-    <string name="quest_fletching_6_name">Strzelarstwo VI</string>
-    <string name="quest_fletching_6_objective">Wykonaj 3650 Runitowych Strzał</string>
+    <string name="quest_fletching_1_name">Amunicja I</string>
+    <string name="quest_fletching_1_objective">Załaduj 500 ołowianych kul</string>
+    <string name="quest_fletching_2_name">Amunicja II</string>
+    <string name="quest_fletching_2_objective">Załaduj 750 nabojów scalonych</string>
+    <string name="quest_fletching_3_name">Amunicja III</string>
+    <string name="quest_fletching_3_objective">Załaduj 1100 nabojów z utwardzonym rdzeniem</string>
+    <string name="quest_fletching_4_name">Amunicja IV</string>
+    <string name="quest_fletching_4_objective">Załaduj 1650 nabojów srebrnych</string>
+    <string name="quest_fletching_5_name">Amunicja V</string>
+    <string name="quest_fletching_5_objective">Załaduj 2450 nabojów przeciwpancernych</string>
+    <string name="quest_fletching_6_name">Amunicja VI</string>
+    <string name="quest_fletching_6_objective">Załaduj 3650 nabojów ekspansywnych</string>
 
     <!-- Prayer -->
     <string name="quest_prayer_1_name">Wiara I</string>
@@ -500,7 +500,7 @@
     <!-- Quest objective verb strings for craft skills -->
     <string name="daily_verb_crafting">Wykonaj</string>
     <string name="daily_verb_firemaking">Spal</string>
-    <string name="daily_verb_fletching">Wykonaj</string>
+    <string name="daily_verb_fletching">Załaduj</string>
     <string name="daily_verb_herblore">Uwarz</string>
     <string name="daily_verb_runecrafting">Stwórz</string>
     <string name="daily_verb_prayer">Pochowaj</string>

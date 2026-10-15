@@ -373,34 +373,34 @@
     <string name="item_divine_fishing_rod_desc">A rod blessed by the sea gods. Fish practically leap onto it.</string> <!-- untranslated -->
 
     <!-- ===== Arrows ===== -->
-    <string name="item_bronze_arrow_name">Mosiężne Strzały</string>
-    <string name="item_bronze_arrow_desc">Podstawowe strzały do walki dystansowej.</string>
-    <string name="item_iron_arrow_name">Żelazne Strzały</string>
-    <string name="item_iron_arrow_desc">Żelazne strzały do walki dystansowej.</string>
-    <string name="item_steel_arrow_name">Stalowe Strzały</string>
-    <string name="item_steel_arrow_desc">Stalowe strzały do walki dystansowej.</string>
-    <string name="item_mithril_arrow_name">Damasceńskie Strzały</string>
-    <string name="item_mithril_arrow_desc">Damasceńskie strzały do walki dystansowej.</string>
-    <string name="item_adamantite_arrow_name">Bessemerowskie Strzały</string>
-    <string name="item_adamantite_arrow_desc">Bessemerowskie strzały do walki dystansowej.</string>
-    <string name="item_runite_arrow_name">Runitowe Strzały</string>
-    <string name="item_runite_arrow_desc">Najlepsze dostępne strzały.</string>
+    <string name="item_bronze_arrow_name">Ołowiana kula</string>
+    <string name="item_bronze_arrow_desc">Miękka ołowiana kula do broni odprzodowej. Podstawowa amunicja do broni długiej.</string>
+    <string name="item_iron_arrow_name">Nabój scalony</string>
+    <string name="item_iron_arrow_desc">Podstawowy nabój scalony do broni długiej.</string>
+    <string name="item_steel_arrow_name">Nabój z utwardzonym rdzeniem</string>
+    <string name="item_steel_arrow_desc">Nabój z utwardzonym rdzeniem do twardszych celów.</string>
+    <string name="item_mithril_arrow_name">Nabój srebrny</string>
+    <string name="item_mithril_arrow_desc">Posrebrzany nabój — ceniony na pograniczu.</string>
+    <string name="item_adamantite_arrow_name">Nabój przeciwpancerny</string>
+    <string name="item_adamantite_arrow_desc">Hartowany czubek przebijający osłony i płytę.</string>
+    <string name="item_runite_arrow_name">Nabój ekspansywny</string>
+    <string name="item_runite_arrow_desc">Ekspansywny hollow-point — najlepsza amunicja na pograniczu.</string>
 
     <!-- Arrow components -->
-    <string name="item_arrow_shaft_name">Trzonki Strzał</string>
-    <string name="item_arrow_shaft_desc">Drewniane trzonki używane do wytwarzania strzał.</string>
-    <string name="item_bronze_arrow_tips_name">Mosiężne Groty Strzał</string>
-    <string name="item_bronze_arrow_tips_desc">Mosiężne groty do wytwarzania mosiężnych strzał.</string>
-    <string name="item_iron_arrow_tips_name">Żelazne Groty Strzał</string>
-    <string name="item_iron_arrow_tips_desc">Żelazne groty do wytwarzania żelaznych strzał.</string>
-    <string name="item_steel_arrow_tips_name">Stalowe Groty Strzał</string>
-    <string name="item_steel_arrow_tips_desc">Stalowe groty do wytwarzania stalowych strzał.</string>
-    <string name="item_mithril_arrow_tips_name">Damasceńskie Groty Strzał</string>
-    <string name="item_mithril_arrow_tips_desc">Damasceńskie groty do wytwarzania damasceńskych strzał.</string>
-    <string name="item_adamantite_arrow_tips_name">Bessemerowskie Groty Strzał</string>
-    <string name="item_adamantite_arrow_tips_desc">Bessemerowskie groty do wytwarzania adamantytowych strzał.</string>
-    <string name="item_runite_arrow_tips_name">Runitowe Groty Strzał</string>
-    <string name="item_runite_arrow_tips_desc">Runitowe groty do wytwarzania runitowych strzał.</string>
+    <string name="item_arrow_shaft_name">Łuski</string>
+    <string name="item_arrow_shaft_desc">Puste łuski do ładowania amunicji pogranicza.</string>
+    <string name="item_bronze_arrow_tips_name">Odlewy ołowianych kul</string>
+    <string name="item_bronze_arrow_tips_desc">Odlewane ołowiane kule do amunicji odprzodowej.</string>
+    <string name="item_iron_arrow_tips_name">Pociski do nabojów</string>
+    <string name="item_iron_arrow_tips_desc">Pociski do ładowania nabojów scalonych.</string>
+    <string name="item_steel_arrow_tips_name">Utwardzone rdzenie</string>
+    <string name="item_steel_arrow_tips_desc">Utwardzone rdzenie do nabojów z utwardzonym rdzeniem.</string>
+    <string name="item_mithril_arrow_tips_name">Srebrne pociski</string>
+    <string name="item_mithril_arrow_tips_desc">Posrebrzane pociski do nabojów srebrnych.</string>
+    <string name="item_adamantite_arrow_tips_name">Rdzenie przeciwpancerne</string>
+    <string name="item_adamantite_arrow_tips_desc">Rdzenie przeciwpancerne do nabojów AP.</string>
+    <string name="item_runite_arrow_tips_name">Czubki ekspansywne</string>
+    <string name="item_runite_arrow_tips_desc">Ekspansywne czubki do nabojów hollow-point.</string>
 
     <!-- ===== Jewellery — plain ===== -->
     <string name="item_silver_ring_name">Srebrny Pierścień</string>
@@ -776,7 +776,7 @@
 
     <!-- Additional item/boss/food names (English placeholders) -->
     <string name="item_abyssal_rod_name">Abyssal Fishing Rod</string> <!-- untranslated -->
-    <string name="item_adamantite_arrow_tip_name">Bessemer Arrow Tips</string> <!-- untranslated -->
+    <string name="item_adamantite_arrow_tip_name">Rdzenie przeciwpancerne</string>
     <string name="item_adamantite_boots_name">Bessemer Boots</string> <!-- untranslated -->
     <string name="item_adamantite_chainbody_name">Bessemer Leather Vest</string> <!-- untranslated -->
     <string name="item_adamantite_dagger_name">Nóż Bowie (stal Bessemera)</string>
@@ -807,7 +807,7 @@
     <string name="item_berserker_ring_name">Berserker Ring</string> <!-- untranslated -->
     <string name="item_berserker_ring_desc">Increases melee strength. Requires Trading Post level 60 to purchase.</string> <!-- untranslated -->
     <string name="item_blessed_fishing_rod_name">Blessed Fishing Rod</string> <!-- untranslated -->
-    <string name="item_bronze_arrow_tip_name">Brass Arrow Tips</string> <!-- untranslated -->
+    <string name="item_bronze_arrow_tip_name">Odlewy ołowianych kul</string>
     <string name="item_bronze_boots_name">Brass Boots</string> <!-- untranslated -->
     <string name="item_bronze_chainbody_name">Brass Leather Vest</string> <!-- untranslated -->
     <string name="item_bronze_full_helmet_name">Brass Full Hat</string> <!-- untranslated -->
@@ -861,14 +861,14 @@
     <string name="item_fishing_cape_name">Fishing Cape</string> <!-- untranslated -->
     <string name="item_fishing_guild_cape_name">Fishing Guild Cape</string> <!-- untranslated -->
     <string name="item_flame_heart_amulet_name">Flame Heart Amulet</string> <!-- untranslated -->
-    <string name="item_fletching_cape_name">Ammo Reloading Cape</string> <!-- untranslated -->
-    <string name="item_fletching_guild_cape_name">Ammo Reloading Guild Cape</string> <!-- untranslated -->
+    <string name="item_fletching_cape_name">Pelerynka Robienia Amunicji</string>
+    <string name="item_fletching_guild_cape_name">Pelerynka Gildii Amunicji</string>
     <string name="item_forge_pickaxe_name">Forge Pickaxe</string> <!-- untranslated -->
     <string name="item_hellfire_staff_name">Hellfire Dynamite Cane</string> <!-- untranslated -->
     <string name="item_herblore_guild_cape_name">Moonshining Guild Cape</string> <!-- untranslated -->
     <string name="item_hp_cape_name">Hp Cape</string> <!-- untranslated -->
     <string name="item_imp_pet_name">Rattler Pet</string> <!-- untranslated -->
-    <string name="item_iron_arrow_tip_name">Iron Arrow Tips</string> <!-- untranslated -->
+    <string name="item_iron_arrow_tip_name">Pociski do nabojów</string>
     <string name="item_iron_boots_name">Iron Boots</string> <!-- untranslated -->
     <string name="item_iron_chainbody_name">Iron Leather Vest</string> <!-- untranslated -->
     <string name="item_iron_full_helmet_name">Iron Full Hat</string> <!-- untranslated -->
@@ -891,7 +891,7 @@
     <string name="item_mercantile_guild_cape_name">Trading Post Guild Cape</string> <!-- untranslated -->
     <string name="item_mining_cape_name">Mining Cape</string> <!-- untranslated -->
     <string name="item_mining_guild_cape_name">Mining Guild Cape</string> <!-- untranslated -->
-    <string name="item_mithril_arrow_tip_name">Damascus Arrow Tips</string> <!-- untranslated -->
+    <string name="item_mithril_arrow_tip_name">Srebrne pociski</string>
     <string name="item_mithril_boots_name">Damascus Boots</string> <!-- untranslated -->
     <string name="item_mithril_chainbody_name">Damascus Leather Vest</string> <!-- untranslated -->
     <string name="item_mithril_dagger_name">Nóż Bowie (stal damasceńska)</string>
@@ -922,7 +922,7 @@
     <string name="item_rogues_lockpick_name">Wytrych Łotrów</string>
     <string name="item_runecrafting_cape_name">Powder Mixing Cape</string> <!-- untranslated -->
     <string name="item_runecrafting_guild_cape_name">Powder Mixing Guild Cape</string> <!-- untranslated -->
-    <string name="item_runite_arrow_tip_name">Stainless Arrow Tips</string> <!-- untranslated -->
+    <string name="item_runite_arrow_tip_name">Czubki ekspansywne</string>
     <string name="item_runite_boots_name">Stainless Boots</string> <!-- untranslated -->
     <string name="item_runite_chainbody_name">Stainless Leather Vest</string> <!-- untranslated -->
     <string name="item_runite_dagger_name">Nóż Bowie (stal nierdzewna)</string>
@@ -948,7 +948,7 @@
     <string name="item_slayer_guild_cape_name">Bounty Hunting Guild Cape</string> <!-- untranslated -->
     <string name="item_smithing_cape_name">Gunsmithing Cape</string> <!-- untranslated -->
     <string name="item_smithing_guild_cape_name">Gunsmithing Guild Cape</string> <!-- untranslated -->
-    <string name="item_steel_arrow_tip_name">Steel Arrow Tips</string> <!-- untranslated -->
+    <string name="item_steel_arrow_tip_name">Utwardzone rdzenie</string>
     <string name="item_steel_boots_name">Steel Boots</string> <!-- untranslated -->
     <string name="item_steel_chainbody_name">Steel Leather Vest</string> <!-- untranslated -->
     <string name="item_steel_dagger_name">Nóż Bowie (stal)</string>
@@ -1123,8 +1123,8 @@
     <string name="item_smithing_guild_cape_desc" formatted="false">Awarded for reaching Gunsmithing Guild level 10. Grants 5% more items per session.</string> <!-- untranslated -->
     <string name="item_cooking_cape_desc" formatted="false">Awarded for reaching level 99 Cooking. Grants 10% more food per session.</string> <!-- untranslated -->
     <string name="item_cooking_guild_cape_desc" formatted="false">Awarded for reaching Cooking Guild level 10. Grants 5% more food per session.</string> <!-- untranslated -->
-    <string name="item_fletching_cape_desc" formatted="false">Awarded for reaching level 99 Ammo Reloading. Grants 10% more arrows per session.</string> <!-- untranslated -->
-    <string name="item_fletching_guild_cape_desc" formatted="false">Awarded for reaching Ammo Reloading Guild level 10. Grants 5% more arrows per session.</string> <!-- untranslated -->
+    <string name="item_fletching_cape_desc" formatted="false">Awarded for reaching level 99 Ammo Reloading. Daje 10% więcej amunicji na sesję.</string>
+    <string name="item_fletching_guild_cape_desc" formatted="false">Awarded for reaching Ammo Reloading Guild level 10. Daje 5% więcej amunicji na sesję.</string>
     <string name="item_crafting_cape_desc" formatted="false">Awarded for reaching level 99 Leatherworking. Grants 10% more items per session.</string> <!-- untranslated -->
     <string name="item_crafting_guild_cape_desc" formatted="false">Awarded for reaching Leatherworking Guild level 10. Grants 5% more items per session.</string> <!-- untranslated -->
     <string name="item_firemaking_cape_desc" formatted="false">Awarded for reaching level 99 Campfire. Grants 10% more ashes per session.</string> <!-- untranslated -->

@@ -200,6 +200,10 @@ object CombatSimulator {
             val frameEnemyHits   = mutableListOf<Int>()
             val framePlayerHeals = mutableListOf<Int>()
             val frameDoubleHitTicks = mutableListOf<Int>()
+            val frameCylinderShots = mutableListOf<Int>()
+            val frameReloading = mutableListOf<Boolean>()
+            val frameReloadLeft = mutableListOf<Int>()
+            val trackHandgun = combatStyle == "strength"
 
             for (tick in 0 until ticksPerFrame) {
                 // Player attacks (ranged is capped by arrow supply)
@@ -226,8 +230,12 @@ object CombatSimulator {
                     }
                     "strength" -> {
                         if (reloadLeft > 0) {
+                            val remaining = reloadLeft
                             reloadLeft--
                             if (reloadLeft == 0) shotsLeft = cylinder
+                            frameReloading += true
+                            frameReloadLeft += remaining
+                            frameCylinderShots += 0
                             0
                         } else {
                             shotsLeft--
@@ -241,6 +249,9 @@ object CombatSimulator {
                             if (shotsLeft <= 0) {
                                 if (reloadTicks == 0) shotsLeft = cylinder else reloadLeft = reloadTicks
                             }
+                            frameReloading += false
+                            frameReloadLeft += 0
+                            frameCylinderShots += shotsLeft
                             dmg
                         }
                     }
@@ -358,6 +369,11 @@ object CombatSimulator {
                     maxHp        = maxHp,
                     foodAtStart  = if (frames.isEmpty()) equippedFood else emptyMap(),
                     statsAtStart = if (frames.isEmpty()) statsAtStart else emptyMap(),
+                    combatStyle  = combatStyle,
+                    handgunCylinder = if (trackHandgun) cylinder else 0,
+                    cylinderShots = if (trackHandgun) frameCylinderShots else emptyList(),
+                    reloading = if (trackHandgun) frameReloading else emptyList(),
+                    reloadLeftTicks = if (trackHandgun) frameReloadLeft else emptyList(),
                 )
             )
             runningTotal += frameXp
@@ -607,6 +623,10 @@ object CombatSimulator {
             val frameFood   = mutableMapOf<String, Int>()
             val frameArrows = mutableMapOf<String, Int>()
             var frameRunesUsed = 0
+            val frameCylinderShots = mutableListOf<Int>()
+            val frameReloading = mutableListOf<Boolean>()
+            val frameReloadLeft = mutableListOf<Int>()
+            val trackHandgun = combatStyle == "strength"
 
             for (tick in 0 until ticksPerFrame) {
                 val pDmg = when (combatStyle) {
@@ -632,8 +652,12 @@ object CombatSimulator {
                     }
                     "strength" -> {
                         if (reloadLeft > 0) {
+                            val remaining = reloadLeft
                             reloadLeft--
                             if (reloadLeft == 0) shotsLeft = cylinder
+                            frameReloading += true
+                            frameReloadLeft += remaining
+                            frameCylinderShots += 0
                             0
                         } else {
                             shotsLeft--
@@ -647,6 +671,9 @@ object CombatSimulator {
                             if (shotsLeft <= 0) {
                                 if (reloadTicks == 0) shotsLeft = cylinder else reloadLeft = reloadTicks
                             }
+                            frameReloading += false
+                            frameReloadLeft += 0
+                            frameCylinderShots += shotsLeft
                             dmg
                         }
                     }
@@ -698,6 +725,11 @@ object CombatSimulator {
                         allyHits       = aHits,
                         alliesDown     = mercHp.count { it <= 0 },
                         allyHpAfter    = mercHp.toList(),
+                        combatStyle = combatStyle,
+                        handgunCylinder = if (trackHandgun) cylinder else 0,
+                        cylinderShots = if (trackHandgun) frameCylinderShots.toList() else emptyList(),
+                        reloading = if (trackHandgun) frameReloading.toList() else emptyList(),
+                        reloadLeftTicks = if (trackHandgun) frameReloadLeft.toList() else emptyList(),
                     ))
                     break@outer
                 }
@@ -744,6 +776,11 @@ object CombatSimulator {
                         allyHits       = aHits,
                         alliesDown     = mercHp.count { it <= 0 },
                         allyHpAfter    = mercHp.toList(),
+                        combatStyle = combatStyle,
+                        handgunCylinder = if (trackHandgun) cylinder else 0,
+                        cylinderShots = if (trackHandgun) frameCylinderShots.toList() else emptyList(),
+                        reloading = if (trackHandgun) frameReloading.toList() else emptyList(),
+                        reloadLeftTicks = if (trackHandgun) frameReloadLeft.toList() else emptyList(),
                     ))
                     break@outer
                 }
@@ -782,6 +819,11 @@ object CombatSimulator {
                     allyHits       = aHits,
                     alliesDown     = mercHp.count { it <= 0 },
                     allyHpAfter    = mercHp.toList(),
+                        combatStyle = combatStyle,
+                        handgunCylinder = if (trackHandgun) cylinder else 0,
+                        cylinderShots = if (trackHandgun) frameCylinderShots.toList() else emptyList(),
+                        reloading = if (trackHandgun) frameReloading.toList() else emptyList(),
+                        reloadLeftTicks = if (trackHandgun) frameReloadLeft.toList() else emptyList(),
                 ))
             }
         }

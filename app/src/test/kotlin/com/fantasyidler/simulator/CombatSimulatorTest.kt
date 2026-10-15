@@ -331,6 +331,26 @@ class CombatSimulatorTest {
     }
 
     @Test
+    fun `handgun frames expose cylinder and reload flags for the combat UI`() {
+        val frame = handgunRun(seed = 1, cylinder = 6, reload = 2).first()
+        assertEquals(6, frame.handgunCylinder)
+        assertEquals(frame.playerHits.size, frame.cylinderShots.size)
+        assertEquals(frame.playerHits.size, frame.reloading.size)
+        assertEquals(frame.playerHits.size, frame.reloadLeftTicks.size)
+        assertEquals("strength", frame.combatStyle)
+        for (i in frame.playerHits.indices) {
+            if (i % 8 >= 6) {
+                assertTrue("tick $i should flag reloading", frame.reloading[i])
+                assertTrue("tick $i reloadLeft", frame.reloadLeftTicks[i] > 0)
+                assertEquals(0, frame.cylinderShots[i])
+            } else {
+                assertFalse("tick $i should not reload", frame.reloading[i])
+                assertTrue("tick $i should keep shots", frame.cylinderShots[i] in 0..5)
+            }
+        }
+    }
+
+    @Test
     fun `a bigger cylinder deals more damage than a two-shot derringer`() {
         val six = handgunRun(seed = 3, cylinder = 6, reload = 2).sumOf { it.playerHits.sum() }
         val two = handgunRun(seed = 3, cylinder = 2, reload = 2).sumOf { it.playerHits.sum() }

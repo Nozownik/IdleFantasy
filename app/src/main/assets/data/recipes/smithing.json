@@ -105,7 +105,7 @@
   },
   "bronze_arrow_tip": {
     "type": "component",
-    "display_name": "Brass Arrow Tips",
+    "display_name": "Lead Ball Casting",
     "level_required": 1,
     "materials": {
       "bronze_bar": 1
@@ -116,7 +116,7 @@
   },
   "iron_arrow_tip": {
     "type": "component",
-    "display_name": "Iron Arrow Tips",
+    "display_name": "Cartridge Bullet",
     "level_required": 20,
     "materials": {
       "iron_bar": 1
@@ -127,7 +127,7 @@
   },
   "steel_arrow_tip": {
     "type": "component",
-    "display_name": "Steel Arrow Tips",
+    "display_name": "Hardened Core",
     "level_required": 35,
     "materials": {
       "steel_bar": 1
@@ -138,7 +138,7 @@
   },
   "mithril_arrow_tip": {
     "type": "component",
-    "display_name": "Damascus Arrow Tips",
+    "display_name": "Silver Bullet",
     "level_required": 55,
     "materials": {
       "mithril_bar": 1
@@ -149,7 +149,7 @@
   },
   "adamantite_arrow_tip": {
     "type": "component",
-    "display_name": "Bessemer Arrow Tips",
+    "display_name": "AP Core",
     "level_required": 75,
     "materials": {
       "adamantite_bar": 1
@@ -160,7 +160,7 @@
   },
   "runite_arrow_tip": {
     "type": "component",
-    "display_name": "Stainless Arrow Tips",
+    "display_name": "Hollow-Point Tip",
     "level_required": 90,
     "materials": {
       "runite_bar": 1

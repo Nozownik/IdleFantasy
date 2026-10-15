@@ -373,34 +373,34 @@
     <string name="item_divine_fishing_rod_desc">A rod blessed by the sea gods. Fish practically leap onto it.</string>
 
     <!-- ===== Arrows ===== -->
-    <string name="item_bronze_arrow_name">Brass Arrows</string>
-    <string name="item_bronze_arrow_desc">Basic arrows for ranged combat.</string>
-    <string name="item_iron_arrow_name">Iron Arrows</string>
-    <string name="item_iron_arrow_desc">Iron arrows for ranged combat.</string>
-    <string name="item_steel_arrow_name">Steel Arrows</string>
-    <string name="item_steel_arrow_desc">Steel arrows for ranged combat.</string>
-    <string name="item_mithril_arrow_name">Damascus Arrows</string>
-    <string name="item_mithril_arrow_desc">Damascus arrows for ranged combat.</string>
-    <string name="item_adamantite_arrow_name">Bessemer Arrows</string>
-    <string name="item_adamantite_arrow_desc">Bessemer arrows for ranged combat.</string>
-    <string name="item_runite_arrow_name">Stainless Arrows</string>
-    <string name="item_runite_arrow_desc">The finest arrows available.</string>
+    <string name="item_bronze_arrow_name">Lead Ball</string>
+    <string name="item_bronze_arrow_desc">A soft lead muzzle-loader ball. Starter ammo for long guns.</string>
+    <string name="item_iron_arrow_name">Centerfire Cartridge</string>
+    <string name="item_iron_arrow_desc">A basic self-contained cartridge for long guns.</string>
+    <string name="item_steel_arrow_name">Hardened-Core Cartridge</string>
+    <string name="item_steel_arrow_desc">Cartridge with a hardened core for tougher targets.</string>
+    <string name="item_mithril_arrow_name">Silver Cartridge</string>
+    <string name="item_mithril_arrow_desc">A silvered cartridge — prized on the frontier.</string>
+    <string name="item_adamantite_arrow_name">Armor-Piercing Cartridge</string>
+    <string name="item_adamantite_arrow_desc">Hardened tip made to punch through cover and plate.</string>
+    <string name="item_runite_arrow_name">Hollow-Point Cartridge</string>
+    <string name="item_runite_arrow_desc">Expanding hollow-point — the finest frontier ammo.</string>
 
     <!-- Arrow components -->
-    <string name="item_arrow_shaft_name">Arrow Shafts</string>
-    <string name="item_arrow_shaft_desc">Wooden shafts used to fletch arrows.</string>
-    <string name="item_bronze_arrow_tips_name">Brass Arrow Tips</string>
-    <string name="item_bronze_arrow_tips_desc">Brass tips for ammo reloading brass arrows.</string>
-    <string name="item_iron_arrow_tips_name">Iron Arrow Tips</string>
-    <string name="item_iron_arrow_tips_desc">Iron tips for ammo reloading iron arrows.</string>
-    <string name="item_steel_arrow_tips_name">Steel Arrow Tips</string>
-    <string name="item_steel_arrow_tips_desc">Steel tips for ammo reloading steel arrows.</string>
-    <string name="item_mithril_arrow_tips_name">Damascus Arrow Tips</string>
-    <string name="item_mithril_arrow_tips_desc">Damascus tips for ammo reloading Damascus arrows.</string>
-    <string name="item_adamantite_arrow_tips_name">Bessemer Arrow Tips</string>
-    <string name="item_adamantite_arrow_tips_desc">Bessemer tips for ammo reloading Bessemer arrows.</string>
-    <string name="item_runite_arrow_tips_name">Stainless Arrow Tips</string>
-    <string name="item_runite_arrow_tips_desc">Stainless tips for ammo reloading stainless arrows.</string>
+    <string name="item_arrow_shaft_name">Cartridge Cases</string>
+    <string name="item_arrow_shaft_desc">Empty cases used when loading frontier ammo.</string>
+    <string name="item_bronze_arrow_tips_name">Lead Ball Castings</string>
+    <string name="item_bronze_arrow_tips_desc">Cast lead balls for loading lead-ball ammo.</string>
+    <string name="item_iron_arrow_tips_name">Cartridge Bullets</string>
+    <string name="item_iron_arrow_tips_desc">Bullets for loading centerfire cartridges.</string>
+    <string name="item_steel_arrow_tips_name">Hardened Cores</string>
+    <string name="item_steel_arrow_tips_desc">Hardened cores for loading hardened-core cartridges.</string>
+    <string name="item_mithril_arrow_tips_name">Silver Bullets</string>
+    <string name="item_mithril_arrow_tips_desc">Silvered bullets for loading silver cartridges.</string>
+    <string name="item_adamantite_arrow_tips_name">AP Cores</string>
+    <string name="item_adamantite_arrow_tips_desc">Armor-piercing cores for AP cartridges.</string>
+    <string name="item_runite_arrow_tips_name">Hollow-Point Tips</string>
+    <string name="item_runite_arrow_tips_desc">Expanding tips for hollow-point cartridges.</string>
 
     <!-- ===== Jewellery — plain ===== -->
     <string name="item_silver_ring_name">Silver Ring</string>
@@ -527,7 +527,7 @@
     <string name="item_wool_name">Wool</string>
     <string name="item_wool_desc">Soft wool from a sheep.</string>
     <string name="item_feather_name">Feather</string>
-    <string name="item_feather_desc">A feather used in ammo reloading arrows.</string>
+    <string name="item_feather_desc">A feather used when loading frontier ammo.</string>
     <string name="item_rotten_flesh_name">Rotten Flesh</string>
     <string name="item_rotten_flesh_desc">Decaying flesh from an undead creature. Smells terrible.</string>
     <string name="item_lockpick_name">Lockpick</string>
@@ -776,7 +776,7 @@
 
     <!-- Additional item/boss/food names (English placeholders) -->
     <string name="item_abyssal_rod_name">Abyssal Fishing Rod</string>
-    <string name="item_adamantite_arrow_tip_name">Bessemer Arrow Tips</string>
+    <string name="item_adamantite_arrow_tip_name">AP Cores</string>
     <string name="item_adamantite_boots_name">Bessemer Boots</string>
     <string name="item_adamantite_chainbody_name">Bessemer Leather Vest</string>
     <string name="item_adamantite_dagger_name">Bessemer Bowie Knife</string>
@@ -807,7 +807,7 @@
     <string name="item_berserker_ring_name">Berserker Ring</string>
     <string name="item_berserker_ring_desc">Increases melee strength. Requires Trading Post level 60 to purchase.</string>
     <string name="item_blessed_fishing_rod_name">Blessed Fishing Rod</string>
-    <string name="item_bronze_arrow_tip_name">Brass Arrow Tips</string>
+    <string name="item_bronze_arrow_tip_name">Lead Ball Castings</string>
     <string name="item_bronze_boots_name">Brass Boots</string>
     <string name="item_bronze_chainbody_name">Brass Leather Vest</string>
     <string name="item_bronze_full_helmet_name">Brass Full Hat</string>
@@ -868,7 +868,7 @@
     <string name="item_herblore_guild_cape_name">Moonshining Guild Cape</string>
     <string name="item_hp_cape_name">Hp Cape</string>
     <string name="item_imp_pet_name">Rattler Pet</string>
-    <string name="item_iron_arrow_tip_name">Iron Arrow Tips</string>
+    <string name="item_iron_arrow_tip_name">Cartridge Bullets</string>
     <string name="item_iron_boots_name">Iron Boots</string>
     <string name="item_iron_chainbody_name">Iron Leather Vest</string>
     <string name="item_iron_full_helmet_name">Iron Full Hat</string>
@@ -891,7 +891,7 @@
     <string name="item_mercantile_guild_cape_name">Trading Post Guild Cape</string>
     <string name="item_mining_cape_name">Mining Cape</string>
     <string name="item_mining_guild_cape_name">Mining Guild Cape</string>
-    <string name="item_mithril_arrow_tip_name">Damascus Arrow Tips</string>
+    <string name="item_mithril_arrow_tip_name">Silver Bullets</string>
     <string name="item_mithril_boots_name">Damascus Boots</string>
     <string name="item_mithril_chainbody_name">Damascus Leather Vest</string>
     <string name="item_mithril_dagger_name">Damascus Bowie Knife</string>
@@ -922,7 +922,7 @@
     <string name="item_rogues_lockpick_name">Rogue\'s Lockpick</string>
     <string name="item_runecrafting_cape_name">Powder Mixing Cape</string>
     <string name="item_runecrafting_guild_cape_name">Powder Mixing Guild Cape</string>
-    <string name="item_runite_arrow_tip_name">Stainless Arrow Tips</string>
+    <string name="item_runite_arrow_tip_name">Hollow-Point Tips</string>
     <string name="item_runite_boots_name">Stainless Boots</string>
     <string name="item_runite_chainbody_name">Stainless Leather Vest</string>
     <string name="item_runite_dagger_name">Stainless Bowie Knife</string>
@@ -948,7 +948,7 @@
     <string name="item_slayer_guild_cape_name">Bounty Hunting Guild Cape</string>
     <string name="item_smithing_cape_name">Gunsmithing Cape</string>
     <string name="item_smithing_guild_cape_name">Gunsmithing Guild Cape</string>
-    <string name="item_steel_arrow_tip_name">Steel Arrow Tips</string>
+    <string name="item_steel_arrow_tip_name">Hardened Cores</string>
     <string name="item_steel_boots_name">Steel Boots</string>
     <string name="item_steel_chainbody_name">Steel Leather Vest</string>
     <string name="item_steel_dagger_name">Steel Bowie Knife</string>
@@ -1123,8 +1123,8 @@
     <string name="item_smithing_guild_cape_desc" formatted="false">Awarded for reaching Gunsmithing Guild level 10. Grants 5% more items per session.</string>
     <string name="item_cooking_cape_desc" formatted="false">Awarded for reaching level 99 Cooking. Grants 10% more food per session.</string>
     <string name="item_cooking_guild_cape_desc" formatted="false">Awarded for reaching Cooking Guild level 10. Grants 5% more food per session.</string>
-    <string name="item_fletching_cape_desc" formatted="false">Awarded for reaching level 99 Ammo Reloading. Grants 10% more arrows per session.</string>
-    <string name="item_fletching_guild_cape_desc" formatted="false">Awarded for reaching Ammo Reloading Guild level 10. Grants 5% more arrows per session.</string>
+    <string name="item_fletching_cape_desc" formatted="false">Awarded for reaching level 99 Ammo Reloading. Grants 10% more ammo per session.</string>
+    <string name="item_fletching_guild_cape_desc" formatted="false">Awarded for reaching Ammo Reloading Guild level 10. Grants 5% more ammo per session.</string>
     <string name="item_crafting_cape_desc" formatted="false">Awarded for reaching level 99 Leatherworking. Grants 10% more items per session.</string>
     <string name="item_crafting_guild_cape_desc" formatted="false">Awarded for reaching Leatherworking Guild level 10. Grants 5% more items per session.</string>
     <string name="item_firemaking_cape_desc" formatted="false">Awarded for reaching level 99 Campfire. Grants 10% more ashes per session.</string>

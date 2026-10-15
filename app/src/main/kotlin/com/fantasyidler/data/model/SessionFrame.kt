@@ -63,8 +63,16 @@ data class SessionFrame(
     @SerialName("spawns_after_kills") val spawnsAfterKills: List<String> = emptyList(),
     /** Combat only — HP restored by eating each tick (0 = no eating), in tick order (issue #1431). */
     @SerialName("player_heals") val playerHeals: List<Int> = emptyList(),
-    /** Boss only — combat style used during this session ("melee"|"strength"|"ranged"|"magic"). Empty for non-boss frames. */
+    /** Combat only — style used this session ("attack"|"strength"|"ranged"|"magic"). Empty for non-combat / legacy frames. */
     @SerialName("combat_style") val combatStyle: String = "",
+    /** Handgun (strength) only — cylinder capacity. 0 = not a handgun session / not recorded. */
+    @SerialName("handgun_cylinder") val handgunCylinder: Int = 0,
+    /** Handgun only — shots left in the cylinder after each player tick (0 while reloading). */
+    @SerialName("cylinder_shots") val cylinderShots: List<Int> = emptyList(),
+    /** Handgun only — true when this tick was spent reloading (no shot fired). */
+    @SerialName("reloading") val reloading: List<Boolean> = emptyList(),
+    /** Handgun only — reload ticks still remaining at the start of each reloading tick (for log "X tur"). */
+    @SerialName("reload_left") val reloadLeftTicks: List<Int> = emptyList(),
     /** Combat only — player's max HP when the session was simulated (0 = not recorded;
      *  display falls back to live stats). Keeps the banner stable if HP levels mid-run (issue #1411). */
     @SerialName("max_hp") val maxHp: Int = 0,

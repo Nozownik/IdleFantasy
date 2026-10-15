@@ -33,8 +33,8 @@
     <string name="quest_weekly_cook_lobster_desc">Cook 225 lobster this week.</string>
     <string name="quest_weekly_cook_shark_name">Master Chef</string>
     <string name="quest_weekly_cook_shark_desc">Cook 110 shark this week.</string>
-    <string name="quest_weekly_fletch_mithril_name">Arrow Crafter</string>
-    <string name="quest_weekly_fletch_mithril_desc">Fletch 450 Damascus arrows this week.</string>
+    <string name="quest_weekly_fletch_mithril_name">Ammo Loader</string>
+    <string name="quest_weekly_fletch_mithril_desc">Load 450 Silver cartridges this week.</string>
     <string name="quest_weekly_fletch_runite_name">Master Fletcher</string>
     <string name="quest_weekly_fletch_runite_desc">Fletch 300 stainless arrows this week.</string>
     <string name="quest_weekly_goblin_slayer_name">Coyote Exterminator</string>
